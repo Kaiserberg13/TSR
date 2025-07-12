@@ -1,0 +1,18 @@
+state={
+	id=694
+	name="STATE_694"
+	provinces={
+		2039 2070 4891 7990 10782 12739 12852 12895 13082 14970 14971 15150 15154 15155 15175
+	}
+	history = {
+		owner = PER
+		add_core_of = PER
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

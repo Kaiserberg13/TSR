@@ -1,0 +1,18 @@
+state={
+	id=1321
+	name="STATE_1321"
+	provinces={
+		16288 17092
+	}
+	history = {
+		owner = EGY
+		add_core_of = EGY
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

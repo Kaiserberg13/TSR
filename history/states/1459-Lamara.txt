@@ -1,0 +1,18 @@
+state={
+	id=1459
+	name="STATE_1459"
+	provinces={
+		16229 16253 16263
+	}
+	history = {
+		owner = ALG
+		add_core_of = ALG
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

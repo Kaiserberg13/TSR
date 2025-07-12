@@ -1,0 +1,18 @@
+state={
+	id=1217
+	name="STATE_1217"
+	provinces={
+		1939 2066 5079 6020 13135 14036 14039 15911
+	}
+	history = {
+		owner = KEN
+		add_core_of = KEN
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

@@ -1,0 +1,22 @@
+state={
+	id=656
+	name="STATE_656"
+	provinces={
+		536 9468 9558 11479
+	}
+	history = {
+		owner = UKR
+		add_core_of = UKR
+		
+		victory_points = {
+			11479 10
+		}
+buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

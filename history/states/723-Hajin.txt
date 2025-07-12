@@ -1,0 +1,18 @@
+state={
+	id=723
+	name="STATE_723"
+	provinces={
+		901 1634
+	}
+	history = {
+		owner = SYR
+		add_core_of = SYR
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

@@ -1,0 +1,22 @@
+state={
+	id=611
+	name="STATE_611"
+	provinces={
+		4525 7048 7158 7631 10424 12331 12403
+	}
+	history = {
+		owner = PRC
+		add_core_of = PRC
+		
+		victory_points = {
+			7048 25
+		}
+buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

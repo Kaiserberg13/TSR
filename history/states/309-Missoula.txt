@@ -1,0 +1,18 @@
+state={
+	id=309
+	name="STATE_309"
+	provinces={
+		4838 12676
+	}
+	history = {
+		owner = USB
+		add_core_of = USB
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

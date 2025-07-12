@@ -1,0 +1,18 @@
+state={
+	id=224
+	name="STATE_224"
+	provinces={
+		1213 4219 7260 10287 14061 14062 14063
+	}
+	history = {
+		owner = RAJ
+		add_core_of = RAJ
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

@@ -1,0 +1,18 @@
+state={
+	id=1085
+	name="STATE_1085"
+	provinces={
+		3868 6889 11816 13603
+	}
+	history = {
+		owner = CRO
+		add_core_of = CRO
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

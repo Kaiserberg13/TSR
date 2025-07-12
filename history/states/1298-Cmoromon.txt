@@ -1,0 +1,18 @@
+state={
+	id=1298
+	name="STATE_1298"
+	provinces={
+		10857 13832 13837 13842 13843 14134 14135 14138 14142 14145 14148 14152 14154 14158 16032
+	}
+	history = {
+		owner = CAR
+		add_core_of = CAR
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

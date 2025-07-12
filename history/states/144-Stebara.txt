@@ -1,0 +1,18 @@
+state={
+	id=144
+	name="STATE_144"
+	provinces={
+		15413 15434 15443 15455 15485 15506
+	}
+	history = {
+		owner = OAS
+		add_core_of = OAS
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

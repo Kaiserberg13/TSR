@@ -1,0 +1,18 @@
+state={
+	id=776
+	name="STATE_776"
+	provinces={
+		852 906 912 959 3852 3912 3981 6922 6963 9795 9918 11775 11828 11835 11878 11896 13280
+	}
+	history = {
+		owner = KOR
+		add_core_of = KOR
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

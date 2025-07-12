@@ -1,0 +1,18 @@
+state={
+	id=404
+	name="STATE_404"
+	provinces={
+		1900 2021 2077 4904 4965 4991 10842 12715 12753 12867 13085 14075 14076 14595 14596 14597 14598 14599 14600 14981 14982
+	}
+	history = {
+		owner = MEX
+		add_core_of = MEX
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

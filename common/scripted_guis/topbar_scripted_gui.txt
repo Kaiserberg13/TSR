@@ -1,0 +1,14 @@
+scripted_gui = {
+	TSR_tv_filter = {
+		window_name = "TSR_tv_filter_window"
+
+		visible = {
+			ROOT = {
+				NOT = {
+					has_country_flag = TSR_disable_tv_filter
+				}
+			}
+		}
+	}
+}
+

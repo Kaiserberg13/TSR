@@ -1,0 +1,22 @@
+state={
+	id=30
+	name="STATE_30"
+	provinces={
+		3288 14543
+	}
+	history = {
+		owner = LAT
+		add_core_of = LAT
+		
+		victory_points = {
+			3288 10
+		}
+buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

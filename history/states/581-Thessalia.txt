@@ -1,0 +1,18 @@
+state={
+	id=581
+	name="STATE_581"
+	provinces={
+		863 3973 11786 13642 13643
+	}
+	history = {
+		owner = GRE
+		add_core_of = GRE
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

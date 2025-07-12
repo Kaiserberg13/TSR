@@ -1,0 +1,18 @@
+state={
+	id=797
+	name="STATE_797"
+	provinces={
+		10349 10389 10416 12338
+	}
+	history = {
+		owner = RAJ
+		add_core_of = RAJ
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

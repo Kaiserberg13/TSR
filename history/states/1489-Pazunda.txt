@@ -1,0 +1,18 @@
+state={
+	id=1489
+	name="STATE_1489"
+	provinces={
+		10838 17023 17024 17025 17054
+	}
+	history = {
+		owner = MIL
+		add_core_of = MIL
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

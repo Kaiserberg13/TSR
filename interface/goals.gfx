@@ -1,0 +1,155 @@
+spriteTypes = {	
+
+	#### Generic continuous goal icons
+	SpriteType = {
+		name = "GFX_goal_unknown"
+		texturefile = "gfx/interface/goals/goal_unknown.dds"
+		legacy_lazy_load = no
+	}
+
+	### YUG	
+	SpriteType = {
+		name = "GFX_YUG_absolute_chinema"
+		texturefile = "gfx/interface/goals/YUG/YUG_absolute_chinema.dds"
+	}	
+	SpriteType = {
+		name = "GFX_YUG_tt_degrees_north"
+		texturefile = "gfx/interface/goals/YUG/YUG_32_degrees_north.png"
+	}	
+	SpriteType = {
+		name = "GFX_YUG_plan_hi_belgrad"
+		texturefile = "gfx/interface/goals/YUG/YUG_plan_hi_belgrad.png"
+	}	
+	SpriteType = {
+		name = "GFX_YUG_accept_old_political_doctrine"
+		texturefile = "gfx/interface/goals/YUG/YUG_accept_old_political_doctrine.png"
+	}	
+	SpriteType = {
+		name = "GFX_YUG_build_new_nation"
+		texturefile = "gfx/interface/goals/YUG/YUG_build_new_nation.png"
+	}	
+	SpriteType = {
+		name = "GFX_YUG_total_control"
+		texturefile = "gfx/interface/goals/YUG/YUG_total_control.png"
+	}
+	SpriteType = {
+		name = "GFX_YUG_restore_the_engine"
+		texturefile = "gfx/interface/goals/YUG/YUG_restore_the_engine.png"
+	}
+	SpriteType = {
+		name = "GFX_YUG_democracy_question"
+		texturefile = "gfx/interface/goals/YUG/YUG_democracy_question.png"
+	}	
+
+	SpriteType = {
+		name = "GFX_YUG_accept_new_political_doctrine"
+		texturefile = "gfx/interface/goals/YUG/YUG_accept_new_political_doctrine.png"
+	}	
+	SpriteType = {
+		name = "GFX_YUG_repressions"
+		texturefile = "gfx/interface/goals/YUG/YUG_repressions.png"
+	}	
+
+	### GER
+	SpriteType = {
+		name = "GFX_GER_arrest_of_high_ranking_generals"
+		texturefile = "gfx/interface/goals/GER/GER_arrest_of_high_ranking_generals.png"
+	}
+	SpriteType = {
+		name = "GFX_GER_new_historical_truth"
+		texturefile = "gfx/interface/goals/GER/GER_new_historical_truth.png"
+	}
+	SpriteType = {
+		name = "GFX_GER_european_union"
+		texturefile = "gfx/interface/goals/GER/GER_european_union.png"
+	}
+	SpriteType = {
+		name = "GFX_GER_extend_friedas_arrest"
+		texturefile = "gfx/interface/goals/GER/GER_extend_friedas_arrest.png"
+	}
+	SpriteType = {
+		name = "GFX_GER_industry"
+		texturefile = "gfx/interface/goals/GER/GER_industry.png"
+	}
+	SpriteType = {
+		name = "GFX_GER_ban_extremist_parties"
+		texturefile = "gfx/interface/goals/GER/GER_ban_extremist_parties.png"
+	}
+	SpriteType = {
+		name = "GFX_GER_beginning_of_a_new_democratic_course"
+		texturefile = "gfx/interface/goals/GER/GER_beginning_of_a_new_democratic_course.png"
+	}
+	SpriteType = {
+		name = "GFX_GER_blackshirt_squads"
+		texturefile = "gfx/interface/goals/GER/GER_blackshirt_squads.png"
+	}
+	SpriteType = {
+		name = "GFX_GER_blow_to_the_press"
+		texturefile = "gfx/interface/goals/GER/GER_blow_to_the_press.png"
+	}
+	SpriteType = {
+		name = "GFX_GER_capture_industry"
+		texturefile = "gfx/interface/goals/GER/GER_capture_industry.png"
+	}
+	SpriteType = {
+		name = "GFX_GER_creation_of_the_council_of_a_new_european_order"
+		texturefile = "gfx/interface/goals/GER/GER_creation_of_the_council_of_a_new_european_order.png"
+	}
+	SpriteType = {
+		name = "GFX_GER_explosion_on_autobahn_a12"
+		texturefile = "gfx/interface/goals/GER/GER_explosion_on_autobahn_a12.png"
+	}
+	SpriteType = {
+		name = "GFX_GER_first_friendly_visit_to_poland"
+		texturefile = "gfx/interface/goals/GER/GER_first_friendly_visit_to_poland.png"
+	}
+	SpriteType = {
+		name = "GFX_GER_iron_order_of_frieda"
+		texturefile = "gfx/interface/goals/GER/GER_iron_order_of_frieda.png"
+	}
+	SpriteType = {
+		name = "GFX_GER_march_to_berlin"
+		texturefile = "gfx/interface/goals/GER/GER_march_to_berlin.png"
+	}
+	SpriteType = {
+		name = "GFX_GER_memorial_to_the_victims_of_dictatorship"
+		texturefile = "gfx/interface/goals/GER/GER_memorial_to_the_victims_of_dictatorship.png"
+	}
+	SpriteType = {
+		name = "GFX_GER_new_european_order"
+		texturefile = "gfx/interface/goals/GER/GER_new_european_order.png"
+	}
+	SpriteType = {
+		name = "GFX_GER_no_time_to_wait"
+		texturefile = "gfx/interface/goals/GER/GER_no_time_to_wait.png"
+	}
+	SpriteType = {
+		name = "GFX_GER_peace_initiative_berlin"
+		texturefile = "gfx/interface/goals/GER/GER_peace_initiative_berlin.png"
+	}
+	SpriteType = {
+		name = "GFX_GER_reduce_military_budget"
+		texturefile = "gfx/interface/goals/GER/GER_reduce_military_budget.png"
+	}
+	SpriteType = {
+		name = "GFX_GER_romanticism_militarism"
+		texturefile = "gfx/interface/goals/GER/GER_romanticism_militarism.png"
+	}
+	SpriteType = {
+		name = "GFX_GER_stockpile_weapons"
+		texturefile = "gfx/interface/goals/GER/GER_stockpile_weapons.png"
+	}
+	SpriteType = {
+		name = "GFX_GER_supervision_of_the_freidajugend"
+		texturefile = "gfx/interface/goals/GER/GER_supervision_of_the_freidajugend.png"
+	}
+	SpriteType = {
+		name = "GFX_GER_support_of_popular_unrest"
+		texturefile = "gfx/interface/goals/GER/GER_support_of_popular_unrest.png"
+	}
+	SpriteType = {
+		name = "GFX_GER_the_legacy_of_the_old_guard"
+		texturefile = "gfx/interface/goals/GER/GER_the_legacy_of_the_old_guard.png"
+	}
+	
+}

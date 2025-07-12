@@ -1,0 +1,2581 @@
+guiTypes = {
+
+###############################
+########## LOGISTICS ##########
+###############################
+
+	containerWindowType = {
+		name = "logistics_info"
+		position = { x=-9 y=78 }
+		#
+		iconType = {
+			name ="industrial_power_bar"
+			spriteType = "GFX_industrial_power_bar"
+			position = { x= 359 y = -80 }
+			alwaystransparent = yes
+		}
+		iconType = {
+			name ="pol_power_bar"
+			spriteType = "GFX_pol_power_bar"
+			position = { x= 130 y = -80 }
+			alwaystransparent = yes
+		}
+		iconType = {
+			name ="light_weapons_bar"
+			spriteType = "GFX_light_weapons_bar"
+			position = { x= 47 y = -2 }
+			alwaystransparent = yes
+		}
+		iconType = {
+			name ="heavy_weapons_bar"
+			spriteType = "GFX_heavy_weapons_bar"
+			position = { x= 299 y = -2 }
+			alwaystransparent = yes
+		}
+		instantTextBoxType = {
+			name = "logistics_amount_tt"
+			position = { x = 54 y = -1 }
+			textureFile = ""
+			font = "Beyondtop"
+			text = "???????????????????????"
+			maxWidth = 515
+			maxHeight = 40
+			multiline = no
+			pdx_tooltip = logistics_amount_tt
+			#pdx_tooltip_delayed = logistics_amount_tt_delayed
+		}
+	}
+
+###############################
+######### TECH WINDOW #########
+###############################
+
+	containerWindowType = {
+		name = "tech_gui_window"
+		position = { x=0 y=0 }
+		size = { width = 100%% height = 100%% }
+		margin = { top = 10 left = 10 bottom = 10 right = 10 }
+
+		containerWindowType = {
+			name = "move_all"
+			position = { x=24 y=26 }
+			orientation = CENTER
+			clipping = no
+			iconType ={
+				name ="research_basics_effects_bg"
+				spriteType = "GFX_tech_effect_bg"
+				position = { x= -146 y = -31 }
+				orientation = center
+			}
+			instantTextboxType = {
+				name = "research_basics_effects"
+				position = { x = -138 y = -25 }
+				textureFile = ""
+				font = "Arial16"
+				text = "research_basics_effects"
+				maxWidth = 215
+				maxHeight = 60
+				orientation = center
+				fixedsize = yes
+				alwaystransparent = yes
+			}
+			iconType ={
+				name ="automation_effects_bg"
+				spriteType = "GFX_tech_effect_bg"
+				position = { x= 138 y = -457 }
+				orientation = center
+			}
+			instantTextboxType = {
+				name = "automation_effects"
+				position = { x = 146 y = -451 }
+				textureFile = ""
+				font = "Arial16"
+				text = "automation_effects"
+				maxWidth = 215
+				maxHeight = 60
+				orientation = center
+				fixedsize = yes
+				alwaystransparent = yes
+			}
+			iconType ={
+				name ="research_matrix_effects_bg"
+				spriteType = "GFX_tech_effect_bg"
+				position = { x= 422 y = -173 }
+				orientation = center
+			}
+			instantTextboxType = {
+				name = "research_matrix_effects"
+				position = { x = 430 y = -167 }
+				textureFile = ""
+				font = "Arial16"
+				text = "research_matrix_effects"
+				maxWidth = 215
+				maxHeight = 60
+				orientation = center
+				fixedsize = yes
+				alwaystransparent = yes
+			}
+			iconType ={
+				name ="qresearch_lines_effects_bg"
+				spriteType = "GFX_tech_effect_bg"
+				position = { x= 706 y = -173 }
+				orientation = center
+			}
+			instantTextboxType = {
+				name = "qresearch_lines_effects"
+				position = { x = 714 y = -167 }
+				textureFile = ""
+				font = "Arial16"
+				text = "qresearch_lines_effects"
+				maxWidth = 215
+				maxHeight = 60
+				orientation = center
+				fixedsize = yes
+				alwaystransparent = yes
+			}
+			iconType ={
+				name ="kinetic_theory_effects_bg"
+				spriteType = "GFX_tech_effect_bg"
+				position = { x= 990 y = -245 }
+				orientation = center
+			}
+			instantTextboxType = {
+				name = "kinetic_theory_effects"
+				position = { x = 998 y = -239 }
+				textureFile = ""
+				font = "Arial16"
+				text = "kinetic_theory_effects"
+				maxWidth = 215
+				maxHeight = 60
+				orientation = center
+				fixedsize = yes
+				alwaystransparent = yes
+			}
+			containerWindowType = {
+				name = "move_window_industrial"
+				position = { x=0 y=142 }
+				orientation = CENTER
+				clipping = no
+				###
+				iconType ={
+					name ="quantum_theory_effects_bg"
+					spriteType = "GFX_tech_effect_bg"
+					position = { x= 1274 y = -456 }
+					orientation = center
+				}
+				instantTextboxType = {
+					name = "quantum_theory_effects"
+					position = { x= 1282 y = -450 }
+					textureFile = ""
+					font = "Arial16"
+					text = "quantum_theory_effects"
+					maxWidth = 215
+					maxHeight = 60
+					orientation = center
+					fixedsize = yes
+					alwaystransparent = yes
+				}
+				iconType ={
+					name ="ngen_batteries_effects_bg"
+					spriteType = "GFX_tech_effect_bg"
+					position = { x= 990 y = -528 }
+					orientation = center
+				}
+				instantTextboxType = {
+					name = "ngen_batteries_effects"
+					position = { x = 998 y = -522 }
+					textureFile = ""
+					font = "Arial16"
+					text = "ngen_batteries_effects"
+					maxWidth = 215
+					maxHeight = 60
+					orientation = center
+					fixedsize = yes
+					alwaystransparent = yes
+				}
+				iconType ={
+					name ="simple_generation_effects_bg"
+					spriteType = "GFX_tech_effect_bg"
+					position = { x= 422 y = -457 }
+					orientation = center
+				}
+				instantTextboxType = {
+					name = "simple_generation_effects"
+					position = { x = 430 y = -451 }
+					textureFile = ""
+					font = "Arial16"
+					text = "simple_generation_effects"
+					maxWidth = 215
+					maxHeight = 60
+					orientation = center
+					fixedsize = yes
+					alwaystransparent = yes
+				}
+				iconType ={
+					name ="quantum_generation_effects_bg"
+					spriteType = "GFX_tech_effect_bg"
+					position = { x= 706 y = -457 }
+					orientation = center
+				}
+				instantTextboxType = {
+					name = "quantum_generation_effects"
+					position = { x = 714 y = -451 }
+					textureFile = ""
+					font = "Arial16"
+					text = "quantum_generation_effects"
+					maxWidth = 215
+					maxHeight = 60
+					orientation = center
+					fixedsize = yes
+					alwaystransparent = yes
+				}
+				iconType ={
+					name ="recycling_lines_effects_bg"
+					spriteType = "GFX_tech_effect_bg"
+					position = { x= 422 y = -599 }
+					orientation = center
+				}
+				instantTextboxType = {
+					name = "recycling_lines_effects"
+					position = { x = 430 y = -593 }
+					textureFile = ""
+					font = "Arial16"
+					text = "recycling_lines_effects"
+					maxWidth = 215
+					maxHeight = 60
+					orientation = center
+					fixedsize = yes
+					alwaystransparent = yes
+				}
+				iconType ={
+					name ="nonlinear_recycling_effects_bg"
+					spriteType = "GFX_tech_effect_bg"
+					position = { x= 706 y = -599 }
+					orientation = center
+				}
+				instantTextboxType = {
+					name = "nonlinear_recycling_effects"
+					position = { x = 714 y = -593 }
+					textureFile = ""
+					font = "Arial16"
+					text = "nonlinear_recycling_effects"
+					maxWidth = 215
+					maxHeight = 60
+					orientation = center
+					fixedsize = yes
+					alwaystransparent = yes
+				}
+				iconType ={
+					name ="urbanization_effects_bg"
+					spriteType = "GFX_tech_effect_bg"
+					position = { x= 422 y = -812 }
+					orientation = center
+				}
+				instantTextboxType = {
+					name = "urbanization_effects"
+					position = { x = 430 y = -806 }
+					textureFile = ""
+					font = "Arial16"
+					text = "urbanization_effects"
+					maxWidth = 215
+					maxHeight = 60
+					orientation = center
+					fixedsize = yes
+					alwaystransparent = yes
+				}
+				iconType ={
+					name ="corporate_model_effects_bg"
+					spriteType = "GFX_tech_effect_bg"
+					position = { x= 706 y = -883 }
+					orientation = center
+				}
+				instantTextboxType = {
+					name = "corporate_model_effects"
+					position = { x = 714 y = -877 }
+					textureFile = ""
+					font = "Arial16"
+					text = "corporate_model_effects"
+					maxWidth = 215
+					maxHeight = 60
+					orientation = center
+					fixedsize = yes
+					alwaystransparent = yes
+				}
+				iconType ={
+					name ="integral_model_effects_bg"
+					spriteType = "GFX_tech_effect_bg"
+					position = { x= 990 y = -812 }
+					orientation = center
+				}
+				instantTextboxType = {
+					name = "integral_model_effects"
+					position = { x = 998 y = -806 }
+					textureFile = ""
+					font = "Arial16"
+					text = "integral_model_effects"
+					maxWidth = 215
+					maxHeight = 60
+					orientation = center
+					fixedsize = yes
+					alwaystransparent = yes
+				}
+				iconType ={
+					name ="military_industrial_plan_effects_bg"
+					spriteType = "GFX_tech_effect_bg"
+					position = { x= 1274 y = -741 }
+					orientation = center
+				}
+				instantTextboxType = {
+					name = "military_industrial_plan_effects"
+					position = { x = 1282 y = -735 }
+					textureFile = ""
+					font = "Arial16"
+					text = "military_industrial_plan_effects"
+					maxWidth = 210
+					maxHeight = 180
+					orientation = center
+					fixedsize = yes
+					alwaystransparent = yes
+				}
+				iconType ={
+					name ="adv_construction_effects_bg"
+					spriteType = "GFX_tech_effect_bg"
+					position = { x= 706 y = -741 }
+					orientation = center
+				}
+				instantTextboxType = {
+					name = "adv_construction_effects"
+					position = { x = 714 y = -735 }
+					textureFile = ""
+					font = "Arial16"
+					text = "adv_construction_effects"
+					maxWidth = 215
+					maxHeight = 60
+					orientation = center
+					fixedsize = yes
+					alwaystransparent = yes
+				}
+				iconType ={
+					name ="adv_excavation_effects_bg"
+					spriteType = "GFX_tech_effect_bg"
+					position = { x= 990 y = -670 }
+					orientation = center
+				}
+				instantTextboxType = {
+					name = "adv_excavation_effects"
+					position = { x = 998 y = -664 }
+					textureFile = ""
+					font = "Arial16"
+					text = "adv_excavation_effects"
+					maxWidth = 215
+					maxHeight = 60
+					orientation = center
+					fixedsize = yes
+					alwaystransparent = yes
+				}
+			}
+			iconType ={
+				name ="be_tech_support_effects_bg"
+				spriteType = "GFX_tech_effect_bg"
+				position = { x= 1132 y = 395 }
+				orientation = center
+			}
+			instantTextboxType = {
+				name = "be_tech_support_effects"
+				position = { x = 1140 y = 401 }
+				textureFile = ""
+				font = "Arial16"
+				text = "be_tech_support_effects"
+				maxWidth = 215
+				maxHeight = 100
+				orientation = center
+				fixedsize = yes
+				alwaystransparent = yes
+			}
+			containerWindowType = {
+				name = "move_all_support"
+				position = { x=923 y=-284 }
+				orientation = CENTER
+				clipping = no
+				iconType ={
+					name ="be_engineers_tech_effects_bg"
+					spriteType = "GFX_tech_effect_bg"
+					position = { x= 493 y = 537 }
+					orientation = center
+				}
+				instantTextboxType = {
+					name = "be_engineers_tech_effects"
+					position = { x = 502 y = 543 }
+					textureFile = ""
+					font = "Arial16"
+					text = "be_engineers_tech_effects"
+					maxWidth = 215
+					maxHeight = 100
+					orientation = center
+					fixedsize = yes
+					alwaystransparent = yes
+				}
+				iconType ={
+					name ="be_recon_tech_effects_bg"
+					spriteType = "GFX_tech_effect_bg"
+					position = { x= 493 y = 679 }
+					orientation = center
+				}
+				instantTextboxType = {
+					name = "be_recon_tech_effects"
+					position = { x = 502 y = 685 }
+					textureFile = ""
+					font = "Arial16"
+					text = "be_recon_tech_effects"
+					maxWidth = 215
+					maxHeight = 100
+					orientation = center
+					fixedsize = yes
+					alwaystransparent = yes
+				}
+				iconType ={
+					name ="be_maintenance_company_tech_effects_bg"
+					spriteType = "GFX_tech_effect_bg"
+					position = { x= 493 y = 821 }
+					orientation = center
+				}
+				instantTextboxType = {
+					name = "be_maintenance_company_tech_effects"
+					position = { x = 502 y = 827 }
+					textureFile = ""
+					font = "Arial16"
+					text = "be_maintenance_company_tech_effects"
+					maxWidth = 215
+					maxHeight = 100
+					orientation = center
+					fixedsize = yes
+					alwaystransparent = yes
+				}
+				iconType ={
+					name ="be_field_hospital_tech_effects_bg"
+					spriteType = "GFX_tech_effect_bg"
+					position = { x= 493 y = 963 }
+					orientation = center
+				}
+				instantTextboxType = {
+					name = "be_field_hospital_tech_effects"
+					position = { x = 502 y = 969 }
+					textureFile = ""
+					font = "Arial16"
+					text = "be_field_hospital_tech_effects"
+					maxWidth = 215
+					maxHeight = 100
+					orientation = center
+					fixedsize = yes
+					alwaystransparent = yes
+				}
+				iconType ={
+					name ="be_logistics_tech_effects_bg"
+					spriteType = "GFX_tech_effect_bg"
+					position = { x= 493 y = 1105 }
+					orientation = center
+				}
+				instantTextboxType = {
+					name = "be_logistics_tech_effects"
+					position = { x = 502 y = 1111 }
+					textureFile = ""
+					font = "Arial16"
+					text = "be_logistics_tech_effects"
+					maxWidth = 215
+					maxHeight = 100
+					orientation = center
+					fixedsize = yes
+					alwaystransparent = yes
+				}
+				iconType ={
+					name ="be_signal_company_tech_effects_bg"
+					spriteType = "GFX_tech_effect_bg"
+					position = { x= 493 y = 1247 }
+					orientation = center
+				}
+				instantTextboxType = {
+					name = "be_signal_company_tech_effects"
+					position = { x = 502 y = 1253 }
+					textureFile = ""
+					font = "Arial16"
+					text = "be_signal_company_tech_effects"
+					maxWidth = 215
+					maxHeight = 100
+					orientation = center
+					fixedsize = yes
+					alwaystransparent = yes
+				}
+			}
+			iconType ={
+				name ="light_weapons_effects_bg"
+				spriteType = "GFX_tech_effect_bg"
+				position = { x= 138 y = 395 }
+				orientation = center
+			}
+			instantTextboxType = {
+				name = "light_weapons_effects"
+				position = { x = 146 y = 401 }
+				textureFile = ""
+				font = "Arial16"
+				text = "light_weapons_effects"
+				maxWidth = 215
+				maxHeight = 60
+				orientation = center
+				fixedsize = yes
+				alwaystransparent = yes
+			}
+			iconType ={
+				name ="weapon_4d_design_effects_bg"
+				spriteType = "GFX_tech_effect_bg"
+				position = { x= 422 y = 111 }
+				orientation = center
+			}
+			instantTextboxType = {
+				name = "weapon_4d_design_effects"
+				position = { x = 430 y = 117 }
+				textureFile = ""
+				font = "Arial16"
+				text = "weapon_4d_design_effects"
+				maxWidth = 215
+				maxHeight = 60
+				orientation = center
+				fixedsize = yes
+				alwaystransparent = yes
+			}
+			iconType ={
+				name ="advanced_infantry_weapons_effects_bg"
+				spriteType = "GFX_tech_effect_bg"
+				position = { x= 422 y = 253 }
+				orientation = center
+			}
+			instantTextboxType = {
+				name = "advanced_infantry_weapons_effects"
+				position = { x = 430 y = 259 }
+				textureFile = ""
+				font = "Arial16"
+				text = "advanced_infantry_weapons_effects"
+				maxWidth = 215
+				maxHeight = 60
+				orientation = center
+				fixedsize = yes
+				alwaystransparent = yes
+			}
+			iconType ={
+				name ="support_soft_matrix_effects_bg"
+				spriteType = "GFX_tech_effect_bg"
+				position = { x= 706 y = 253 }
+				orientation = center
+			}
+			instantTextboxType = {
+				name = "support_soft_matrix_effects"
+				position = { x = 714 y = 259 }
+				textureFile = ""
+				font = "Arial16"
+				text = "support_soft_matrix_effects"
+				maxWidth = 215
+				maxHeight = 60
+				orientation = center
+				fixedsize = yes
+				alwaystransparent = yes
+			}
+			iconType ={
+				name ="integral_defense_upgrade_effects_bg"
+				spriteType = "GFX_tech_effect_bg"
+				position = { x= 990 y = 253 }
+				orientation = center
+			}
+			instantTextboxType = {
+				name = "integral_defense_upgrade_effects"
+				position = { x = 998 y = 259 }
+				textureFile = ""
+				font = "Arial16"
+				text = "integral_defense_upgrade_effects"
+				maxWidth = 215
+				maxHeight = 60
+				orientation = center
+				fixedsize = yes
+				alwaystransparent = yes
+			}
+			iconType ={
+				name ="land_inf_at_effects_bg"
+				spriteType = "GFX_tech_effect_bg"
+				position = { x= 990 y = 111 }
+				orientation = center
+			}
+			instantTextboxType = {
+				name = "land_inf_at_effects"
+				position = { x = 998 y = 117 }
+				textureFile = ""
+				font = "Arial16"
+				text = "land_inf_at_effects"
+				maxWidth = 215
+				maxHeight = 60
+				orientation = center
+				fixedsize = yes
+				alwaystransparent = yes
+			}
+			containerWindowType = {
+				name = "move_all_augment"
+				position = { x=-284 y=142 }
+				orientation = CENTER
+				clipping = no
+				iconType ={
+					name ="augment_equipment_tech_effects_bg"
+					spriteType = "GFX_tech_effect_bg"
+					position = { x= 706 y = 395 }
+					orientation = center
+				}
+				instantTextboxType = {
+					name = "augment_equipment_tech_effects"
+					position = { x = 714 y = 401 }
+					textureFile = ""
+					font = "Arial16"
+					text = "augment_equipment_tech_effects"
+					maxWidth = 215
+					maxHeight = 60
+					orientation = center
+					fixedsize = yes
+					alwaystransparent = yes
+				}
+				iconType ={
+					name ="prime_augment_upgrade_effects_bg"
+					spriteType = "GFX_tech_effect_bg"
+					position = { x= 990 y = 395 }
+					orientation = center
+				}
+				instantTextboxType = {
+					name = "prime_augment_upgrade_effects"
+					position = { x = 998 y = 401 }
+					textureFile = ""
+					font = "Arial16"
+					text = "prime_augment_upgrade_effects"
+					maxWidth = 215
+					maxHeight = 60
+					orientation = center
+					fixedsize = yes
+					alwaystransparent = yes
+				}
+				iconType ={
+					name ="adaptation_upgrade_effects_bg"
+					spriteType = "GFX_tech_effect_bg"
+					position = { x= 990 y = 537 }
+					orientation = center
+				}
+				instantTextboxType = {
+					name = "adaptation_upgrade_effects"
+					position = { x = 998 y = 543 }
+					textureFile = ""
+					font = "Arial16"
+					text = "adaptation_upgrade_effects"
+					maxWidth = 215
+					maxHeight = 60
+					orientation = center
+					fixedsize = yes
+					alwaystransparent = yes
+				}
+				iconType ={
+					name ="performance_upgrade_effects_bg"
+					spriteType = "GFX_tech_effect_bg"
+					position = { x= 990 y = 679 }
+					orientation = center
+				}
+				instantTextboxType = {
+					name = "performance_upgrade_effects"
+					position = { x = 998 y = 685 }
+					textureFile = ""
+					font = "Arial16"
+					text = "performance_upgrade_effects"
+					maxWidth = 215
+					maxHeight = 60
+					orientation = center
+					fixedsize = yes
+					alwaystransparent = yes
+				}
+				iconType ={
+					name ="organization_upgrade_effects_bg"
+					spriteType = "GFX_tech_effect_bg"
+					position = { x= 1274 y = 466 }
+					orientation = center
+				}
+				instantTextboxType = {
+					name = "organization_upgrade_effects"
+					position = { x = 1282 y = 472 }
+					textureFile = ""
+					font = "Arial16"
+					text = "performance_upgrade_effects"
+					maxWidth = 215
+					maxHeight = 60
+					orientation = center
+					fixedsize = yes
+					alwaystransparent = yes
+				}
+			}
+			containerWindowType = {
+				name = "move_all_logistics"
+				position = { x=0 y=0 }
+				orientation = CENTER
+				clipping = no
+				iconType ={
+					name ="maglev_equipment_effects_bg"
+					spriteType = "GFX_tech_effect_bg"
+					position = { x= -501 y = -173 }
+					orientation = center
+				}
+				instantTextboxType = {
+					name = "maglev_equipment_effects"
+					position = { x = -493 y = -167 }
+					textureFile = ""
+					font = "Arial16"
+					text = "maglev_equipment_effects"
+					maxWidth = 215
+					maxHeight = 60
+					orientation = center
+					fixedsize = yes
+					alwaystransparent = yes
+				}
+				iconType ={
+					name ="hybrid_maglev_effects_bg"
+					spriteType = "GFX_tech_effect_bg"
+					position = { x= -785 y = -173 }
+					orientation = center
+				}
+				instantTextboxType = {
+					name = "hybrid_maglev_effects"
+					position = { x = -777 y = -167 }
+					textureFile = ""
+					font = "Arial16"
+					text = "hybrid_maglev_effects"
+					maxWidth = 215
+					maxHeight = 60
+					orientation = center
+					fixedsize = yes
+					alwaystransparent = yes
+				}
+				iconType ={
+					name ="hovercraft_effects_bg"
+					spriteType = "GFX_tech_effect_bg"
+					position = { x= -501 y = -31 }
+					orientation = center
+				}
+				instantTextboxType = {
+					name = "hovercraft_effects"
+					position = { x = -493 y = -25 }
+					textureFile = ""
+					font = "Arial16"
+					text = "hovercraft_effects"
+					maxWidth = 215
+					maxHeight = 60
+					orientation = center
+					fixedsize = yes
+					alwaystransparent = yes
+				}
+				iconType ={
+					name ="deep_ocean_effects_bg"
+					spriteType = "GFX_tech_effect_bg"
+					position = { x= -785 y = -31 }
+					orientation = center
+				}
+				instantTextboxType = {
+					name = "deep_ocean_effects"
+					position = { x = -777 y = -25 }
+					textureFile = ""
+					font = "Arial16"
+					text = "deep_ocean_effects"
+					maxWidth = 215
+					maxHeight = 60
+					orientation = center
+					fixedsize = yes
+					alwaystransparent = yes
+				}
+				iconType ={
+					name ="land_sea_effects_bg"
+					spriteType = "GFX_tech_effect_bg"
+					position = { x= -1069 y = -31 }
+					orientation = center
+				}
+				instantTextboxType = {
+					name = "land_sea_effects"
+					position = { x = -1061 y = -25 }
+					textureFile = ""
+					font = "Arial16"
+					text = "land_sea_effects"
+					maxWidth = 215
+					maxHeight = 60
+					orientation = center
+					fixedsize = yes
+					alwaystransparent = yes
+				}
+				iconType ={
+					name ="crawler_equipment_effects_bg"
+					spriteType = "GFX_tech_effect_bg"
+					position = { x= -501 y = 111 }
+					orientation = center
+				}
+				instantTextboxType = {
+					name = "crawler_equipment_effects"
+					position = { x = -493 y = 117 }
+					textureFile = ""
+					font = "Arial16"
+					text = "crawler_equipment_effects"
+					maxWidth = 215
+					maxHeight = 60
+					orientation = center
+					fixedsize = yes
+					alwaystransparent = yes
+				}
+				iconType ={
+					name ="crawler_shield_effects_bg"
+					spriteType = "GFX_tech_effect_bg"
+					position = { x= -785 y = 111 }
+					orientation = center
+				}
+				instantTextboxType = {
+					name = "crawler_shield_effects"
+					position = { x = -777 y = 117 }
+					textureFile = ""
+					font = "Arial16"
+					text = "crawler_shield_effects"
+					maxWidth = 215
+					maxHeight = 60
+					orientation = center
+					fixedsize = yes
+					alwaystransparent = yes
+				}
+			}
+			containerWindowType = {
+				name = "move_all_heavy"
+				position = { x=0 y=0 }
+				orientation = CENTER
+				clipping = no
+				iconType ={
+					name ="heavy_equipment_effects_bg"
+					spriteType = "GFX_tech_effect_bg"
+					position = { x= 1416 y = -31 }
+					orientation = center
+				}
+				instantTextboxType = {
+					name = "heavy_equipment_effects"
+					position = { x = 1424 y = -25 }
+					textureFile = ""
+					font = "Arial16"
+					text = "heavy_equipment_effects"
+					maxWidth = 215
+					maxHeight = 60
+					orientation = center
+					fixedsize = yes
+					alwaystransparent = yes
+				}
+				iconType ={
+					name ="mbt_tech_effects_bg"
+					spriteType = "GFX_tech_effect_bg"
+					position = { x= 1700 y = 111 }
+					orientation = center
+				}
+				instantTextboxType = {
+					name = "mbt_tech_effects"
+					position = { x = 1708 y = 117 }
+					textureFile = ""
+					font = "Arial16"
+					text = "mbt_tech_effects"
+					maxWidth = 215
+					maxHeight = 60
+					orientation = center
+					fixedsize = yes
+					alwaystransparent = yes
+				}
+				iconType ={
+					name ="mbt_upgrade_effects_bg"
+					spriteType = "GFX_tech_effect_bg"
+					position = { x= 1984 y = 536 }
+					orientation = center
+				}
+				instantTextboxType = {
+					name = "mbt_upgrade_effects"
+					position = { x= 1992 y = 542 }
+					textureFile = ""
+					font = "Arial16"
+					text = "mbt_upgrade_effects"
+					maxWidth = 215
+					maxHeight = 60
+					orientation = center
+					fixedsize = yes
+					alwaystransparent = yes
+				}
+				iconType ={
+					name ="rover_tech_effects_bg"
+					spriteType = "GFX_tech_effect_bg"
+					position = { x= 1700 y = -315 }
+					orientation = center
+				}
+				instantTextboxType = {
+					name = "rover_tech_effects"
+					position = { x= 1708 y = -309 }
+					textureFile = ""
+					font = "Arial16"
+					text = "rover_tech_effects"
+					maxWidth = 215
+					maxHeight = 80
+					orientation = center
+					fixedsize = yes
+					alwaystransparent = yes
+				}
+				iconType ={
+					name ="apc_tech_effects_bg"
+					spriteType = "GFX_tech_effect_bg"
+					position = { x= 1700 y = -173 }
+					orientation = center
+				}
+				instantTextboxType = {
+					name = "apc_tech_effects"
+					position = { x= 1708 y = -167 }
+					textureFile = ""
+					font = "Arial16"
+					text = "apc_tech_effects"
+					maxWidth = 215
+					maxHeight = 80
+					orientation = center
+					fixedsize = yes
+					alwaystransparent = yes
+				}
+				iconType ={
+					name ="apc_upgrade_tech_effects_bg"
+					spriteType = "GFX_tech_effect_bg"
+					position = { x= 1984 y = -173 }
+					orientation = center
+				}
+				instantTextboxType = {
+					name = "apc_upgrade_tech_effects"
+					position = { x= 1992 y = -167 }
+					textureFile = ""
+					font = "Arial16"
+					text = "apc_upgrade_tech_effects"
+					maxWidth = 215
+					maxHeight = 80
+					orientation = center
+					fixedsize = yes
+					alwaystransparent = yes
+				}
+				iconType ={
+					name ="walker_tech_effects_bg"
+					spriteType = "GFX_tech_effect_bg"
+					position = { x= 1984 y = 394 }
+					orientation = center
+				}
+				instantTextboxType = {
+					name = "walker_tech_effects"
+					position = { x= 1992 y = 400 }
+					textureFile = ""
+					font = "Arial16"
+					text = "walker_tech_effects"
+					maxWidth = 215
+					maxHeight = 80
+					orientation = center
+					fixedsize = yes
+					alwaystransparent = yes
+				}
+				iconType ={
+					name ="walker_upgrade_tech_effects_bg"
+					spriteType = "GFX_tech_effect_bg"
+					position = { x= 2268 y = 394 }
+					orientation = center
+				}
+				instantTextboxType = {
+					name = "walker_upgrade_tech_effects"
+					position = { x= 2276 y = 400 }
+					textureFile = ""
+					font = "Arial16"
+					text = "walker_upgrade_tech_effects"
+					maxWidth = 215
+					maxHeight = 80
+					orientation = center
+					fixedsize = yes
+					alwaystransparent = yes
+				}
+				iconType ={
+					name ="artillery_tech_effects_bg"
+					spriteType = "GFX_tech_effect_bg"
+					position = { x= 1984 y = -32 }
+					orientation = center
+				}
+				instantTextboxType = {
+					name = "artillery_tech_effects"
+					position = { x= 1992 y = -26 }
+					textureFile = ""
+					font = "Arial16"
+					text = "artillery_tech_effects"
+					maxWidth = 215
+					maxHeight = 80
+					orientation = center
+					fixedsize = yes
+					alwaystransparent = yes
+				}
+				iconType ={
+					name ="artillery_upgrade_tech_effects_bg"
+					spriteType = "GFX_tech_effect_bg"
+					position = { x= 2268 y = -32 }
+					orientation = center
+				}
+				instantTextboxType = {
+					name = "artillery_upgrade_tech_effects"
+					position = { x= 2276 y = -26 }
+					textureFile = ""
+					font = "Arial16"
+					text = "artillery_upgrade_tech_effects"
+					maxWidth = 215
+					maxHeight = 80
+					orientation = center
+					fixedsize = yes
+					alwaystransparent = yes
+				}
+				iconType ={
+					name ="anti_tank_artillery_tech_effects_bg"
+					spriteType = "GFX_tech_effect_bg"
+					position = { x= 1984 y = 110 }
+					orientation = center
+				}
+				instantTextboxType = {
+					name = "anti_tank_artillery_tech_effects"
+					position = { x= 1992 y = 116 }
+					textureFile = ""
+					font = "Arial16"
+					text = "anti_tank_artillery_tech_effects"
+					maxWidth = 215
+					maxHeight = 80
+					orientation = center
+					fixedsize = yes
+					alwaystransparent = yes
+				}
+				iconType ={
+					name ="anti_tank_upgrade_tech_effects_bg"
+					spriteType = "GFX_tech_effect_bg"
+					position = { x= 2268 y = 110 }
+					orientation = center
+				}
+				instantTextboxType = {
+					name = "anti_tank_upgrade_tech_effects"
+					position = { x= 2276 y = 116 }
+					textureFile = ""
+					font = "Arial16"
+					text = "anti_tank_upgrade_tech_effects"
+					maxWidth = 215
+					maxHeight = 80
+					orientation = center
+					fixedsize = yes
+					alwaystransparent = yes
+				}
+				iconType ={
+					name ="rocket_artillery_tech_effects_bg"
+					spriteType = "GFX_tech_effect_bg"
+					position = { x= 1984 y = 252 }
+					orientation = center
+				}
+				instantTextboxType = {
+					name = "rocket_artillery_tech_effects"
+					position = { x= 1992 y = 258 }
+					textureFile = ""
+					font = "Arial16"
+					text = "rocket_artillery_tech_effects"
+					maxWidth = 210
+					maxHeight = 80
+					orientation = center
+					fixedsize = yes
+					alwaystransparent = yes
+				}
+				iconType ={
+					name ="rocket_artillery_upgrade_tech_effects_bg"
+					spriteType = "GFX_tech_effect_bg"
+					position = { x= 2268 y = 252 }
+					orientation = center
+				}
+				instantTextboxType = {
+					name = "rocket_artillery_upgrade_tech_effects"
+					position = { x= 2276 y = 258 }
+					textureFile = ""
+					font = "Arial16"
+					text = "rocket_artillery_upgrade_tech_effects"
+					maxWidth = 210
+					maxHeight = 80
+					orientation = center
+					fixedsize = yes
+					alwaystransparent = yes
+				}
+			}
+		}
+	}
+
+###############################
+######### NUKE WINDOW #########
+###############################
+
+	containerWindowType = {
+		name = "nuke_gui_window"
+		position = { x = -7 y = -212 }
+		size = { width = 170 height = 260 }
+		orientation = LOWER_LEFT
+		fade_time = 100
+		fade_type = linear
+		click_to_front = no
+		clipping = no
+
+		iconType ={
+			name ="nuke_state"
+			spriteType = "GFX_nuke_button"
+			position = { x= 0 y = 0 }
+			pdx_tooltip = nuke_state_tt
+			pdx_tooltip_delayed = nuke_state_tt_delayed
+		}
+	}
+
+###############################
+########### FOCUS BG ##########
+###############################
+
+	#ONU
+	containerWindowType = {
+		name = "ONU_focus_details"
+		position = { x = 0 y = 0 }
+		size = { width = 100%% height = 100%% }
+
+		background = {
+			name = "bg"
+			quadTextureSprite ="GFX_ONU_focus_bg"
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name = "ONU_focus_detail"
+			position = { x=0 y =0}
+			quadTextureSprite ="GFX_ONU_focus_detail"
+			alwaystransparent = yes
+			orientation = CENTER
+			centerposition = yes
+		}
+	}
+
+	#TZN
+	containerWindowType = {
+		name = "TZN_focus_details"
+		position = { x = 0 y = 0 }
+		size = { width = 100%% height = 100%% }
+
+		background = {
+			name = "bg"
+			quadTextureSprite ="GFX_TZN_focus_bg"
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name = "TZN_focus_detail"
+			position = { x=0 y =0}
+			quadTextureSprite ="GFX_TZN_focus_detail"
+			alwaystransparent = yes
+			orientation = CENTER
+			centerposition = yes
+		}
+	}
+
+	#PNM
+	containerWindowType = {
+		name = "PNM_focus_details"
+		position = { x = 0 y = 0 }
+		size = { width = 100%% height = 100%% }
+
+		background = {
+			name = "bg"
+			quadTextureSprite ="GFX_PNM_focus_bg"
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name = "PNM_focus_detail"
+			position = { x=0 y =0}
+			quadTextureSprite ="GFX_PNM_focus_detail"
+			alwaystransparent = yes
+			orientation = CENTER
+			centerposition = yes
+		}
+	}
+
+###############################
+##### DECLARE WAR WINDOW ######
+###############################
+#
+#	#for when a country declare wars
+#	containerWindowType = {
+#		name = "declare_war_window"
+#		position = { x = -110 y = -200 }
+#		size = { width = 460 height = 95 }
+#		moveable = yes
+#		fade_time = 200
+#		fade_type = linear
+#		show_sound = diplomatic_notification #peace_summary_message
+#		hide_sound = menu_close_window
+#		click_to_front = yes
+#		clipping = no
+#		orientation = CENTER_RIGHT
+#
+#		background = {
+#			name = "Background"	
+#			quadTextureSprite ="GFX_tiled_window_transparent"
+#		}
+#
+#		buttonType = {
+#			name = "ok_button"
+#			spriteType = "GFX_war_diplo_icon"
+#			pdx_tooltip = WAR_EVENT_TITLE
+#			pdx_tooltip_delayed = click_here_to_close
+#			frame = 2
+#			shortcut = "RETURN"
+#		}
+#
+#		iconType = {
+#			name = "warning"
+#			position = { x= 47 y = 10 }
+#			spriteType = "GFX_warning_icon"
+#			alwaystransparent = yes
+#		}
+#	}
+#
+###############################
+####### SURRENDER WINDOW ######
+###############################
+#
+#	#for when a country capitulates
+#	containerWindowType = {
+#		name = "surrender_window"
+#		position = { x = -110 y = -100 }
+#		size = { width = 100 height = 92 }
+#		moveable = yes
+#		fade_time = 200
+#		fade_type = linear
+#		show_sound = diplomatic_notification #peace_summary_message
+#		hide_sound = menu_close_window
+#		click_to_front = yes
+#		clipping = no
+#		orientation = CENTER_RIGHT
+#
+#		background = {
+#			name = "Background"	
+#			quadTextureSprite ="GFX_tiled_window_transparent"
+#		}
+#
+#		buttonType = {
+#			name = "ok_button"
+#			spriteType = "GFX_war_diplo_icon"
+#			pdx_tooltip = PEACE_EVENT_TITLE
+#			pdx_tooltip_delayed = click_here_to_close
+#			frame = 1
+#			shortcut = "RETURN"
+#		}
+#
+#		iconType = {
+#			name = "warning"
+#			position = { x= 47 y = 10 }
+#			spriteType = "GFX_warning_icon"
+#			alwaystransparent = yes
+#		}
+#	}
+#
+###############################
+#### POLITICAL-DIPLO TAB ######
+###############################
+	
+	#laws and their effects goes here
+	containerWindowType = {
+		name = "extra_political_stuff"
+		position = { x = 0 y = 0 }
+		size = { width=100%% height=100%%  }
+		clipping = yes
+
+		background = {
+			name = "bgbg"
+			quadTextureSprite = "GFX_tiled_window_transparent"
+			alwaystransparent = yes
+		}
+
+		iconType = {
+			name = "TZN_pol_detail"
+			position = { x = -400 y = 395 }
+			spriteType = "GFX_TZN_focus_detail"
+			pdx_tooltip = TZN_focus_detail
+		}
+		iconType = {
+			name = "ONU_pol_detail"
+			position = { x = -370 y = 355 }
+			spriteType = "GFX_ONU_focus_detail"
+			pdx_tooltip = ONU_focus_detail
+		}
+
+		#instantTextboxType = {
+		#	name = "leader_name"
+		#	position = { x = 220 y = 60 }
+		#	font = "Arial16"
+		#	text = "leader_desc"
+		#	maxWidth = 282
+		#	maxHeight = 900
+		#	format = left
+		#	scrollbarType = standardtext_slider
+		#}
+
+		containerWindowType = {
+			name = "actual_window"
+			position = { x = 0 y = 357 }
+			show_position = { x = 0 y = 357 }
+			size = { width=545 height=99%% }
+			show_animation_type = decelerated
+			hide_animation_type = accelerated
+			animation_time = 300	
+			verticalScrollbar = "right_vertical_slider"
+
+			background = {
+				name = "bgbg"
+				quadTextureSprite = "GFX_tiled_window_transparent"
+			}
+
+			iconType ={
+				name ="category_header"
+				spriteType = "GFX_category_header"
+				position = { x=22 y=0 }
+				Orientation = "UPPER_LEFT"
+			}
+			
+			instantTextboxType = {
+				name = "name"
+				position = { x = 78 y = 8 }
+				font = "Arialcap"
+				text = "LAWS & GOVERNMENT"
+				maxWidth = 300
+				maxHeight = 20
+			}
+
+			containerWindowType = {
+				name = "development_system_win"
+				position = { x = 60 y = 0 }
+				size = {
+					width = 420
+					height = 140
+				}
+				clipping = no
+				background = {
+					name = "bg"
+					quadTextureSprite = "GFX_tiled_window_transparent"
+					alwaystransparent = yes
+				}
+				containerWindowType = {
+					name = "development_icons"
+					position = { x = 239 y = 34 }
+					iconType = {
+						name = "agrarian_dudes"
+						spriteType = "GFX_idea_agrarian_stage"
+						position = { x= -15 y = 15 }
+						pdx_tooltip = development_law_tt
+						#pdx_tooltip_delayed = development_law_tt_delayed
+					}
+					iconType = {
+						name = "developing_dudes"
+						spriteType = "GFX_idea_developing_stage"
+						position = { x= -15 y = 15 }
+						pdx_tooltip = development_law_tt
+						#pdx_tooltip_delayed = development_law_tt_delayed
+					}
+					iconType = {
+						name = "developed_dudes"
+						spriteType = "GFX_idea_developed_stage"
+						position = { x= -15 y = 15 }
+						pdx_tooltip = development_law_tt
+						#pdx_tooltip_delayed = development_law_tt_delayed
+					}
+					iconType = {
+						name = "regional_powerhouse_dudes"
+						spriteType = "GFX_idea_regional_stage"
+						position = { x= -15 y = 15 }
+						pdx_tooltip = development_law_tt
+						#pdx_tooltip_delayed = development_law_tt_delayed
+					}
+					iconType = {
+						name = "continental_powerhouse_dudes"
+						spriteType = "GFX_idea_continental_stage"
+						position = { x= -15 y = 15 }
+						pdx_tooltip = development_law_tt
+						#pdx_tooltip_delayed = development_law_tt_delayed
+					}
+					iconType = {
+						name = "global_powerhouse_dudes"
+						spriteType = "GFX_idea_global_stage"
+						position = { x= -15 y = 15 }
+						pdx_tooltip = development_law_tt
+						#pdx_tooltip_delayed = development_law_tt_delayed
+					}
+				}
+			}
+			containerWindowType = {
+				name = "cultural_system_win"
+				position = { x = 140 y = 0 }
+				size = {
+					width = 420
+					height = 140
+				}
+				clipping = no
+				background = {
+					name = "bg"
+					quadTextureSprite = "GFX_tiled_window_transparent"
+					alwaystransparent = yes
+				}
+				containerWindowType = {
+					name = "ecobalance_icons"
+					position = { x = 239 y = 34 }		
+					iconType = {
+						name = "optimum_ecobalance_dudes"
+						spriteType = "GFX_idea_optimum_ecobalance"
+						position = { x= -15 y = 15 }
+						pdx_tooltip = ecobalance_law_tt
+						#pdx_tooltip_delayed = ecobalance_law_tt_delayed
+					}
+					iconType = {
+						name = "favorable_ecobalance_dudes"
+						spriteType = "GFX_idea_favorable_ecobalance"
+						position = { x= -15 y = 15 }
+						pdx_tooltip = ecobalance_law_tt
+						#pdx_tooltip_delayed = ecobalance_law_tt_delayed
+					}
+					iconType = {
+						name = "neutral_ecobalance_dudes"
+						spriteType = "GFX_idea_neutral_ecobalance"
+						position = { x= -15 y = 15 }
+						pdx_tooltip = ecobalance_law_tt
+						#pdx_tooltip_delayed = ecobalance_law_tt_delayed
+					}
+					iconType = {
+						name = "precarious_ecobalance_dudes"
+						spriteType = "GFX_idea_precarious_ecobalance"
+						position = { x= -15 y = 15 }
+						pdx_tooltip = ecobalance_law_tt
+						#pdx_tooltip_delayed = ecobalance_law_tt_delayed
+					}
+					iconType = {
+						name = "dangerous_ecobalance_dudes"
+						spriteType = "GFX_idea_dangerous_ecobalance"
+						position = { x= -15 y = 15 }
+						pdx_tooltip = ecobalance_law_tt
+						#pdx_tooltip_delayed = ecobalance_law_tt_delayed
+					}
+					iconType = {
+						name = "disastrous_ecobalance_dudes"
+						spriteType = "GFX_idea_disastrous_ecobalance"
+						position = { x= -15 y = 15 }
+						pdx_tooltip = ecobalance_law_tt
+						#pdx_tooltip_delayed = ecobalance_law_tt_delayed
+					}
+				}
+			}
+			containerWindowType = {
+				name = "government_system_win"
+				position = { x = 220 y = 0 }
+				size = {
+					width = 420
+					height = 140
+				}
+				clipping = no
+				background = {
+					name = "bg"
+					quadTextureSprite = "GFX_tiled_window_transparent"
+					alwaystransparent = yes
+				}
+				containerWindowType = {
+					name = "government_icons"
+					position = { x = 239 y = 34 }
+					iconType = {
+						name = "digital_democracy_dudes"
+						spriteType = "GFX_idea_digital_democracy"
+						position = { x= -15 y = 15 }
+						pdx_tooltip = political_law_tt
+						#pdx_tooltip_delayed = political_law_tt_delayed
+					}
+					iconType = {
+						name = "oligarchic_dudes"
+						spriteType = "GFX_idea_oligarchic_government"
+						position = { x= -15 y = 15 }
+						pdx_tooltip = political_law_tt
+						#pdx_tooltip_delayed = political_law_tt_delayed
+					}
+					iconType = {
+						name = "minarchist_dudes"
+						spriteType = "GFX_idea_minarchist_state"
+						position = { x= -15 y = 15 }
+						pdx_tooltip = political_law_tt
+						#pdx_tooltip_delayed = political_law_tt_delayed
+					}
+					iconType = {
+						name = "communal_dudes"
+						spriteType = "GFX_idea_communal_parity"
+						position = { x= -15 y = 15 }
+						pdx_tooltip = political_law_tt
+						#pdx_tooltip_delayed = political_law_tt_delayed
+					}
+					iconType = {
+						name = "autocratic_dudes"
+						spriteType = "GFX_idea_autocratic_authority"
+						position = { x= -15 y = 15 }
+						pdx_tooltip = political_law_tt
+						#pdx_tooltip_delayed = political_law_tt_delayed
+					}
+					iconType = {
+						name = "anarchy_dudes"
+						spriteType = "GFX_idea_unstable_leadership"
+						position = { x= -15 y = 15 }
+						pdx_tooltip = political_law_tt
+						#pdx_tooltip_delayed = political_law_tt_delayed
+					}
+				}
+			}	
+			containerWindowType = {
+				name = "trade_law"
+				position = { x = -20 y = 0 }
+				size = {
+					width = 420
+					height = 140
+				}
+				clipping = no
+				background = {
+					name = "bg"
+					quadTextureSprite = "GFX_tiled_window_transparent"
+					alwaystransparent = yes
+				}
+				containerWindowType = {
+					name = "trade_icons"
+					position = { x = 239 y = 34 }
+					iconType = {
+						name = "trade4"
+						spriteType = "GFX_idea_free_trade"
+						position = { x= -15 y = 15 }
+						pdx_tooltip = ideas_law_trade
+						#pdx_tooltip_delayed = political_law_tt_delayed
+					}
+					iconType = {
+						name = "trade3"
+						spriteType = "GFX_idea_export_focus"
+						position = { x= -15 y = 15 }
+						pdx_tooltip = ideas_law_trade
+						#pdx_tooltip_delayed = political_law_tt_delayed
+					}
+					iconType = {
+						name = "trade2"
+						spriteType = "GFX_idea_limited_exports"
+						position = { x= -15 y = 15 }
+						pdx_tooltip = ideas_law_trade
+						#pdx_tooltip_delayed = political_law_tt_delayed
+					}
+					iconType = {
+						name = "trade1"
+						spriteType = "GFX_idea_closed_economy"
+						position = { x= -15 y = 15 }
+						pdx_tooltip = ideas_law_trade
+						#pdx_tooltip_delayed = political_law_tt_delayed
+					}
+				}
+			}		
+			containerWindowType = {
+				name = "mobilization_law"
+				position = { x = -100 y = 0 }
+				size = {
+					width = 420
+					height = 140
+				}
+				clipping = no
+				background = {
+					name = "bg"
+					quadTextureSprite = "GFX_tiled_window_transparent"
+					alwaystransparent = yes
+				}
+				containerWindowType = {
+					name = "mobilization_icons"
+					position = { x = 239 y = 34 }
+					iconType = {
+						name = "mobilization4"
+						spriteType = "GFX_idea_volunteer_only"
+						position = { x= -15 y = 15 }
+						pdx_tooltip = ideas_law_mobilization
+						#pdx_tooltip_delayed = political_law_tt_delayed
+					}
+					iconType = {
+						name = "mobilization3"
+						spriteType = "GFX_idea_limited_conscription"
+						position = { x= -15 y = 15 }
+						pdx_tooltip = ideas_law_mobilization
+						#pdx_tooltip_delayed = political_law_tt_delayed
+					}
+					iconType = {
+						name = "mobilization2"
+						spriteType = "GFX_idea_extensive_conscription"
+						position = { x= -15 y = 15 }
+						pdx_tooltip = ideas_law_mobilization
+						#pdx_tooltip_delayed = political_law_tt_delayed
+					}
+					iconType = {
+						name = "mobilization1"
+						spriteType = "GFX_idea_service_by_requirement"
+						position = { x= -15 y = 15 }
+						pdx_tooltip = ideas_law_mobilization
+						#pdx_tooltip_delayed = political_law_tt_delayed
+					}
+				}
+			}
+			containerWindowType = {
+				name = "economic_law"
+				position = { x = -180 y = 0 }
+				size = {
+					width = 420
+					height = 140
+				}
+				clipping = no
+				background = {
+					name = "bg"
+					quadTextureSprite = "GFX_tiled_window_transparent"
+					alwaystransparent = yes
+				}
+				containerWindowType = {
+					name = "economic_icons"
+					position = { x = 239 y = 34 }
+					iconType = {
+						name = "economy4"
+						spriteType = "GFX_idea_civilian_economy"
+						position = { x= -15 y = 15 }
+						pdx_tooltip = ideas_law_economy
+						#pdx_tooltip_delayed = political_law_tt_delayed
+					}
+					iconType = {
+						name = "economy3"
+						spriteType = "GFX_idea_deregulated_economy"
+						position = { x= -15 y = 15 }
+						pdx_tooltip = ideas_law_economy
+						#pdx_tooltip_delayed = political_law_tt_delayed
+					}
+					iconType = {
+						name = "economy2"
+						spriteType = "GFX_idea_mixed_economy"
+						position = { x= -15 y = 15 }
+						pdx_tooltip = ideas_law_economy
+						#pdx_tooltip_delayed = political_law_tt_delayed
+					}
+					iconType = {
+						name = "economy1"
+						spriteType = "GFX_idea_war_economy"
+						position = { x= -15 y = 15 }
+						pdx_tooltip = ideas_law_economy
+						#pdx_tooltip_delayed = political_law_tt_delayed
+					}
+				}
+			}						
+		}
+	}
+
+###############################
+#### INDUSTRIAL POWER INFO ####
+###############################
+
+	containerWindowType = {
+		name = "industrial_power_container"
+		position = { x = -4 y = -1 }
+		size = {
+			width = 100%
+			height = 100%
+		}
+
+		instantTextBoxType = {
+			name ="pol_power_text"
+			position = { x= 153 y = 3 }
+			font = "Beyondtop"
+			text = "pol_power"
+			format = center
+			maxWidth = 120
+			maxHeight = 24
+			alwaystransparent = yes
+		}
+	
+		instantTextBoxType = {
+			name ="industrial_power_text"
+			position = { x= 383 y = 3 }
+			font = "Beyondtoppurplish"
+			text = "industrial_power"
+			format = center
+			maxWidth = 120
+			maxHeight = 24
+			pdx_tooltip = "industrial_power_tt"
+			pdx_tooltip_delayed = "industrial_power_tt_delayed"
+		}
+
+		instantTextBoxType = {
+			name ="division_limit"
+			position = { x= 952 y = 12 }
+			font = "Arialsmallest"
+			text = "division_limit_topbar"
+			format = left
+			maxWidth = 200
+			maxHeight = 24
+			pdx_tooltip = division_limit_tt
+			pdx_tooltip_delayed = division_limit_tt_delayed
+		}
+
+		instantTextBoxType = {
+			name ="kinetic_bombs"
+			position = { x= 936 y = 36 }
+			font = "Arialsmallest"
+			text = "num_kinetic_bombs"
+			format = left
+			maxWidth = 160
+			maxHeight = 24
+			pdx_tooltip = kinetic_bombs_desc
+			pdx_tooltip_delayed = nuke_state_tt_delayed
+		}
+
+		iconType = {
+			name = "division_limit_warning"
+			position = { x= 875 y = 4 }
+			spriteType = "GFX_warning_icon"
+			pdx_tooltip = division_limit_tt
+			pdx_tooltip_delayed = division_limit_tt_delayed
+		}
+
+		iconType = {
+			name = "default_risk_warning"
+			position = { x= 576 y = 4 }
+			spriteType = "GFX_warning_icon"
+			pdx_tooltip = default_risk_ongoing
+			pdx_tooltip_delayed = default_risk_ongoing_delayed	
+		}
+
+		instantTextBoxType = {
+			name ="ecobalance_info"
+			position = { x= -105 y = -20 }
+			font = "Beyondtopmiss"
+			text = "???????????????"
+			format = right
+			maxWidth = 120
+			maxHeight = 120
+			orientation = UPPER_RIGHT
+			pdx_tooltip = THREAT_TOOLTIP_MOD
+			pdx_tooltip_delayed = THREAT_TIME_SCALE_TOOLTIP_MOD
+		}
+		
+		instantTextBoxType = {
+			name ="date"
+			position = { x= -428 y = 33 }
+			font = "Beyondtopdate"
+			text = "[GetDate]"
+			format = right
+			maxWidth = 320
+			maxHeight = 24
+			orientation = UPPER_RIGHT
+			alwaystransparent = yes
+		}
+	}
+
+###############################
+########### SCAN MODE #########
+###############################
+
+	containerWindowType = {
+		name = "scan_mode_window"
+		position = { x = 0 y = 0 }
+		size = {
+			width = 100%
+			height = 100%
+		}
+		background = {
+			name = "bg"
+			quadTextureSprite = "GFX_tiled_scan_mode"
+		}
+
+		containerWindowType = {
+			name = "scan_mode_decisions"
+			position = { x = 138 y = 0 }
+			size = {
+				width = 220
+				height = 37
+			}
+			background = {
+				name = "bg"
+				quadTextureSprite = "GFX_tiled_scan_mode"
+			}
+		}
+		containerWindowType = {
+			name = "scan_mode_buildings"
+			position = { x = 368 y = 0 }
+			size = {
+				width = 220
+				height = 37
+			}
+			background = {
+				name = "bg"
+				quadTextureSprite = "GFX_tiled_scan_mode"
+			}
+		}
+		containerWindowType = {
+			name = "scan_mode_divisions"
+			position = { x = 599 y = 0 }
+			size = {
+				width = 290
+				height = 37
+			}
+			background = {
+				name = "bg"
+				quadTextureSprite = "GFX_tiled_scan_mode"
+			}
+		}
+		containerWindowType = {
+			name = "scan_mode_clock"
+			position = { x = -100 y = 0 }
+			orientation = UPPER_RIGHT
+			size = {
+				width = 100
+				height = 90
+			}
+			background = {
+				name = "bg"
+				quadTextureSprite = "GFX_tiled_scan_mode"
+			}
+		}
+#		containerWindowType = {
+#			name = "scan_mode_research"
+#			position = { x = 898 y = 0 }
+#			size = {
+#				width = 193
+#				height = 37
+#			}
+#			background = {
+#				name = "bg"
+#				quadTextureSprite = "GFX_tiled_scan_mode"
+#			}
+#		}
+		containerWindowType = {
+			name = "scan_mode_equipment"
+			position = { x = 38 y = 76 }
+			size = {
+				width = 523
+				height = 37
+			}
+			background = {
+				name = "bg"
+				quadTextureSprite = "GFX_tiled_scan_mode"
+			}
+		}
+	}
+	
+#	containerWindowType = {
+#		name = "scan_mode_political"
+#		position = { x = 5 y = 0 }
+#
+#		containerWindowType = {
+#			name = "scan_mode_win1"
+#			position = { x = 32 y = 348 }
+#			size = {
+#				width = 90
+#				height = 90
+#			}
+#			background = {
+#				name = "bg"
+#				quadTextureSprite = "GFX_tiled_scan_mode"
+#			}
+#			background = {
+#				name = "bg"
+#				position = {
+#					x = 48
+#					y = 129
+#				}
+#				quadTextureSprite = "GFX_tiled_scan_mode"
+#			}
+#			background = {
+#				name = "bg"
+#				position = {
+#					x = 14
+#					y = 257
+#				}
+#				quadTextureSprite = "GFX_tiled_scan_mode"
+#			}
+#			background = {
+#				name = "bg"
+#				position = {
+#					x = -5
+#					y = 384
+#				}
+#				quadTextureSprite = "GFX_tiled_scan_mode"
+#			}
+#		}
+#	}
+
+	containerWindowType = {
+		name = "scan_mode_building"
+		position = { x = 0 y = 0 }
+
+		containerWindowType = {
+			name = "scan_mode_win1"
+			position = { x = 15 y = 15 }
+			size = {
+				width = 430
+				height = 70
+			}
+			background = {
+				name = "bg"
+				quadTextureSprite = "GFX_tiled_scan_mode"
+			}
+		}
+		containerWindowType = {
+			name = "scan_mode_win2"
+			position = { x = 455 y = 15 }
+			size = {
+				width = 70
+				height = 520
+			}
+			background = {
+				name = "bg"
+				quadTextureSprite = "GFX_tiled_scan_mode"
+			}
+		}
+	}
+
+	containerWindowType = {
+		name = "scan_mode_deploy"
+		position = { x = 0 y = 0 }
+
+		containerWindowType = {
+			name = "scan_mode_win1"
+			position = { x = 15 y = 15 }
+			size = {
+				width = 520
+				height = 54
+			}
+			background = {
+				name = "bg"
+				quadTextureSprite = "GFX_tiled_scan_mode"
+			}
+		}
+	}
+
+	containerWindowType = {
+		name = "scan_mode_state_view"
+		position = { x = 0 y = 0 }
+
+		containerWindowType = {
+			name = "scan_mode_win1"
+			position = { x = 30 y = -48 }
+			size = {
+				width = 480
+				height = 130
+			}
+			background = {
+				name = "bg"
+				quadTextureSprite = "GFX_tiled_scan_mode"
+			}
+		}
+		containerWindowType = {
+			name = "scan_mode_win2"
+			position = { x = -20 y = 255 }
+			size = {
+				width = 130
+				height = 120
+			}
+			background = {
+				name = "bg"
+				quadTextureSprite = "GFX_tiled_scan_mode"
+			}
+		}
+	}
+
+###############################
+######## TOPBAR BUTTONS #######
+###############################
+
+	containerWindowType = {
+		name = "help_button"
+		position = { x=-4 y=-1 }
+		size = {
+			width = 100%%
+			height = 100%%
+		}
+		
+		buttonType = {
+			name = "help_button"
+			position = { x = 11 y = 50 }
+			quadTextureSprite ="GFX_help_button"
+			clicksound = click_close
+			oversound = ui_menu_over
+			pdx_tooltip = "help_button_tt"
+			pdx_tooltip_delayed = help_button_tt_delayed
+		}
+
+		buttonType = {
+			name = "help_button_red"
+			position = { x = 6 y = 44 }
+			quadTextureSprite ="GFX_help_button_red"
+			alwaystransparent = yes
+		}
+
+		buttonType = {
+			name = "help_button_glow"
+			position = { x = 11 y = 50 }
+			quadTextureSprite ="GFX_help_button_glow"
+			clicksound = click_close
+			oversound = ui_menu_over
+			alwaystransparent = yes
+		}
+
+		containerWindowType = {
+			name = "resources"
+			position = { x=299 y=-38 }
+			size = {
+				width = 500
+				height = 100
+			}
+			iconType = {
+				name ="energy_topbar"
+				spriteType = "GFX_topbar_resources"
+				position = { x= -157 y = 72 }
+				frame = 1
+			}
+			iconType = {
+				name ="polymers_topbar"
+				spriteType = "GFX_topbar_resources"
+				position = { x= -36 y = 72 }
+				frame = 2
+			}
+			iconType = {
+				name ="lithium_topbar"
+				spriteType = "GFX_topbar_resources"
+				position = { x= 85 y = 72 }
+				frame = 3
+			}
+			iconType = {
+				name ="electronics_topbar"
+				spriteType = "GFX_topbar_resources"
+				position = { x= 206 y = 72 }
+				frame = 4
+			}
+			iconType = {
+				name ="superalloys_topbar"
+				spriteType = "GFX_topbar_resources"
+				position = { x= 327 y = 72 }
+				frame = 5
+			}
+			iconType = {
+				name ="superconductors_topbar"
+				spriteType = "GFX_topbar_resources"
+				position = { x= 448 y = 72 }
+				frame = 6
+			}
+			#
+			iconType = {
+				name ="energy_topbar_missing"
+				spriteType = "GFX_topbar_resources_missing"
+				position = { x= -157 y = 72 }
+				frame = 1
+			}
+			iconType = {
+				name ="polymers_topbar_missing"
+				spriteType = "GFX_topbar_resources_missing"
+				position = { x= -36 y = 72 }
+				frame = 2
+			}
+			iconType = {
+				name ="lithium_topbar_missing"
+				spriteType = "GFX_topbar_resources_missing"
+				position = { x= 85 y = 72 }
+				frame = 3
+			}
+			iconType = {
+				name ="electronics_topbar_missing"
+				spriteType = "GFX_topbar_resources_missing"
+				position = { x= 206 y = 72 }
+				frame = 4
+			}
+			iconType = {
+				name ="superalloys_topbar_missing"
+				spriteType = "GFX_topbar_resources_missing"
+				position = { x= 327 y = 72 }
+				frame = 5
+			}
+			iconType = {
+				name ="superconductors_topbar_missing"
+				spriteType = "GFX_topbar_resources_missing"
+				position = { x= 448 y = 72 }
+				frame = 6
+			}
+			#
+#			iconType = {
+#				name ="energy_bar"
+#				spriteType = "GFX_energy_bar"
+#				position = { x = -147 y = 72 }
+#				alwaystransparent = yes
+#			}
+#			iconType = {
+#				name ="polymers_bar"
+#				spriteType = "GFX_polymers_bar"
+#				position = { x = -27 y = 72 }
+#				alwaystransparent = yes
+#			}
+#			iconType = {
+#				name ="lithium_bar"
+#				spriteType = "GFX_lithium_bar"
+#				position = { x = 93 y = 72 }
+#				alwaystransparent = yes
+#			}
+#			iconType = {
+#				name ="electronics_bar"
+#				spriteType = "GFX_electronics_bar"
+#				position = { x= 213 y = 72 }
+#				alwaystransparent = yes
+#			}
+#			iconType = {
+#				name ="superalloys_bar"
+#				spriteType = "GFX_superalloys_bar"
+#				position = { x= 333 y = 72 }
+#				alwaystransparent = yes
+#			}
+#			iconType = {
+#				name ="superconductors_bar"
+#				spriteType = "GFX_superconductors_bar"
+#				position = { x= 453 y = 72 }
+#				alwaystransparent = yes
+#			}		
+			#
+			instantTextboxType = {
+				name = "energy_produced"
+				position = { x = -125 y = 70 }
+				textureFile = ""
+				font = "Beyondresourcesproduced"
+				text = "produced_energy"
+				maxWidth = 100
+				maxHeight = 20
+				format = right
+				#fixedsize = yes
+				pdx_tooltip = energy_desc
+				pdx_tooltip_delayed = click_to_trade
+			}
+			instantTextboxType = {
+				name = "polymers_produced"
+				position = { x = -4 y = 70 }
+				textureFile = ""
+				font = "Beyondresourcesproduced"
+				text = "produced_polymers"
+				maxWidth = 100
+				maxHeight = 20
+				format = right
+				#fixedsize = yes
+				pdx_tooltip = polymers_desc
+				pdx_tooltip_delayed = click_to_trade
+			}
+			instantTextboxType = {
+				name = "lithium_produced"
+				position = { x = 117 y = 70 }
+				textureFile = ""
+				font = "Beyondresourcesproduced"
+				text = "produced_lithium"
+				maxWidth = 100
+				maxHeight = 20
+				format = right
+				#fixedsize = yes
+				pdx_tooltip = lithium_desc
+				pdx_tooltip_delayed = click_to_trade
+			}
+			instantTextboxType = {
+				name = "electronics_produced"
+				position = { x = 238 y = 70 }
+				textureFile = ""
+				font = "Beyondresourcesproduced"
+				text = "produced_electronics"
+				maxWidth = 100
+				maxHeight = 20
+				format = right
+				#fixedsize = yes
+				pdx_tooltip = electronics_desc
+				pdx_tooltip_delayed = click_to_trade
+			}
+			instantTextboxType = {
+				name = "superalloys_produced"
+				position = { x = 359 y = 70 }
+				textureFile = ""
+				font = "Beyondresourcesproduced"
+				text = "produced_superalloys"
+				maxWidth = 100
+				maxHeight = 20
+				format = right
+				#fixedsize = yes
+				pdx_tooltip = superalloys_desc
+				pdx_tooltip_delayed = click_to_trade
+			}
+			instantTextboxType = {
+				name = "superconductors_produced"
+				position = { x = 480 y = 70 }
+				textureFile = ""
+				font = "Beyondresourcesproduced"
+				text = "produced_superconductors"
+				maxWidth = 100
+				maxHeight = 20
+				format = right
+				fixedsize = yes
+				pdx_tooltip = superconductors_desc
+				pdx_tooltip_delayed = click_to_trade
+			}
+			#
+			instantTextboxType = {
+				name = "energy"
+				position = { x = -135 y = 84 }
+				textureFile = ""
+				font = "Beyondresources"
+				text = "available_energy"
+				maxWidth = 100
+				maxHeight = 20
+				format = right
+				#fixedsize = yes
+				pdx_tooltip = energy_desc
+				pdx_tooltip_delayed = click_to_trade
+			}
+			instantTextboxType = {
+				name = "polymers"
+				position = { x = -14 y = 84 }
+				textureFile = ""
+				font = "Beyondpolymers"
+				text = "available_polymers"
+				maxWidth = 100
+				maxHeight = 20
+				format = right
+				#fixedsize = yes
+				pdx_tooltip = polymers_desc
+				pdx_tooltip_delayed = click_to_trade
+			}
+			instantTextboxType = {
+				name = "lithium"
+				position = { x = 107 y = 84 }
+				textureFile = ""
+				font = "Beyondlithium"
+				text = "available_lithium"
+				maxWidth = 100
+				maxHeight = 20
+				format = right
+				#fixedsize = yes
+				pdx_tooltip = lithium_desc
+				pdx_tooltip_delayed = click_to_trade
+			}
+			instantTextboxType = {
+				name = "electronics"
+				position = { x = 228 y = 84 }
+				textureFile = ""
+				font = "Beyondelectronics"
+				text = "available_electronics"
+				maxWidth = 100
+				maxHeight = 20
+				format = right
+				#fixedsize = yes
+				pdx_tooltip = electronics_desc
+				pdx_tooltip_delayed = click_to_trade
+			}
+			instantTextboxType = {
+				name = "superalloys"
+				position = { x = 349 y = 84 }
+				textureFile = ""
+				font = "Beyondsuperalloys"
+				text = "available_superalloys"
+				maxWidth = 100
+				maxHeight = 20
+				format = right
+				#fixedsize = yes
+				pdx_tooltip = superalloys_desc
+				pdx_tooltip_delayed = click_to_trade
+			}
+			instantTextboxType = {
+				name = "superconductors"
+				position = { x = 470 y = 84 }
+				textureFile = ""
+				font = "Beyondsuperconductors"
+				text = "available_superconductors"
+				maxWidth = 100
+				maxHeight = 20
+				format = right
+				fixedsize = yes
+				pdx_tooltip = superconductors_desc
+				pdx_tooltip_delayed = click_to_trade
+			}
+			#
+			instantTextboxType = {
+				name = "energy_missing"
+				position = { x = -135 y = 84 }
+				textureFile = ""
+				font = "Beyondresourcesmissing"
+				text = "available_energy"
+				maxWidth = 100
+				maxHeight = 20
+				format = right
+				#fixedsize = yes
+				pdx_tooltip = energy_desc
+				pdx_tooltip_delayed = click_to_trade
+			}
+			instantTextboxType = {
+				name = "polymers_missing"
+				position = { x = -14 y = 84 }
+				textureFile = ""
+				font = "Beyondresourcesmissing"
+				text = "available_polymers"
+				maxWidth = 100
+				maxHeight = 20
+				format = right
+				#fixedsize = yes
+				pdx_tooltip = polymers_desc
+				pdx_tooltip_delayed = click_to_trade
+			}
+			instantTextboxType = {
+				name = "lithium_missing"
+				position = { x = 107 y = 84 }
+				textureFile = ""
+				font = "Beyondresourcesmissing"
+				text = "available_lithium"
+				maxWidth = 100
+				maxHeight = 20
+				format = right
+				#fixedsize = yes
+				pdx_tooltip = lithium_desc
+				pdx_tooltip_delayed = click_to_trade
+			}
+			instantTextboxType = {
+				name = "electronics_missing"
+				position = { x = 228 y = 84 }
+				textureFile = ""
+				font = "Beyondresourcesmissing"
+				text = "available_electronics"
+				maxWidth = 100
+				maxHeight = 20
+				format = right
+				#fixedsize = yes
+				pdx_tooltip = electronics_desc
+				pdx_tooltip_delayed = click_to_trade
+			}
+			instantTextboxType = {
+				name = "superalloys_missing"
+				position = { x = 349 y = 84 }
+				textureFile = ""
+				font = "Beyondresourcesmissing"
+				text = "available_superalloys"
+				maxWidth = 100
+				maxHeight = 20
+				format = right
+				#fixedsize = yes
+				pdx_tooltip = superalloys_desc
+				pdx_tooltip_delayed = click_to_trade
+			}
+			instantTextboxType = {
+				name = "superconductors_missing"
+				position = { x = 470 y = 84 }
+				textureFile = ""
+				font = "Beyondresourcesmissing"
+				text = "available_superconductors"
+				maxWidth = 100
+				maxHeight = 20
+				format = right
+				fixedsize = yes
+				pdx_tooltip = superconductors_desc
+				pdx_tooltip_delayed = click_to_trade
+			}
+		}
+
+		iconType = {
+			name ="stability"
+			spriteType = "GFX_stability_progress"
+			position = { x= 137 y = 67 }
+		}
+		iconType = {
+			name ="war_support"
+			spriteType = "GFX_war_support_progress"
+			position = { x= 295 y = 67 }
+		}
+
+		iconType = {
+			name ="ff_bar"
+			spriteType = "GFX_ff_progress"
+			position = { x= 454 y = 67 }
+			pdx_tooltip = free_factory_time
+		}
+	}
+}
+
+guiTypes = {
+
+###############################
+########## ECOBALANCE #########
+###############################
+
+	containerWindowType = {
+		name = "ecobalance_gui_window"
+		position = { x = -300 y = 118 }
+		size = { width = 170 height = 260 }
+		orientation = UPPER_RIGHT
+		fade_time = 100
+		fade_type = linear
+		click_to_front = no
+		clipping = no
+		
+		#background = {
+		#	name = "Background"		
+		#	quadTextureSprite ="GFX_scripted_gui_window_background"
+		#}
+
+		checkboxType ={
+			name ="auto_ecobalance_button"
+			spriteType = "GFX_auto_ecobalance"
+			position = { x= -90 y = -141 }
+			pdx_tooltip = auto_decrease_ecobalance_tt
+		}
+
+		iconType ={
+			name ="reduce_ecobalance_load"
+			spriteType = "GFX_ecobalance_state_load"
+			position = { x= -17 y = -141 }
+		}
+		iconType ={
+			name ="reduce_ecobalance_load_harmony"
+			spriteType = "GFX_ecobalance_state_load_harmony"
+			position = { x= -17 y = -141 }
+		}
+		iconType ={
+			name ="reduce_ecobalance_load_mastery"
+			spriteType = "GFX_ecobalance_state_load_mastery"
+			position = { x= -17 y = -141 }
+		}
+		iconType ={
+			name ="counter_ecobalance_icon"
+			spriteType = "GFX_ecobalance_state_level_7"
+			position = { x= -17 y = -136 }
+			pdx_tooltip = "counter_ecobalance"
+		}
+		iconType ={
+			name ="no_ecobalance_icon"
+			spriteType = "GFX_ecobalance_state_level_6"
+			position = { x= -17 y = -136 }
+			pdx_tooltip = "no_ecobalance"
+		}
+		iconType ={
+			name ="minor_ecobalance_icon"
+			spriteType = "GFX_ecobalance_state_level_5"
+			position = { x= -17 y = -136 }
+			pdx_tooltip = "minor_ecobalance"
+		}
+		iconType ={
+			name ="notable_ecobalance_icon"
+			spriteType = "GFX_ecobalance_state_level_4"
+			position = { x= -17 y = -136 }
+			pdx_tooltip = "notable_ecobalance"
+		}
+		iconType ={
+			name ="major_ecobalance_icon"
+			spriteType = "GFX_ecobalance_state_level_3"
+			position = { x= -17 y = -136 }
+			pdx_tooltip = "major_ecobalance"
+		}
+		iconType ={
+			name ="significant_ecobalance_icon"
+			spriteType = "GFX_ecobalance_state_level_2"
+			position = { x= -17 y = -136 }
+			pdx_tooltip = "significant_ecobalance"
+		}
+		iconType ={
+			name ="terminal_ecobalance_icon"
+			spriteType = "GFX_ecobalance_state_level_1"
+			position = { x= -17 y = -136 }
+			pdx_tooltip = "terminal_ecobalance"
+		}
+
+		buttonType ={
+			name ="reduce_ecobalance_button"
+			spriteType = "GFX_ecobalance_state"
+			position = { x= 164 y = -220 }
+			pdx_tooltip = "decrease_ecobalance_tt"
+			pdx_tooltip_delayed = "ecobalance_tt_delayed"
+		}
+		buttonType ={
+			name ="reduce_ecobalance_button_harmony"
+			spriteType = "GFX_ecobalance_state_harmony"
+			position = { x= 164 y = -220 }
+			pdx_tooltip = "decrease_ecobalance_tt_harmony"
+			pdx_tooltip_delayed = "ecobalance_tt_delayed"
+		}
+		buttonType ={
+			name ="reduce_ecobalance_button_mastery"
+			spriteType = "GFX_ecobalance_state_mastery"
+			position = { x= 164 y = -220 }
+			pdx_tooltip = "decrease_ecobalance_tt_mastery"
+			pdx_tooltip_delayed = "ecobalance_tt_delayed"
+		}
+
+		instantTextBoxType = {
+			name = "more_more_details"
+			position = { x = 200 y = 138 }
+			font = "Focusfont"
+			text = "state_level_stuff"	
+			maxWidth = 45
+			maxHeight = 20
+			format = left
+			pdx_tooltip = infrastructure
+			#pdx_tooltip_delayed = infrastructure_desc
+		}
+
+		containerWindowType = {
+			name = "building_slots_build"
+			position = { x = 233 y = -73 }
+			clipping = no
+			
+			iconType = {
+				name = "build_slot_bg1"
+				position = { x=0 y=0 }	
+				spriteType = "GFX_build_slot_bg_build"
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "build_slot1"
+				position = { x=13 y=3 }	
+				spriteType = "GFX_no_building"
+				alwaystransparent = yes
+				frame = 2
+			}
+			iconType = {
+				name = "build_slot_bg2"
+				position = { x=0 y=50 }	
+				spriteType = "GFX_build_slot_bg_build"
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "build_slot2"
+				position = { x=13 y=53 }	
+				spriteType = "GFX_no_building"
+				alwaystransparent = yes
+				frame = 2
+			}
+			iconType = {
+				name = "build_slot_bg3"
+				position = { x=0 y=100 }	
+				spriteType = "GFX_build_slot_bg_build"
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "build_slot3"
+				position = { x=13 y=103 }	
+				spriteType = "GFX_no_building"
+				alwaystransparent = yes
+				frame = 2
+			}
+			iconType = {
+				name = "build_slot_bg4"
+				position = { x=0 y=150 }	
+				spriteType = "GFX_build_slot_bg_build"
+				alwaystransparent = yes
+			}
+			iconType = {
+				name = "build_slot4"
+				position = { x=13 y=153 }	
+				spriteType = "GFX_no_building"
+				alwaystransparent = yes
+				frame = 2
+			}
+		}
+	}
+}
+
+###############################
+###############################
+###############################

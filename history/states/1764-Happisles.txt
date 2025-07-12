@@ -1,0 +1,18 @@
+state={
+	id=1764
+	name="STATE_1764"
+	provinces={
+		10995 12960 14280
+	}
+	history = {
+		owner = ENG
+		add_core_of = ENG
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

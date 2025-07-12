@@ -1,0 +1,22 @@
+state={
+	id=358
+	name="STATE_358"
+	provinces={
+		866 1556 1572 1584 1843 1913 7388 9834 10352 10380 10407 10489 12353 12381 12439 12752 13614 13615 13616
+	}
+	history = {
+		owner = USB
+		add_core_of = USB
+		
+		victory_points = {
+			1843 20
+		}
+buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

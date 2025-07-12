@@ -1,0 +1,18 @@
+state={
+	id=1132
+	name="STATE_1132"
+	provinces={
+		652 789 876 4512 6976 6991 7530 9823 9858 9860 9954 10399 10497 11739 11759 11797 11853 11871 11880 12318 12387 12416 14524 14525 14526 14535
+	}
+	history = {
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

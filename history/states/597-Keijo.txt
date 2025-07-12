@@ -1,0 +1,22 @@
+state={
+	id=597
+	name="STATE_597"
+	provinces={
+		1100 1148 7125 7221 12040 13288 13290
+	}
+	history = {
+		owner = KOR
+		add_core_of = KOR
+		
+		victory_points = {
+			7125 25
+		}
+buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

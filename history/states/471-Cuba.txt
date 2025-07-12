@@ -1,0 +1,18 @@
+state={
+	id=471
+	name="STATE_471"
+	provinces={
+		1513 1550 1594 1635 4476 4598 4600 4641 4647 7245 7451 7546 7590 7622 7632 7660 9047 10254 10374 10484 10498 12304 12347 12477 13687 13699 13700 13702 13703 13704 13705 13706 13707 13708
+	}
+	history = {
+		owner = COL
+		add_core_of = COL
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

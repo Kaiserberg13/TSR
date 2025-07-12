@@ -1,0 +1,18 @@
+state={
+	id=25
+	name="STATE_25"
+	provinces={
+		10493 11222 11302
+	}
+	history = {
+		owner = LAT
+		add_core_of = LAT
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

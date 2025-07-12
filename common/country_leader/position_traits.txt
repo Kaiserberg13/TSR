@@ -1,0 +1,132 @@
+leader_traits = {
+
+	POSITION_the_main_authority = {
+		random = no
+		political_power_factor = 0.05
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	POSITION_prime_minister = {
+		random = no
+		political_power_factor = 0.01
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	POSITION_leader = {
+		random = no
+		political_power_factor = 0.05
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	POSITION_president = {
+		random = no
+		political_power_factor = 0.05
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	POSITION_king = {
+		random = no
+		political_power_factor = 0.05
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	POSITION_queen = {
+		random = no
+		political_power_factor = 0.05
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	POSITION_government = {
+		random = no
+		political_power_factor = 0.05
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	POSITION_governor = {
+		random = no
+		political_power_factor = 0.05
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	POSITION_minister_of_war = {
+		random = no
+		political_power_factor = 0.05
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	POSITION_head_of_junta = {
+		random = no
+		political_power_factor = 0.05
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	POSITION_head_of_state = {
+		random = no
+		political_power_factor = 0.05
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	POSITION_kaiser = {
+		random = no
+		political_power_factor = 0.05
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	POSITION_commandant = {
+		random = no
+		political_power_factor = 0.05
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	POSITION_emperor = {
+		random = no
+		political_power_factor = 0.05
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	POSITION_empress = {
+		random = no
+		political_power_factor = 0.05
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	POSITION_national_council = {
+		random = no
+		political_power_factor = 0.05
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+}

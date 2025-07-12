@@ -1,0 +1,18 @@
+state={
+	id=545
+	name="STATE_545"
+	provinces={
+		1833 4584 4696 4822 7576 12547 12589 12692 13373 13374 13375 13376 13377 13378 13380 13382 13383 13384
+	}
+	history = {
+		owner = SAF
+		add_core_of = SAF
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

@@ -1,0 +1,18 @@
+state={
+	id=499
+	name="STATE_499"
+	provinces={
+		7161 14447 14450 14451 14454 15466 15562 15596 15659
+	}
+	history = {
+		owner = COG
+		add_core_of = COG
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

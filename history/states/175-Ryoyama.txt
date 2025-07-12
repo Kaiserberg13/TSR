@@ -1,0 +1,18 @@
+state={
+	id=175
+	name="STATE_175"
+	provinces={
+		10219 15345 15361 15362 15364 15379 15382
+	}
+	history = {
+		owner = OAS
+		add_core_of = OAS
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

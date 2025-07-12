@@ -1,0 +1,448 @@
+############################################
+# Leader Title
+############################################
+defined_text = {
+	name = leader_title_one
+
+	### Leader
+	text = {
+		trigger = {
+			has_country_leader_with_trait = POSITION_leader
+		}
+		localization_key = POSITION_leader_sl_loc
+	}
+	### Prime Minister
+	text = {
+		trigger = {
+			has_country_leader_with_trait = POSITION_prime_minister
+		}
+		localization_key = POSITION_prime_minister_sl_loc
+	}
+	### President
+	text = {
+		trigger = {
+			has_country_leader_with_trait = POSITION_president
+		}
+		localization_key = POSITION_president_sl_loc
+	}
+	### King
+	text = {
+		trigger = {
+			has_country_leader_with_trait = POSITION_king
+		}
+		localization_key = POSITION_king_sl_loc
+	}
+	### Queen
+	text = {
+		trigger = {
+			has_country_leader_with_trait = POSITION_queen
+		}
+		localization_key = POSITION_queen_sl_loc
+	}
+	### Govrnment
+	text = {
+		trigger = {
+			has_country_leader_with_trait = POSITION_government
+		}
+		localization_key = POSITION_government_sl_loc
+	}
+	### Governor
+	text = {
+		trigger = {
+			has_country_leader_with_trait = POSITION_governor
+		}
+		localization_key = POSITION_governor_sl_loc
+	}
+	### Minister of war
+	text = {
+		trigger = {
+			has_country_leader_with_trait = POSITION_minister_of_war
+		}
+		localization_key = POSITION_minister_of_war_sl_loc
+	}
+	### Head of junta
+	text = {
+		trigger = {
+			has_country_leader_with_trait = POSITION_head_of_junta
+		}
+		localization_key = POSITION_head_of_junta_sl_loc
+	}
+	### Commandant
+	text = {
+		trigger = {
+			has_country_leader_with_trait = POSITION_commandant
+		}
+		localization_key = POSITION_commandant_sl_loc
+	}
+	### Emperor
+	text = {
+		trigger = {
+			has_country_leader_with_trait = POSITION_emperor
+		}
+		localization_key = POSITION_emperor_sl_loc
+	}
+	### Empress
+	text = {
+		trigger = {
+			has_country_leader_with_trait = POSITION_empress
+		}
+		localization_key = POSITION_empress_sl_loc
+	}
+	### National council
+	text = {
+		trigger = {
+			has_country_leader_with_trait = POSITION_national_council
+		}
+		localization_key = POSITION_national_council_sl_loc
+	}
+	### head of state
+	text = {
+		trigger = {
+			has_country_leader_with_trait = POSITION_head_of_state
+		}
+		localization_key = POSITION_head_of_state_sl_loc
+	}
+	### head of state
+	text = {
+		trigger = {
+			has_country_leader_with_trait = POSITION_kaiser
+		}
+		localization_key = POSITION_kaiser_sl_loc
+	}
+
+}
+############################################
+# Secondary Leader Title
+############################################
+defined_text = {
+	name = leader_title_two
+
+	### Leader
+	text = {
+		trigger = {
+			has_idea_with_trait = POSITION_leader
+		}
+		localization_key = POSITION_leader_sl_loc
+	}
+	### Prime Minister
+	text = {
+		trigger = {
+			has_idea_with_trait = POSITION_prime_minister
+		}
+		localization_key = POSITION_prime_minister_sl_loc
+	}
+	### President
+	text = {
+		trigger = {
+			has_idea_with_trait = POSITION_president
+		}
+		localization_key = POSITION_president_sl_loc
+	}
+	### King
+	text = {
+		trigger = {
+			has_idea_with_trait = POSITION_king
+		}
+		localization_key = POSITION_king_sl_loc
+	}
+	### Queen
+	text = {
+		trigger = {
+			has_idea_with_trait = POSITION_queen
+		}
+		localization_key = POSITION_queen_sl_loc
+	}
+	### Govrnment
+	text = {
+		trigger = {
+			has_idea_with_trait = POSITION_government
+		}
+		localization_key = POSITION_government_sl_loc
+	}
+	### Governor
+	text = {
+		trigger = {
+			has_idea_with_trait = POSITION_governor
+		}
+		localization_key = POSITION_governor_sl_loc
+	}
+	### Minister of war
+	text = {
+		trigger = {
+			has_idea_with_trait = POSITION_minister_of_war
+		}
+		localization_key = POSITION_minister_of_war_sl_loc
+	}
+	### Head of junta
+	text = {
+		trigger = {
+			has_idea_with_trait = POSITION_head_of_junta
+		}
+		localization_key = POSITION_head_of_junta_sl_loc
+	}
+	### Commandant
+	text = {
+		trigger = {
+			has_idea_with_trait = POSITION_commandant
+		}
+		localization_key = POSITION_commandant_sl_loc
+	}
+	### Emperor
+	text = {
+		trigger = {
+			has_idea_with_trait = POSITION_emperor
+		}
+		localization_key = POSITION_emperor_sl_loc
+	}
+	### Empress
+	text = {
+		trigger = {
+			has_idea_with_trait = POSITION_empress
+		}
+		localization_key = POSITION_empress_sl_loc
+	}
+	### National council
+	text = {
+		trigger = {
+			has_idea_with_trait = POSITION_national_council
+		}
+		localization_key = POSITION_national_council_sl_loc
+	}
+	### head of state
+	text = {
+		trigger = {
+			has_idea_with_trait = POSITION_head_of_state
+		}
+		localization_key = POSITION_head_of_state_sl_loc
+	}
+	### Kaiser
+	text = {
+		trigger = {
+			has_idea_with_trait = POSITION_kaiser
+		}
+		localization_key = POSITION_kaiser_sl_loc
+	}
+
+}
+############################################
+# Manner of Address
+############################################
+defined_text = {
+	name = address_leader_one
+
+	### Leader
+	text = {
+		trigger = {
+			has_country_leader_with_trait = POSITION_Leader
+		}
+		localization_key = ADDRESS_leader_sl_loc
+	}
+	### Prime Minister
+	text = {
+		trigger = {
+			has_country_leader_with_trait = POSITION_prime_minister
+		}
+		localization_key = ADDRESS_prime_minister_sl_loc
+	}
+	### President
+	text = {
+		trigger = {
+			has_country_leader_with_trait = POSITION_president
+		}
+		localization_key = ADDRESS_president_sl_loc
+	}
+	### King
+	text = {
+		trigger = {
+			has_country_leader_with_trait = POSITION_king
+		}
+		localization_key = ADDRESS_king_sl_loc
+	}
+	### Queen
+	text = {
+		trigger = {
+			has_country_leader_with_trait = POSITION_queen
+		}
+		localization_key = ADDRESS_queen_sl_loc
+	}	
+	### Govrnment
+	text = {
+		trigger = {
+			has_country_leader_with_trait = POSITION_government
+		}
+		localization_key = ADDRESS_government_sl_loc
+	}
+	### Governor
+	text = {
+		trigger = {
+			has_country_leader_with_trait = POSITION_governor
+		}
+		localization_key = ADDRESS_governor_sl_loc
+	}
+	### Minister of war
+	text = {
+		trigger = {
+			has_country_leader_with_trait = POSITION_minister_of_war
+		}
+		localization_key = ADDRESS_minister_of_war_sl_loc
+	}
+	### Head of junta
+	text = {
+		trigger = {
+			has_country_leader_with_trait = POSITION_head_of_junta
+		}
+		localization_key = ADDRESS_head_of_junta_sl_loc
+	}
+	### Commandant
+	text = {
+		trigger = {
+			has_country_leader_with_trait = POSITION_commandant
+		}
+		localization_key = ADDRESS_commandant_sl_loc
+	}
+	### Emperor
+	text = {
+		trigger = {
+			has_country_leader_with_trait = POSITION_emperor
+		}
+		localization_key = ADDRESS_emperor_sl_loc
+	}
+	### Empress
+	text = {
+		trigger = {
+			has_country_leader_with_trait = POSITION_empress
+		}
+		localization_key = ADDRESS_empress_sl_loc
+	}
+	### National council
+	text = {
+		trigger = {
+			has_country_leader_with_trait = POSITION_national_council
+		}
+		localization_key = ADDRESS_national_council_sl_loc
+	}
+	### head of state
+	text = {
+		trigger = {
+			has_country_leader_with_trait = POSITION_head_of_state
+		}
+		localization_key = ADDRESS_head_of_state_sl_loc
+	}
+	### Kaiser
+	text = {
+		trigger = {
+			has_country_leader_with_trait = POSITION_kaiser
+		}
+		localization_key = ADDRESS_kaiser_sl_loc
+	}
+}
+defined_text = {
+	name = address_leader_two
+
+	### Leader
+	text = {
+		trigger = {
+			has_idea_with_trait = POSITION_Leader
+		}
+		localization_key = ADDRESS_leader_sl_loc
+	}
+	### Prime Minister
+	text = {
+		trigger = {
+			has_idea_with_trait = POSITION_prime_minister
+		}
+		localization_key = ADDRESS_prime_minister_sl_loc
+	}
+	### President
+	text = {
+		trigger = {
+			has_idea_with_trait = POSITION_president
+		}
+		localization_key = ADDRESS_president_sl_loc
+	}
+	### King
+	text = {
+		trigger = {
+			has_idea_with_trait = POSITION_king
+		}
+		localization_key = ADDRESS_king_sl_loc
+	}
+	### Queen
+	text = {
+		trigger = {
+			has_idea_with_trait = POSITION_queen
+		}
+		localization_key = ADDRESS_queen_sl_loc
+	}
+	### Govrnment
+	text = {
+		trigger = {
+			has_idea_with_trait = POSITION_government
+		}
+		localization_key = ADDRESS_government_sl_loc
+	}
+	### Governor
+	text = {
+		trigger = {
+			has_idea_with_trait = POSITION_governor
+		}
+		localization_key = ADDRESS_governor_sl_loc
+	}
+	### Minister of war
+	text = {
+		trigger = {
+			has_idea_with_trait = POSITION_minister_of_war
+		}
+		localization_key = ADDRESS_minister_of_war_sl_loc
+	}
+	### Head of junta
+	text = {
+		trigger = {
+			has_idea_with_trait = POSITION_head_of_junta
+		}
+		localization_key = ADDRESS_head_of_junta_sl_loc
+	}
+	### Commandant
+	text = {
+		trigger = {
+			has_idea_with_trait = POSITION_commandant
+		}
+		localization_key = ADDRESS_commandant_sl_loc
+	}
+	### Emperor
+	text = {
+		trigger = {
+			has_idea_with_trait = POSITION_emperor
+		}
+		localization_key = ADDRESS_emperor_sl_loc
+	}
+	### Empress
+	text = {
+		trigger = {
+			has_idea_with_trait = POSITION_empress
+		}
+		localization_key = ADDRESS_empress_sl_loc
+	}
+	### National council
+	text = {
+		trigger = {
+			has_idea_with_trait = POSITION_national_council
+		}
+		localization_key = ADDRESS_national_council_sl_loc
+	}
+	### Head of state
+	text = {
+		trigger = {
+			has_idea_with_trait = POSITION_head_of_state
+		}
+		localization_key = ADDRESS_head_of_state_sl_loc
+	}
+	### Kaiser
+	text = {
+		trigger = {
+			has_idea_with_trait = POSITION_kaiser
+		}
+		localization_key = ADDRESS_kaiser_sl_loc
+	}
+
+}

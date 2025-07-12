@@ -1,0 +1,18 @@
+state={
+	id=1376
+	name="STATE_1376"
+	provinces={
+		2016 8052 8084 10827 14170 16722 16731
+	}
+	history = {
+		owner = SUD
+		add_core_of = SUD
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

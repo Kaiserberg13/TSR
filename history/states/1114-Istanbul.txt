@@ -1,0 +1,22 @@
+state={
+	id=1114
+	name="STATE_1114"
+	provinces={
+		9833
+	}
+	history = {
+		owner = GRE
+		add_core_of = GRE
+		
+		victory_points = {
+			9833 20
+		}
+buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

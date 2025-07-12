@@ -1,0 +1,18 @@
+state={
+	id=706
+	name="STATE_706"
+	provinces={
+		1938 10106 10804 13335 13336 13340 13343
+	}
+	history = {
+		owner = IRQ
+		add_core_of = IRQ
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

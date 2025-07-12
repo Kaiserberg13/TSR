@@ -1,0 +1,18 @@
+state={
+	id=294
+	name="STATE_294"
+	provinces={
+		14288
+	}
+	history = {
+		owner = TAG
+		add_core_of = TAG
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

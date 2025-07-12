@@ -1,0 +1,18 @@
+state={
+	id=1030
+	name="STATE_1030"
+	provinces={
+		564 3397 3524 6549 9524 9547 11445 11533 13116
+	}
+	history = {
+		owner = GER
+		add_core_of = GER
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=400240
+    state_category = rural
+}

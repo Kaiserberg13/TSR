@@ -1,0 +1,18 @@
+state={
+	id=1480
+	name="STATE_1480"
+	provinces={
+		10749 13857 16238 16242 16243 16249 16250 16266 16268 16275 16278 16297 16298 17016 17017 17030 17040 17041 17044 17045 17048 17060 17064 17066 17074 17075 17080 17094 17099
+	}
+	history = {
+		owner = ALG
+		add_core_of = ALG
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

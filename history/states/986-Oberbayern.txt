@@ -1,0 +1,22 @@
+state={
+	id=986
+	name="STATE_986"
+	provinces={
+		692 708 3690 3705 6540 6693 9652 9666 11620 11638 11653
+	}
+	history = {
+		owner = GER
+		add_core_of = GER
+		
+		victory_points = {
+			692 20
+		}
+buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=8917712
+    state_category = rural
+}

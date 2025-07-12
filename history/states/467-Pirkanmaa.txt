@@ -1,0 +1,18 @@
+state={
+	id=467
+	name="STATE_467"
+	provinces={
+		67 3137 6047 6163 9056 9073 9160 9163 9167 11138 13103 13104 13106 13107 13666
+	}
+	history = {
+		owner = FIN
+		add_core_of = FIN
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

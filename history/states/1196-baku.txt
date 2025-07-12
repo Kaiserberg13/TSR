@@ -1,0 +1,22 @@
+state={
+	id=1196
+	name="STATE_1196"
+	provinces={
+		1536 4458 4477 4545 4614 6763 7495 7661 11645
+	}
+	history = {
+		owner = SOV
+		add_core_of = SOV
+		
+		victory_points = {
+			7661 10
+		}
+buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

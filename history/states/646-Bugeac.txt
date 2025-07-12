@@ -1,0 +1,18 @@
+state={
+	id=646
+	name="STATE_646"
+	provinces={
+		3701 3704 6727 9683
+	}
+	history = {
+		owner = ROM
+		add_core_of = ROM
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	manpower=1
+	state_category = rural
+}

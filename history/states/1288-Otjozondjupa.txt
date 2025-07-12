@@ -1,0 +1,18 @@
+state={
+	id=1288
+	name="STATE_1288"
+	provinces={
+		7770 8136 10957 13449 13456 13460 13461 13463 15219 15220
+	}
+	history = {
+		owner = NAM
+		add_core_of = NAM
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

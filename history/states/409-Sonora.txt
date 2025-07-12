@@ -1,0 +1,18 @@
+state={
+	id=409
+	name="STATE_409"
+	provinces={
+		2069 4908 4977 5071 8012 8033 10765 10848 12833
+	}
+	history = {
+		owner = MEX
+		add_core_of = MEX
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

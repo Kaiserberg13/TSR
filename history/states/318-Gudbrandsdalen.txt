@@ -1,0 +1,19 @@
+state={
+	id=318
+	name="STATE_318"
+	provinces={
+		102 6114 6136 9135 9227 11113 11206
+	}
+	history = {
+		owner = NOR
+		add_core_of = NOR
+		buildings = {
+		
+		}
+	}
+	
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	manpower=1
+	state_category = rural
+}

@@ -1,0 +1,18 @@
+state={
+	id=1720
+	name="STATE_1720"
+	provinces={
+		227 298 403 1350 3216 3265 3289 3330 3348 3357 3385 4283 4324 6308 6352 6368 6379 7237 7343 9349 9385 11256 11389 12172
+	}
+	history = {
+		owner = SOV
+		add_core_of = SOV
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

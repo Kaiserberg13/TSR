@@ -1,0 +1,18 @@
+state={
+	id=486
+	name="STATE_486"
+	provinces={
+		3985 6614 6957 9586
+	}
+	history = {
+		owner = BOS
+		add_core_of = BOS
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

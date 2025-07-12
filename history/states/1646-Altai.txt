@@ -1,0 +1,18 @@
+state={
+	id=1646
+	name="STATE_1646"
+	provinces={
+		4781 4800 10531 10713 12509
+	}
+	history = {
+		owner = KAZ
+		add_core_of = KAZ
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

@@ -1,0 +1,18 @@
+state={
+	id=1557
+	name="STATE_1557"
+	provinces={
+		12727 14707 16660 16661 16664
+	}
+	history = {
+		owner = SAU
+		add_core_of = SAU
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

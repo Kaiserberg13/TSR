@@ -1,0 +1,161 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_idea_disarmed_nation"
+		texturefile = "gfx/interface/ideas/laws/manpower/idea_manpower_1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_minimum_conscription"
+		texturefile = "gfx/interface/ideas/laws/manpower/idea_manpower_2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_default_conscription"
+		texturefile = "gfx/interface/ideas/laws/manpower/idea_manpower_3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_war_conscription"
+		texturefile = "gfx/interface/ideas/laws/manpower/idea_manpower_4.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_long_war_conscription"
+		texturefile = "gfx/interface/ideas/laws/manpower/idea_manpower_5.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_total_conscription"
+		texturefile = "gfx/interface/ideas/laws/manpower/idea_manpower_6.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_total_war_conscription"
+		texturefile = "gfx/interface/ideas/laws/manpower/idea_manpower_7.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_final_conscription"
+		texturefile = "gfx/interface/ideas/laws/manpower/idea_manpower_8.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_mobilization_1"
+		texturefile = "gfx/interface/ideas/laws/mobilization/idea_mobilization_1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_mobilization_2"
+		texturefile = "gfx/interface/ideas/laws/mobilization/idea_mobilization_2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_mobilization_3"
+		texturefile = "gfx/interface/ideas/laws/mobilization/idea_mobilization_3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_mobilization_4"
+		texturefile = "gfx/interface/ideas/laws/mobilization/idea_mobilization_4.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_mobilization_5"
+		texturefile = "gfx/interface/ideas/laws/mobilization/idea_mobilization_5.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_trade_1"
+		texturefile = "gfx/interface/ideas/laws/trade/idea_trade_1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_trade_2"
+		texturefile = "gfx/interface/ideas/laws/trade/idea_trade_2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_trade_3"
+		texturefile = "gfx/interface/ideas/laws/trade/idea_trade_3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_trade_4"
+		texturefile = "gfx/interface/ideas/laws/trade/idea_trade_4.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_production_1"
+		texturefile = "gfx/interface/ideas/laws/production/idea_production_1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_production_2"
+		texturefile = "gfx/interface/ideas/laws/production/idea_production_2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_production_3"
+		texturefile = "gfx/interface/ideas/laws/production/idea_production_3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_production_4"
+		texturefile = "gfx/interface/ideas/laws/production/idea_production_4.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_intelligence_1"
+		texturefile = "gfx/interface/ideas/laws/intelligence/idea_intelligence_1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_intelligence_2"
+		texturefile = "gfx/interface/ideas/laws/intelligence/idea_intelligence_2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_intelligence_3"
+		texturefile = "gfx/interface/ideas/laws/intelligence/idea_intelligence_3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_economy_corporatocracy"
+		texturefile = "gfx/interface/ideas/laws/economy/idea_economy_corporatocracy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_economy_digital"
+		texturefile = "gfx/interface/ideas/laws/economy/idea_economy_digital.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_economy_market"
+		texturefile = "gfx/interface/ideas/laws/economy/idea_economy_market.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_economy_planned"
+		texturefile = "gfx/interface/ideas/laws/economy/idea_economy_planned.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_economy_traditional"
+		texturefile = "gfx/interface/ideas/laws/economy/idea_economy_traditional.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_economy_war"
+		texturefile = "gfx/interface/ideas/laws/economy/idea_economy_war.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_collapsing_economy"
+		texturefile = "gfx/interface/ideas/laws/economy/idea_economy_collapsing.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_collapsed_economy"
+		texturefile = "gfx/interface/ideas/laws/economy/idea_economy_collapsed.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_generic_industrial_concern_1"
+		texturefile = "gfx/interface/ideas/concern/idea_generic_industrial_concern_1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_generic_industrial_concern_2"
+		texturefile = "gfx/interface/ideas/concern/idea_generic_industrial_concern_2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_generic_industrial_concern_3"
+		texturefile = "gfx/interface/ideas/concern/idea_generic_industrial_concern_3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_generic_industrial_concern_4"
+		texturefile = "gfx/interface/ideas/concern/idea_generic_industrial_concern_4.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_generic_industrial_concern_5"
+		texturefile = "gfx/interface/ideas/concern/idea_generic_industrial_concern_5.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_generic_industrial_concern_6"
+		texturefile = "gfx/interface/ideas/concern/idea_generic_industrial_concern_6.dds"
+	}
+}

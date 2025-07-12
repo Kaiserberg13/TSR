@@ -1,0 +1,18 @@
+state={
+	id=1333
+	name="STATE_1333"
+	provinces={
+		16198 16206 16222 16226 16233 16260 16265 17001 17002 17019 17029
+	}
+	history = {
+		owner = EGY
+		add_core_of = EGY
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

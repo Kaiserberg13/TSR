@@ -1,0 +1,64 @@
+spriteTypes = {
+
+	# concerns and mios
+	spriteType = {
+		name = "GFX_mio_generic_arstotzka"
+		texturefile = "gfx/interface/ideas/mio/mio_generic_arstotzka.dds"
+	}
+	spriteType = {
+		name = "GFX_mio_generic_rotatosk"
+		texturefile = "gfx/interface/ideas/mio/mio_generic_rotatosk.dds"
+	}
+	spriteType = {
+		name = "GFX_mio_generic_ws_infantry_equipment"
+		texturefile = "gfx/interface/ideas/mio/mio_generic_ws_infantry_equipment.dds"
+	}
+	spriteType = {
+		name = "GFX_mio_generic_artillery_organization"
+		texturefile = "gfx/interface/ideas/mio/mio_generic_artillery.dds"
+	}
+
+	# Country
+	# HIHIHAHA
+	spriteType = {
+		name = "GFX_idea_AUS_idea_national_burn"
+		texturefile = "gfx/interface/ideas/AUS/AUS_idea_national_burn.dds"
+	}
+	# YUG
+	spriteType = {
+		name = "GFX_idea_YUG_big_brother_is_watching_you"
+		texturefile = "gfx/interface/ideas/YUG/YUG_big_brother_is_watching_you.png"
+	}
+	spriteType = {
+		name = "GFX_idea_YUG_newslavia"
+		texturefile = "gfx/interface/ideas/YUG/YUG_newslavia.png"
+	}
+	spriteType = {
+		name = "GFX_idea_YUG_principle_of_slavic_democracy"
+		texturefile = "gfx/interface/ideas/YUG/YUG_principle_of_slavic_democracy.png"
+	}
+	spriteType = {
+		name = "GFX_idea_YUG_the_collapse_of_the_regime"
+		texturefile = "gfx/interface/ideas/YUG/YUG_the_collapse_of_the_regime.png"
+	}
+	spriteType = {
+		name = "GFX_idea_YUG_multinational_army"
+		texturefile = "gfx/interface/ideas/YUG/YUG_multinational_army.png"
+	}
+	spriteType = {
+		name = "GFX_idea_YUG_state_army"
+		texturefile = "gfx/interface/ideas/YUG/YUG_state_army.png"
+	}
+	spriteType = {
+		name = "GFX_idea_YUG_plan_absolute_cinema"
+		texturefile = "gfx/interface/ideas/YUG/YUG_plan_absolute_cinema.png"
+	}
+
+	# GRN
+	spriteType = {
+		name = "GFX_idea_GRM_frieda_army"
+		texturefile = "gfx/interface/ideas/GRM/GRM_frieda_army.png"
+	}
+	
+
+}

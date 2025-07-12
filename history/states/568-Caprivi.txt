@@ -1,0 +1,18 @@
+state={
+	id=568
+	name="STATE_568"
+	provinces={
+		13467 13468
+	}
+	history = {
+		owner = ZAM
+		add_core_of = ZAM
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

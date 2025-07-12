@@ -1,0 +1,22 @@
+state={
+	id=1163
+	name="STATE_1163"
+	provinces={
+		6344 9288 9342 9371 11229 11298 11355 13738
+	}
+	history = {
+		owner = BLR
+		add_core_of = BLR
+		
+		victory_points = {
+			9288 10
+		}
+buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

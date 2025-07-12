@@ -1,0 +1,18 @@
+state={
+	id=1265
+	name="STATE_1265"
+	provinces={
+		8096 10836 13798 13801 14005 14006
+	}
+	history = {
+		owner = VOL
+		add_core_of = VOL
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

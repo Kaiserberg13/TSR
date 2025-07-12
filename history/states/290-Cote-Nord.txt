@@ -1,0 +1,18 @@
+state={
+	id=290
+	name="STATE_290"
+	provinces={
+		4769 7683 7807 7810 7893 10534 10715 14210 14211
+	}
+	history = {
+		owner = CAN
+		add_core_of = CAN
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

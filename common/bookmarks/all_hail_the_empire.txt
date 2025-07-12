@@ -1,0 +1,29 @@
+bookmarks = {
+	bookmark = {
+		name = "ALL_HAIL_THE_EMPIRE_NAME"
+		desc = "ALL_HAIL_THE_EMPIRE_DESC"
+		date = 2967.6.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "GER"
+		default = yes
+		
+		"ENG"={
+			history = "ALL_HAIL_THE_EMPIRE_ENG_DESC"
+		}
+		"USA"={
+			history = "ALL_HAIL_THE_EMPIRE_USA_DESC"
+		}
+		"SAF"={
+			history = "ALL_HAIL_THE_EMPIRE_SAF_DESC"
+		}
+		"GER"={
+			history = "ALL_HAIL_THE_EMPIRE_GER_DESC"
+		}
+		"SOV"={
+			history = "ALL_HAIL_THE_EMPIRE_SOV_DESC"
+		}
+		"OAS"={
+			history = "ALL_HAIL_THE_EMPIRE_OAS_DESC"
+		}
+	}
+}

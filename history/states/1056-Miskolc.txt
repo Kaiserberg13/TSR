@@ -1,0 +1,18 @@
+state={
+	id=1056
+	name="STATE_1056"
+	provinces={
+		3713 3731 6751 9690 11520 13271 13272
+	}
+	history = {
+		owner = HUN
+		add_core_of = HUN
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

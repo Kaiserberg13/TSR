@@ -1,0 +1,18 @@
+state={
+	id=1611
+	name="STATE_1611"
+	provinces={
+		4215 4411 7281 7328 7401 10196 10224 10256
+	}
+	history = {
+		owner = KAZ
+		add_core_of = KAZ
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

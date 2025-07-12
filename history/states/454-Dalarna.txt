@@ -1,0 +1,18 @@
+state={
+	id=454
+	name="STATE_454"
+	provinces={
+		77 114 156 3005 3070 3148 6093 6147 9173 9182 9193 11053 11197 13099
+	}
+	history = {
+		owner = SWE
+		add_core_of = SWE
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

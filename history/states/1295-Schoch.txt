@@ -1,0 +1,18 @@
+state={
+	id=1295
+	name="STATE_1295"
+	provinces={
+		11012 13817 13819 13821 13826
+	}
+	history = {
+		owner = GAB
+		add_core_of = GAB
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

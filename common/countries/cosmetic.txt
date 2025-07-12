@@ -1,0 +1,36 @@
+# Empire
+ENG_empire = {
+	color = rgb { 225 20 20 }
+	color_ui = rgb { 220 0 0 }
+}
+GRM_CROWN_PROTECTORATE = {
+	color = rgb { 200 45 45 }
+	color_ui = rgb { 200 45 45 }
+}
+FRA_CROWN_PROTECTORATE = {
+	color = rgb { 210 45 45 }
+	color_ui = rgb { 210 45 45 }
+}
+IBR_CROWN_PROTECTORATE = {
+	color = rgb { 200 45 45 }
+	color_ui = rgb { 200 45 45 }
+}
+
+# Baltic
+BALTIC_DUCHY = {
+	color = rgb { 80 120 140 }         
+	color_ui = rgb { 95 145 160 }
+}
+# SAF
+NAM_SAF_UNION = {
+	color = rgb { 148 88 121 }
+	color_ui = rgb { 140 80 113 }
+}
+BOT_SAF_UNION = {
+	color = rgb { 129 69 98 }
+	color_ui = rgb { 140 60 93 }
+}
+ANG_SAF_UNION = {
+	color = rgb { 159 99 131 }
+	color_ui = rgb { 140 80 113 }
+}

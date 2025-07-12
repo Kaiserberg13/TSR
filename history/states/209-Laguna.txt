@@ -1,0 +1,18 @@
+state={
+	id=209
+	name="STATE_209"
+	provinces={
+		1221 1288 1388 4288 7323 10236 10265 10272 10306 12236 16103
+	}
+	history = {
+		owner = PHI
+		add_core_of = PHI
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

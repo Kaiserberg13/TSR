@@ -1,0 +1,22 @@
+state={
+	id=1251
+	name="STATE_1251"
+	provinces={
+		12985 14349 14350 14351
+	}
+	history = {
+		owner = ANG
+		add_core_of = ANG
+		
+		victory_points = {
+			14350 25
+		}
+buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

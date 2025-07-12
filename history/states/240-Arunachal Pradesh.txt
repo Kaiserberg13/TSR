@@ -1,0 +1,18 @@
+state={
+	id=240
+	name="STATE_240"
+	provinces={
+		1116 1996 10810 12730 14329
+	}
+	history = {
+		owner = PRC
+		add_core_of = PRC
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

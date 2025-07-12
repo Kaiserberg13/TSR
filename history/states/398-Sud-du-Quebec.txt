@@ -1,0 +1,18 @@
+state={
+	id=398
+	name="STATE_398"
+	provinces={
+		490 983 1284 1341 1356 1764 3911 4305 4345 4417 4419 4422 7289 7291 7345 7433 7435 7875 9601 10174 10230 10249 10320 10700 11682 11902 12149 12205 12223 12276 12291 13160 14202 14204 14206 14207 14208 14213
+	}
+	history = {
+		owner = CAN
+		add_core_of = CAN
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

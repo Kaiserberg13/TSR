@@ -1,0 +1,18 @@
+state={
+	id=1133
+	name="STATE_1133"
+	provinces={
+		3903 3950 6919 6950 9777 9868 14534
+	}
+	history = {
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

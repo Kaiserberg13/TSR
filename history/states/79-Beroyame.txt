@@ -1,0 +1,18 @@
+state={
+	id=79
+	name="STATE_79"
+	provinces={
+		4593 7269 15628
+	}
+	history = {
+		owner = OAS
+		add_core_of = OAS
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

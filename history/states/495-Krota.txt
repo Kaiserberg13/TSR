@@ -1,0 +1,18 @@
+state={
+	id=495
+	name="STATE_495"
+	provinces={
+		988 2073 7931 10883 12741 12824 14474 14477 14479 14480 15872 15883 15892 15903 15910 15916 15926 15948 15955
+	}
+	history = {
+		owner = COG
+		add_core_of = COG
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

@@ -1,0 +1,18 @@
+state={
+	id=621
+	name="STATE_621"
+	provinces={
+		30 103 124 162 167 203 2992 3055 3069 3097 3107 3156 3158 3193 6061 6076 6087 6128 6137 6142 6179 9112 9189 9223 11030 11115 11125 11130 11164 11167 11204 13245
+	}
+	history = {
+		owner = FIN
+		add_core_of = FIN
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

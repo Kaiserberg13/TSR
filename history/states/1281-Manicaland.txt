@@ -1,0 +1,18 @@
+state={
+	id=1281
+	name="STATE_1281"
+	provinces={
+		2151 7842 13530 13537
+	}
+	history = {
+		owner = BOT
+		add_core_of = BOT
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

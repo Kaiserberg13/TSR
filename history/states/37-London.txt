@@ -1,0 +1,22 @@
+state={
+	id=37
+	name="STATE_37"
+	provinces={
+		9239 11221 11333
+	}
+	history = {
+		owner = ENG
+		add_core_of = ENG
+		
+		victory_points = {
+			11333 25
+		}
+buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

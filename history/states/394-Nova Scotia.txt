@@ -1,0 +1,18 @@
+state={
+	id=394
+	name="STATE_394"
+	provinces={
+		1354 4430 4623 7304 7361 7644 10244
+	}
+	history = {
+		owner = USA
+		add_core_of = USA
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

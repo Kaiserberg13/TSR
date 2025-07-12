@@ -1,0 +1,18 @@
+state={
+	id=1443
+	name="STATE_1443"
+	provinces={
+		16158 16172 16182 16192 16199 16898 16924 16966
+	}
+	history = {
+		owner = LBA
+		add_core_of = LBA
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

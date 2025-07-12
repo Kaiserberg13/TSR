@@ -1,0 +1,22 @@
+state={
+	id=264
+	name="STATE_264"
+	provinces={
+		11666 14225
+	}
+	history = {
+		owner = AUS
+		add_core_of = AUS
+		
+		victory_points = {
+			11666 25
+		}
+buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

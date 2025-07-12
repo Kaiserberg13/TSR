@@ -1,0 +1,18 @@
+state={
+	id=463
+	name="STATE_463"
+	provinces={
+		13622 13697
+	}
+	history = {
+		owner = COL
+		add_core_of = COL
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

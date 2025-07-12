@@ -1,0 +1,18 @@
+state={
+	id=1371
+	name="STATE_1371"
+	provinces={
+		4033 10851 14147 14151 14155 14156 14160
+	}
+	history = {
+		owner = SUD
+		add_core_of = SUD
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

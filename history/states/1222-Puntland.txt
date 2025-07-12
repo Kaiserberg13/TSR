@@ -1,0 +1,18 @@
+state={
+	id=1222
+	name="STATE_1222"
+	provinces={
+		1966 4909 10891 13427 13430 13432 13434
+	}
+	history = {
+		owner = SOM
+		add_core_of = SOM
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

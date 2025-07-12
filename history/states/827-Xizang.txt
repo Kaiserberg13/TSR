@@ -1,0 +1,18 @@
+state={
+	id=827
+	name="STATE_827"
+	provinces={
+		1882 1961 1991 2010 2014 2098 4407 4900 4914 4964 4994 5018 5033 5042 5080 5102 7926 7940 8018 8029 8037 8041 8059 8104 8121 10741 10802 10856 10918 12425 12801 12807 12899 14322 14326 14327 14330 14798 14799 14800 14801
+	}
+	history = {
+		owner = PRC
+		add_core_of = PRC
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

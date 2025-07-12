@@ -1,0 +1,18 @@
+state={
+	id=1496
+	name="STATE_1496"
+	provinces={
+		14021 16119 16121 16125 16127 16129 16131 16134 16141 16145 16148 16154 16163 16180 16181 16191 16790 16803 16805 16806 16815 16822 16826 16827 16831 16839 16853 16867 16873 16884 16900 16909 16910 16927 16928 16946 16970 16975 17123
+	}
+	history = {
+		owner = MRT
+		add_core_of = MRT
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

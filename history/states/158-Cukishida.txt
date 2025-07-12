@@ -1,0 +1,26 @@
+state={
+	id=158
+	name="STATE_158"
+	provinces={
+		15890 15891 15895 15901 15906 15928 15931 15945 15953 15956 15958 15969 15975 15986 15992 16010
+	}
+	history = {
+		owner = OAS
+		add_core_of = OAS
+		
+		
+		victory_points = {
+			16010 5
+		}
+victory_points = {
+			15895 10
+		}
+buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

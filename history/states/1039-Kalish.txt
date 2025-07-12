@@ -1,0 +1,18 @@
+state={
+	id=1039
+	name="STATE_1039"
+	provinces={
+		584 9439 9546
+	}
+	history = {
+		owner = POL
+		add_core_of = POL
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

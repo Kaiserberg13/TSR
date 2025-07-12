@@ -1,0 +1,18 @@
+state={
+	id=737
+	name="STATE_737"
+	provinces={
+		13311 13312
+	}
+	history = {
+		owner = SYR
+		add_core_of = SYR
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

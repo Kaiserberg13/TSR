@@ -1,0 +1,18 @@
+state={
+	id=493
+	name="STATE_493"
+	provinces={
+		6027 7133 12808 13177 14473 14475 14476 14478 15873 15880 15894 15899 15902 15917 15918 15921 15922 15927 15934
+	}
+	history = {
+		owner = COG
+		add_core_of = COG
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

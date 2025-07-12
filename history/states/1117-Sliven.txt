@@ -1,0 +1,18 @@
+state={
+	id=1117
+	name="STATE_1117"
+	provinces={
+		649 6967 9612 9769 9888 13608
+	}
+	history = {
+		owner = BUL
+		add_core_of = BUL
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

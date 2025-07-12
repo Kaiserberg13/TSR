@@ -1,0 +1,18 @@
+state={
+	id=589
+	name="STATE_589"
+	provinces={
+		8165 8237 13132
+	}
+	history = {
+		owner = AST
+		add_core_of = AST
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

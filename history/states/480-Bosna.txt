@@ -1,0 +1,22 @@
+state={
+	id=480
+	name="STATE_480"
+	provinces={
+		6799 11899 13602
+	}
+	history = {
+		owner = BOS
+		add_core_of = BOS
+		
+		victory_points = {
+			11899 25
+		}
+buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

@@ -1,0 +1,18 @@
+state={
+	id=333
+	name="STATE_333"
+	provinces={
+		3307 6120 6345 6412 9279 9300 9362 11160 11215 11327 11376 14406
+	}
+	history = {
+		owner = DEN
+		add_core_of = DEN
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

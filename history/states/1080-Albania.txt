@@ -1,0 +1,22 @@
+state={
+	id=1080
+	name="STATE_1080"
+	provinces={
+		3884 3896 9780 9875 9914 11762
+	}
+	history = {
+		owner = ALB
+		add_core_of = ALB
+		
+		victory_points = {
+			9914 25
+		}
+buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

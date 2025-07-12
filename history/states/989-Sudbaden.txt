@@ -1,0 +1,18 @@
+state={
+	id=989
+	name="STATE_989"
+	provinces={
+		3679 3692 6542 6712 6934 11640 13126
+	}
+	history = {
+		owner = GER
+		add_core_of = GER
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=410231
+    state_category = rural
+}

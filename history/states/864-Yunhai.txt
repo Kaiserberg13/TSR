@@ -1,0 +1,22 @@
+state={
+	id=864
+	name="STATE_864"
+	provinces={
+		4042 7014 10034 10076 12052 12076
+	}
+	history = {
+		owner = PRC
+		add_core_of = PRC
+		
+		victory_points = {
+			7014 20
+		}
+buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

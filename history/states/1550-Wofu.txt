@@ -1,0 +1,18 @@
+state={
+	id=1550
+	name="STATE_1550"
+	provinces={
+		2059 13567 16503 16508 16514 16519 16528 16530 16531 16539
+	}
+	history = {
+		owner = OMA
+		add_core_of = OMA
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

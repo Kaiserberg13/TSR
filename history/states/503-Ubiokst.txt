@@ -1,0 +1,18 @@
+state={
+	id=503
+	name="STATE_503"
+	provinces={
+		1846 10594 13484 13884 13885 14059 14060 14432 15294 15299 15305 15308 15309 15315 15316 15320 15322 15324 15332
+	}
+	history = {
+		owner = ZAM
+		add_core_of = ZAM
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

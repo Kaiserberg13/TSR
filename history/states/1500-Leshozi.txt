@@ -1,0 +1,18 @@
+state={
+	id=1500
+	name="STATE_1500"
+	provinces={
+		16179 16945 16955 16960 16983
+	}
+	history = {
+		owner = MLI
+		add_core_of = MLI
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

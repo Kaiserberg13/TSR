@@ -1,0 +1,18 @@
+state={
+	id=934
+	name="STATE_934"
+	provinces={
+		743 3740 9884 11697 13517
+	}
+	history = {
+		owner = FRA
+		add_core_of = FRA
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

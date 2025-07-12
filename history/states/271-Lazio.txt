@@ -1,0 +1,22 @@
+state={
+	id=271
+	name="STATE_271"
+	provinces={
+		923 6862 9904 11751 11846 11882 15071 15072 15073 15074
+	}
+	history = {
+		owner = ITA
+		add_core_of = ITA
+		
+		victory_points = {
+			9904 25
+		}
+buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

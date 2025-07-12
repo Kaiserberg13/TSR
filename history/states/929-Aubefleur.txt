@@ -1,0 +1,22 @@
+state={
+	id=929
+	name="STATE_929"
+	provinces={
+		6613 6786 11593 11716 11794
+	}
+	history = {
+		owner = FRA
+		add_core_of = FRA
+		
+		victory_points = {
+			6613 20
+		}
+buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

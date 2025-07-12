@@ -1,0 +1,18 @@
+state={
+	id=681
+	name="STATE_681"
+	provinces={
+		1995 5082 7916 8090 10789 12769 12831 14905 14906 14907 14908 14909 14910 14911 14914
+	}
+	history = {
+		owner = AFG
+		add_core_of = AFG
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

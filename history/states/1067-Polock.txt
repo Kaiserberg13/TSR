@@ -1,0 +1,18 @@
+state={
+	id=1067
+	name="STATE_1067"
+	provinces={
+		323 3219 6249 6326 9323
+	}
+	history = {
+		owner = BLR
+		add_core_of = BLR
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

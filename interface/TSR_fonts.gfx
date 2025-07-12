@@ -1,0 +1,152 @@
+
+bitmapfonts = {
+	### TT Octosquares Trl
+	bitmapfont = {
+        name = "ws_12"
+		path = "gfx/fonts/cyberpunk_12"
+        color = 0xff5ef6ff
+
+        textcolors = {
+            G = { 86 172 91 }
+        }
+    }
+    bitmapfont = {
+        name = "ws_16"
+		path = "gfx/fonts/cyberpunk_16"
+        color = 0xff5ef6ff
+
+        textcolors = {
+            G = { 86 172 91 }
+        }
+    }
+    bitmapfont = {
+        name = "ws_18"
+		path = "gfx/fonts/cyberpunk_18"
+        color = 0xff5ef6ff
+
+        textcolors = {
+            G = { 86 172 91 }
+        }
+    }
+    bitmapfont = {
+        name = "ws_24"
+		path = "gfx/fonts/cyberpunk_24"
+        color = 0xff5ef6ff
+
+        textcolors = {
+            G = { 86 172 91 }
+        }
+    }
+	bitmapfont = {
+        name = "ws_36"
+		path = "gfx/fonts/cyberpunk_36"
+        color = 0xff5ef6ff
+
+        textcolors = {
+            G = { 86 172 91 }
+        }
+    }
+
+    bitmapfont = {
+        name = "ws_12r"
+		path = "gfx/fonts/cyberpunk_12"
+        color = 0xff5ef6ff
+
+        textcolors = {
+            G = { 86 172 91 }
+        }
+    }
+    bitmapfont = {
+        name = "ws_16r"
+		path = "gfx/fonts/cyberpunk_16"
+        color = 0xfff75049
+
+        textcolors = {
+   
+        }
+    }
+    bitmapfont = {
+        name = "ws_18r"
+		path = "gfx/fonts/cyberpunk_18"
+        color = 0xfff75049
+
+        textcolors = {
+            G = { 86 172 91 }
+        }
+    }
+    bitmapfont = {
+        name = "ws_24r"
+		path = "gfx/fonts/cyberpunk_24"
+        color = 0xfff75049
+
+        textcolors = {
+            G = { 86 172 91 }
+        }
+    }
+	bitmapfont = {
+        name = "ws_36r"
+		path = "gfx/fonts/cyberpunk_36"
+        color = 0xfff75049
+
+        textcolors = {
+            G = { 86 172 91 }
+        }
+    }
+
+
+    bitmapfont = {
+        name = "ws_12b"
+		path = "gfx/fonts/cyberpunk_12"
+        color = 0xff000000
+
+        textcolors = {
+            G = { 86 172 91 }
+        }
+    }
+    bitmapfont = {
+        name = "ws_16b"
+		path = "gfx/fonts/cyberpunk_16"
+        color = 0xff000000
+
+        textcolors = {
+            G = { 86 172 91 }
+        }
+    }
+    bitmapfont = {
+        name = "ws_18b"
+		path = "gfx/fonts/cyberpunk_18"
+        color = 0xff000000
+
+        textcolors = {
+            G = { 86 172 91 }
+        }
+    }
+    bitmapfont = {
+        name = "ws_24b"
+		path = "gfx/fonts/cyberpunk_24"
+        color = 0xff000000
+
+        textcolors = {
+            G = { 86 172 91 }
+        }
+    }
+	bitmapfont = {
+        name = "ws_36b"
+		path = "gfx/fonts/cyberpunk_36"
+        color = 0xff000000
+
+        textcolors = {
+            G = { 86 172 91 }
+        }
+    }
+
+    bitmapfont = {
+        name = "ws_18rd"
+		path = "gfx/fonts/cyberpunk_18"
+        color = 0xff7d2925
+
+        textcolors = {
+            G = { 86 172 91 }
+        }
+    }
+}

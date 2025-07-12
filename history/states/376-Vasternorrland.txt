@@ -1,0 +1,18 @@
+state={
+	id=376
+	name="STATE_376"
+	provinces={
+		49 125 130 182 205 3045 6023 6063 9035 9051 9088 9117 9141 9151 11040 11091 11123 11129 11147 11185 11209 13613
+	}
+	history = {
+		owner = SWE
+		add_core_of = SWE
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

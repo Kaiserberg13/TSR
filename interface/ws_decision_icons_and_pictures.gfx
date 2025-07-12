@@ -1,0 +1,33 @@
+spriteTypes = {
+
+	SpriteType = {
+		name = "GFX_YUG_decision_pic_unite"
+		texturefile = "gfx/interface/decisions/pictures/YUG_decision_pic_unite.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_YUG_integrate_slovenien"
+		texturefile = "gfx/interface/decisions/onmap/YUG_integrate_slovenien.dds"
+	}
+	SpriteType = {
+		name = "GFX_YUG_integrate_claims"
+		texturefile = "gfx/interface/decisions/onmap/YUG_integrate_claims.dds"
+	}
+	SpriteType = {
+		name = "GFX_YUG_integrate_states"
+		texturefile = "gfx/interface/decisions/onmap/YUG_integrate_states.dds"
+	}
+	SpriteType = {
+		name = "GFX_YUG_macedonia_question"
+		texturefile = "gfx/interface/decisions/onmap/YUG_macedonia_question.dds"
+	}
+	SpriteType = {
+		name = "GFX_YUG_serbien_question"
+		texturefile = "gfx/interface/decisions/onmap/YUG_serbien_question.dds"
+	}
+	SpriteType = {
+		name = "GFX_YUG_integrate_old_states"
+		texturefile = "gfx/interface/decisions/onmap/YUG_integrate_old_states.dds"
+	}
+	
+}

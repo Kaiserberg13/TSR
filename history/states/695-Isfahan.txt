@@ -1,0 +1,18 @@
+state={
+	id=695
+	name="STATE_695"
+	provinces={
+		1963 2026 4928 4983 5067 8009 8031 8074 10759 10828 10873 10890 12756 15143 15148 15149 15151 15152 15156 15159 15160
+	}
+	history = {
+		owner = PER
+		add_core_of = PER
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

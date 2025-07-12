@@ -1,0 +1,18 @@
+state={
+	id=1365
+	name="STATE_1365"
+	provinces={
+		10955 12757 14606
+	}
+	history = {
+		owner = ETH
+		add_core_of = ETH
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

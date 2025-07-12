@@ -1,0 +1,20 @@
+state={
+	id=790
+	name="STATE_790"
+	provinces={
+		12322 14328
+	}
+	
+	history = {
+		owner = PRC
+		add_core_of = PRC
+		add_core_of = SIA
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	manpower=1
+	state_category = rural
+}

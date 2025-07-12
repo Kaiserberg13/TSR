@@ -1,0 +1,18 @@
+state={
+	id=353
+	name="STATE_353"
+	provinces={
+		6823 6892 6929 6984 9758 11892 13209
+	}
+	history = {
+		owner = USA
+		add_core_of = USA
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

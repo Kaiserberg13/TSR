@@ -1,0 +1,18 @@
+state={
+	id=1470
+	name="STATE_1470"
+	provinces={
+		1079 1194 4084 4139 7069 7100 10013 10023 10070 10113 11943 12087 13235 13236 13670 13671
+	}
+	history = {
+		owner = MOR
+		add_core_of = MOR
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

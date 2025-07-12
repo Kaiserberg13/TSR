@@ -1,0 +1,18 @@
+state={
+	id=1683
+	name="STATE_1683"
+	provinces={
+		1725 1728 7881 10704 13899 13900 13904 13905 13906 13911
+	}
+	history = {
+		owner = MON
+		add_core_of = MON
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

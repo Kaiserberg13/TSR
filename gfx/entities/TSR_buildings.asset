@@ -1,0 +1,64 @@
+entity = {
+	name = "city_1"
+	pdxmesh = "city_1"
+	scale = 0.1
+}
+entity = {
+	name = "city_2"
+	pdxmesh = "city_2"
+	scale = 0.1
+}
+entity = {
+	name = "city_3"
+	pdxmesh = "city_3"
+	scale = 0.1
+}
+entity = {
+	name = "city_4"
+	pdxmesh = "city_4"
+	scale = 0.1
+}
+entity = {
+	name = "city_5"
+	pdxmesh = "city_5"
+	scale = 0.1
+}
+
+###
+
+entity = {
+	name = "p_city_1"
+	pdxmesh = "p_city_1"
+	scale = 0.1
+}
+
+#yesyesyes, le Paris
+entity = {
+	name = "eiffel"
+	pdxmesh = "eiffel"
+	scale = 0.1
+}
+
+#reserved for the A.R.C.
+entity = {
+	name = "skycraper"
+	pdxmesh = "skycraper"
+	scale = 0.1
+}
+
+#required to have naval base icons properly located
+entity = {
+	name = "building_naval_base_1"
+	pdxmesh = "building_naval_base_1"
+	scale = 0 #scale = 0.8
+}
+entity = {
+	name = "building_naval_base_2"
+	pdxmesh = "building_naval_base_2"
+	scale = 0 #scale = 0.8
+}
+entity = {
+	name = "building_naval_base_3"
+	pdxmesh = "building_naval_base_3"
+	scale = 0 #scale = 0.8
+}

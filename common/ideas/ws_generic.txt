@@ -1,0 +1,256 @@
+ideas = {
+
+	hidden_ideas = {
+		
+
+		continuous_naval_production = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				industrial_capacity_dockyard = 0.2
+			}
+		}
+
+
+		continuous_air_production = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			equipment_bonus = {
+				small_plane_airframe = {
+					instant = yes
+					build_cost_ic = -0.10
+				}
+				cv_small_plane_airframe = {
+					instant = yes
+					build_cost_ic = -0.10
+				}
+				small_plane_cas_airframe = {
+					instant = yes
+					build_cost_ic = -0.10
+				}
+				cv_small_plane_cas_airframe = {
+					instant = yes
+					build_cost_ic = -0.10
+				}
+				small_plane_naval_bomber_airframe = {
+					instant = yes
+					build_cost_ic = -0.10
+				}
+				cv_small_plane_naval_bomber_airframe = {
+					instant = yes
+					build_cost_ic = -0.10
+				}
+				medium_plane_airframe = {
+					instant = yes
+					build_cost_ic = -0.10
+				}
+				medium_plane_fighter_airframe = {
+					instant = yes
+					build_cost_ic = -0.10
+				}
+				medium_plane_scout_plane_airframe = {
+					instant = yes
+					build_cost_ic = -0.10	
+				}
+				large_plane_airframe = {
+					instant = yes
+					build_cost_ic = -0.10
+				}
+				large_plane_maritime_patrol_plane_airframe = {
+					instant = yes
+					build_cost_ic = -0.10
+				}
+				transport_plane_equipment = {
+					instant = yes
+					build_cost_ic = -0.10
+				}
+				guided_missile_equipment = {
+					instant = yes
+					build_cost_ic = -0.10
+				}
+			}		
+		}
+	}
+
+	industrial_concern = {
+
+		generic_electronics_concern = {
+			
+			picture = generic_industrial_concern_1
+
+			allowed = {
+				NOT = { tag = GER }
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				electronics = 0.13
+			}
+			
+			traits = { electronics_concern }
+		}
+	
+		generic_industrial_concern = {
+			
+			picture = generic_industrial_concern_2
+
+			allowed = {
+				NOT = { tag = GER }
+			}
+			
+			cost = 150
+			removal_cost = 10
+			research_bonus = {
+				industry = 0.13
+			}
+			
+			
+			traits = { industrial_concern }
+		}
+
+		generic_motorized_concern = {
+			
+			picture = generic_industrial_concern_3
+
+			allowed = {
+				NOT = { tag = GER }
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				motorized_equipment = 0.1
+			}
+			equipment_bonus = {
+				ws_motorized_equipment = {
+					instant = yes
+					build_cost_ic = -0.10
+				}
+				ws_mechanized_equipment = {
+					instant = yes
+					build_cost_ic = -0.10
+				}
+			}
+			
+			traits = { motorized_concern }
+		}
+
+		generic_tank_concern = {
+			
+			picture = generic_industrial_concern_4
+
+			allowed = {
+				NOT = { tag = GER }
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				armor = 0.1
+			}
+			equipment_bonus = {
+				ws_light_tank_equipment = {
+					instant = yes
+					build_cost_ic = -0.10
+				}
+				ws_medium_tank_equipment = {
+					instant = yes
+					build_cost_ic = -0.10
+				}
+				ws_modern_tank_equipment = {
+					instant = yes
+					build_cost_ic = -0.05
+				}
+			}
+			
+			traits = { tank_concern }
+		}
+
+		generic_rotatosk_concern = {
+			
+			picture = generic_industrial_concern_5
+
+			allowed = {
+				NOT = { tag = GER }
+			}
+			
+			cost = 150
+			removal_cost = 10
+			equipment_bonus = {
+				ws_infantry_equipment = {
+					instant = yes
+					build_cost_ic = -0.10
+				}
+				ws_infantry_armor_equipment = {
+					instant = yes
+					build_cost_ic = -0.10
+				}
+				ws_light_tank_equipment = {
+					instant = yes
+					build_cost_ic = -0.05
+				}
+				ws_modern_tank_equipment = {
+					instant = yes
+					build_cost_ic = -0.05
+				}
+			}
+			research_bonus = {
+				armor = 0.1
+				infantry_weapons = 0.1
+			}
+			
+			traits = { rotatosk_concern }
+		}
+
+		generic_arstotzka_corp = {
+			
+			picture = generic_industrial_concern_6
+
+			allowed = {
+				NOT = { tag = GER }
+			}
+			
+			cost = 150
+			removal_cost = 10
+			equipment_bonus = {
+				ws_infantry_equipment = {
+					instant = yes
+					build_cost_ic = -0.05
+				}
+				ws_infantry_armor_equipment = {
+					instant = yes
+					build_cost_ic = -0.05
+				}
+			}
+			research_bonus = {
+				electronics = 0.2
+				air_doctrine = 0.1
+				naval_doctrine = 0.1
+				land_doctrine = 0.1
+			}
+			
+			traits = { arstotzka_corp }
+		}
+	}
+
+}

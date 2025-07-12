@@ -1,0 +1,18 @@
+state={
+	id=933
+	name="STATE_933"
+	provinces={
+		929 3749 6759 9717 9882 11699 12169
+	}
+	history = {
+		owner = FRA
+		add_core_of = FRA
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

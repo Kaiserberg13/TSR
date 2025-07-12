@@ -1,0 +1,18 @@
+state={
+	id=1022
+	name="STATE_1022"
+	provinces={
+		478 573 3514 6441 14967
+	}
+	history = {
+		owner = GER
+		add_core_of = GER
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=310219
+    state_category = rural
+}

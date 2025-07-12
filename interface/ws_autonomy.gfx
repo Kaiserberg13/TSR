@@ -1,0 +1,25 @@
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_autonomy_south_africa_union_icon"
+		texturefile = "gfx/interface/autonomy/autonomy_south_africa_union_icon.dds"
+	}
+
+	# Empire
+
+	spriteType = {
+		name = "GFX_autonomy_imperial_protectorate_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_imperium_protectorate_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_autonomy_imperial_dominion_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_imperial_dominion_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_autonomy_imperial_colony_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_imperial_colony_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_autonomy_imperial_part_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_imperial_part_icon.dds"
+	}
+}

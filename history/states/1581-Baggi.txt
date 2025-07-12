@@ -1,0 +1,19 @@
+state={
+	id=1581
+	name="STATE_1581"
+	provinces={
+		1417 1607 1650 4202 4585 4626 4654 7034 7441 10283 10344 12256 12404 12449 14986
+	}
+	
+	history = {
+		owner = SIA
+		add_core_of = SIA
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	manpower=1
+	state_category = rural
+}

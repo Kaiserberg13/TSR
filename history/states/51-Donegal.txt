@@ -1,0 +1,18 @@
+state={
+	id=51
+	name="STATE_51"
+	provinces={
+		337 369 385 9255 9303 9321 9369 11238 11257 11287 11303 11371 13545 14183
+	}
+	history = {
+		owner = ENG
+		add_core_of = ENG
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

@@ -1,0 +1,18 @@
+state={
+	id=492
+	name="STATE_492"
+	provinces={
+		14481 15968 15972 15980 15991
+	}
+	history = {
+		owner = UGA
+		add_core_of = UGA
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

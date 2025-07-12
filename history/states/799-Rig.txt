@@ -1,0 +1,18 @@
+state={
+	id=799
+	name="STATE_799"
+	provinces={
+		1541 1983 7064 7334 8082
+	}
+	history = {
+		owner = RAJ
+		add_core_of = RAJ
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

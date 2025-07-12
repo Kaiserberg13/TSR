@@ -1,0 +1,18 @@
+state={
+	id=1226
+	name="STATE_1226"
+	provinces={
+		5047 5091 12766
+	}
+	history = {
+		owner = ERI
+		add_core_of = ERI
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

@@ -1,0 +1,18 @@
+state={
+	id=1086
+	name="STATE_1086"
+	provinces={
+		606 953 982 11741 11845
+	}
+	history = {
+		owner = YUG
+		add_core_of = YUG
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

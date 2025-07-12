@@ -1,0 +1,18 @@
+state={
+	id=973
+	name="STATE_973"
+	provinces={
+		883 963 3923 3966 6831 6939 6980 13252
+	}
+	history = {
+		owner = ITA
+		add_core_of = ITA
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

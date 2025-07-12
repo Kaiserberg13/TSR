@@ -1,0 +1,22 @@
+state={
+	id=660
+	name="STATE_660"
+	provinces={
+		417 442 466 3410 6499 6522 9427 11398 11413 11507 14379 14746
+	}
+	history = {
+		owner = POL
+		add_core_of = POL
+		
+		victory_points = {
+			9427 20
+		}
+buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

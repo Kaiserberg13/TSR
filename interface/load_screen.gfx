@@ -1,0 +1,776 @@
+bitmapfonts = {
+	bitmapfont = {
+		name = "Arialsmallcap"
+		path = "gfx/fonts/Arialsmallcap"
+		color = 0xffffffff
+		
+		textcolors = {
+			g = { 180 180 180 }
+		}
+	}
+	
+	bitmapfont = {
+		name = "Arialsmallestload"
+		path = "gfx/fonts/Arialsmallest"
+		color = 0xffffffff
+		
+		textcolors = {
+			g = { 180 180 180 }
+		}
+	}
+}
+
+spriteTypes = {
+
+	spriteType = {
+	 	name = "GFX_fronted_main_menu_debug"
+	 	texturefile = "gfx/interface/thisisdog_debug.png"
+	}
+	spriteType = {
+	 	name = "GFX_fronted_main_menu_sp_bg"
+	 	texturefile = "gfx/interface/fronted_main_menu_sp_bg.png"
+	}
+	spriteType = {
+	 	name = "GFX_fronted_main_menu_country_selection_bg"
+	 	texturefile = "gfx/interface/fronted_main_menu_country_selection_bg.png"
+	}
+	spriteType = {
+	 	name = "GFX_fronted_main_menu_a_update_name"
+	 	texturefile = "gfx/interface/fronted_main_menu_a_update_name.png"
+	}
+	spriteType = {
+	 	name = "GFX_fronted_main_menu_a_version"
+	 	texturefile = "gfx/interface/fronted_main_menu_a_version.png"
+	}
+
+	spriteType = {
+	 	name = "GFX_fronted_main_menu_s_aperture"
+	 	texturefile = "gfx/interface/fronted_main_menu_s_aperture.png"
+		noOfFrames = 3
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+	 	name = "GFX_fronted_main_menu_s_discord"
+	 	texturefile = "gfx/interface/fronted_main_menu_s_discord.png"
+		noOfFrames = 3
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+	 	name = "GFX_fronted_main_menu_s_patreon"
+	 	texturefile = "gfx/interface/fronted_main_menu_s_patreon.png"
+		noOfFrames = 3
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+	 	name = "GFX_fronted_main_menu_s_telegram"
+	 	texturefile = "gfx/interface/fronted_main_menu_s_telegram.png"
+		noOfFrames = 3
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+	 	name = "GFX_fronted_main_menu_s_youtube"
+	 	texturefile = "gfx/interface/fronted_main_menu_s_youtube.png"
+		noOfFrames = 3
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+	 	name = "GFX_fronted_main_menu_a_film_news"
+	 	texturefile = "gfx/interface/fronted_main_menu_a_film_news.png"
+		noOfFrames = 3
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+	 	name = "GFX_fronted_main_menu_a_astools"
+	 	texturefile = "gfx/interface/fronted_main_menu_a_astools.png"
+		noOfFrames = 3
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+	 	name = "GFX_fronted_main_menu_a_news"
+	 	texturefile = "gfx/interface/fronted_main_menu_a_news.png"
+		noOfFrames = 3
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+	 	name = "GFX_fronted_main_menu_a_novel_news"
+	 	texturefile = "gfx/interface/fronted_main_menu_a_novel_news.png"
+		noOfFrames = 3
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+	 	name = "GFX_fronted_main_menu_settings"
+	 	texturefile = "gfx/interface/fronted_main_menu_settings.png"
+		noOfFrames = 3
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+	 	name = "GFX_fronted_main_menu_single_player"
+	 	texturefile = "gfx/interface/fronted_main_menu_single_player.png"
+		noOfFrames = 3
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+	 	name = "GFX_fronted_main_menu_multiplayer"
+	 	texturefile = "gfx/interface/fronted_main_menu_multiplayer.png"
+		noOfFrames = 3
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+	 	name = "GFX_fronted_main_menu_quit"
+	 	texturefile = "gfx/interface/fronted_main_menu_quit.png"
+		noOfFrames = 3
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+	 	name = "GFX_fronted_main_menu_continue"
+	 	texturefile = "gfx/interface/fronted_main_menu_continue.png"
+		noOfFrames = 3
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+	 	name = "GFX_fronted_main_menu_new_game"
+	 	texturefile = "gfx/interface/fronted_main_menu_new_game.png"
+		noOfFrames = 3
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+	 	name = "GFX_fronted_main_menu_load"
+	 	texturefile = "gfx/interface/fronted_main_menu_load.png"
+		noOfFrames = 3
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+	 	name = "GFX_fronted_main_menu_back"
+	 	texturefile = "gfx/interface/fronted_main_menu_back.png"
+		noOfFrames = 3
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+	frameAnimatedSpriteType = {
+		name = "GFX_spritesheet_s1"
+		texturefile = "gfx/loadingscreens/spritesheet_s1.png"
+		noOfFrames = 174
+		animation_rate_fps = 17
+		looping = yes
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_spritesheet_s10"
+		texturefile = "gfx/loadingscreens/spritesheet_s10.png"
+		noOfFrames = 174
+		animation_rate_fps = 17
+		looping = yes
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_spritesheet_s11"
+		texturefile = "gfx/loadingscreens/spritesheet_s11.png"
+		noOfFrames = 174
+		animation_rate_fps = 17
+		looping = yes
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_spritesheet_s12"
+		texturefile = "gfx/loadingscreens/spritesheet_s12.png"
+		noOfFrames = 174
+		animation_rate_fps = 17
+		looping = yes
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_spritesheet_s13"
+		texturefile = "gfx/loadingscreens/spritesheet_s13.png"
+		noOfFrames = 174
+		animation_rate_fps = 17
+		looping = yes
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_spritesheet_s14"
+		texturefile = "gfx/loadingscreens/spritesheet_s14.png"
+		noOfFrames = 174
+		animation_rate_fps = 17
+		looping = yes
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_spritesheet_s15"
+		texturefile = "gfx/loadingscreens/spritesheet_s15.png"
+		noOfFrames = 174
+		animation_rate_fps = 17
+		looping = yes
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_spritesheet_s16"
+		texturefile = "gfx/loadingscreens/spritesheet_s16.png"
+		noOfFrames = 174
+		animation_rate_fps = 17
+		looping = yes
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_spritesheet_s17"
+		texturefile = "gfx/loadingscreens/spritesheet_s17.png"
+		noOfFrames = 174
+		animation_rate_fps = 17
+		looping = yes
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_spritesheet_s18"
+		texturefile = "gfx/loadingscreens/spritesheet_s18.png"
+		noOfFrames = 174
+		animation_rate_fps = 17
+		looping = yes
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_spritesheet_s19"
+		texturefile = "gfx/loadingscreens/spritesheet_s19.png"
+		noOfFrames = 174
+		animation_rate_fps = 17
+		looping = yes
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_spritesheet_s2"
+		texturefile = "gfx/loadingscreens/spritesheet_s2.png"
+		noOfFrames = 174
+		animation_rate_fps = 17
+		looping = yes
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_spritesheet_s20"
+		texturefile = "gfx/loadingscreens/spritesheet_s20.png"
+		noOfFrames = 174
+		animation_rate_fps = 17
+		looping = yes
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_spritesheet_s21"
+		texturefile = "gfx/loadingscreens/spritesheet_s21.png"
+		noOfFrames = 174
+		animation_rate_fps = 17
+		looping = yes
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_spritesheet_s22"
+		texturefile = "gfx/loadingscreens/spritesheet_s22.png"
+		noOfFrames = 174
+		animation_rate_fps = 17
+		looping = yes
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_spritesheet_s23"
+		texturefile = "gfx/loadingscreens/spritesheet_s23.png"
+		noOfFrames = 174
+		animation_rate_fps = 17
+		looping = yes
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_spritesheet_s24"
+		texturefile = "gfx/loadingscreens/spritesheet_s24.png"
+		noOfFrames = 174
+		animation_rate_fps = 17
+		looping = yes
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_spritesheet_s25"
+		texturefile = "gfx/loadingscreens/spritesheet_s25.png"
+		noOfFrames = 174
+		animation_rate_fps = 17
+		looping = yes
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_spritesheet_s26"
+		texturefile = "gfx/loadingscreens/spritesheet_s26.png"
+		noOfFrames = 174
+		animation_rate_fps = 17
+		looping = yes
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_spritesheet_s27"
+		texturefile = "gfx/loadingscreens/spritesheet_s27.png"
+		noOfFrames = 174
+		animation_rate_fps = 17
+		looping = yes
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_spritesheet_s28"
+		texturefile = "gfx/loadingscreens/spritesheet_s28.png"
+		noOfFrames = 174
+		animation_rate_fps = 17
+		looping = yes
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_spritesheet_s29"
+		texturefile = "gfx/loadingscreens/spritesheet_s29.png"
+		noOfFrames = 174
+		animation_rate_fps = 17
+		looping = yes
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_spritesheet_s3"
+		texturefile = "gfx/loadingscreens/spritesheet_s3.png"
+		noOfFrames = 174
+		animation_rate_fps = 17
+		looping = yes
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_spritesheet_s30"
+		texturefile = "gfx/loadingscreens/spritesheet_s30.png"
+		noOfFrames = 174
+		animation_rate_fps = 17
+		looping = yes
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_spritesheet_s31"
+		texturefile = "gfx/loadingscreens/spritesheet_s31.png"
+		noOfFrames = 174
+		animation_rate_fps = 17
+		looping = yes
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_spritesheet_s32"
+		texturefile = "gfx/loadingscreens/spritesheet_s32.png"
+		noOfFrames = 174
+		animation_rate_fps = 17
+		looping = yes
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_spritesheet_s33"
+		texturefile = "gfx/loadingscreens/spritesheet_s33.png"
+		noOfFrames = 174
+		animation_rate_fps = 17
+		looping = yes
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_spritesheet_s34"
+		texturefile = "gfx/loadingscreens/spritesheet_s34.png"
+		noOfFrames = 174
+		animation_rate_fps = 17
+		looping = yes
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_spritesheet_s35"
+		texturefile = "gfx/loadingscreens/spritesheet_s35.png"
+		noOfFrames = 174
+		animation_rate_fps = 17
+		looping = yes
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_spritesheet_s36"
+		texturefile = "gfx/loadingscreens/spritesheet_s36.png"
+		noOfFrames = 174
+		animation_rate_fps = 17
+		looping = yes
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_spritesheet_s37"
+		texturefile = "gfx/loadingscreens/spritesheet_s37.png"
+		noOfFrames = 174
+		animation_rate_fps = 17
+		looping = yes
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_spritesheet_s38"
+		texturefile = "gfx/loadingscreens/spritesheet_s38.png"
+		noOfFrames = 174
+		animation_rate_fps = 17
+		looping = yes
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_spritesheet_s39"
+		texturefile = "gfx/loadingscreens/spritesheet_s39.png"
+		noOfFrames = 174
+		animation_rate_fps = 17
+		looping = yes
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_spritesheet_s4"
+		texturefile = "gfx/loadingscreens/spritesheet_s4.png"
+		noOfFrames = 174
+		animation_rate_fps = 17
+		looping = yes
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_spritesheet_s40"
+		texturefile = "gfx/loadingscreens/spritesheet_s40.png"
+		noOfFrames = 174
+		animation_rate_fps = 17
+		looping = yes
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_spritesheet_s41"
+		texturefile = "gfx/loadingscreens/spritesheet_s41.png"
+		noOfFrames = 174
+		animation_rate_fps = 17
+		looping = yes
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_spritesheet_s42"
+		texturefile = "gfx/loadingscreens/spritesheet_s42.png"
+		noOfFrames = 174
+		animation_rate_fps = 17
+		looping = yes
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_spritesheet_s43"
+		texturefile = "gfx/loadingscreens/spritesheet_s43.png"
+		noOfFrames = 174
+		animation_rate_fps = 17
+		looping = yes
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_spritesheet_s44"
+		texturefile = "gfx/loadingscreens/spritesheet_s44.png"
+		noOfFrames = 174
+		animation_rate_fps = 17
+		looping = yes
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_spritesheet_s45"
+		texturefile = "gfx/loadingscreens/spritesheet_s45.png"
+		noOfFrames = 174
+		animation_rate_fps = 17
+		looping = yes
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_spritesheet_s46"
+		texturefile = "gfx/loadingscreens/spritesheet_s46.png"
+		noOfFrames = 174
+		animation_rate_fps = 17
+		looping = yes
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_spritesheet_s47"
+		texturefile = "gfx/loadingscreens/spritesheet_s47.png"
+		noOfFrames = 174
+		animation_rate_fps = 17
+		looping = yes
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_spritesheet_s48"
+		texturefile = "gfx/loadingscreens/spritesheet_s48.png"
+		noOfFrames = 174
+		animation_rate_fps = 17
+		looping = yes
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_spritesheet_s49"
+		texturefile = "gfx/loadingscreens/spritesheet_s49.png"
+		noOfFrames = 174
+		animation_rate_fps = 17
+		looping = yes
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_spritesheet_s5"
+		texturefile = "gfx/loadingscreens/spritesheet_s5.png"
+		noOfFrames = 174
+		animation_rate_fps = 17
+		looping = yes
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_spritesheet_s50"
+		texturefile = "gfx/loadingscreens/spritesheet_s50.png"
+		noOfFrames = 174
+		animation_rate_fps = 17
+		looping = yes
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_spritesheet_s51"
+		texturefile = "gfx/loadingscreens/spritesheet_s51.png"
+		noOfFrames = 174
+		animation_rate_fps = 17
+		looping = yes
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_spritesheet_s52"
+		texturefile = "gfx/loadingscreens/spritesheet_s52.png"
+		noOfFrames = 174
+		animation_rate_fps = 17
+		looping = yes
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_spritesheet_s53"
+		texturefile = "gfx/loadingscreens/spritesheet_s53.png"
+		noOfFrames = 174
+		animation_rate_fps = 17
+		looping = yes
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_spritesheet_s54"
+		texturefile = "gfx/loadingscreens/spritesheet_s54.png"
+		noOfFrames = 174
+		animation_rate_fps = 17
+		looping = yes
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_spritesheet_s55"
+		texturefile = "gfx/loadingscreens/spritesheet_s55.png"
+		noOfFrames = 174
+		animation_rate_fps = 17
+		looping = yes
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_spritesheet_s56"
+		texturefile = "gfx/loadingscreens/spritesheet_s56.png"
+		noOfFrames = 174
+		animation_rate_fps = 17
+		looping = yes
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_spritesheet_s57"
+		texturefile = "gfx/loadingscreens/spritesheet_s57.png"
+		noOfFrames = 174
+		animation_rate_fps = 17
+		looping = yes
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_spritesheet_s58"
+		texturefile = "gfx/loadingscreens/spritesheet_s58.png"
+		noOfFrames = 174
+		animation_rate_fps = 17
+		looping = yes
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_spritesheet_s59"
+		texturefile = "gfx/loadingscreens/spritesheet_s59.png"
+		noOfFrames = 174
+		animation_rate_fps = 17
+		looping = yes
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_spritesheet_s6"
+		texturefile = "gfx/loadingscreens/spritesheet_s6.png"
+		noOfFrames = 174
+		animation_rate_fps = 17
+		looping = yes
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_spritesheet_s60"
+		texturefile = "gfx/loadingscreens/spritesheet_s60.png"
+		noOfFrames = 174
+		animation_rate_fps = 17
+		looping = yes
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_spritesheet_s61"
+		texturefile = "gfx/loadingscreens/spritesheet_s61.png"
+		noOfFrames = 174
+		animation_rate_fps = 17
+		looping = yes
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_spritesheet_s62"
+		texturefile = "gfx/loadingscreens/spritesheet_s62.png"
+		noOfFrames = 174
+		animation_rate_fps = 17
+		looping = yes
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_spritesheet_s63"
+		texturefile = "gfx/loadingscreens/spritesheet_s63.png"
+		noOfFrames = 174
+		animation_rate_fps = 17
+		looping = yes
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_spritesheet_s64"
+		texturefile = "gfx/loadingscreens/spritesheet_s64.png"
+		noOfFrames = 174
+		animation_rate_fps = 17
+		looping = yes
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_spritesheet_s7"
+		texturefile = "gfx/loadingscreens/spritesheet_s7.png"
+		noOfFrames = 174
+		animation_rate_fps = 17
+		looping = yes
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_spritesheet_s8"
+		texturefile = "gfx/loadingscreens/spritesheet_s8.png"
+		noOfFrames = 174
+		animation_rate_fps = 17
+		looping = yes
+		play_on_show = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_spritesheet_s9"
+		texturefile = "gfx/loadingscreens/spritesheet_s9.png"
+		noOfFrames = 174
+		animation_rate_fps = 17
+		looping = yes
+		play_on_show = yes
+	}
+
+	spriteType = {
+	 	name = "GFX_nullobject"
+	 	texturefile = "gfx//interface//thisisdog.dds"
+	}
+	
+	spriteType = {
+	 	name = "GFX_TSR_main_menu_backgorund"
+	 	texturefile = "gfx/interface/fronted_main_menu_backgorund.png"
+	}
+	
+	spriteType = {
+	 	name = "GFX_fronted_main_menu_mask_1"
+	 	texturefile = "gfx/interface/fronted_main_menu_mask_1.png"
+	}
+	spriteType = {
+	 	name = "GFX_fronted_main_menu_mask_2"
+	 	texturefile = "gfx/interface/fronted_main_menu_mask_2.png"
+	}
+	spriteType = {
+	 	name = "GFX_fronted_main_menu_mask_3"
+	 	texturefile = "gfx/interface/fronted_main_menu_mask_3.png"
+	}
+	spriteType = {
+	 	name = "GFX_fronted_main_menu_left_gui"
+	 	texturefile = "gfx/interface/fronted_main_menu_left_gui.png"
+	}
+	spriteType = {
+	 	name = "GFX_fronted_main_menu_right_gui"
+	 	texturefile = "gfx/interface/fronted_main_menu_right_gui.png"
+	}
+	spriteType = {
+	 	name = "GFX_fronted_main_menu_upper_gui"
+	 	texturefile = "gfx/interface/fronted_main_menu_upper_gui.png"
+	}
+	spriteType = {
+	 	name = "GFX_fronted_main_menu_lower_gui"
+	 	texturefile = "gfx/interface/fronted_main_menu_lower_gui.png"
+	}
+
+	spriteType = {
+		name = "GFX_frontend_dev_logo_s"
+		texturefile = "gfx/interface/pdx_dev_logo_s.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_loadingstatus_bg"
+		texturefile = "gfx/interface/Loadingscreen_loadingstatus.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_loadingtip_bg"
+		texturefile = "gfx/interface/Loadingscreen_loadingtip.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_pdx_int_logo"
+		texturefile = "gfx/interface/pdx_int_logo.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_clausewitz_logo"
+		texturefile = "gfx/interface/clausewitz_logo.dds"
+	}	
+
+	progressbartype = {
+		name = "GFX_loadingstatus_progress"
+		color = { 0.0 0.5 0.0 }
+		colortwo = { 1.0 0.0 0.0 }
+		textureFile1 = "gfx//interface//LoadingScreen_Progress_2.dds"
+		textureFile2 = "gfx//interface//LoadingScreen_Progress_1.dds"
+		size = { x = 830 y = 600 }
+		effectFile = "gfx//FX//progress.lua"
+		horizontal = yes
+		steps = 1000000
+	}
+
+	spriteType = {
+		name = "GFX_detail_1"
+		texturefile = "gfx/interface/detail_1.dds"
+		alwaystransparent = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/detail_1.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 30.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = yes			# yes or no ;)
+			animationtime = 200 			# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_detail_2"
+		texturefile = "gfx/interface/detail_2.dds"
+		alwaystransparent = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/detail_2.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation =30.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = yes			# yes or no ;)
+			animationtime = 200 			# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+}

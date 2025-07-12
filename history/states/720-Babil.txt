@@ -1,0 +1,18 @@
+state={
+	id=720
+	name="STATE_720"
+	provinces={
+		78 2004 7977 7994 12726 13316 13319 13322 13325 13345
+	}
+	history = {
+		owner = PER
+		add_core_of = PER
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

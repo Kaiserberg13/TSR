@@ -1,0 +1,18 @@
+state={
+	id=473
+	name="STATE_473"
+	provinces={
+		1633 1988 2031 2075 4611 4624 7630 8017 10482 10728 12738 12823 12865 12878 13087 13092 13093 13139 13178 14044 14045 14047 14065 14066 14067 14068 14069 14071 14073 14074
+	}
+	history = {
+		owner = NIC
+		add_core_of = NIC
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

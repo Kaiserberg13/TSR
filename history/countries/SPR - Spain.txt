@@ -1,0 +1,18 @@
+capital = 273
+set_politics = {
+    ruling_party = democratic
+    last_election = "2967.6.1.12"
+    election_frequency = 96
+    elections_allowed = no
+}
+set_popularities = {
+    fascism = 8
+    darwinism = 0
+    globalism = 19
+    communism = 21
+    democratic = 52
+}
+
+#set_variable
+
+#set_technology

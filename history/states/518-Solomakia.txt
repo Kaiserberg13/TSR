@@ -1,0 +1,18 @@
+state={
+	id=518
+	name="STATE_518"
+	provinces={
+		697 10538 12677 14054 14055 14058 14430 15261 15268 15276 15279 15282 15289
+	}
+	history = {
+		owner = ZAM
+		add_core_of = ZAM
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

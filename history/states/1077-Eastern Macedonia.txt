@@ -1,0 +1,18 @@
+state={
+	id=1077
+	name="STATE_1077"
+	provinces={
+		907 3833 6886 13604 13605
+	}
+	history = {
+		owner = MAC
+		add_core_of = MAC
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

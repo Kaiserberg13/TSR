@@ -1,0 +1,22 @@
+state={
+	id=112
+	name="STATE_112"
+	provinces={
+		1413 4434 7223 7642 10135 12277 12293 14246
+	}
+	history = {
+		owner = OAS
+		add_core_of = OAS
+		
+		victory_points = {
+			10135 5
+		}
+buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

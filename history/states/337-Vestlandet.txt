@@ -1,0 +1,19 @@
+state={
+	id=337
+	name="STATE_337"
+	provinces={
+		53 65 122 137 3105 3114 3192 6145 6176 11198
+	}
+	history = {
+		owner = NOR
+		add_core_of = NOR
+		buildings = {
+		
+		}
+	}
+	
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	manpower=1
+	state_category = rural
+}

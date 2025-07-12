@@ -1,0 +1,18 @@
+state={
+	id=1212
+	name="STATE_1212"
+	provinces={
+		10845 12944 15290 15295 15304 15306 15312 15313 15318
+	}
+	history = {
+		owner = MZB
+		add_core_of = MZB
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

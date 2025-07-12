@@ -1,0 +1,18 @@
+state={
+	id=530
+	name="STATE_530"
+	provinces={
+		6683 9622 11590 13490
+	}
+	history = {
+		owner = SWI
+		add_core_of = SWI
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

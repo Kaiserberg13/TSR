@@ -1,0 +1,22 @@
+state={
+	id=1004
+	name="STATE_1004"
+	provinces={
+		9347
+	}
+	history = {
+		owner = GER
+		add_core_of = GER
+		
+		victory_points = {
+			9347 20
+		}
+buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=7726512
+    state_category = rural
+}

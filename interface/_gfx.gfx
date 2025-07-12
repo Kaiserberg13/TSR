@@ -1,0 +1,3318 @@
+spriteTypes = {	
+
+###############################
+########## VANILLA ############
+###############################
+
+	spriteType = {
+		name = "GFX_build_slot_bg_build"
+		texturefile = "gfx/interface/build_slot_bg_build.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_decision_bg"
+		texturefile = "gfx/interface/news_decision_bg.dds"
+	}
+
+	spriteType = {
+		name = "GFX_flags_frontend"
+		texturefile = "gfx/interface/flags_frontend.dds"
+		alwaystransparent = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/flags_frontend.dds"
+			animationtexturefile = "gfx/interface/flags_frontend.dds" 	# <- the animated file
+			animationrotation = 0.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = yes			# yes or no ;)
+			animationtime = 300.0				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}	
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_bookmark_bg"
+		texturefile = "gfx/interface/bookmark_bg.dds"
+	}
+
+	spriteType = {
+		name = "GFX_sponsor_frontend"
+		texturefile = "gfx/interface/sponsor_frontend.dds"
+		alwaystransparent = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/sponsor_frontend.dds"
+			animationtexturefile = "gfx/interface/sponsor_frontend.dds" 	# <- the animated file
+			animationrotation = 0.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = yes			# yes or no ;)
+			animationtime = 300.0				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}	
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_pol_national_spirit"
+		texturefile = "gfx/interface/pol_national_spirit.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_background_right"
+		texturefile = "gfx/interface/background_right.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_background_top"
+		texturefile = "gfx/interface/background_top.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_mit_texticon"
+		texturefile = "gfx/interface/mit_texticon.dds"
+	    legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_ecobalance_texticon"
+		texturefile = "gfx/interface/ecobalance_texticon.dds"
+	    legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_integr_texticon"
+		texturefile = "gfx/interface/integr_texticon.dds"
+	    legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_war_warning_icon"
+		texturefile = "gfx/interface/war_warning_icon.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_war_button"
+		texturefile = "gfx/interface/war_button.dds"
+		noOfFrames = 2
+		transparencecheck = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/war_button.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 120.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = yes			# yes or no ;)
+			animationtime = 5 			# in seconds
+			animationdelay = 6			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+
+		animation = {
+			animationmaskfile = "gfx/interface/war_button.dds"
+			animationtexturefile = "gfx/interface/war_button.dds" 	# <- the animated file
+			animationrotation = 0.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = yes			# yes or no ;)
+			animationtime = 26.0				# in seconds
+			animationdelay = 2.0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}	
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_original_focus"
+		texturefile = "gfx/interface/original_focus.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_topbar_left"
+		texturefile = "gfx/interface/topbar_left.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_topbar_buttons"
+		texturefile = "gfx/interface/topbar_buttons.dds"
+		noOfFrames = 9
+	}
+
+	corneredTileSpriteType = {
+		name = "GFX_tiled_pol_bg"
+		texturefile = "gfx/interface/tiled_pol_bg.dds"
+		size = { x=1 y=1 }
+		effectFile = "gfx/FX/buttonstate.shader"
+		alwaystransparent = yes
+	}
+	corneredTileSpriteType = {
+		name = "GFX_tiled_detail_bg"
+		texturefile = "gfx/interface/tiled_detail_bg.dds"
+		borderSize = { x=300 y=0 }
+		size = { x=1920 y=1080 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate.shader"
+		alwaystransparent = yes
+	}
+	corneredTileSpriteType = {
+		name = "GFX_tiled_detail_bg_end"
+		texturefile = "gfx/interface/tiled_detail_bg_end.dds"
+		borderSize = { x=300 y=0 }
+		size = { x=1920 y=1080 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate.shader"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_background_background"
+		texturefile = "gfx/interface/topbar/background_background.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_tech_bar_bg"
+		texturefile = "gfx/interface/tech_bar_bg.dds"
+	}
+
+	spriteType = {
+		name = "GFX_mit_icon"
+		texturefile = "gfx/interface/mit_icon.dds"
+		alwaystransparent = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/mit_icon.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 120.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = yes			# yes or no ;)
+			animationtime = 5 			# in seconds
+			animationdelay = 6			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+
+		animation = {
+			animationmaskfile = "gfx/interface/mit_icon.dds"
+			animationtexturefile = "gfx/interface/mit_icon.dds" 	# <- the animated file
+			animationrotation = 0.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = yes			# yes or no ;)
+			animationtime = 26.0				# in seconds
+			animationdelay = 2.0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}	
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_mit_icon_big"
+		texturefile = "gfx/interface/mit_icon_big.dds"
+		alwaystransparent = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/mit_icon_big.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 120.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = yes			# yes or no ;)
+			animationtime = 5 			# in seconds
+			animationdelay = 6			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+
+		animation = {
+			animationmaskfile = "gfx/interface/mit_icon_big.dds"
+			animationtexturefile = "gfx/interface/mit_icon_big.dds" 	# <- the animated file
+			animationrotation = 0.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = yes			# yes or no ;)
+			animationtime = 26.0				# in seconds
+			animationdelay = 2.0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}	
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_main_menu_bg"
+		texturefile = "gfx/interface/main_menu_bg.dds"
+		alwaystransparent = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/main_menu_bg.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 120.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = yes			# yes or no ;)
+			animationtime = 5 			# in seconds
+			animationdelay = 6			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+
+		animation = {
+			animationmaskfile = "gfx/interface/main_menu_bg.dds"
+			animationtexturefile = "gfx/interface/main_menu_bg.dds" 	# <- the animated file
+			animationrotation = 0.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = yes			# yes or no ;)
+			animationtime = 26.0				# in seconds
+			animationdelay = 2.0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}	
+		legacy_lazy_load = no
+	}
+
+	progressbartype = {
+		name = "GFX_tech_progress_bar"
+		color = { 1.0 1.0 1.0 }
+		colortwo = { 1.0 1.0 1.0 }
+		textureFile1 = "gfx/interface/tech_progress_bar.dds"
+		textureFile2 = "gfx/interface/tech_progress_bar_bg.dds"
+		size = { x = 224 y = 46 }
+		effectFile = "gfx/FX/progress.lua"
+	}
+
+	progressbartype = {
+		name = "GFX_industrial_power_bar"
+		color = { 1.0 1.0 1.0 }
+		colortwo = { 1.0 1.0 1.0 }
+		textureFile1 = "gfx/interface/industrial_power_bar.dds"
+		textureFile2 = "gfx/interface/industrial_power_bar_bg.dds"
+		size = { x = 262 y = 33 }
+		effectFile = "gfx/FX/progress.lua"
+		steps = 1000
+	}
+
+	progressbartype = {
+		name = "GFX_pol_power_bar"
+		color = { 1.0 1.0 1.0 }
+		colortwo = { 1.0 1.0 1.0 }
+		textureFile1 = "gfx/interface/pol_power_bar.dds"
+		textureFile2 = "gfx/interface/pol_power_bar_bg.dds"
+		size = { x = 262 y = 33 }
+		effectFile = "gfx/FX/progress.lua"
+		steps = 1000
+	}
+
+	progressbartype = {
+		name = "GFX_logistics_bar"
+		color = { 1.0 1.0 1.0 }
+		colortwo = { 1.0 1.0 1.0 }
+		textureFile1 = "gfx/interface/logistics_bar.dds"
+		textureFile2 = "gfx/interface/logistics_bar_bg.dds"
+		size = { x = 191 y = 35 }
+		effectFile = "gfx/FX/progress.lua"
+		steps = 100
+	}
+
+	progressbartype = {
+		name = "GFX_light_weapons_bar"
+		color = { 1.0 1.0 1.0 }
+		colortwo = { 1.0 1.0 1.0 }
+		textureFile1 = "gfx/interface/light_weapons_bar.dds"
+		textureFile2 = "gfx/interface/light_weapons_bar_bg.dds"
+		size = { x = 290 y = 35 }
+		effectFile = "gfx/FX/progress.lua"
+		steps = 100
+	}
+
+	progressbartype = {
+		name = "GFX_heavy_weapons_bar"
+		color = { 1.0 1.0 1.0 }
+		colortwo = { 1.0 1.0 1.0 }
+		textureFile1 = "gfx/interface/heavy_weapons_bar.dds"
+		textureFile2 = "gfx/interface/heavy_weapons_bar_bg.dds"
+		size = { x = 290 y = 35 }
+		effectFile = "gfx/FX/progress.lua"
+		steps = 100
+	}
+
+	progressbartype = {
+		name = "GFX_stability_progress"
+		color = { 1.0 1.0 1.0 }
+		colortwo = { 1.0 1.0 1.0 }
+		textureFile1 = "gfx/interface/stability_progress.dds"
+		textureFile2 = "gfx/interface/ff_progress_bg.dds"
+		size = { x = 165 y = 10 }
+		effectFile = "gfx/FX/progress.lua"
+		steps = 100
+	}
+	progressbartype = {
+		name = "GFX_war_support_progress"
+		color = { 1.0 1.0 1.0 }
+		colortwo = { 1.0 1.0 1.0 }
+		textureFile1 = "gfx/interface/war_support_progress.dds"
+		textureFile2 = "gfx/interface/ff_progress_bg.dds"
+		size = { x = 165 y = 10 }
+		effectFile = "gfx/FX/progress.lua"
+		steps = 100
+	}
+	
+	progressbartype = {
+		name = "GFX_ff_progress"
+		color = { 1.0 1.0 1.0 }
+		colortwo = { 1.0 1.0 1.0 }
+		textureFile1 = "gfx/interface/ff_progress.dds"
+		textureFile2 = "gfx/interface/ff_progress_bg.dds"
+		size = { x = 231 y = 10 }
+		effectFile = "gfx/FX/progress.lua"
+		steps = 100
+	}
+
+	spriteType = {
+		name = "GFX_topbar_resources"
+		texturefile = "gfx/interface/topbar_resources.dds"
+		noOfFrames = 6
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_topbar_resources_missing"
+		texturefile = "gfx/interface/topbar_resources_missing.dds"
+		noOfFrames = 6
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_top_button_construction"
+		texturefile = "gfx/interface/top_button_construction.dds"
+		noOfFrames = 2
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_top_button_large"
+		texturefile = "gfx/interface/top_button_large.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_top_button_mid"
+		texturefile = "gfx/interface/top_button_mid.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_top_button"
+		texturefile = "gfx/interface/top_button.dds"
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_tank_bg"
+		texturefile = "gfx/interface/tank_bg.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_infantry_bg"
+		texturefile = "gfx/interface/infantry_bg.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_building_bg"
+		texturefile = "gfx/interface/building_bg.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_logistics_bg"
+		texturefile = "gfx/interface/logistics_bg.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_eco_tree_bg"
+		texturefile = "gfx/interface/eco_tree_bg.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_eco_tree_bg2"
+		texturefile = "gfx/interface/eco_tree_bg2.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_event_news_pic_overlay_mod"
+		texturefile = "gfx/interface/event_news_pic_overlay.dds"
+		alwaystransparent = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/event_news_pic_overlay.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 120.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = yes			# yes or no ;)
+			animationtime = 5 			# in seconds
+			animationdelay = 6			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+
+		animation = {
+			animationmaskfile = "gfx/interface/event_news_pic_overlay.dds"
+			animationtexturefile = "gfx/interface/event_news_pic_overlay.dds" 	# <- the animated file
+			animationrotation = 0.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = yes			# yes or no ;)
+			animationtime = 26.0				# in seconds
+			animationdelay = 0.0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}	
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_tech_effect_bg"
+		texturefile = "gfx/interface/tech_effect_bg.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_tech_tree_bg"
+		texturefile = "gfx/interface/tech_tree_bg.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_diplo_tree_bg"
+		texturefile = "gfx/interface/diplo_tree_bg.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_ecobalance_center_icon"
+		texturefile = "gfx/interface/ecobalance_center_icon.dds"
+		alwaystransparent = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/ecobalance_center_icon.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 120.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = yes			# yes or no ;)
+			animationtime = 5 			# in seconds
+			animationdelay = 6			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+
+		animation = {
+			animationmaskfile = "gfx/interface/ecobalance_center_icon.dds"
+			animationtexturefile = "gfx/interface/ecobalance_center_icon.dds" 	# <- the animated file
+			animationrotation = 0.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = yes			# yes or no ;)
+			animationtime = 26.0				# in seconds
+			animationdelay = 2.0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}	
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_tech_center_icon"
+		texturefile = "gfx/interface/tech_center_icon.dds"
+		alwaystransparent = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/tech_center_icon.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 120.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = yes			# yes or no ;)
+			animationtime = 5 			# in seconds
+			animationdelay = 6			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+
+		animation = {
+			animationmaskfile = "gfx/interface/tech_center_icon.dds"
+			animationtexturefile = "gfx/interface/tech_center_icon.dds" 	# <- the animated file
+			animationrotation = 0.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = yes			# yes or no ;)
+			animationtime = 26.0				# in seconds
+			animationdelay = 2.0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}	
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_research_button"
+		noOfFrames = 2
+		texturefile = "gfx/interface/research_button.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+	progressbartype = {
+		name = "GFX_warscore_progressbar_mod"
+		color = { 1.0 1.0 1.0 }
+		colortwo = { 1.0 1.0 1.0 }
+		textureFile1 = "gfx/interface/warscore_progressbar.dds"
+		textureFile2 = "gfx/interface/warscore_progressbar_bg.dds"
+		size = { x = 453 y = 41 }
+		effectFile = "gfx/FX/progress.lua"
+		steps = 10000
+	}
+
+	progressbartype = {
+		name = "GFX_surrender_progressbar_mod"
+		color = { 1.0 1.0 1.0 }
+		colortwo = { 1.0 1.0 1.0 }
+		textureFile1 = "gfx/interface/surrender_progress.dds"
+		textureFile2 = "gfx/interface/surrender_progress_bg.dds"
+		size = { x = 225 y = 5 }
+		effectFile = "gfx/FX/progress_startend.lua"
+		steps = 10000
+	}
+
+	spriteType = {
+		name = "GFX_casuality_icon2"
+		texturefile = "gfx/interface/casuality_icon2.dds"
+		noOfFrames = 4
+	}
+
+	spriteType = {
+		name = "GFX_add_national_goal_button_mod"
+		texturefile = "gfx/interface/add_national_goal_button.dds"
+		noOfFrames = 3
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/add_national_goal_button.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 120.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = yes			# yes or no ;)
+			animationtime = 5 			# in seconds
+			animationdelay = 6			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+
+		animation = {
+			animationmaskfile = "gfx/interface/add_national_goal_button.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 120.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = yes			# yes or no ;)
+			animationtime = 5  			# in seconds
+			animationdelay = 3			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+        legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_help_text"
+		texturefile = "gfx/texticons/help_20x20.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_industrial_power"
+		texturefile = "gfx/texticons/industrial_power_20x20.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_cultural_power"
+		texturefile = "gfx/texticons/cultural_power_20x20.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_ic_texticon"
+		texturefile = "gfx/texticons/ic_texticon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_speed_step1"
+		texturefile = "gfx//interface//topbar//speed_step1.dds"
+		noOfFrames = 3
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_speed_step2"
+		texturefile = "gfx//interface//topbar//speed_step2.dds"
+		noOfFrames = 3
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_speed_step3"
+		texturefile = "gfx//interface//topbar//speed_step3.dds"
+		noOfFrames = 3
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_speed_step4"
+		texturefile = "gfx//interface//topbar//speed_step4.dds"
+		noOfFrames = 3
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_speed_step5"
+		texturefile = "gfx//interface//topbar//speed_step5.dds"
+		noOfFrames = 3
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+	spriteType = {
+		name = "GFX_topbar_background_icons"
+		texturefile = "gfx/interface/topbar/background_icons.dds"
+		alwaystransparent = yes
+		animation = {
+			animationmaskfile = "gfx/interface/topbar/background_icons.dds"
+			animationtexturefile = "gfx/interface/topbar/background_icons.dds" 	# <- the animated file
+			animationrotation = 0.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = yes			# yes or no ;)
+			animationtime = 32.0			# in seconds
+			animationdelay = 2.0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+        legacy_lazy_load = no	
+	}
+	spriteType = {
+		name = "GFX_topbar_background_icons_back"
+		texturefile = "gfx/interface/topbar/background_icons_back.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_armyoverview_buttons_bg_over"
+		texturefile = "gfx/interface/topbar/armyoverview_buttons_bg_over.dds"
+	}
+	spriteType = {
+		name = "GFX_armyoverview_buttons_bg_bottom"
+		texturefile = "gfx/interface/topbar/armyoverview_buttons_bg_bottom.dds"
+	}
+
+	spriteType = {
+		name = "GFX_mm_topbar_buttons"
+		texturefile = "gfx/interface/mm_topbar_buttons.dds"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_mapmodes_topbar_buttons"
+		texturefile = "gfx/interface/mapmodes_topbar_buttons.dds"
+		noOfFrames = 4
+	}
+	spriteType = {
+		name = "GFX_mapmodes_topbar_buttons_selected"
+		texturefile = "gfx/interface/mapmodes_topbar_buttons_selected.dds"
+		noOfFrames = 4
+	}
+
+	spriteType = {
+		name = "GFX_discord_mod"
+		texturefile = "gfx/interface/discord_mod.dds"
+	}
+	spriteType = {
+		name = "GFX_reddit_mod"
+		texturefile = "gfx/interface/reddit_mod.dds"
+	}
+	spriteType = {
+		name = "GFX_patreon_mod"
+		texturefile = "gfx/interface/patreon_mod.dds"
+	}
+	spriteType = {
+		name = "GFX_paypal_mod"
+		texturefile = "gfx/interface/paypal_mod.dds"
+	}
+
+	textSpriteType = {
+		name = "GFX_main_lobby_button_new"
+		textureFile = "gfx/interface/main_lobby_button_new.dds"
+		noOfFrames = 3
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"
+	}
+
+	spriteType = {
+		name = "GFX_country_selection_bg_top"
+		texturefile = "gfx/interface/country_selection_bg_top.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/country_selection_bg_top.dds"
+			animationtexturefile = "gfx/interface/country_selection_bg_top.dds" 	# <- the animated file
+			animationrotation = 0.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = yes			# yes or no ;)
+			animationtime = 30.0			# in seconds
+			animationdelay = 6.0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+        legacy_lazy_load = no		
+	}
+
+	spriteType = {
+		name = "GFX_endgame_icon"
+		texturefile = "gfx/interface/endgame_icon.dds"
+		alwaystransparent = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/endgame_icon.dds"
+			animationtexturefile = "gfx/interface/endgame_icon.dds" 	# <- the animated file
+			animationrotation = 0.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = yes			# yes or no ;)
+			animationtime = 26.0				# in seconds
+			animationdelay = 2.0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}	
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_gamesetup_load_bg"
+		texturefile = "gfx/interface/gamesetup_load_bg.dds"
+	}
+	spriteType = {
+		name = "GFX_savedgamerules_load_bg"
+		texturefile = "gfx/interface/savedgamerules_load_bg.dds"
+	}
+
+	spriteType = {
+		name = "GFX_play_button_mod"
+		textureFile = "gfx/interface/play_button.dds"
+		noOfFrames = 4
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"		
+	}
+
+	frameAnimatedSpriteType = {
+		name = "GFX_sponsor_animated"
+		texturefile = "gfx/interface/sponsor_animated.dds"
+		noOfFrames = 6
+		animation_rate_fps = 2
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+		alwaystransparent = no
+		#effectFile = "gfx/FX/buttonstate_blendframes.lua"
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_sponsor_animated_2"
+		texturefile = "gfx/interface/sponsor_animated_2.dds"
+		noOfFrames = 6
+		animation_rate_fps = 2
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+		alwaystransparent = no
+		#effectFile = "gfx/FX/buttonstate_blendframes.lua"
+	}
+
+	corneredTileSpriteType = {
+		name = "GFX_frontend_bg_tv"
+		texturefile = "gfx/interface/frontend_screen_tv.dds"
+		borderSize = { x=0 y=0 }
+		size = { x=96 y=96 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate.shader"
+	}
+	corneredTileSpriteType = {
+		name = "GFX_frontend_bg_mod"
+		texturefile = "gfx/interface/frontend_screen.dds"
+		borderSize = { x=0 y=0 }
+		size = { x=1920 y=1080 }
+		tilingCenter = no
+		effectFile = "gfx/FX/buttonstate.shader"
+	}
+	corneredTileSpriteType = {
+		name = "GFX_frontend_bg_mod_red"
+		texturefile = "gfx/interface/frontend_screen_red.dds"
+		borderSize = { x=0 y=0 }
+		size = { x=96 y=96 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate.shader"
+	}
+	corneredTileSpriteType = {
+		name = "GFX_frontend_bg_mod_end"
+		texturefile = "gfx/interface/frontend_screen_end.dds"
+		borderSize = { x=0 y=0 }
+		size = { x=1 y=1 }
+		tilingCenter = no
+		effectFile = "gfx/FX/buttonstate.shader"
+	}
+	corneredTileSpriteType = {
+		name = "GFX_frontend_bg_corners"
+		texturefile = "gfx/interface/frontend_screen_corners.dds"
+		borderSize = { x=0 y=0 }
+		size = { x=1 y=1 }
+		tilingCenter = no
+		effectFile = "gfx/FX/buttonstate.shader"
+	}
+
+	spriteType = {
+		name = "GFX_frontend_upper_left_corner"
+		texturefile = "gfx/interface/frontend_upper_left_corner.dds"
+	}
+	spriteType = {
+		name = "GFX_frontend_lower_right_corner"
+		texturefile = "gfx/interface/frontend_lower_right_corner.dds"
+	}
+
+	spriteType = {
+		name = "GFX_event_news_bg_black"
+		texturefile = "gfx/interface/event_news_bg_black.dds"
+	}
+
+	spriteType = {
+		name = "GFX_help_button_glow"
+		texturefile = "gfx/interface/topbar/button_help.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/topbar/button_help.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 120.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = yes			# yes or no ;)
+			animationtime = 2			# in seconds
+			animationdelay = 1			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "pulsing"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_help_button_red"
+		texturefile = "gfx/interface/help_button_red.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+	}		
+
+	corneredTileSpriteType = {
+		name = "GFX_tiled_scan_mode"
+		size= { x=100 y=100 }
+		textureFile = "gfx/interface/tiles/scan_mode.dds"
+		borderSize = { x=12 y=12 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_date_pause_button_mod"
+		texturefile = "gfx/interface/date_pause_button_mod.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/date_pause_button_mod.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 120.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = yes			# yes or no ;)
+			animationtime = 2 			# in seconds
+			animationdelay = 3			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "pulsing"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+        name = "GFX_topbar_top_right"
+        texturefile = "gfx/interface/topbar_top_right.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/topbar_top_right.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 120.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = yes			# yes or no ;)
+			animationtime = 5 			# in seconds
+			animationdelay = 6			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+
+		animation = {
+			animationmaskfile = "gfx/interface/topbar_top_right.dds"
+			animationtexturefile = "gfx/interface/topbar_top_right.dds" 	# <- the animated file
+			animationrotation = 0.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = yes			# yes or no ;)
+			animationtime = 26.0				# in seconds
+			animationdelay = 2.0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}	
+        legacy_lazy_load = no
+    }
+
+	progressbartype = {
+		name = "GFX_energy_bar_logistics"
+		color = { 0.0 0.5 0.0 }
+		colortwo = { 1.0 0.0 0.0 }
+		textureFile1 = "gfx/interface/energy_bar_logistics.dds"
+		textureFile2 = "gfx/interface/energy_bar_logistics_bg.dds"
+		size = { x = 251 y = 45 }
+		effectFile = "gfx/FX/progress.lua"
+	}
+
+	spriteType = {
+		name = "GFX_interesting_countries_button"
+		texturefile = "gfx/interface/interesting_countries_button.dds"
+	}
+	spriteType = {
+		name = "GFX_cheats_button"
+		texturefile = "gfx/interface/cheats_button.dds"
+	}
+
+	spriteType = {
+		name = "GFX_party_icons_list"
+		texturefile = "gfx/interface/party_icons_list.dds"
+	}
+
+	spriteType = {
+		name = "GFX_button_148x34_2"
+		texturefile = "gfx/interface/button_148x34_2.dds"
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_large_flag_frame_mod"
+		texturefile = "gfx/interface/large_flag_frame_mod.dds"
+	}
+
+	spriteType = {
+		name = "GFX_header_bg_mod"
+		texturefile = "gfx/interface/header_bg_mod.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_war_diplo_icon"
+		texturefile = "gfx/interface/war_diplo_icon.dds"
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_generic_checkbox_ironman"
+		texturefile = "gfx/interface/generic_checkbox_ironman.dds"
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_division_designer_bg"
+		textureFile = "gfx/interface/division_designer_bg.dds"
+	}
+	spriteType = {
+		name = "GFX_attacker_window_bg"
+		textureFile = "gfx/interface/attacker_window_bg.dds"
+	}
+	spriteType = {
+		name = "GFX_defender_window_bg"
+		textureFile = "gfx/interface/defender_window_bg.dds"
+	}
+
+	spriteType = {
+		name = "GFX_tradeoffer_window_bg"
+		texturefile = "gfx/interface/tradeoffer_window_bg.dds"
+	}
+
+	corneredTileSpriteType = {
+		name = "GFX_tiled_bg_black"
+		size= { x=192 y=192 }
+		textureFile = "gfx/interface/tiles/tiled_bg_black.dds"
+		borderSize = { x=64 y=64 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+	corneredTileSpriteType = {
+		name = "GFX_tiled_bg_alpha"
+		size= { x=192 y=192 }
+		textureFile = "gfx/interface/tiles/tiled_bg_alpha.dds"
+		borderSize = { x=64 y=64 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+	corneredTileSpriteType = {
+		name = "GFX_tiled_bg_alpha_fade"
+		size= { x=300 y=300 }
+		textureFile = "gfx/interface/tiles/tiled_bg_alpha_fade.dds"
+		borderSize = { x=0 y=0 }
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+	corneredTileSpriteType = {
+		name = "GFX_tiled_bg_alpha_fade_flip"
+		size= { x=300 y=300 }
+		textureFile = "gfx/interface/tiles/tiled_bg_alpha_fade_flip.dds"
+		borderSize = { x=0 y=0 }
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+	corneredTileSpriteType = {
+		name = "GFX_tiled_black"
+		size= { x=192 y=192 }
+		textureFile = "gfx/interface/tiles/tiled_black.dds"
+		borderSize = { x=3 y=3 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+	corneredTileSpriteType = {
+		name = "GFX_tiled_side_mod"
+		size= { x=544 y=946 }
+		textureFile = "gfx/interface/tiles/tiled_side_mod.dds"
+		borderSize = { x=272 y=463 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+
+	corneredTileSpriteType = {
+		name = "GFX_wonders_techtree_bg"
+		size= { x=1920 y=1080 }
+		textureFile = "gfx/interface/techtree/wonders_techtree_bg.dds"
+		borderSize = { x=0 y=0 }
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+	corneredTileSpriteType = {
+		name = "GFX_wonders_techtree_bg_flip"
+		size= { x=1920 y=1080 }
+		textureFile = "gfx/interface/techtree/wonders_techtree_bg_flip.dds"
+		borderSize = { x=0 y=0 }
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+
+	corneredTileSpriteType = {
+		name = "GFX_wonders_techtree_bg_dark"
+		size= { x=1920 y=1080 }
+		textureFile = "gfx/interface/techtree/wonders_techtree_bg_dark.dds"
+		borderSize = { x=0 y=0 }
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+	corneredTileSpriteType = {
+		name = "GFX_wonders_techtree_bg_flip_dark"
+		size= { x=1920 y=1080 }
+		textureFile = "gfx/interface/techtree/wonders_techtree_bg_flip_dark.dds"
+		borderSize = { x=0 y=0 }
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+
+	corneredTileSpriteType = {
+		name = "GFX_ecobalance_techtree_bg"
+		size= { x=1920 y=1080 }
+		textureFile = "gfx/interface/techtree/ecobalance_techtree_bg.dds"
+		borderSize = { x=0 y=0 }
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+
+	spriteType = {
+		name = "GFX_buildings_strip_shadow"
+		textureFile = "gfx/interface/buildings/building_icon_strip_shadow.dds"
+	}
+
+	corneredTileSpriteType = {
+		name = "GFX_tiled_black_border_vertical"
+		size= { x=8 y=18 }
+		textureFile = "gfx/interface/tiles/tiled_black_border_vertical.dds"
+		borderSize = { x=4 y=0 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+		alwaystransparent = yes
+	}
+	corneredTileSpriteType = {
+		name = "GFX_tiled_black_border_horizontal"
+		size= { x=18 y=8 }
+		textureFile = "gfx/interface/tiles/tiled_black_border_horizontal.dds"
+		borderSize = { x=0 y=4 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+		alwaystransparent = yes
+	}
+
+	pieChartType = {
+		name = "GFX_political_chart_pol"
+		size = 50
+	}
+
+	spriteType = {
+		name = "GFX_pol_view_bg_large"
+		textureFile = "gfx/interface/pol_view_bg_large.dds"
+	}
+
+	spriteType = {
+		name = "GFX_trade_view_bg_large"
+		textureFile = "gfx/interface/trade_view_bg_large.dds"
+	}
+
+	spriteType = {
+		name = "GFX_research_view_bg_large"
+		textureFile = "gfx/interface/research_view_bg_large.dds"
+	}
+
+	corneredTileSpriteType = {
+		name = "GFX_decision_view_bg_large"
+		size= {x=544 y=961 }
+		texturefile = "gfx/interface/decision_view_bg_large.dds"
+		borderSize = { x=272 y=463 }
+		tilingCenter = yes
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_back_world_tension_mod"
+		textureFile = "gfx/interface/back_world_tension_mod.dds"	
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_decision_item_bg_timed"
+		texturefile = "gfx/interface/decisionview/decision_item_bg_timed.dds"
+		noOfFrames = 3
+	}
+
+	progressbartype = {
+		name = "GFX_construction_progressbar_mod"
+		color = { 0.0 0.5 0.0 }
+		colortwo = { 1.0 0.0 0.0 }
+		textureFile1 = "gfx/interface/construction_progressbar.dds"
+		textureFile2 = "gfx/interface/construction_progressbar_bg.dds"
+		size = { x = 366 y = 6 }
+		effectFile = "gfx/FX/progress_startend.lua"
+	}
+
+###############################
+####### NEWS SPONSORS #########
+###############################
+
+	spriteType = {
+		name = "GFX_sponsor_0"
+		texturefile = "gfx/interface/sponsors/sponsor_0.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_sponsor_4"
+		texturefile = "gfx/interface/sponsors/sponsor_4.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_sponsor_6"
+		texturefile = "gfx/interface/sponsors/sponsor_6.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_sponsor_7"
+		texturefile = "gfx/interface/sponsors/sponsor_7.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_sponsor_8"
+		texturefile = "gfx/interface/sponsors/sponsor_8.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_sponsor_9"
+		texturefile = "gfx/interface/sponsors/sponsor_9.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_sponsor_17"
+		texturefile = "gfx/interface/sponsors/sponsor_17.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_sponsor_18"
+		texturefile = "gfx/interface/sponsors/sponsor_18.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_sponsor_19"
+		texturefile = "gfx/interface/sponsors/sponsor_19.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_sponsor_1"
+		texturefile = "gfx/interface/sponsors/sponsor_1.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_sponsor_2"
+		texturefile = "gfx/interface/sponsors/sponsor_2.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_sponsor_3"
+		texturefile = "gfx/interface/sponsors/sponsor_3.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_sponsor_5"
+		texturefile = "gfx/interface/sponsors/sponsor_5.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_sponsor_10"
+		texturefile = "gfx/interface/sponsors/sponsor_10.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_sponsor_11"
+		texturefile = "gfx/interface/sponsors/sponsor_11.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_sponsor_12"
+		texturefile = "gfx/interface/sponsors/sponsor_12.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_sponsor_13"
+		texturefile = "gfx/interface/sponsors/sponsor_13.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_sponsor_14"
+		texturefile = "gfx/interface/sponsors/sponsor_14.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_sponsor_15"
+		texturefile = "gfx/interface/sponsors/sponsor_15.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_sponsor_16"
+		texturefile = "gfx/interface/sponsors/sponsor_16.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_sponsor_20"
+		texturefile = "gfx/interface/sponsors/sponsor_20.dds"
+		legacy_lazy_load = no
+	}
+
+###############################
+########## CHARACTERS #########
+###############################
+
+	#generic
+	spriteType = {
+		name = "GFX_government_portrait"
+		texturefile = "gfx/leaders/government_portrait.dds"
+	}
+	########
+
+	spriteType = {
+		name = "GFX_portrait_ENG_nigel_john_hall"
+		texturefile = "gfx/leaders/ENG_nigel_john_hall.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_EQG_nwabudike_morgan"
+		texturefile = "gfx/leaders/EQG_nwabudike_morgan.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_SHL_claudius_reid"
+		texturefile = "gfx/leaders/SHL_claudius_reid.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_FRA_elodie_batteux"
+		texturefile = "gfx/leaders/FRA_elodie_batteux.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_GER_lena_ebner"
+		texturefile = "gfx/leaders/GER_lena_ebner.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_ENG_barbara_taylor"
+		texturefile = "gfx/leaders/ENG_barbara_taylor.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_DOS_anthony_beaton"
+		texturefile = "gfx/leaders/DOS_anthony_beaton.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_CAL_corazon_santiago"
+		texturefile = "gfx/leaders/CAL_corazon_santiago.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_CAS_haven_barnett"
+		texturefile = "gfx/leaders/CAS_haven_barnett.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_ONU_pravin_lal"
+		texturefile = "gfx/leaders/ONU_pravin_lal.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_GER_leopold_geibler"
+		texturefile = "gfx/leaders/GER_leopold_geibler.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_SIT_spencer_morgan"
+		texturefile = "gfx/leaders/SIT_spencer_morgan.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_ARC_michael_moderski"
+		texturefile = "gfx/leaders/ARC_michael_moderski.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_CUA_miriam_godwinson"
+		texturefile = "gfx/leaders/CUA_miriam_godwinson.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_SEI_suzanne_fielding"
+		texturefile = "gfx/leaders/SEI_suzanne_fielding.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_PNM_central_council"
+		texturefile = "gfx/leaders/PNM_central_council.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_COL_ezequiel_leon"
+		texturefile = "gfx/leaders/COL_ezequiel_leon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_SCO_duncan_hughes"
+		texturefile = "gfx/leaders/SCO_duncan_hughes.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_CHI_disputed_leadership"
+		texturefile = "gfx/leaders/CHI_disputed_leadership.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_PAD_matteo_bossi"
+		texturefile = "gfx/leaders/PAD_matteo_bossi.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_ITA_ottaviano_acquati"
+		texturefile = "gfx/leaders/ITA_ottaviano_acquati.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_PRU_felipe_leoz"
+		texturefile = "gfx/leaders/PRU_felipe_leoz.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_POL_dyzek_bazinsz"
+		texturefile = "gfx/leaders/POL_dyzek_bazinsz.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_GER_eva_rosenfeld"
+		texturefile = "gfx/leaders/GER_eva_rosenfeld.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_SOV_vadim_kozlov"
+		texturefile = "gfx/leaders/SOV_vadim_kozlov.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_GER_eugen_langer"
+		texturefile = "gfx/leaders/GER_eugen_langer.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_BRA_manuel_velho"
+		texturefile = "gfx/leaders/BRA_manuel_velho.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_USA_ulrik_svensgaard"
+		texturefile = "gfx/leaders/USA_ulrik_svensgaard.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_TZN_jama_samatar"
+		texturefile = "gfx/leaders/TZN_jama_samatar.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_SIL_john_doe"
+		texturefile = "gfx/leaders/SIL_john_doe.dds"
+	}
+
+###############################
+######### DECISIONS ###########
+###############################
+
+	spriteType = {
+		name = "GFX_decision_industrial"
+		texturefile = "gfx/interface/decisions/decision_generic_industrial.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_political"
+		texturefile = "gfx/interface/decisions/decision_generic_political.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_unity"
+		texturefile = "gfx/interface/decisions/decision_generic_unity.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_war"
+		texturefile = "gfx/interface/decisions/decision_generic_war.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_cultural"
+		texturefile = "gfx/interface/decisions/decision_generic_cultural.dds"
+	}
+
+	spriteType = {
+		name = "GFX_decision_integr"
+		texturefile = "gfx/interface/decisions/decision_generic_integr.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_arc"
+		texturefile = "gfx/interface/decisions/decision_generic_arc.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_eaf"
+		texturefile = "gfx/interface/decisions/decision_generic_eaf.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_falah"
+		texturefile = "gfx/interface/decisions/decision_generic_falah.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_brasilia"
+		texturefile = "gfx/interface/decisions/decision_generic_brasilia.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_brasilia2"
+		texturefile = "gfx/interface/decisions/decision_generic_brasilia2.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_fi"
+		texturefile = "gfx/interface/decisions/decision_generic_fi.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_kavitha"
+		texturefile = "gfx/interface/decisions/decision_generic_kavitha.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_nsa"
+		texturefile = "gfx/interface/decisions/decision_generic_nsa.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_sco"
+		texturefile = "gfx/interface/decisions/decision_generic_sco.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_onu"
+		texturefile = "gfx/interface/decisions/decision_generic_onu.dds"
+	}
+
+	spriteType = {
+		name = "GFX_decision_category_generic"
+		texturefile = "gfx/interface/decisions/decision_category_generic.dds"
+	}
+
+	spriteType = {
+		name = "GFX_decision_unknown"
+		texturefile = "gfx/interface/decisions/decision_generic_decision.dds"
+	}
+
+	spriteType = {
+		name = "GFX_decision_generic_decision"
+		texturefile = "gfx/interface/decisions/decision_generic_decision.dds"
+	}
+
+###############################
+############ FLAGS ############
+###############################
+	
+	maskedShieldType = {
+		name = "GFX_construction_flag_mod"
+		textureFile1 = "gfx/interface/construction_flag_overlay_mod.dds"
+		textureFile2 = "gfx/interface/shield_construction_medium_mask_mod.tga"
+		effectFile = "gfx/FX/maskedflag.lua"
+	}
+	maskedShieldType = {
+		name = "GFX_construction_flag_mod_corner"
+		textureFile1 = "gfx/interface/construction_flag_overlay_mod_corner.dds"
+		textureFile2 = "gfx/interface/shield_construction_medium_mask_mod_corner.tga"
+		effectFile = "gfx/FX/maskedflag.lua"
+	}
+	maskedShieldType = {
+		name = "GFX_construction_flag_mod_mod"
+		textureFile1 = "gfx/interface/construction_flag_overlay_mod_mod.dds"
+		textureFile2 = "gfx/interface/shield_construction_medium_mask_mod_mod.tga"
+		effectFile = "gfx/FX/maskedflag.lua"
+	}
+	maskedShieldType = {
+		name = "GFX_construction_flag_mod_mod_reverse"
+		textureFile1 = "gfx/interface/construction_flag_overlay_mod_mod_reverse.dds"
+		textureFile2 = "gfx/interface/shield_construction_medium_mask_mod_mod_reverse.tga"
+		effectFile = "gfx/FX/maskedflag.lua"
+	}
+	maskedShieldType = {
+		name = "GFX_construction_flag_mod_mod_mod"
+		textureFile1 = "gfx/interface/construction_flag_overlay_mod_mod_mod.dds"
+		textureFile2 = "gfx/interface/shield_construction_medium_mask_mod_mod_mod.tga"
+		effectFile = "gfx/FX/maskedflag.lua"
+	}
+	maskedShieldType = {
+		name = "GFX_construction_flag_mod_mod_mod_mod"
+		textureFile1 = "gfx/interface/construction_flag_overlay_mod_mod_mod_mod.dds"
+		textureFile2 = "gfx/interface/shield_construction_medium_mask_mod_mod_mod_mod.tga"
+		effectFile = "gfx/FX/maskedflag.lua"
+	}
+	maskedShieldType = {
+		name = "GFX_shield_medium_mod"
+		textureFile1 = "gfx/interface/flag_overlay_mod.dds"
+		textureFile2 = "gfx/interface/shield_medium_mask_mod.tga"
+		effectFile = "gfx/FX/maskedflag.lua"
+	}
+	maskedShieldType = {
+		name = "GFX_shield_medium_mod_reverse"
+		textureFile1 = "gfx/interface/flag_overlay_mod_reverse.dds"
+		textureFile2 = "gfx/interface/shield_medium_mask_mod_reverse.tga"
+		effectFile = "gfx/FX/maskedflag.lua"
+	}
+
+###############################
+######### EXIT BUTTONS ########
+###############################
+	
+	spriteType = {
+		name = "GFX_exit_button"
+		texturefile = "gfx/interface/exit_button.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_exit_button_flip"
+		texturefile = "gfx/interface/exit_button_flip.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_exit_button_top"
+		texturefile = "gfx/interface/exit_button_top.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_exit_button_left"
+		texturefile = "gfx/interface/exit_button_left.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		transparencecheck = yes
+	}
+
+###############################
+########### TEXTICONS #########
+###############################
+	
+	spriteType = {
+		name = "GFX_industrial_icon"
+		texturefile = "gfx/interface/industrial_icon.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_culture_icon"
+		texturefile = "gfx/interface/culture_icon.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_light_equipment_icon"
+		texturefile = "gfx/texticons/light_equipment.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_heavy_equipment_icon"
+		texturefile = "gfx/texticons/heavy_equipment.dds"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_contribution_icon"
+		texturefile = "gfx/texticons/contribution_icon.dds"
+		legacy_lazy_load = no
+	}
+
+###############################
+##### FOCUS DETAILS / BG ######
+###############################
+	
+	#ONU
+	spriteType = {
+		name = "GFX_ONU_focus_detail"
+		texturefile = "gfx/interface/ONU_focus_detail.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/ONU_focus_detail.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 120.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = yes			# yes or no ;)
+			animationtime = 4			# in seconds
+			animationdelay = 4			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+
+		animation = {
+			animationmaskfile = "gfx/interface/ONU_focus_detail.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 120.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = yes			# yes or no ;)
+			animationtime = 4 			# in seconds
+			animationdelay = 4.5			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+        legacy_lazy_load = no
+		transparencecheck = yes
+	}
+	corneredTileSpriteType = {
+		name = "GFX_ONU_focus_bg"
+		size= { x=1920 y=1080 }
+		textureFile = "gfx/interface/ONU_focus_bg.dds"
+		borderSize = { x=0 y=0 }
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+
+	#TZN
+	spriteType = {
+		name = "GFX_TZN_focus_detail"
+		texturefile = "gfx/interface/TZN_focus_detail.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/TZN_focus_detail.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 120.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = yes			# yes or no ;)
+			animationtime = 4			# in seconds
+			animationdelay = 4			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+
+		animation = {
+			animationmaskfile = "gfx/interface/TZN_focus_detail.dds"
+			animationtexturefile = "gfx/interface/TZN_focus_detail.dds" 	# <- the animated file
+			animationrotation = 0.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = yes			# yes or no ;)
+			animationtime = 26.0				# in seconds
+			animationdelay = 2.0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}	
+        legacy_lazy_load = no
+		transparencecheck = yes
+	}
+	corneredTileSpriteType = {
+		name = "GFX_TZN_focus_bg"
+		size= { x=1920 y=1080 }
+		textureFile = "gfx/interface/TZN_focus_bg.dds"
+		borderSize = { x=0 y=0 }
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+
+	#PNM
+	spriteType = {
+		name = "GFX_PNM_focus_detail"
+		texturefile = "gfx/interface/PNM_focus_detail.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/PNM_focus_detail.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 120.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = yes			# yes or no ;)
+			animationtime = 4			# in seconds
+			animationdelay = 4			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+
+		animation = {
+			animationmaskfile = "gfx/interface/PNM_focus_detail.dds"
+			animationtexturefile = "gfx/interface/PNM_focus_detail.dds" 	# <- the animated file
+			animationrotation = 0.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = yes			# yes or no ;)
+			animationtime = 26.0				# in seconds
+			animationdelay = 2.0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}	
+        legacy_lazy_load = no
+		transparencecheck = yes
+	}
+	corneredTileSpriteType = {
+		name = "GFX_PNM_focus_bg"
+		size= { x=1920 y=1080 }
+		textureFile = "gfx/interface/PNM_focus_bg.dds"
+		borderSize = { x=0 y=0 }
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+
+
+###############################
+########### BUTTONS ###########
+###############################
+
+	spriteType = {
+		name = "GFX_st_button"
+		texturefile = "gfx/interface/st_button.dds"
+	}
+	spriteType = {
+		name = "GFX_st_button_mid"
+		texturefile = "gfx/interface/st_button_mid.dds"
+	}
+	spriteType = {
+		name = "GFX_st_button_big"
+		texturefile = "gfx/interface/st_button_big.dds"
+	}
+	spriteType = {
+		name = "GFX_st_button_small"
+		texturefile = "gfx/interface/st_button_small.dds"
+	}
+	spriteType = {
+		name = "GFX_st_button_261x50"
+		texturefile = "gfx/interface/st_button_261x50.dds"
+	}
+	spriteType = {
+		name = "GFX_st_button_111x30"
+		texturefile = "gfx/interface/st_button_111x30.dds"
+	}
+
+	textSpriteType = {
+		name = "GFX_button_221x34_black"
+		texturefile = "gfx/interface/button_221x34_black.dds"
+		noOfFrames = 1
+		#effectFile = "gfx/FX/buttonstate.lua"
+	}	
+
+###############################
+####### TILED TEXTURES ########
+###############################
+
+	corneredTileSpriteType = {
+		name = "GFX_tiled_bg_black"
+		size= { x=192 y=192 }
+		textureFile = "gfx/interface/tiles/tiled_bg_black.dds"
+		borderSize = { x=64 y=64 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+	corneredTileSpriteType = {
+		name = "GFX_tiled_bg_alpha"
+		size= { x=192 y=192 }
+		textureFile = "gfx/interface/tiles/tiled_bg_alpha.dds"
+		borderSize = { x=64 y=64 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+	corneredTileSpriteType = {
+		name = "GFX_tiled_bg_alpha_fade"
+		size= { x=300 y=300 }
+		textureFile = "gfx/interface/tiles/tiled_bg_alpha_fade.dds"
+		borderSize = { x=0 y=0 }
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+	corneredTileSpriteType = {
+		name = "GFX_tiled_bg_alpha_fade_flip"
+		size= { x=300 y=300 }
+		textureFile = "gfx/interface/tiles/tiled_bg_alpha_fade_flip.dds"
+		borderSize = { x=0 y=0 }
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+	corneredTileSpriteType = {
+		name = "GFX_tiled_black"
+		size= { x=1 y=1 }
+		textureFile = "gfx/interface/tiles/tiled_black.dds"
+		borderSize = { x=0 y=0 }
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+	corneredTileSpriteType = {
+		name = "GFX_tiled_black_half"
+		size= { x=1 y=1 }
+		textureFile = "gfx/interface/tiles/tiled_black_half.dds"
+		borderSize = { x=0 y=0 }
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+	corneredTileSpriteType = {
+		name = "GFX_tiled_side_mod"
+		size= { x=544 y=946 }
+		textureFile = "gfx/interface/tiles/tiled_side_mod.dds"
+		borderSize = { x=272 y=463 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+}
+
+bitmapfonts = {
+
+###############################
+######## MOD FONTS ^^ #########
+###############################
+
+	bitmapfont = {
+		name = "center"
+		path = "gfx/fonts/Arial16"
+		color = 0xffffffff
+	}
+	#
+	bitmapfont = {
+		name = "Focusfont"
+		path = "gfx/fonts/focusfont"
+		color = 0xffffffff
+		
+		textcolors = {
+			B = { 47 138 135 }
+			G = { 103 234 142 }
+			R = { 255 85 80 }
+			Y = { 220 218 80 }
+			O = { 234 161 14 }
+			H = { 255 209 30 }
+			T = { 89 199 194 }
+			W = { 255 255 255 }
+		}
+	}
+	bitmapfont = {
+		name = "cg_16b"
+		path = "gfx/fonts/cg_16b"
+		color = 0xffffffff
+		
+		textcolors = {
+			#
+		}
+	}
+	bitmapfont = {
+		name = "Beyond"
+		path = "gfx/fonts/Beyond"
+		color = 0xffffffff
+		
+		textcolors = {
+			#
+		}
+	}
+	bitmapfont = {
+		name = "Arialbigcap"
+		path = "gfx/fonts/Arialbigcap"
+		color = 0xffffffff
+		
+		textcolors = {
+			#
+		}
+	}
+	bitmapfont = {
+		name = "Arialbig"
+		path = "gfx/fonts/Arialbig"
+		color = 0xffffffff
+		
+		textcolors = {
+			#
+		}
+	}
+	bitmapfont = {
+		name = "Arialsmallest"
+		path = "gfx/fonts/Arialsmallest"
+		color = 0xffffffff
+		
+		textcolors = {
+			g = { 120 120 120 }
+		}
+	}
+	bitmapfont = {
+		name = "Arial16"
+		path = "gfx/fonts/Arial16"
+		color = 0xffffffff
+		
+		textcolors = {
+			#
+		}
+	}
+	bitmapfont = {
+		name = "Arialsmall"
+		path = "gfx/fonts/Arialsmall"
+		color = 0xffffffff
+		
+		textcolors = {
+			#
+		}
+	}
+	bitmapfont = {
+		name = "Arial"
+		path = "gfx/fonts/Arial"
+		color = 0xffffffff
+		
+		textcolors = {
+			#
+		}
+	}
+	bitmapfont = {
+		name = "Arialcap"
+		path = "gfx/fonts/Arialcap"
+		color = 0xffffffff
+		
+		textcolors = {
+			#
+		}
+	}
+	bitmapfont = {
+		name = "Arialsmallcap"
+		path = "gfx/fonts/Arialsmallcap"
+		color = 0xffffffff
+		
+		textcolors = {
+			#
+		}
+	}
+	bitmapfont = {
+		name = "Arialsmallestcap"
+		path = "gfx/fonts/Arialsmallestcap"
+		color = 0xffffffff
+		
+		textcolors = {
+			#
+		}
+	}
+	bitmapfont = {
+		name = "Beyondresources"
+		path = "gfx/fonts/Beyondresources"
+		color = 0xffffffff
+		
+		textcolors = {
+			#
+		}
+	}
+	bitmapfont = {
+		name = "Beyondresourcesproduced"
+		path = "gfx/fonts/Beyondresourcesproduced"
+		color = 0xffffffff
+		
+		textcolors = {
+			#
+		}
+	}
+	bitmapfont = {
+		name = "Beyondresourcesmissing"
+		path = "gfx/fonts/Beyondresourcesmissing"
+		color = 0xffffffff
+		
+		textcolors = {
+			#
+		}
+	}
+	bitmapfont = {
+		name = "Beyondpolymers"
+		path = "gfx/fonts/Beyondpolymers"
+		color = 0xffffffff
+		
+		textcolors = {
+			#
+		}
+	}
+	bitmapfont = {
+		name = "Beyondlithium"
+		path = "gfx/fonts/Beyondlithium"
+		color = 0xffffffff
+		
+		textcolors = {
+			#
+		}
+	}
+	bitmapfont = {
+		name = "Beyondelectronics"
+		path = "gfx/fonts/Beyondelectronics"
+		color = 0xffffffff
+		
+		textcolors = {
+			#
+		}
+	}
+	bitmapfont = {
+		name = "Beyondsuperalloys"
+		path = "gfx/fonts/Beyondsuperalloys"
+		color = 0xffffffff
+		
+		textcolors = {
+			#
+		}
+	}
+	bitmapfont = {
+		name = "Beyondsuperconductors"
+		path = "gfx/fonts/Beyondsuperconductors"
+		color = 0xffffffff
+		
+		textcolors = {
+			#
+		}
+	}
+	bitmapfont = {
+		name = "Beyondtopmiss"
+		path = "gfx/fonts/Beyondtopmiss"
+		color = 0xffffffff
+		
+		textcolors = {
+			#
+		}
+	}
+	bitmapfont = {
+		name = "Beyondtop"
+		path = "gfx/fonts/Beyondtop"
+		color = 0xffffffff
+		
+		textcolors = {
+			#
+		}
+	}
+	bitmapfont = {
+		name = "Beyondtoppurplish"
+		path = "gfx/fonts/Beyondtoppurplish"
+		color = 0xffffffff
+		
+		textcolors = {
+			#
+		}
+	}
+	bitmapfont = {
+		name = "Beyondtoprosish"
+		path = "gfx/fonts/Beyondtoprosish"
+		color = 0xffffffff
+		
+		textcolors = {
+			#
+		}
+	}
+	bitmapfont = {
+		name = "Beyondtopbluish"
+		path = "gfx/fonts/Beyondtopbluish"
+		color = 0xffffffff
+		
+		textcolors = {
+			#
+		}
+	}
+	bitmapfont = {
+		name = "Beyondtopdate"
+		path = "gfx/fonts/Beyondtopdate"
+		color = 0xffffffff
+		
+		textcolors = {
+			#
+		}
+	}
+}
+
+spriteTypes = {
+
+###############################
+######### IDEOLOGIES ##########
+###############################
+
+	spriteType = {
+		name = "GFX_ideology_neutral_group"
+		texturefile = "gfx/interface/ideologies/neutral_group.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_harmony_group"
+		texturefile = "gfx/interface/ideologies/harmony_group.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_purity_group"
+		texturefile = "gfx/interface/ideologies/purity_group.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_supremacy_group"
+		texturefile = "gfx/interface/ideologies/supremacy_group.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_mastery_group"
+		texturefile = "gfx/interface/ideologies/mastery_group.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_synergy_group"
+		texturefile = "gfx/interface/ideologies/synergy_group.dds"
+	}
+	spriteType = {
+		name = "GFX_ideology_divinity_group"
+		texturefile = "gfx/interface/ideologies/divinity_group.dds"
+	}
+}
+
+spriteTypes = {
+
+###############################
+######### SOUTH POLE ##########
+###############################
+
+	spriteType = {
+		name = "GFX_sectors_button"
+		texturefile = "gfx/interface/sectors_button.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		noOfFrames = 2
+		animation = {
+			animationmaskfile = "gfx/interface/sectors_button.dds"
+			animationtexturefile = "gfx/interface//techtree//technology_researched_item_bg.dds" 	# <- the animated file
+			animationrotation = 0.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = yes			# yes or no ;)
+			animationtime = 26.0				# in seconds
+			animationdelay = 0.0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}	
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_antarctic_sectors"
+		texturefile = "gfx/interface/south_pole/antarctic_sectors.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_antarctic_sectors_back"
+		texturefile = "gfx/interface/south_pole/antarctic_sectors_back.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/south_pole/antarctic_sectors_back.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 120.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = yes			# yes or no ;)
+			animationtime = 4			# in seconds
+			animationdelay = 4			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+
+		animation = {
+			animationmaskfile = "gfx/interface/south_pole/antarctic_sectors_back.dds"
+			animationtexturefile = "gfx/interface/south_pole/antarctic_sectors_back.dds" 	# <- the animated file
+			animationrotation = 0.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = yes			# yes or no ;)
+			animationtime = 26.0				# in seconds
+			animationdelay = 2.0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}	
+        legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_antarctic_sectors_owns"
+		texturefile = "gfx/interface/south_pole/antarctic_sectors_owns.dds"
+		transparencecheck = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/south_pole/antarctic_sectors_owns.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 120.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = yes			# yes or no ;)
+			animationtime = 4			# in seconds
+			animationdelay = 4			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+
+		animation = {
+			animationmaskfile = "gfx/interface/south_pole/antarctic_sectors_owns.dds"
+			animationtexturefile = "gfx/interface/south_pole/antarctic_sectors_owns.dds" 	# <- the animated file
+			animationrotation = 0.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = yes			# yes or no ;)
+			animationtime = 26.0				# in seconds
+			animationdelay = 2.0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}	
+        legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_southpole_cost_word"
+		texturefile = "gfx/interface/south_pole/southpole_cost_word.dds"
+	}
+
+	spriteType = { #frameAnimatedSpriteType #USED TO BE ANIMATED
+		name = "GFX_south_pole_hostile_takeover"
+		texturefile = "gfx/interface/south_pole/south_pole_hostile_takeover.dds"
+		noOfFrames = 2
+		#animation_rate_fps = 0.8
+		#looping = yes
+		#play_on_show = yes
+		#pause_on_loop = 0.0
+		#alwaystransparent = no
+		#effectFile = "gfx/FX/buttonstate_blendframes.lua"
+	}
+
+	spriteType = {
+		name = "GFX_antarctic_sectors_bg"
+		texturefile = "gfx/interface/south_pole/antarctic_sectors_bg.dds"
+	}
+	spriteType = {
+		name = "GFX_antarctic_sectors_bg_over"
+		texturefile = "gfx/interface/south_pole/antarctic_sectors_bg_over.dds"
+	}
+}
+
+spriteTypes = {
+
+###############################
+########### VIRTUES ###########
+###############################
+
+	spriteType = {
+		name = "GFX_virtues_button"
+		texturefile = "gfx/interface/virtues_button.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		noOfFrames = 2
+		animation = {
+			animationmaskfile = "gfx/interface/virtues_button.dds"
+			animationtexturefile = "gfx/interface//techtree//technology_researched_item_bg.dds" 	# <- the animated file
+			animationrotation = 0.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = yes			# yes or no ;)
+			animationtime = 26.0				# in seconds
+			animationdelay = 0.0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}	
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_virtues_window_bg"
+		texturefile = "gfx/interface/virtues_window_bg.dds"
+		alwaystransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_virtues_background_icons"
+		texturefile = "gfx/interface/culture/virtues_background_icons.dds"
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_virtues_icons"
+		texturefile = "gfx/interface/culture/virtues_icons.dds"
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_purity_line"
+		texturefile = "gfx/interface/culture/purity_line.dds"
+	}
+	spriteType = {
+		name = "GFX_supremacy_line"
+		texturefile = "gfx/interface/culture/supremacy_line.dds"
+	}
+	spriteType = {
+		name = "GFX_harmony_line"
+		texturefile = "gfx/interface/culture/harmony_line.dds"
+	}
+	spriteType = {
+		name = "GFX_divinity_line"
+		texturefile = "gfx/interface/culture/divinity_line.dds"
+	}
+	spriteType = {
+		name = "GFX_synergy_line"
+		texturefile = "gfx/interface/culture/synergy_line.dds"
+	}
+	spriteType = {
+		name = "GFX_mastery_line"
+		texturefile = "gfx/interface/culture/mastery_line.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_purity_fade"
+		texturefile = "gfx/interface/culture/purity_fade.dds"
+	}
+	spriteType = {
+		name = "GFX_supremacy_fade"
+		texturefile = "gfx/interface/culture/supremacy_fade.dds"
+	}
+	spriteType = {
+		name = "GFX_harmony_fade"
+		texturefile = "gfx/interface/culture/harmony_fade.dds"
+	}
+	spriteType = {
+		name = "GFX_divinity_fade"
+		texturefile = "gfx/interface/culture/divinity_fade.dds"
+	}
+	spriteType = {
+		name = "GFX_synergy_fade"
+		texturefile = "gfx/interface/culture/synergy_fade.dds"
+	}
+	spriteType = {
+		name = "GFX_mastery_fade"
+		texturefile = "gfx/interface/culture/mastery_fade.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_purity_fade_2"
+		texturefile = "gfx/interface/culture/purity_fade_2.dds"
+	}
+	spriteType = {
+		name = "GFX_supremacy_fade_2"
+		texturefile = "gfx/interface/culture/supremacy_fade_2.dds"
+	}
+	spriteType = {
+		name = "GFX_harmony_fade_2"
+		texturefile = "gfx/interface/culture/harmony_fade_2.dds"
+	}
+	spriteType = {
+		name = "GFX_divinity_fade_2"
+		texturefile = "gfx/interface/culture/divinity_fade_2.dds"
+	}
+	spriteType = {
+		name = "GFX_synergy_fade_2"
+		texturefile = "gfx/interface/culture/synergy_fade_2.dds"
+	}
+	spriteType = {
+		name = "GFX_mastery_fade_2"
+		texturefile = "gfx/interface/culture/mastery_fade_2.dds"
+	}
+}
+
+spriteTypes = {
+
+###############################
+######### ECOBALANCE ##########
+###############################
+
+	spriteType = { #frameAnimatedSpriteType #USED TO BE ANIMATED
+		name = "GFX_ecobalance_state"
+		texturefile = "gfx/interface/ecobalance_state.dds"
+		transparencecheck = yes
+	}
+	# FOR RESEARCH!
+	spriteType = {
+		name = "GFX_research_state"
+		texturefile = "gfx/interface/research_state.dds"
+		transparencecheck = yes
+		noOfFrames = 2
+		#animation_rate_fps = 0.5
+		#looping = yes
+		#play_on_show = yes
+		#pause_on_loop = 0.0
+		#alwaystransparent = no
+		#effectFile = "gfx/FX/buttonstate_blendframes.lua"
+	}
+	# FOR FOCUS TREES!
+	spriteType = {
+		name = "GFX_focus_state"
+		texturefile = "gfx/interface/focus_state.dds"
+		transparencecheck = yes
+		#noOfFrames = 2
+		#animation_rate_fps = 0.5
+		#looping = yes
+		#play_on_show = yes
+		#pause_on_loop = 0.0
+		#alwaystransparent = no
+		#effectFile = "gfx/FX/buttonstate_blendframes.lua"
+	}
+	spriteType = {
+		name = "GFX_ecobalance_state_harmony"
+		texturefile = "gfx/interface/ecobalance_state_harmony.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_ecobalance_state_mastery"
+		texturefile = "gfx/interface/ecobalance_state_mastery.dds"
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_auto_ecobalance"
+		texturefile = "gfx/interface/auto_ecobalance.dds"
+		noOfFrames = 2
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_ecobalance_state_load"
+		texturefile = "gfx/interface/ecobalance_state_load.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_ecobalance_state_load_flip" #used in topbar
+		texturefile = "gfx/interface/ecobalance_state_load_flip.dds"
+		alwaystransparent = yes
+		#transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_ecobalance_state_load_harmony"
+		texturefile = "gfx/interface/ecobalance_state_load_harmony.dds"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_ecobalance_state_load_mastery"
+		texturefile = "gfx/interface/ecobalance_state_load_mastery.dds"
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_ecobalance_state_level_1"
+		texturefile = "gfx/interface/ecobalance_state_level_1.dds"
+	}
+	spriteType = {
+		name = "GFX_ecobalance_state_level_2"
+		texturefile = "gfx/interface/ecobalance_state_level_2.dds"
+	}
+	spriteType = {
+		name = "GFX_ecobalance_state_level_3"
+		texturefile = "gfx/interface/ecobalance_state_level_3.dds"
+	}
+	spriteType = {
+		name = "GFX_ecobalance_state_level_4"
+		texturefile = "gfx/interface/ecobalance_state_level_4.dds"
+	}
+	spriteType = {
+		name = "GFX_ecobalance_state_level_5"
+		texturefile = "gfx/interface/ecobalance_state_level_5.dds"
+	}
+	spriteType = {
+		name = "GFX_ecobalance_state_level_6"
+		texturefile = "gfx/interface/ecobalance_state_level_6.dds"
+	}
+	spriteType = {
+		name = "GFX_ecobalance_state_level_7"
+		texturefile = "gfx/interface/ecobalance_state_level_7.dds"
+	}
+}
+
+spriteTypes = {
+
+###############################
+########## SPACESHIP ##########
+###############################
+
+	spriteType = {
+		name = "GFX_spaceship_button"
+		texturefile = "gfx/interface/spaceship_button.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		noOfFrames = 2
+		animation = {
+			animationmaskfile = "gfx/interface/spaceship_button.dds"
+			animationtexturefile = "gfx/interface//techtree//technology_researched_item_bg.dds" 	# <- the animated file
+			animationrotation = 0.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = yes			# yes or no ;)
+			animationtime = 26.0				# in seconds
+			animationdelay = 0.0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}	
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_international_bg"
+		texturefile = "gfx/interface/international/international_bg.dds"
+	}
+
+	#SPACESHIP PARTS
+	spriteType = {
+		name = "GFX_international_spaceship_1"
+		texturefile = "gfx/interface/international/international_spaceship_1.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_international_spaceship_1_green"
+		texturefile = "gfx/interface/international/international_spaceship_1_green.dds"
+		alwaystransparent = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/international/international_spaceship_1_green.dds"
+			animationtexturefile = "gfx/interface//techtree//technology_researched_item_bg.dds" 	# <- the animated file
+			animationrotation = 0.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = yes			# yes or no ;)
+			animationtime = 60.0				# in seconds
+			animationdelay = 0.0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}	
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_international_spaceship_1_purple"
+		texturefile = "gfx/interface/international/international_spaceship_1_purple.dds"
+		alwaystransparent = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/international/international_spaceship_1_purple.dds"
+			animationtexturefile = "gfx/interface//techtree//technology_researched_item_bg.dds" 	# <- the animated file
+			animationrotation = 0.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = yes			# yes or no ;)
+			animationtime = 60.0				# in seconds
+			animationdelay = 0.0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}	
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_international_spaceship_2"
+		texturefile = "gfx/interface/international/international_spaceship_2.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_international_spaceship_2_green"
+		texturefile = "gfx/interface/international/international_spaceship_2_green.dds"
+		alwaystransparent = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/international/international_spaceship_2_green.dds"
+			animationtexturefile = "gfx/interface//techtree//technology_researched_item_bg.dds" 	# <- the animated file
+			animationrotation = 0.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = yes			# yes or no ;)
+			animationtime = 60.0				# in seconds
+			animationdelay = 0.0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}	
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_international_spaceship_2_purple"
+		texturefile = "gfx/interface/international/international_spaceship_2_purple.dds"
+		alwaystransparent = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/international/international_spaceship_2_purple.dds"
+			animationtexturefile = "gfx/interface//techtree//technology_researched_item_bg.dds" 	# <- the animated file
+			animationrotation = 0.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = yes			# yes or no ;)
+			animationtime = 60.0				# in seconds
+			animationdelay = 0.0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}	
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_international_spaceship_3"
+		texturefile = "gfx/interface/international/international_spaceship_3.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_international_spaceship_3_green"
+		texturefile = "gfx/interface/international/international_spaceship_3_green.dds"
+		alwaystransparent = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/international/international_spaceship_3_green.dds"
+			animationtexturefile = "gfx/interface//techtree//technology_researched_item_bg.dds" 	# <- the animated file
+			animationrotation = 0.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = yes			# yes or no ;)
+			animationtime = 60.0				# in seconds
+			animationdelay = 0.0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}	
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_international_spaceship_3_purple"
+		texturefile = "gfx/interface/international/international_spaceship_3_purple.dds"
+		alwaystransparent = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/international/international_spaceship_3_purple.dds"
+			animationtexturefile = "gfx/interface//techtree//technology_researched_item_bg.dds" 	# <- the animated file
+			animationrotation = 0.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = yes			# yes or no ;)
+			animationtime = 60.0				# in seconds
+			animationdelay = 0.0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}	
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_international_spaceship_4"
+		texturefile = "gfx/interface/international/international_spaceship_4.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_international_spaceship_4_green"
+		texturefile = "gfx/interface/international/international_spaceship_4_green.dds"
+		alwaystransparent = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/international/international_spaceship_4_green.dds"
+			animationtexturefile = "gfx/interface//techtree//technology_researched_item_bg.dds" 	# <- the animated file
+			animationrotation = 0.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = yes			# yes or no ;)
+			animationtime = 60.0				# in seconds
+			animationdelay = 0.0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}	
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_international_spaceship_4_purple"
+		texturefile = "gfx/interface/international/international_spaceship_4_purple.dds"
+		alwaystransparent = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/international/international_spaceship_4_purple.dds"
+			animationtexturefile = "gfx/interface//techtree//technology_researched_item_bg.dds" 	# <- the animated file
+			animationrotation = 0.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = yes			# yes or no ;)
+			animationtime = 60.0				# in seconds
+			animationdelay = 0.0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}	
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_international_spaceship_5"
+		texturefile = "gfx/interface/international/international_spaceship_5.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_international_spaceship_5_green"
+		texturefile = "gfx/interface/international/international_spaceship_5_green.dds"
+		alwaystransparent = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/international/international_spaceship_5_green.dds"
+			animationtexturefile = "gfx/interface//techtree//technology_researched_item_bg.dds" 	# <- the animated file
+			animationrotation = 0.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = yes			# yes or no ;)
+			animationtime = 60.0				# in seconds
+			animationdelay = 0.0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}	
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_international_spaceship_5_purple"
+		texturefile = "gfx/interface/international/international_spaceship_5_purple.dds"
+		alwaystransparent = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/international/international_spaceship_5_purple.dds"
+			animationtexturefile = "gfx/interface//techtree//technology_researched_item_bg.dds" 	# <- the animated file
+			animationrotation = 0.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = yes			# yes or no ;)
+			animationtime = 60.0				# in seconds
+			animationdelay = 0.0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}	
+		legacy_lazy_load = no
+	}
+	###
+	spriteType = {
+		name = "GFX_button_spaceship_parts"
+		texturefile = "gfx/interface/international/button_spaceship_parts.dds"
+	}
+	spriteType = {
+		name = "GFX_button_spaceship_parts_green"
+		texturefile = "gfx/interface/international/button_spaceship_parts_green.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/international/button_spaceship_parts_green.dds"
+			animationtexturefile = "gfx/interface//techtree//technology_researched_item_bg.dds" 	# <- the animated file
+			animationrotation = 0.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = yes			# yes or no ;)
+			animationtime = 26.0				# in seconds
+			animationdelay = 0.0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}	
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_button_spaceship_parts_purple"
+		texturefile = "gfx/interface/international/button_spaceship_parts_purple.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/international/button_spaceship_parts_purple.dds"
+			animationtexturefile = "gfx/interface//techtree//technology_researched_item_bg.dds" 	# <- the animated file
+			animationrotation = 0.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = yes			# yes or no ;)
+			animationtime = 26.0				# in seconds
+			animationdelay = 0.0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}	
+		legacy_lazy_load = no
+	}
+
+###############################
+######## TERRAIN TYPE #########
+###############################
+
+	spriteType = {
+		name = "GFX_terrain_great_garbage_patch_night_storm"
+		textureFile = "gfx/interface/terrains/terrain_great_garbage_patch_night.dds"
+	}
+	spriteType = {
+		name = "GFX_terrain_great_garbage_patch_night_rain"
+		textureFile = "gfx/interface/terrains/terrain_great_garbage_patch_night.dds"	
+	}
+	spriteType = {
+		name = "GFX_terrain_great_garbage_patch_night_snow"
+		textureFile = "gfx/interface/terrains/terrain_great_garbage_patch_night.dds"
+	}
+	spriteType = {
+		name = "GFX_terrain_great_garbage_patch_night_snow_storm"
+		textureFile = "gfx/interface/terrains/terrain_great_garbage_patch_night.dds"
+	}
+	spriteType = {
+		name = "GFX_terrain_great_garbage_patch_day"
+		textureFile = "gfx/interface/terrains/terrain_great_garbage_patch_day.dds"
+	}	
+	spriteType = {
+		name = "GFX_terrain_great_garbage_patch_day_rain"
+		textureFile = "gfx/interface/terrains/terrain_great_garbage_patch_day.dds"
+	}	
+	spriteType = {
+		name = "GFX_terrain_great_garbage_patch_day_storm"
+		textureFile = "gfx/interface/terrains/terrain_great_garbage_patch_day.dds"
+	}
+	spriteType = {
+		name = "GFX_terrain_great_garbage_patch_day_snow"
+		textureFile = "gfx/interface/terrains/terrain_great_garbage_patch_day.dds"
+	}
+	spriteType = {
+		name = "GFX_terrain_great_garbage_patch_day_snow_storm"
+		textureFile = "gfx/interface/terrains/terrain_great_garbage_patch_day.dds"
+	}
+	spriteType = {
+		name = "GFX_terrain_great_garbage_patch_night"
+		textureFile = "gfx/interface/terrains/terrain_great_garbage_patch_night.dds"
+	}
+
+	spriteType = {
+		name = "GFX_terrain_flooded_cities_night_storm"
+		textureFile = "gfx/interface/terrains/terrain_flooded_cities_night.dds"
+	}
+	spriteType = {
+		name = "GFX_terrain_flooded_cities_night_rain"
+		textureFile = "gfx/interface/terrains/terrain_flooded_cities_night.dds"	
+	}
+	spriteType = {
+		name = "GFX_terrain_flooded_cities_night_snow"
+		textureFile = "gfx/interface/terrains/terrain_flooded_cities_night.dds"
+	}
+	spriteType = {
+		name = "GFX_terrain_flooded_cities_night_snow_storm"
+		textureFile = "gfx/interface/terrains/terrain_flooded_cities_night.dds"
+	}
+	spriteType = {
+		name = "GFX_terrain_flooded_cities_day"
+		textureFile = "gfx/interface/terrains/terrain_flooded_cities_day.dds"
+	}	
+	spriteType = {
+		name = "GFX_terrain_flooded_cities_day_rain"
+		textureFile = "gfx/interface/terrains/terrain_flooded_cities_day.dds"
+	}	
+	spriteType = {
+		name = "GFX_terrain_flooded_cities_day_storm"
+		textureFile = "gfx/interface/terrains/terrain_flooded_cities_day.dds"
+	}
+	spriteType = {
+		name = "GFX_terrain_flooded_cities_day_snow"
+		textureFile = "gfx/interface/terrains/terrain_flooded_cities_day.dds"
+	}
+	spriteType = {
+		name = "GFX_terrain_flooded_cities_day_snow_storm"
+		textureFile = "gfx/interface/terrains/terrain_flooded_cities_day.dds"
+	}
+	spriteType = {
+		name = "GFX_terrain_flooded_cities_night"
+		textureFile = "gfx/interface/terrains/terrain_flooded_cities_night.dds"
+	}
+}
+
+spriteTypes = {
+
+###############################
+######## EVENT PICTURES #######
+###############################
+
+	frameAnimatedSpriteType = {
+		name = "GFX_newsnewsnews2"
+		texturefile = "gfx/interface/newsnewsnews2.dds"
+		noOfFrames = 9
+		animation_rate_fps = 10
+		looping = yes
+		play_on_show = yes
+		alwaystransparent = yes
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_newsnewsnews"
+		texturefile = "gfx/interface/newsnewsnews.dds"
+		noOfFrames = 8
+		animation_rate_fps = 10
+		looping = yes
+		play_on_show = yes
+		alwaystransparent = yes
+	}
+
+	frameAnimatedSpriteType = {
+		name = "GFX_unknown_event_picture"
+		texturefile = "gfx/event_pictures/unknown.dds"
+		noOfFrames = 2
+		animation_rate_fps = 1
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+		alwaystransparent = yes
+		effectFile = "gfx/FX/buttonstate_blendframes.lua"
+	}
+
+	spriteType = {
+		name = "GFX_event_title_bg"
+		texturefile = "gfx/interface/event_title_bg.dds"
+	}
+
+	#SS
+	spriteType = {
+		name = "GFX_ss_part_complete_event"
+		texturefile = "gfx/event_pictures/ss_part_complete_event.dds"
+	}
+
+	#ECOBALANCE COLLAPSE
+	spriteType = {
+		name = "GFX_international_news_event.7"
+		texturefile = "gfx/event_pictures/international_news_event.7.dds"
+	}
+
+	#INTERNATIONAL
+	spriteType = {
+		name = "GFX_international_news_event.8"
+		texturefile = "gfx/event_pictures/international_news_event.8.dds"
+		animation = {
+			animationmaskfile = "gfx/event_pictures/international_news_event.8.dds"
+			animationtexturefile = "gfx/event_pictures/international_news_event.8.dds" 	# <- the animated file
+			animationrotation = 0.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = yes			# yes or no ;)
+			animationtime = 26.0				# in seconds
+			animationdelay = 2.0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}	
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_international_news_event.9"
+		texturefile = "gfx/event_pictures/international_news_event.9.dds"
+		animation = {
+			animationmaskfile = "gfx/event_pictures/international_news_event.9.dds"
+			animationtexturefile = "gfx/event_pictures/international_news_event.9.dds" 	# <- the animated file
+			animationrotation = 0.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = yes			# yes or no ;)
+			animationtime = 26.0				# in seconds
+			animationdelay = 2.0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}	
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_international_news_event.10"
+		texturefile = "gfx/event_pictures/international_news_event.10.dds"
+		animation = {
+			animationmaskfile = "gfx/event_pictures/international_news_event.10.dds"
+			animationtexturefile = "gfx/event_pictures/international_news_event.10.dds" 	# <- the animated file
+			animationrotation = 0.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = yes			# yes or no ;)
+			animationtime = 26.0				# in seconds
+			animationdelay = 2.0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}	
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_international_news_event.11"
+		texturefile = "gfx/event_pictures/international_news_event.11.dds"
+		animation = {
+			animationmaskfile = "gfx/event_pictures/international_news_event.11.dds"
+			animationtexturefile = "gfx/event_pictures/international_news_event.11.dds" 	# <- the animated file
+			animationrotation = 0.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = yes			# yes or no ;)
+			animationtime = 26.0				# in seconds
+			animationdelay = 2.0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}	
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_international_news_event.12"
+		texturefile = "gfx/event_pictures/international_news_event.12.dds"
+		animation = {
+			animationmaskfile = "gfx/event_pictures/international_news_event.12.dds"
+			animationtexturefile = "gfx/event_pictures/international_news_event.12.dds" 	# <- the animated file
+			animationrotation = 0.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = yes			# yes or no ;)
+			animationtime = 26.0				# in seconds
+			animationdelay = 2.0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}	
+		legacy_lazy_load = no
+	}
+
+	#NEWS
+	spriteType = {
+		name = "GFX_news_event.19"
+		texturefile = "gfx/event_pictures/news_event.19.dds"
+		animation = {
+			animationmaskfile = "gfx/event_pictures/news_event.19.dds"
+			animationtexturefile = "gfx/event_pictures/news_event.19.dds" 	# <- the animated file
+			animationrotation = 0.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = yes			# yes or no ;)
+			animationtime = 26.0				# in seconds
+			animationdelay = 2.0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}	
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_news_event.18"
+		texturefile = "gfx/event_pictures/news_event.18.dds"
+		animation = {
+			animationmaskfile = "gfx/event_pictures/news_event.18.dds"
+			animationtexturefile = "gfx/event_pictures/news_event.18.dds" 	# <- the animated file
+			animationrotation = 0.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = yes			# yes or no ;)
+			animationtime = 26.0				# in seconds
+			animationdelay = 2.0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}	
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_news_event.17"
+		texturefile = "gfx/event_pictures/news_event.17.dds"
+		animation = {
+			animationmaskfile = "gfx/event_pictures/news_event.17.dds"
+			animationtexturefile = "gfx/event_pictures/news_event.17.dds" 	# <- the animated file
+			animationrotation = 0.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = yes			# yes or no ;)
+			animationtime = 26.0				# in seconds
+			animationdelay = 2.0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}	
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_news_event.16"
+		texturefile = "gfx/event_pictures/news_event.16.dds"
+		animation = {
+			animationmaskfile = "gfx/event_pictures/news_event.16.dds"
+			animationtexturefile = "gfx/event_pictures/news_event.16.dds" 	# <- the animated file
+			animationrotation = 0.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = yes			# yes or no ;)
+			animationtime = 26.0				# in seconds
+			animationdelay = 2.0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}	
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_news_event.15"
+		texturefile = "gfx/event_pictures/news_event.15.dds"
+		animation = {
+			animationmaskfile = "gfx/event_pictures/news_event.15.dds"
+			animationtexturefile = "gfx/event_pictures/news_event.15.dds" 	# <- the animated file
+			animationrotation = 0.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = yes			# yes or no ;)
+			animationtime = 26.0				# in seconds
+			animationdelay = 2.0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}	
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_news_event.14"
+		texturefile = "gfx/event_pictures/news_event.14.dds"
+		animation = {
+			animationmaskfile = "gfx/event_pictures/news_event.14.dds"
+			animationtexturefile = "gfx/event_pictures/news_event.14.dds" 	# <- the animated file
+			animationrotation = 0.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = yes			# yes or no ;)
+			animationtime = 26.0				# in seconds
+			animationdelay = 2.0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}	
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_news_event.13"
+		texturefile = "gfx/event_pictures/news_event.13.dds"
+		animation = {
+			animationmaskfile = "gfx/event_pictures/news_event.13.dds"
+			animationtexturefile = "gfx/event_pictures/news_event.13.dds" 	# <- the animated file
+			animationrotation = 0.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = yes			# yes or no ;)
+			animationtime = 26.0				# in seconds
+			animationdelay = 2.0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}	
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_news_event.12"
+		texturefile = "gfx/event_pictures/news_event.12.dds"
+		animation = {
+			animationmaskfile = "gfx/event_pictures/news_event.12.dds"
+			animationtexturefile = "gfx/event_pictures/news_event.12.dds" 	# <- the animated file
+			animationrotation = 0.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = yes			# yes or no ;)
+			animationtime = 26.0				# in seconds
+			animationdelay = 2.0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}	
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_news_event.11"
+		texturefile = "gfx/event_pictures/news_event.11.dds"
+		animation = {
+			animationmaskfile = "gfx/event_pictures/news_event.11.dds"
+			animationtexturefile = "gfx/event_pictures/news_event.11.dds" 	# <- the animated file
+			animationrotation = 0.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = yes			# yes or no ;)
+			animationtime = 26.0				# in seconds
+			animationdelay = 2.0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}	
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_news_event.10"
+		texturefile = "gfx/event_pictures/news_event.10.dds"
+		animation = {
+			animationmaskfile = "gfx/event_pictures/news_event.10.dds"
+			animationtexturefile = "gfx/event_pictures/news_event.10.dds" 	# <- the animated file
+			animationrotation = 0.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = yes			# yes or no ;)
+			animationtime = 26.0				# in seconds
+			animationdelay = 2.0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}	
+		legacy_lazy_load = no
+	}
+	###
+
+	#ENG
+	spriteType = {
+		name = "GFX_england_event.2"
+		texturefile = "gfx/event_pictures/england_event.2.dds"
+		animation = {
+			animationmaskfile = "gfx/event_pictures/england_event.2.dds"
+			animationtexturefile = "gfx/event_pictures/england_event.2.dds" 	# <- the animated file
+			animationrotation = 0.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = yes			# yes or no ;)
+			animationtime = 26.0				# in seconds
+			animationdelay = 2.0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}	
+		legacy_lazy_load = no
+	}
+
+	#ONU
+	spriteType = {
+		name = "GFX_un_event.1"
+		texturefile = "gfx/event_pictures/un_event.1.dds"
+		animation = {
+			animationmaskfile = "gfx/event_pictures/un_event.1.dds"
+			animationtexturefile = "gfx/event_pictures/un_event.1.dds" 	# <- the animated file
+			animationrotation = 0.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = yes			# yes or no ;)
+			animationtime = 26.0				# in seconds
+			animationdelay = 2.0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}	
+		legacy_lazy_load = no
+	}
+
+	#TZN
+	spriteType = {
+		name = "GFX_tzn.5"
+		texturefile = "gfx/event_pictures/tzn.5.dds"
+		animation = {
+			animationmaskfile = "gfx/event_pictures/tzn.5.dds"
+			animationtexturefile = "gfx/event_pictures/tzn.5.dds" 	# <- the animated file
+			animationrotation = 0.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = yes			# yes or no ;)
+			animationtime = 26.0				# in seconds
+			animationdelay = 2.0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}	
+		legacy_lazy_load = no
+	}
+	
+	#INDIA
+	spriteType = {
+		name = "GFX_bharat_news.1"
+		texturefile = "gfx/event_pictures/bharat_news.1.dds"
+		animation = {
+			animationmaskfile = "gfx/event_pictures/bharat_news.1.dds"
+			animationtexturefile = "gfx/event_pictures/bharat_news.1.dds" 	# <- the animated file
+			animationrotation = 0.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = yes			# yes or no ;)
+			animationtime = 26.0				# in seconds
+			animationdelay = 2.0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}	
+		legacy_lazy_load = no
+	}
+}
+
+###############################
+###############################
+###############################

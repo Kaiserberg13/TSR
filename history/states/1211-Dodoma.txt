@@ -1,0 +1,18 @@
+state={
+	id=1211
+	name="STATE_1211"
+	provinces={
+		2206 5224 12911 14106 14108 14111 14112 15563
+	}
+	history = {
+		owner = TZN
+		add_core_of = TZN
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

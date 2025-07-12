@@ -1,0 +1,19 @@
+state={
+	id=462
+	name="STATE_462"
+	provinces={
+		27 144 3183 6080 6184 9032 9157 11028 11037 11135
+	}
+	history = {
+		owner = NOR
+		add_core_of = NOR
+		buildings = {
+		
+		}
+	}
+	
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	manpower=1
+	state_category = rural
+}

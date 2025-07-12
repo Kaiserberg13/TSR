@@ -1,0 +1,18 @@
+state={
+	id=1299
+	name="STATE_1299"
+	provinces={
+		1992 2080 7978 8034 9137 10831 11194 13776 13777 13778 13779 13780 13781 13782 14547 14548 14550 14551 14552 14553 14556 14557 16025 16028 16038 16060
+	}
+	history = {
+		owner = CMR
+		add_core_of = CMR
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

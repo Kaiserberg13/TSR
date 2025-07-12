@@ -1,0 +1,18 @@
+state={
+	id=1209
+	name="STATE_1209"
+	provinces={
+		9962 13889 13890
+	}
+	history = {
+		owner = RWA
+		add_core_of = RWA
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

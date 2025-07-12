@@ -1,0 +1,22 @@
+state={
+	id=883
+	name="STATE_883"
+	provinces={
+		1367 1395 2045 4925 5193 6999 7240 8026 10132 12705 12767 15180 15181 15183 15187
+	}
+	history = {
+		owner = PRC
+		add_core_of = PRC
+		
+		victory_points = {
+			6999 20
+		}
+buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

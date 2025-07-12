@@ -1,0 +1,18 @@
+state={
+	id=396
+	name="STATE_396"
+	provinces={
+		3208 10176 12600 13162 13164 13166 13181 13184 13186 14214 14226 14234
+	}
+	history = {
+		owner = CAN
+		add_core_of = CAN
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

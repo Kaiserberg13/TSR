@@ -1,0 +1,18 @@
+state={
+	id=380
+	name="STATE_380"
+	provinces={
+		1736 1767 1851 1854 1857 4741 4857 4860 4863 6742 7760 7779 7880 7883 10587 10593 10624 10706 11712 12572 12585
+	}
+	history = {
+		owner = USB
+		add_core_of = USB
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

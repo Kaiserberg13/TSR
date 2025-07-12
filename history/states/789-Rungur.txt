@@ -1,0 +1,19 @@
+state={
+	id=789
+	name="STATE_789"
+	provinces={
+		1581 14415
+	}
+	
+	history = {
+		owner = SIA
+		add_core_of = SIA
+		buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	manpower=1
+	state_category = rural
+}

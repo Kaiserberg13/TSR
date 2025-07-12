@@ -1,0 +1,22 @@
+state={
+	id=263
+	name="STATE_263"
+	provinces={
+		467 3482 3544 6511 9400 11492
+	}
+	history = {
+		owner = POL
+		add_core_of = POL
+		
+		victory_points = {
+			3544 25
+		}
+buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}

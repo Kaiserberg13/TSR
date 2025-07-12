@@ -1,0 +1,22 @@
+state={
+	id=275
+	name="STATE_275"
+	provinces={
+		11805
+	}
+	history = {
+		owner = POR
+		add_core_of = POR
+		
+		victory_points = {
+			11805 25
+		}
+buildings = {
+		
+		}
+	}
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+    manpower=1
+    state_category = rural
+}
