@@ -6,11 +6,12 @@ set_politics = {
     elections_allowed = no
 }
 set_popularities = {
-    fascism = 8
-    darwinism = 9
-    globalism = 12
-    communism = 15
-    democratic = 56
+    fascism = 18
+    darwinism = 11
+    democratic = 30
+    globalism = 19
+    communism = 13
+    technocracy = 9
 }
 
 #set_variable

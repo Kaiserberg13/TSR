@@ -1,18 +1,18 @@
 state={
-	id=6
-	name="STATE_6"
+	id=1777
+	name="STATE_1777"
 	provinces={
-		308 6178 6381 6408 13491 
+		10440 
 	}
 	history = {
-		owner = LAT
-		add_core_of = LAT
+		owner = POL
+		add_core_of = POL
 		buildings = {
 		
 		}
 	}
-	manpower=1
 	buildings_max_level_factor=1.000
-	state_category=rural
 	local_supplies=0.000
+    manpower=1
+    state_category = rural
 }

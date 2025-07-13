@@ -530,7 +530,7 @@ buildings = {
 		base_cost = 15000
 		per_controlled_building_extra_cost = 5000
 		damage_factor = 0 # This building can't be damaged by regular strat bombing
-		icon_frame = 19
+		icon_frame = 32
 		value = 1
 		spawn_point = special_project_facility_spawn 
 		specialization = { specialization_mech }
@@ -545,6 +545,129 @@ buildings = {
 			province_max = 1
 			state_max = 1
 			group_by = special_project_facility
+		}
+	}
+
+	power_plant = {
+		show_on_map = 6
+		base_cost = 10800
+		icon_frame = 29
+		value = 5
+		infrastructure_construction_effect = yes
+		level_cap = {
+			shares_slots = yes
+			state_max = 4
+		}
+	}
+
+	power_turbine = {
+		show_on_map = 6
+		base_cost = 4800
+		icon_frame = 30
+		value = 5
+		infrastructure_construction_effect = yes
+		level_cap = {
+			shares_slots = yes
+			state_max = 15
+		}
+	}
+	mech_production_plant = {
+		show_on_map = 6
+		base_cost = 12800
+		icon_frame = 35
+		value = 5
+		infrastructure_construction_effect = yes
+		level_cap = {
+			shares_slots = yes
+			state_max = 1
+		}
+	}
+	cemetery = {
+		show_on_map = 6
+		base_cost = 5800
+		icon_frame = 28
+		value = 5
+		infrastructure_construction_effect = yes
+		level_cap = {
+			shares_slots = yes
+			state_max = 5
+		}
+	}
+	farm = {
+		show_on_map = 6
+		base_cost = 5800
+		icon_frame = 34
+		value = 5
+		infrastructure_construction_effect = yes
+		level_cap = {
+			shares_slots = yes
+			state_max = 7
+		}
+	}
+	city_infrastructure = {
+		show_on_map = 6
+		base_cost = 5800
+		icon_frame = 31
+		value = 5
+		infrastructure_construction_effect = yes
+		level_cap = {
+			shares_slots = yes
+			state_max = 5
+		}
+	}
+	construction_companies = {
+		show_on_map = 6
+		base_cost = 5800
+		icon_frame = 33
+		value = 5
+		infrastructure_construction_effect = yes
+		level_cap = {
+			shares_slots = yes
+			state_max = 4
+		}
+	}
+	servers = {
+		show_on_map = 6
+		base_cost = 5800
+		icon_frame = 37
+		value = 5
+		infrastructure_construction_effect = yes
+		level_cap = {
+			shares_slots = yes
+			state_max = 6
+		}
+	}
+	corporate_quarter = {
+		show_on_map = 6
+		base_cost = 5800
+		icon_frame = 38
+		value = 5
+		infrastructure_construction_effect = yes
+		level_cap = {
+			shares_slots = yes
+			state_max = 7
+		}
+	}
+	civilian_quarter = {
+		show_on_map = 6
+		base_cost = 5800
+		icon_frame = 39
+		value = 5
+		infrastructure_construction_effect = yes
+		level_cap = {
+			shares_slots = yes
+			state_max = 9
+		}
+	}
+	plasma_generator = {
+		show_on_map = 6
+		base_cost = 5800
+		icon_frame = 36
+		value = 5
+		infrastructure_construction_effect = yes
+		level_cap = {
+			shares_slots = yes
+			state_max = 2
 		}
 	}
 
