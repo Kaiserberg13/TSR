@@ -2,7 +2,7 @@ state={
 	id=1167
 	name="STATE_1167"
 	provinces={
-		294 358 6220 6371
+		294 6220 6371 
 	}
 	history = {
 		owner = BLR
@@ -11,8 +11,8 @@ state={
 		
 		}
 	}
+	manpower=1
 	buildings_max_level_factor=1.000
+	state_category=rural
 	local_supplies=0.000
-    manpower=1
-    state_category = rural
 }

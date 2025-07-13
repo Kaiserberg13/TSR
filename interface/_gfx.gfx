@@ -8,6 +8,15 @@ spriteTypes = {
 		name = "GFX_build_slot_bg_build"
 		texturefile = "gfx/interface/build_slot_bg_build.dds"
 	}
+	spriteType = {
+    name = GFX_terrain_farmland
+    textureFile = gfx/interface/terrains/terrain_farmland.dds
+	}
+	spriteType = {
+	    name = GFX_terrain_farmland_winter
+	    textureFile = gfx/interface/terrains/terrain_farmland_winter.dds
+	}
+	
 
 	spriteType = {
 		name = "GFX_news_decision_bg"
