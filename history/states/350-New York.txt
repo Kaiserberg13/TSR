@@ -8,7 +8,9 @@ state={
 		owner = USA
 		add_core_of = USA
 		
-		victory_points = {
+		
+		victory_points = { 11654 5 }
+victory_points = {
 			3878 20
 		}
 buildings = {

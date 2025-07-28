@@ -7,7 +7,9 @@ state={
 	history = {
 		owner = ROM
 		add_core_of = ROM
-		buildings = {
+		
+		victory_points = { 6652 5 }
+buildings = {
 		
 		}
 	}

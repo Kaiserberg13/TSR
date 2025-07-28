@@ -8,7 +8,11 @@ state={
 		owner = FRA
 		add_core_of = FRA
 		
-		victory_points = {
+		
+		victory_points = { 6449 5 }
+
+		victory_points = { 15177 5 }
+victory_points = {
 			11535 10
 		}
 buildings = {

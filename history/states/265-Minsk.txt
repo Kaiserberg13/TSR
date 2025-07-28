@@ -8,7 +8,9 @@ state={
 		owner = BLR
 		add_core_of = BLR
 		
-		victory_points = {
+		
+		victory_points = { 360 5 }
+victory_points = {
 			11370 25
 		}
 buildings = {

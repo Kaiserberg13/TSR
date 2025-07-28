@@ -7,7 +7,11 @@ state={
 	history = {
 		owner = CAL
 		add_core_of = CAL
-		buildings = {
+		
+		victory_points = { 1562 5 }
+
+		victory_points = { 9814 5 }
+buildings = {
 		
 		}
 	}

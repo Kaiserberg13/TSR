@@ -7,7 +7,9 @@ state={
 	history = {
 		owner = GRE
 		add_core_of = GRE
-		buildings = {
+		
+		victory_points = { 11774 5 }
+buildings = {
 		
 		}
 	}

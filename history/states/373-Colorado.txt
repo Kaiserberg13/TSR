@@ -7,7 +7,9 @@ state={
 	history = {
 		owner = CSA
 		add_core_of = CSA
-		buildings = {
+		
+		victory_points = { 1827 5 }
+buildings = {
 		
 		}
 	}

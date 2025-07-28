@@ -8,7 +8,11 @@ state={
 		owner = ITA
 		add_core_of = ITA
 		
-		victory_points = {
+		
+		victory_points = { 6606 5 }
+
+		victory_points = { 9752 5 }
+victory_points = {
 			9907 10
 		}
 buildings = {

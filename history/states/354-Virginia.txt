@@ -7,7 +7,11 @@ state={
 	history = {
 		owner = USA
 		add_core_of = USA
-		buildings = {
+		
+		victory_points = { 788 5 }
+
+		victory_points = { 873 5 }
+buildings = {
 		
 		}
 	}

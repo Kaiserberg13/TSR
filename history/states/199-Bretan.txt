@@ -8,7 +8,11 @@ state={
 		owner = BRT
 		add_core_of = BRT
 		
-		victory_points = {
+		
+		
+		victory_points = { 9525 5 }
+victory_points = { 11465 5 }
+victory_points = {
 			3552 25
 		}
 buildings = {

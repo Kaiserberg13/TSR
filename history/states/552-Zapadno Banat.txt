@@ -7,7 +7,9 @@ state={
 	history = {
 		owner = SER
 		add_core_of = SER
-		buildings = {
+		
+		victory_points = { 11787 5 }
+buildings = {
 		
 		}
 	}

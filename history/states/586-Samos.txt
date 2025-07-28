@@ -5,8 +5,8 @@ state={
 		6550
 	}
 	history = {
-		owner = TAG
-		add_core_of = TAG
+		owner = GRE
+		add_core_of = GRE
 		buildings = {
 		
 		}

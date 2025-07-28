@@ -7,7 +7,9 @@ state={
 	history = {
 		owner = USB
 		add_core_of = USB
-		buildings = {
+		
+		victory_points = { 7315 5 }
+buildings = {
 		
 		}
 	}

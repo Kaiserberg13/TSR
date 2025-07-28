@@ -7,7 +7,15 @@ state={
 	history = {
 		owner = CAN
 		add_core_of = CAN
-		buildings = {
+		
+		victory_points = { 1341 5 }
+
+		victory_points = { 4345 5 }
+
+		victory_points = { 12149 5 }
+
+		victory_points = { 12276 5 }
+buildings = {
 		
 		}
 	}
