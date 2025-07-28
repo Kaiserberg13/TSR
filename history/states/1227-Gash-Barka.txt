@@ -7,6 +7,10 @@ state={
 	history = {
 		owner = ERI
 		add_core_of = ERI
+
+victory_points = {
+			5017 12
+		}
 		buildings = {
 		
 		}

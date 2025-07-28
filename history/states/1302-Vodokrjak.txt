@@ -7,6 +7,13 @@ state={
 	history = {
 		owner = CMR
 		add_core_of = CMR
+
+victory_points = {
+			14561 3
+		}
+victory_points = {
+			14549 2
+		}
 		
 		victory_points = {
 			2050 25

@@ -7,6 +7,13 @@ state={
 	history = {
 		owner = LBA
 		add_core_of = LBA
+
+victory_points = {
+			16301 6
+		}
+victory_points = {
+			17076 1
+		}
 		buildings = {
 		
 		}

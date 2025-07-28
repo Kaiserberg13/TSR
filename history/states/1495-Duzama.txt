@@ -7,6 +7,13 @@ state={
 	history = {
 		owner = MRT
 		add_core_of = MRT
+
+victory_points = {
+			16219 3
+		}
+victory_points = {
+			16237 1
+		}
 		buildings = {
 		
 		}

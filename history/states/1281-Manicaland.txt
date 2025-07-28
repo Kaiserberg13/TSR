@@ -7,6 +7,10 @@ state={
 	history = {
 		owner = BOT
 		add_core_of = BOT
+
+victory_points = {
+			7842 4
+		}
 		buildings = {
 		
 		}

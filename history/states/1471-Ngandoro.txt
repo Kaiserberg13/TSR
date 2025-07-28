@@ -7,6 +7,13 @@ state={
 	history = {
 		owner = MOR
 		add_core_of = MOR
+
+victory_points = {
+			4199 7
+		}
+victory_points = {
+			13672 10
+		}
 		buildings = {
 		
 		}

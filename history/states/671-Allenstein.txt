@@ -7,7 +7,11 @@ state={
 	history = {
 		owner = POL
 		add_core_of = POL
-		buildings = {
+		
+		victory_points = { 6375 5 }
+
+		victory_points = { 11386 5 }
+buildings = {
 		
 		}
 	}

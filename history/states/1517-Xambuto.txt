@@ -7,6 +7,13 @@ state={
 	history = {
 		owner = CMR
 		add_core_of = CMR
+
+victory_points = {
+			16688 7
+		}
+victory_points = {
+			1891 11
+		}
 		buildings = {
 		
 		}

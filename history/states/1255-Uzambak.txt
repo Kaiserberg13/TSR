@@ -7,6 +7,13 @@ state={
 	history = {
 		owner = MZB
 		add_core_of = MZB
+
+victory_points = {
+			12950 10
+		}
+victory_points = {
+			5155 7
+		}
 		buildings = {
 		
 		}

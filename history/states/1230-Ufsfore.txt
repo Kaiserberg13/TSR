@@ -7,6 +7,13 @@ state={
 	history = {
 		owner = UGA
 		add_core_of = UGA
+
+victory_points = {
+			10764 10
+		}
+victory_points = {
+			15996 6
+		}
 		buildings = {
 		
 		}

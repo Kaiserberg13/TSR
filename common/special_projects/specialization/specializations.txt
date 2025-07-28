@@ -18,12 +18,10 @@ program_background = "GFX_sp_facility_card_bg"
 specialization_land = {
 	color = {0 255 0}
 program_background = "GFX_sp_facility_card_bg"
-
 }
 
 specialization_mech = {
 	color = {255 255 255}
 program_background = "GFX_sp_facility_card_bg"
-
 }
 

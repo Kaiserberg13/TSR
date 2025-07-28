@@ -7,6 +7,13 @@ state={
 	history = {
 		owner = TUR
 		add_core_of = TUR
+
+victory_points = {
+			9921 3
+		}
+victory_points = {
+			785 10
+		}
 		buildings = {
 		
 		}

@@ -1,0 +1,62 @@
+                                                                                                                                          
+ ######  #         ##    #    #  ######  #####  #    #  #####    ####   #    #  ######  #####       #####    ##    #    #  #    #   ####  
+ #       #        #  #   ##  ##  #         #    #    #  #    #  #    #  #    #  #       #    #        #     #  #   ##   #  #   #   #      
+ #####   #       #    #  # ## #  #####     #    ######  #    #  #    #  #    #  #####   #    #        #    #    #  # #  #  ####     ####  
+ #       #       ######  #    #  #         #    #    #  #####   #    #  # ## #  #       #####         #    ######  #  # #  #  #         # 
+ #       #       #    #  #    #  #         #    #    #  #   #   #    #  ##  ##  #       #   #         #    #    #  #   ##  #   #   #    # 
+ #       ######  #    #  #    #  ######    #    #    #  #    #   ####   #    #  ######  #    #        #    #    #  #    #  #    #   ####  
+                                                                                                                                          
+
+
+sp_mech_base_seriot_armor = {
+	specialization = specialization_mech
+	#icon = GFX_sp_land_flamethrower_tank ### Automatically hooked-in since the GFX ID matches the project ID.
+
+	project_tags = sp_seriot
+
+	ai_will_do = {
+		base = 1
+	}
+
+	allowed = {
+		has_dlc = "No Step Back"
+	}
+	
+	available = {
+		FROM = {
+			
+		}
+	}
+
+	breakthrough_cost = {
+		specialization_mech = 1
+	}
+	
+	prototype_time = sp_time.prototype.short
+
+	complexity = sp_complexity.small
+	
+	project_output = {
+		enable_subunits = { 
+			light_flame_tank
+			medium_flame_tank
+			heavy_flame_tank
+		}
+	}
+
+	generic_prototype_rewards = {
+		sp_mech_generic_reward_scientist_xp_1
+		sp_mech_generic_reward_scientist_xp_2
+		sp_mech_generic_reward_scientist_xp_3
+		sp_mech_generic_reward_army_xp_1
+		sp_mech_generic_reward_army_xp_2
+		sp_mech_generic_reward_army_xp_3
+		sp_mech_generic_reward_major_progress_1
+		sp_mech_generic_reward_major_progress_2
+		sp_mech_generic_reward_major_progress_3
+		sp_mech_generic_reward_test_failure_1
+		sp_mech_generic_reward_test_failure_2
+		sp_mech_generic_reward_test_failure_3
+		sp_mech_generic_reward_resource_scarcity
+	}
+}

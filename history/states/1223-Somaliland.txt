@@ -7,6 +7,13 @@ state={
 	history = {
 		owner = SML
 		add_core_of = SML
+
+victory_points = {
+			10777 4
+		}
+victory_points = {
+			13431 3
+		}
 		add_core_of = SOM
 		buildings = {
 		

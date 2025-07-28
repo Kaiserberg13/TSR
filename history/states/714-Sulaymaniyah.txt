@@ -7,6 +7,10 @@ state={
 	history = {
 		owner = PER
 		add_core_of = PER
+
+victory_points = {
+			13337 5
+		}
 		buildings = {
 		
 		}

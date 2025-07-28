@@ -7,6 +7,10 @@ state={
 	history = {
 		owner = VOL
 		add_core_of = VOL
+
+victory_points = {
+			12762 4
+		}
 		buildings = {
 		
 		}

@@ -7,6 +7,10 @@ state={
 	history = {
 		owner = SAH
 		add_core_of = SAH
+
+victory_points = {
+			17014 9
+		}
 		buildings = {
 		
 		}

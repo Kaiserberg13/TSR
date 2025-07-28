@@ -7,6 +7,13 @@ state={
 	history = {
 		owner = ZAM
 		add_core_of = ZAM
+
+victory_points = {
+			15248 4
+		}
+victory_points = {
+			15275 2
+		}
 		buildings = {
 		
 		}

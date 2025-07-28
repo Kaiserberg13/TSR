@@ -7,6 +7,13 @@ state={
 	history = {
 		owner = TZN
 		add_core_of = TZN
+
+victory_points = {
+			15494 15
+		}
+victory_points = {
+			10932 4
+		}
 		buildings = {
 		
 		}

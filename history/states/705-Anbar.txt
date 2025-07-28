@@ -7,6 +7,13 @@ state={
 	history = {
 		owner = IRQ
 		add_core_of = IRQ
+
+victory_points = {
+			12046 9
+		}
+victory_points = {
+			12413 2
+		}
 		buildings = {
 		
 		}

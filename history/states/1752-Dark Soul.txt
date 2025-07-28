@@ -7,6 +7,10 @@ state={
 	history = {
 		owner = MAD
 		add_core_of = MAD
+
+victory_points = {
+			7041 20
+		}
 		buildings = {
 		
 		}

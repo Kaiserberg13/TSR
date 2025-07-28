@@ -7,6 +7,10 @@ state={
 	history = {
 		owner = MIL
 		add_core_of = MIL
+
+victory_points = {
+			17023 5
+		}
 		buildings = {
 		
 		}

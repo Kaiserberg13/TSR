@@ -7,6 +7,10 @@ state={
 	history = {
 		owner = ISR
 		add_core_of = ISR
+
+victory_points = {
+			15115 1
+		}
 		buildings = {
 		
 		}

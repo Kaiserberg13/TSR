@@ -7,6 +7,13 @@ state={
 	history = {
 		owner = SAF
 		add_core_of = SAF
+
+victory_points = {
+			1509 3
+		}
+victory_points = {
+			10415 8
+		}
 		buildings = {
 		
 		}

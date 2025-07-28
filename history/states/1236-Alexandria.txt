@@ -7,6 +7,13 @@ state={
 	history = {
 		owner = EGY
 		add_core_of = EGY
+
+victory_points = {
+			10073 3
+		}
+victory_points = {
+			7164 7
+		}
 		
 		victory_points = {
 			4076 25

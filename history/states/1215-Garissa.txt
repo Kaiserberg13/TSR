@@ -7,6 +7,10 @@ state={
 	history = {
 		owner = KEN
 		add_core_of = KEN
+
+victory_points = {
+			12927 3
+		}
 		buildings = {
 		
 		}

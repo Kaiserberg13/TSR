@@ -7,6 +7,13 @@ state={
 	history = {
 		owner = NAM
 		add_core_of = NAM
+
+victory_points = {
+			13450 16
+		}
+victory_points = {
+			13448 11
+		}
 		
 		victory_points = {
 			4879 25

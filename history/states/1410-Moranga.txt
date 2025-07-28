@@ -7,6 +7,10 @@ state={
 	history = {
 		owner = NGR
 		add_core_of = NGR
+
+victory_points = {
+			16824 10
+		}
 		buildings = {
 		
 		}
