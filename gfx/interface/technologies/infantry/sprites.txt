@@ -1,0 +1,334 @@
+SpriteType = {
+	name = "GFX_ws_bluelock_buffs_medium"
+	texturefile = "gfx/interface/technologies/infantry/ws_bluelock_buffs_0.dds"
+}
+
+SpriteType = {
+	name = "GFX_ws_bluelock_buffs_0_medium"
+	texturefile = "gfx/interface/technologies/infantry/ws_bluelock_buffs_0.dds"
+}
+
+SpriteType = {
+	name = "GFX_ws_bluelock_buffs_1_medium"
+	texturefile = "gfx/interface/technologies/infantry/ws_bluelock_buffs_1.dds"
+}
+
+SpriteType = {
+	name = "GFX_ws_bluelock_buffs_2_medium"
+	texturefile = "gfx/interface/technologies/infantry/ws_bluelock_buffs_2.dds"
+}
+
+SpriteType = {
+	name = "GFX_ws_bluelock_buffs_3_medium"
+	texturefile = "gfx/interface/technologies/infantry/ws_bluelock_buffs_3.dds"
+}
+
+SpriteType = {
+	name = "GFX_ws_bluelock_equipment_medium"
+	texturefile = "gfx/interface/technologies/infantry/ws_bluelock_equipment_0.dds"
+}
+
+SpriteType = {
+	name = "GFX_ws_bluelock_equipment_0_medium"
+	texturefile = "gfx/interface/technologies/infantry/ws_bluelock_equipment_0.dds"
+}
+
+SpriteType = {
+	name = "GFX_ws_bluelock_equipment_0_t_medium"
+	texturefile = "gfx/interface/technologies/infantry/ws_bluelock_equipment_0_tech.dds"
+}
+
+SpriteType = {
+	name = "GFX_ws_bluelock_equipment_1_medium"
+	texturefile = "gfx/interface/technologies/infantry/ws_bluelock_equipment_1.dds"
+}
+
+SpriteType = {
+	name = "GFX_ws_bluelock_equipment_1_t_medium"
+	texturefile = "gfx/interface/technologies/infantry/ws_bluelock_equipment_1_tech.dds"
+}
+
+SpriteType = {
+	name = "GFX_ws_bluelock_equipment_2_medium"
+	texturefile = "gfx/interface/technologies/infantry/ws_bluelock_equipment_2.dds"
+}
+
+SpriteType = {
+	name = "GFX_ws_bluelock_equipment_2_t_medium"
+	texturefile = "gfx/interface/technologies/infantry/ws_bluelock_equipment_2_tech.dds"
+}
+
+SpriteType = {
+	name = "GFX_ws_bunkereers_medium"
+	texturefile = "gfx/interface/technologies/infantry/ws_bunkereers_0.dds"
+}
+
+SpriteType = {
+	name = "GFX_ws_bunkereers_0_medium"
+	texturefile = "gfx/interface/technologies/infantry/ws_bunkereers_0.dds"
+}
+
+SpriteType = {
+	name = "GFX_ws_bunkereers_1_medium"
+	texturefile = "gfx/interface/technologies/infantry/ws_bunkereers_1.dds"
+}
+
+SpriteType = {
+	name = "GFX_ws_infantry_armor_buffs_medium"
+	texturefile = "gfx/interface/technologies/infantry/ws_infantry_armor_buffs_0.dds"
+}
+
+SpriteType = {
+	name = "GFX_ws_infantry_armor_buffs_0_medium"
+	texturefile = "gfx/interface/technologies/infantry/ws_infantry_armor_buffs_0.dds"
+}
+
+SpriteType = {
+	name = "GFX_ws_infantry_armor_buffs_1_medium"
+	texturefile = "gfx/interface/technologies/infantry/ws_infantry_armor_buffs_1.dds"
+}
+
+SpriteType = {
+	name = "GFX_ws_infantry_armor_buffs_2_medium"
+	texturefile = "gfx/interface/technologies/infantry/ws_infantry_armor_buffs_2.dds"
+}
+
+SpriteType = {
+	name = "GFX_ws_infantry_armor_buffs_3_medium"
+	texturefile = "gfx/interface/technologies/infantry/ws_infantry_armor_buffs_3.dds"
+}
+
+SpriteType = {
+	name = "GFX_ws_infantry_armor_buffs_4_medium"
+	texturefile = "gfx/interface/technologies/infantry/ws_infantry_armor_buffs_4.dds"
+}
+
+SpriteType = {
+	name = "GFX_ws_infantry_armor_buffs_5_medium"
+	texturefile = "gfx/interface/technologies/infantry/ws_infantry_armor_buffs_5.dds"
+}
+
+SpriteType = {
+	name = "GFX_ws_infantry_armor_equipment_medium"
+	texturefile = "gfx/interface/technologies/infantry/ws_infantry_armor_equipment_0.dds"
+}
+
+SpriteType = {
+	name = "GFX_ws_infantry_armor_equipment_0_medium"
+	texturefile = "gfx/interface/technologies/infantry/ws_infantry_armor_equipment_0.dds"
+}
+
+SpriteType = {
+	name = "GFX_ws_infantry_armor_equipment_0_t_medium"
+	texturefile = "gfx/interface/technologies/infantry/ws_infantry_armor_equipment_0_tech.dds"
+}
+
+SpriteType = {
+	name = "GFX_ws_infantry_armor_equipment_1_medium"
+	texturefile = "gfx/interface/technologies/infantry/ws_infantry_armor_equipment_1.dds"
+}
+
+SpriteType = {
+	name = "GFX_ws_infantry_armor_equipment_1_t_medium"
+	texturefile = "gfx/interface/technologies/infantry/ws_infantry_armor_equipment_1_tech.dds"
+}
+
+SpriteType = {
+	name = "GFX_ws_infantry_armor_equipment_2_medium"
+	texturefile = "gfx/interface/technologies/infantry/ws_infantry_armor_equipment_2.dds"
+}
+
+SpriteType = {
+	name = "GFX_ws_infantry_armor_equipment_2_t_medium"
+	texturefile = "gfx/interface/technologies/infantry/ws_infantry_armor_equipment_2_tech.dds"
+}
+
+SpriteType = {
+	name = "GFX_ws_infantry_armor_equipment_3_medium"
+	texturefile = "gfx/interface/technologies/infantry/ws_infantry_armor_equipment_3.dds"
+}
+
+SpriteType = {
+	name = "GFX_ws_infantry_armor_equipment_3_t_medium"
+	texturefile = "gfx/interface/technologies/infantry/ws_infantry_armor_equipment_3_tech.dds"
+}
+
+SpriteType = {
+	name = "GFX_ws_infantry_buffs_medium"
+	texturefile = "gfx/interface/technologies/infantry/ws_infantry_buffs_0.dds"
+}
+
+SpriteType = {
+	name = "GFX_ws_infantry_buffs_0_medium"
+	texturefile = "gfx/interface/technologies/infantry/ws_infantry_buffs_0.dds"
+}
+
+SpriteType = {
+	name = "GFX_ws_infantry_buffs_1_medium"
+	texturefile = "gfx/interface/technologies/infantry/ws_infantry_buffs_1.dds"
+}
+
+SpriteType = {
+	name = "GFX_ws_infantry_buffs_2_medium"
+	texturefile = "gfx/interface/technologies/infantry/ws_infantry_buffs_2.dds"
+}
+
+SpriteType = {
+	name = "GFX_ws_infantry_buffs_3_medium"
+	texturefile = "gfx/interface/technologies/infantry/ws_infantry_buffs_3.dds"
+}
+
+SpriteType = {
+	name = "GFX_ws_infantry_buffs_4_medium"
+	texturefile = "gfx/interface/technologies/infantry/ws_infantry_buffs_4.dds"
+}
+
+SpriteType = {
+	name = "GFX_ws_infantry_buffs_5_medium"
+	texturefile = "gfx/interface/technologies/infantry/ws_infantry_buffs_5.dds"
+}
+
+SpriteType = {
+	name = "GFX_ws_infantry_buffs_6_medium"
+	texturefile = "gfx/interface/technologies/infantry/ws_infantry_buffs_6.dds"
+}
+
+SpriteType = {
+	name = "GFX_ws_infantry_buffs_7_medium"
+	texturefile = "gfx/interface/technologies/infantry/ws_infantry_buffs_7.dds"
+}
+
+SpriteType = {
+	name = "GFX_ws_infantry_buffs_8_medium"
+	texturefile = "gfx/interface/technologies/infantry/ws_infantry_buffs_8.dds"
+}
+
+SpriteType = {
+	name = "GFX_ws_infantry_equipment_medium"
+	texturefile = "gfx/interface/technologies/infantry/ws_infantry_equipment_0.dds"
+}
+
+SpriteType = {
+	name = "GFX_ws_infantry_equipment_0_medium"
+	texturefile = "gfx/interface/technologies/infantry/ws_infantry_equipment_0.dds"
+}
+
+SpriteType = {
+	name = "GFX_ws_infantry_equipment_0_t_medium"
+	texturefile = "gfx/interface/technologies/infantry/ws_infantry_equipment_0_tech.dds"
+}
+
+SpriteType = {
+	name = "GFX_ws_infantry_equipment_1_medium"
+	texturefile = "gfx/interface/technologies/infantry/ws_infantry_equipment_1.dds"
+}
+
+SpriteType = {
+	name = "GFX_ws_infantry_equipment_1_t_medium"
+	texturefile = "gfx/interface/technologies/infantry/ws_infantry_equipment_1_tech.dds"
+}
+
+SpriteType = {
+	name = "GFX_ws_infantry_equipment_2_medium"
+	texturefile = "gfx/interface/technologies/infantry/ws_infantry_equipment_2.dds"
+}
+
+SpriteType = {
+	name = "GFX_ws_infantry_equipment_2_t_medium"
+	texturefile = "gfx/interface/technologies/infantry/ws_infantry_equipment_2_tech.dds"
+}
+
+SpriteType = {
+	name = "GFX_ws_infantry_equipment_3_medium"
+	texturefile = "gfx/interface/technologies/infantry/ws_infantry_equipment_3.dds"
+}
+
+SpriteType = {
+	name = "GFX_ws_infantry_equipment_3_t_medium"
+	texturefile = "gfx/interface/technologies/infantry/ws_infantry_equipment_3_tech.dds"
+}
+
+SpriteType = {
+	name = "GFX_ws_infantry_equipment_4_medium"
+	texturefile = "gfx/interface/technologies/infantry/ws_infantry_equipment_4.dds"
+}
+
+SpriteType = {
+	name = "GFX_ws_infantry_equipment_4_t_medium"
+	texturefile = "gfx/interface/technologies/infantry/ws_infantry_equipment_4_tech.dds"
+}
+
+SpriteType = {
+	name = "GFX_ws_infantry_equipment_5_medium"
+	texturefile = "gfx/interface/technologies/infantry/ws_infantry_equipment_5.dds"
+}
+
+SpriteType = {
+	name = "GFX_ws_infantry_equipment_5_t_medium"
+	texturefile = "gfx/interface/technologies/infantry/ws_infantry_equipment_5_tech.dds"
+}
+
+SpriteType = {
+	name = "GFX_ws_infantry_equipment_6_medium"
+	texturefile = "gfx/interface/technologies/infantry/ws_infantry_equipment_6.dds"
+}
+
+SpriteType = {
+	name = "GFX_ws_infantry_equipment_6_t_medium"
+	texturefile = "gfx/interface/technologies/infantry/ws_infantry_equipment_6_tech.dds"
+}
+
+SpriteType = {
+	name = "GFX_ws_marines_medium"
+	texturefile = "gfx/interface/technologies/infantry/ws_marines_0.dds"
+}
+
+SpriteType = {
+	name = "GFX_ws_marines_0_medium"
+	texturefile = "gfx/interface/technologies/infantry/ws_marines_0.dds"
+}
+
+SpriteType = {
+	name = "GFX_ws_marines_1_medium"
+	texturefile = "gfx/interface/technologies/infantry/ws_marines_1.dds"
+}
+
+SpriteType = {
+	name = "GFX_ws_marines_2_medium"
+	texturefile = "gfx/interface/technologies/infantry/ws_marines_2.dds"
+}
+
+SpriteType = {
+	name = "GFX_ws_mountaineers_medium"
+	texturefile = "gfx/interface/technologies/infantry/ws_mountaineers_0.dds"
+}
+
+SpriteType = {
+	name = "GFX_ws_mountaineers_0_medium"
+	texturefile = "gfx/interface/technologies/infantry/ws_mountaineers_0.dds"
+}
+
+SpriteType = {
+	name = "GFX_ws_mountaineers_1_medium"
+	texturefile = "gfx/interface/technologies/infantry/ws_mountaineers_1.dds"
+}
+
+SpriteType = {
+	name = "GFX_ws_mountaineers_2_medium"
+	texturefile = "gfx/interface/technologies/infantry/ws_mountaineers_2.dds"
+}
+
+SpriteType = {
+	name = "GFX_ws_mp_medium"
+	texturefile = "gfx/interface/technologies/infantry/ws_mp_0.dds"
+}
+
+SpriteType = {
+	name = "GFX_ws_mp_0_medium"
+	texturefile = "gfx/interface/technologies/infantry/ws_mp_0.dds"
+}
+
+SpriteType = {
+	name = "GFX_ws_mp_1_medium"
+	texturefile = "gfx/interface/technologies/infantry/ws_mp_1.dds"
+}
