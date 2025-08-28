@@ -10,4 +10,26 @@ guiTypes = {
 			spriteType = "GFX_frontend_bg_tv"
 		}
 	}
+	containerWindowType = {
+		name = "ws_top_bar_swap_default_window"
+		position = { x= 0 y = 0}
+		clipping = no
+		Orientation = UPPER_LEFT
+
+		background = {
+			name = "bg"
+			spriteType = ""
+		}
+			
+		instantTextBoxType = {
+			name ="tsr_money"
+			position = { x= 125 y = 85 }
+			font = "ws_18r"
+			text = "[mod_scripted_loc]"
+			format = center
+			maxWidth = 150
+			maxHeight = 24
+
+		}
+	}
 }

@@ -391,7 +391,7 @@ guiTypes = {
 			
 			gridBoxType = {
 				name = "province_building_entries"
-				position = { x = 95 y = 665 }
+				position = { x = -430 y = -75 }
 				size = { width = 480 height = 90%% }
 				format = "UPPER_LEFT"
 				slotsize = { width = 61 height = 84 }

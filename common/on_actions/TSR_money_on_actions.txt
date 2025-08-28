@@ -1,0 +1,16 @@
+### Definition ###
+
+# Category name / Title / Design
+#don't work
+
+### On actions ###
+on_actions = { 
+    on_startup = {
+		effect = {
+		    every_possible_country={
+                # MONEY
+                set_variable = { TOTAL_MONEY = 14 }
+			}
+		}
+	}
+}

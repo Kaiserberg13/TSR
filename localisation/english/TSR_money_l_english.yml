@@ -1,0 +1,5 @@
+﻿l_english:
+ tsr_money_plus_loc:0 "§G[?TOTAL_MONEY]"
+ tsr_money_minus_loc:0 "§Z[?TOTAL_MONEY]"
+ tsr_money_error:0 "ERROR"
+ FRA_localization_key:0 "sss"

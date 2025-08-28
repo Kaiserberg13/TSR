@@ -1,0 +1,650 @@
+### Definition ###
+
+# Category name / Title / Design
+#don't work
+
+### On actions ###
+on_actions = { 
+    on_startup = {
+		effect = {
+		    every_possible_country={
+            
+                add_dynamic_modifier = {
+                    modifier = army_expenditures_effects
+                }
+                add_dynamic_modifier = {
+                    modifier = corpses_debuff_effects
+                }
+                add_dynamic_modifier = {
+                    modifier = buildings_expenditures_effects
+                }
+
+                # ARMY
+                set_variable = { TOTAL_ARMY = num_armies }
+                set_variable = { TOTAL_NAVY = num_ships }
+                set_variable = { TOTAL_PLANES = num_deployed_planes }
+
+                # DISPLAY
+                set_variable = { PROFIT_FROM_CIVS_TAX = 0 } # Money from civs
+                set_variable = { TOTAL_SOLVENCY = 0} # Total value of people, who can pay taxes
+                set_variable = { TOTAL_MONEY_GAIN = 0 }
+                set_variable = { TOTAL_MONEY_FROM_OTHER = 0 }
+                set_variable = { TOTAL_MONEY_FROM_RESOURCES = 0 }
+
+                # set_variable = { TOTAL_MONEY_DSPLAY = 0 }
+
+                # CORP
+                set_variable = { TOTAL_COMP_PROFIT = 0.08} # Average value of corporations profit per month
+                set_variable = { TOTAL_CORP_PROFIT = 0.28} # Average value of corporations profit per month
+                # set_variable = { TOTAL_COMP = 0} # Total value of companies
+                # set_variable = { TOTAL_CORP = 0} # Total value of corporations
+                # set_variable = { TOTAL_FOREIGN_COMP = 0} # Total value of foreign corporations and companies
+                # set_variable = { TOTAL_COUNTRY_FOREIGN_COMP = 5} # Total value of foreign corporations and companies
+
+                # TAXES
+                set_variable = { TAX_MANY_PEOPLE = 1.0} # Taxes for oasis
+                set_variable = { TOTAL_GOVERNMENT_EXPENDITURE_CALCULATE = 1 }
+                # set_variable = { TOTAL_MONEY_OTHER_CALCULATE = 0 }
+                # set_variable = { TAX_CIVS = 0.19} # # Taxes from civs
+                # set_variable = { TAX_ENERGY = 0.05} # # Taxes for energy
+                # set_variable = { TAX_CORP = 0.25} # Taxes from companies/factories
+                #set_variable = { TAX_STATE = 0.05} # Taxes from states
+                #set_variable = { TAX_OC_STATE = 0.1} # Taxes from occupated states
+
+                # PROFIT
+                set_variable = { PROFIT_FROM_CFFF = 0.055} # (Civilian) factories
+                set_variable = { PROFIT_FROM_OFFF = 0.41} # Offices
+                set_variable = { PROFIT_FROM_SFFF = 0.5} # States
+                set_variable = { PROFIT_FROM_MFFF = 0.035} # Mils
+                set_variable = { PROFIT_FROM_DFFF = 0.023} # Dockyards
+                set_variable = { PROFIT_FROM_VFFF = 0.085} # Caves
+                set_variable = { PROFIT_FROM_GFFF = 0.075} # Graveyards
+                set_variable = { PROFIT_FROM_IFFF = 0.2} # District institutions
+                set_variable = { PROFIT_FROM_EFFF = 0.05} # Energy
+
+                # NO PROFIT
+                # set_variable = { TOTAL_EXPENSES_ON_BUILDINGS = 0.01} # Expenses on Buildings
+                # set_variable = { TOTAL_ARMY_EXPENDITURES = 0.02} # Expenses on army
+                # set_variable = { TOTAL_NAVY_EXPENDITURES = 0.01} # Expenses on navy
+                # set_variable = { TOTAL_PLANES_EXPENDITURES = 0.01} # Expenses on planes
+                # set_variable = { TOTAL_EDUCATION_EXPENSES = 0.05} # Schools
+
+                # STAFF
+                set_variable = { UER = 0}
+                set_variable = { TOTAL_MONEY_GAIN_WITH_EXPENSES = 0}
+                set_variable = { TOTAL_EXPENSES_OTHER_MONTHLY_FIX = 0 }
+                # set_variable = { TOTAL_UER = 2} # Unemployment rate (0-5)
+                # set_variable = { TOTAL_MIN_SALARY = 900} # Min. salary
+                # set_variable = { TOTAL_AWL = 2} # Average wealth level (1-8)
+                # set_variable = { TOTAL_EDUCTAION_LEVEL = 1} #1-5 where 1 is bad, 5 is good
+					
+				if={
+					limit={
+						is_major = no
+					}   
+                        # Money
+                        set_variable = { TAX_CORP = 0.28} # Taxes from companies/factories
+                        set_variable = { TAX_CIVS = 0.24} # # Taxes from civs
+                        set_variable = { TAX_ENERGY = 0.06} # # Taxes for energy
+
+					    set_variable = { TOTAL_MONEY = 8.3 }
+                        set_variable = { TOTAL_MONEY_DSPLAY = 8}
+                        set_variable = { TOTAL_DEBT = 5}
+
+                        set_variable = { TOTAL_UER = 3} # Unemployment rate (0-5)
+                        set_variable = { TOTAL_MIN_SALARY = 800} # Min. salary
+                        set_variable = { TOTAL_AWL = 2} # Average wealth level (1-8)
+
+                        # Corp
+                        set_variable = { TOTAL_COMP = 24} # Total value of companies
+                        set_variable = { TOTAL_CORP = 1} # Total value of corporations
+                        set_variable = { TOTAL_FOREIGN_COMP = 20} # Total value of foreign corporations and companies
+                        set_variable = { TOTAL_COUNTRY_FOREIGN_COMP = 5} # Total value of foreign corporations and companies
+
+                        # Army
+                        set_variable = { TOTAL_ARMY_EXPENDITURES = 0.02} # Expenses on army
+                        set_variable = { TOTAL_NAVY_EXPENDITURES = 0.01} # Expenses on navy
+                        set_variable = { TOTAL_PLANES_EXPENDITURES = 0.01} # Expenses on planes
+                        set_variable = { TOTAL_EDUCATION_EXPENSES = 0.07} # Schools
+
+                        # Other
+                        set_variable = { TOTAL_EDUCTAION_LEVEL = 1} #1-5 where 1 is bad, 5 is good
+                        set_variable = { TOTAL_EXPENSES_ON_BUILDINGS = 0.05} # Expenses on Buildings
+                        set_variable = { TOTAL_GOVERNMENT_EXPENDITURE = 5} # Government expemditure
+                        
+				    else={
+                        
+
+                        # Money
+                        set_variable = { TAX_CORP = 0.25} # Taxes from companies/factories
+                        set_variable = { TAX_CIVS = 0.19} # # Taxes from civs
+                        set_variable = { TAX_ENERGY = 0.05} # # Taxes for energy
+
+                        set_variable = { TOTAL_MONEY = 13.7}
+                        set_variable = { TOTAL_MONEY_DSPLAY = 14}
+                        set_variable = { TOTAL_DEBT = 59}
+
+					    set_variable = { TOTAL_UER = 2} # Unemployment rate (0-5)
+                        set_variable = { TOTAL_MIN_SALARY = 1000} # Min. salary
+                        set_variable = { TOTAL_AWL = 3} # Average wealth level (1-8)
+
+                        # Corp
+                        set_variable = { TOTAL_COMP = 42} # Total value of companies
+                        set_variable = { TOTAL_CORP = 5} # Total value of corporations
+                        set_variable = { TOTAL_FOREIGN_COMP = 12} # Total value of foreign corporations and companies
+                        set_variable = { TOTAL_COUNTRY_FOREIGN_COMP = 20} # Total value of foreign corporations and companies
+
+                        # Army
+                        set_variable = { TOTAL_ARMY_EXPENDITURES = 0.04} # Expenses on army
+                        set_variable = { TOTAL_NAVY_EXPENDITURES = 0.01} # Expenses on navy
+                        set_variable = { TOTAL_PLANES_EXPENDITURES = 0.02} # Expenses on planes
+                        set_variable = { TOTAL_EDUCATION_EXPENSES = 0.1} # Schools
+
+                        # Other
+                        set_variable = { TOTAL_EDUCTAION_LEVEL = 3} #1-5 where 1 is bad, 5 is good
+                        set_variable = { TOTAL_EXPENSES_ON_BUILDINGS = 0.08} # Expenses on Buildings
+                        set_variable = { TOTAL_GOVERNMENT_EXPENDITURE = 3.5} # Government expemditure
+				    }
+				}
+                
+                # Army
+                set_variable = { TOTAL_ARMIES_EXPENDITURES = 0 }
+
+                set_variable = { TOTAL_ARMY_EXPENDITURES_MODIFIERS = TOTAL_ARMY_EXPENDITURES }
+                multiply_variable = { TOTAL_ARMY_EXPENDITURES_MODIFIERS = 2.5 }
+                subtract_from_variable = { TOTAL_ARMY_EXPENDITURES_MODIFIERS = 0.15 }
+                
+    
+                add_to_variable = { TOTAL_ARMY_STATUS_TRAINING_TIME = TOTAL_ARMY_EXPENDITURES_MODIFIERS }
+                add_to_variable = { TOTAL_ARMY_STATUS_ATTACK = TOTAL_ARMY_EXPENDITURES_MODIFIERS }
+                add_to_variable = { TOTAL_ARMY_STATUS_SPEED = TOTAL_ARMY_EXPENDITURES_MODIFIERS }
+                add_to_variable = { TOTAL_ARMY_STATUS_DEFENCE = TOTAL_ARMY_EXPENDITURES_MODIFIERS }
+                add_to_variable = { TOTAL_ARMY_STATUS_STRENGTH = TOTAL_ARMY_EXPENDITURES_MODIFIERS }
+                add_to_variable = { TOTAL_ARMY_STATUS_MORALE = TOTAL_ARMY_EXPENDITURES_MODIFIERS }
+                add_to_variable = { TOTAL_ARMY_STATUS_DIG_IN = TOTAL_ARMY_EXPENDITURES_MODIFIERS }
+
+                # Navy
+                set_variable = { TOTAL_NAVY_EXPENDITURES_MODIFIERS = TOTAL_NAVY_EXPENDITURES }
+                multiply_variable = { TOTAL_NAVY_EXPENDITURES_MODIFIERS = 2.5 }
+                subtract_from_variable = { TOTAL_NAVY_EXPENDITURES_MODIFIERS = 0.15 }
+                set_variable = { TOTAL_NAVY_EXPENDITURES_MODIFIERS_REVERSE = TOTAL_NAVY_EXPENDITURES_MODIFIERS }
+                multiply_variable = { TOTAL_NAVY_EXPENDITURES_MODIFIERS_REVERSE = -1 }
+                
+                add_to_variable = { TOTAL_NAVY_STATUS_ESCORT_EFFICIENCY = TOTAL_NAVY_EXPENDITURES_MODIFIERS }
+                add_to_variable = { TOTAL_NAVY_STATUS_ACCIDENTS_CHANCE = TOTAL_NAVY_EXPENDITURES_MODIFIERS_REVERSE }
+                add_to_variable = { TOTAL_NAVY_STATUS_ANTI_AIR_ATTACK = TOTAL_NAVY_EXPENDITURES_MODIFIERS }
+                add_to_variable = { TOTAL_NAVY_STATUS_COORDINATION = TOTAL_NAVY_EXPENDITURES_MODIFIERS }
+                add_to_variable = { TOTAL_NAVY_STATUS_DAMAGE = TOTAL_NAVY_EXPENDITURES_MODIFIERS }
+                add_to_variable = { TOTAL_NAVY_STATUS_DEFENSE = TOTAL_NAVY_EXPENDITURES_MODIFIERS }
+                add_to_variable = { TOTAL_NAVY_STATUS_DETECTION = TOTAL_NAVY_EXPENDITURES_MODIFIERS }
+                add_to_variable = { TOTAL_NAVY_STATUS_HIT_CHANCE = TOTAL_NAVY_EXPENDITURES_MODIFIERS }
+                add_to_variable = { TOTAL_NAVY_STATUS_MINE_HIT_CHANCE = TOTAL_NAVY_EXPENDITURES_MODIFIERS_REVERSE }
+                add_to_variable = { TOTAL_NAVY_STATUS_MORALE = TOTAL_NAVY_EXPENDITURES_MODIFIERS }
+                add_to_variable = { TOTAL_NAVY_STATUS_MAX_RAGE = TOTAL_NAVY_EXPENDITURES_MODIFIERS }
+
+                # Air
+                set_variable = { TOTAL_AIR_EXPENDITURES_MODIFIERS = TOTAL_PLANES_EXPENDITURES }
+                multiply_variable = { TOTAL_AIR_EXPENDITURES_MODIFIERS = 2.5 }
+                subtract_from_variable = { TOTAL_AIR_EXPENDITURES_MODIFIERS = 0.15 }
+                set_variable = { TOTAL_AIR_EXPENDITURES_MODIFIERS_REVERSE = TOTAL_AIR_EXPENDITURES_MODIFIERS }
+                multiply_variable = { TOTAL_AIR_EXPENDITURES_MODIFIERS_REVERSE = -1 }
+                
+                add_to_variable = { TOTAL_AIR_STATUS_ACCIDENTS = TOTAL_AIR_EXPENDITURES_MODIFIERS_REVERSE }
+                add_to_variable = { TOTAL_AIR_STATUS_ATTACK = TOTAL_AIR_EXPENDITURES_MODIFIERS }
+                add_to_variable = { TOTAL_AIR_STATUS_AGILITY = TOTAL_AIR_EXPENDITURES_MODIFIERS }
+                add_to_variable = { TOTAL_AIR_STATUS_DEFENCE = TOTAL_AIR_EXPENDITURES_MODIFIERS }
+                add_to_variable = { TOTAL_AIR_STATUS_BOMBING_TARGETTING = TOTAL_AIR_EXPENDITURES_MODIFIERS }
+                add_to_variable = { TOTAL_AIR_STATUS_INTERCEPT_EFFICIENCY = TOTAL_AIR_EXPENDITURES_MODIFIERS }
+                add_to_variable = { TOTAL_AIR_STATUS_MISSION_EFFICIENCY = TOTAL_AIR_EXPENDITURES_MODIFIERS }
+                add_to_variable = { TOTAL_AIR_STATUS_NAV_EFFICIENCY = TOTAL_AIR_EXPENDITURES_MODIFIERS }
+                add_to_variable = { TOTAL_AIR_STATUS_RANGE = TOTAL_AIR_EXPENDITURES_MODIFIERS }
+                add_to_variable = { TOTAL_AIR_STATUS_GROUND_ATTACK = TOTAL_AIR_EXPENDITURES_MODIFIERS }
+
+
+                add_to_variable = { TOTAL_ARMIES_EXPENDITURES = TOTAL_ARMY_EXPENDITURES }
+                add_to_variable = { TOTAL_ARMIES_EXPENDITURES = TOTAL_PLANES_EXPENDITURES }
+                add_to_variable = { TOTAL_ARMIES_EXPENDITURES = TOTAL_NAVY_EXPENDITURES }
+
+                
+			}
+	    }
+    }
+
+    on_monthly = {
+        effect = {
+
+            # Clear
+            set_variable = { TOTAL_MONEY_GAIN = 0}
+            set_variable = { TOTAL_MONEY_FROM_RESOURCES = 0}
+            set_variable = { TOTAL_ARMY = num_armies }
+            set_variable = { TOTAL_NAVY = num_ships }
+            set_variable = { TOTAL_PLANES = num_deployed_planes }
+            set_variable = { TOTAL_ARMIES_EXPENDITURES = 0 }
+            subtract_from_variable = { TOTAL_EXPENSES_OTHER = TOTAL_EXPENSES_OTHER_MONTHLY_FIX }
+
+            if = {
+                limit = {
+                        check_variable = {max_manpower_k > 15000}
+                    }
+                set_variable = {TAX_MANY_PEOPLE = 0.6}
+
+                else = {
+                    set_variable = {TAX_MANY_PEOPLE = 1}
+                }
+            }
+            if = {
+                limit = {
+                        check_variable = {max_manpower_k > 35000}
+                    }
+                set_variable = {TAX_MANY_PEOPLE = 0.55}
+
+                else = {
+                    set_variable = {TAX_MANY_PEOPLE = 1}
+                }
+            }
+            if = {
+                limit = {
+                        check_variable = {max_manpower_k > 50000}
+                    }
+                set_variable = {TAX_MANY_PEOPLE = 0.5}
+
+                else = {
+                    set_variable = {TAX_MANY_PEOPLE = 1}
+                }
+            }
+            if = {
+                limit = {
+                        check_variable = {max_manpower_k > 50000}
+                    }
+                set_variable = {TAX_MANY_PEOPLE = 0.45}
+
+                else = {
+                    set_variable = {TAX_MANY_PEOPLE = 1}
+                }
+            }
+
+            # Civs
+            # CALCULATE SOLVENCY
+            set_variable = { UER = TOTAL_UER}
+            set_variable = { TOTAL_SOLVENCY = max_manpower_k}
+            add_to_variable = { UER = 5.5}
+            divide_variable = { TOTAL_SOLVENCY = UER}
+            round_variable = TOTAL_SOLVENCY
+
+            # GET MONEY FROM TAX
+            set_variable = { PROFIT_FROM_CIVS_TAX = TOTAL_SOLVENCY }
+            set_variable = { AVERAGE_SALARY = TOTAL_MIN_SALARY }
+            divide_variable = { AVERAGE_SALARY = 100000 }
+            multiply_variable = { AVERAGE_SALARY = TOTAL_AWL }
+            multiply_variable = { PROFIT_FROM_CIVS_TAX = AVERAGE_SALARY }
+            multiply_variable = { PROFIT_FROM_CIVS_TAX = TAX_CIVS }
+            divide_variable = { PROFIT_FROM_CIVS_TAX = 10 }
+            
+
+            # States
+
+            #set_variable = { nos = num_occupied_states }
+            #set_variable = { nows = num_owned_states }
+            
+            # Buidlings
+
+
+
+            #Get states data
+
+            # Corp
+            # Buildings
+
+            set_variable = { TOTAL_MONEY_FROM_BUILDINGS = 0}
+            set_variable = { TOTAL_MONEY_FROM_CORP = 0}
+
+            set_variable = { MONEY_TOTAL_OFFICE = TOTAL_OFFICE}
+            set_variable = { MONEY_TOTAL_INDUSTRIAL_COMPLEX = TOTAL_INDUSTRIAL_COMPLEX}
+            set_variable = { MONEY_TOTAL_ARMS_FACTORY = TOTAL_ARMS_FACTORY}
+            set_variable = { MONEY_TOTAL_DOCKYARD = TOTAL_DOCKYARD}
+            set_variable = { MONEY_TOTAL_CAVE = TOTAL_CAVE}
+            set_variable = { MONEY_TOTAL_GRAVEYARD = TOTAL_GRAVEYARD}
+            set_variable = { MONEY_TOTAL_DISTRICT_INSTITUTION = TOTAL_DISTRICT_INSTITUTION}
+            
+            # Calculate profit from corp
+
+            # CORP
+            set_variable = { TOTAL_COMP_PROFIT = 0.2} # Average value of corporations profit per month
+            set_variable = { TOTAL_CORP_PROFIT = 1.1} # Average value of corporations profit per month
+            # set_variable = { TOTAL_COMP = 0} # Total value of companies
+            # set_variable = { TOTAL_CORP = 0} # Total value of corporations
+            # set_variable = { TOTAL_FOREIGN_COMP = 0} # Total value of foreign corporations and companies
+            # set_variable = { TOTAL_COUNTRY_FOREIGN_COMP = 5} # Total value of foreign corporations and companies
+            
+            set_variable = { MONEY_TOTAL_COMP = TOTAL_COMP }
+            set_variable = { MONEY_TOTAL_CORP = TOTAL_CORP }
+            set_variable = { MONEY_TOTAL_COUNTRY_FOREIGN_COMP = TOTAL_COMP }
+
+            multiply_variable = { MONEY_TOTAL_COMP = TOTAL_COMP_PROFIT}
+            multiply_variable = { MONEY_TOTAL_CORP = TOTAL_CORP_PROFIT}
+            multiply_variable = { MONEY_TOTAL_COUNTRY_FOREIGN_COMP = TOTAL_COMP_PROFIT}
+            multiply_variable = { MONEY_TOTAL_COUNTRY_FOREIGN_COMP = 0.38}
+
+            add_to_variable = { TOTAL_MONEY_FROM_CORP = MONEY_TOTAL_COMP}
+            add_to_variable = { TOTAL_MONEY_FROM_CORP = MONEY_TOTAL_CORP}
+            add_to_variable = { TOTAL_MONEY_FROM_CORP = MONEY_TOTAL_COUNTRY_FOREIGN_COMP}
+
+            multiply_variable = {TOTAL_MONEY_FROM_CORP = TAX_CORP}
+
+            # Calculate profit from buildings
+            multiply_variable = { MONEY_TOTAL_INDUSTRIAL_COMPLEX = PROFIT_FROM_CFFF}
+            multiply_variable = { MONEY_TOTAL_ARMS_FACTORY = PROFIT_FROM_MFFF}
+            multiply_variable = { MONEY_TOTAL_DOCKYARD = PROFIT_FROM_DFFF}
+            multiply_variable = { MONEY_TOTAL_CAVE = PROFIT_FROM_VFFF}
+            multiply_variable = { MONEY_TOTAL_GRAVEYARD = PROFIT_FROM_GFFF}
+            multiply_variable = { MONEY_TOTAL_DISTRICT_INSTITUTION = PROFIT_FROM_IFFF}
+            multiply_variable = { MONEY_TOTAL_OFFICE = PROFIT_FROM_OFFF}
+
+            add_to_variable = { TOTAL_MONEY_FROM_BUILDINGS = MONEY_TOTAL_INDUSTRIAL_COMPLEX}
+            add_to_variable = { TOTAL_MONEY_FROM_BUILDINGS = MONEY_TOTAL_ARMS_FACTORY}
+            add_to_variable = { TOTAL_MONEY_FROM_BUILDINGS = MONEY_TOTAL_DOCKYARD}
+            add_to_variable = { TOTAL_MONEY_FROM_BUILDINGS = MONEY_TOTAL_CAVE}
+            add_to_variable = { TOTAL_MONEY_FROM_BUILDINGS = MONEY_TOTAL_GRAVEYARD}
+            add_to_variable = { TOTAL_MONEY_FROM_BUILDINGS = MONEY_TOTAL_DISTRICT_INSTITUTION}
+            add_to_variable = { TOTAL_MONEY_FROM_BUILDINGS = MONEY_TOTAL_OFFICE}
+
+            multiply_variable = {TOTAL_MONEY_FROM_BUILDINGS = TAX_CORP}
+
+            # Energy 
+            set_variable = { MONEY_FROM_ENERGY = TOTAL_ENERGY_USAGE_MONTHLY}
+            multiply_variable = { MONEY_FROM_ENERGY = PROFIT_FROM_EFFF}
+            multiply_variable = { MONEY_FROM_ENERGY = TAX_ENERGY}
+
+            # Resources
+            set_variable = { chromium_export = resource_exported@chromium}
+			multiply_variable = {chromium_export = 0.005}
+
+            set_variable = { tungsten_export = resource_exported@tungsten}
+			multiply_variable = {tungsten_export = 0.005}
+
+            set_variable = { rubber_export = resource_exported@rubber}
+			multiply_variable = {rubber_export = 0.005}
+
+            set_variable = { aluminium_export = resource_exported@aluminium}
+			multiply_variable = {aluminium_export = 0.001}
+
+            set_variable = { oil_export = resource_exported@oil}
+			multiply_variable = {oil_export = 0.008}
+
+            set_variable = { steel_export = resource_exported@steel}
+			multiply_variable = {steel_export = 0.01}
+
+            set_variable = { elysium_export = resource_exported@elysium}
+			multiply_variable = {elysium_export = 0.09}
+
+            set_variable = { gold_export = resource_exported@gold}
+			multiply_variable = {gold_export = 0.015}
+		
+			# Expenses
+            set_variable = { chromium_import = resource_imported@chromium}
+			multiply_variable = {chromium_import = 0.01}
+
+            set_variable = { tungsten_import = resource_imported@tungsten}
+			multiply_variable = {tungsten_import = 0.01}
+
+            set_variable = { rubber_import = resource_imported@rubber}
+			multiply_variable = {rubber_import = 0.01}
+
+            set_variable = { aluminium_import = resource_imported@aluminium}
+			multiply_variable = {aluminium_import = 0.005}
+
+            set_variable = { oil_import = resource_imported@oil}
+			multiply_variable = {oil_import = 0.01}
+
+            set_variable = { steel_import = resource_imported@steel}
+			multiply_variable = {steel_import = 0.02}
+
+            set_variable = { elysium_import = resource_imported@elysium}
+			multiply_variable = {elysium_import = 0.12}
+
+            set_variable = { gold_import = resource_imported@gold}
+			multiply_variable = {gold_import = 0.04}
+
+            # Expenses
+			#set_variable = { ms = num_divisions}
+			#divide_variable = { var = ms value = 75 }
+
+			set_variable = { allexpenses = 0}
+			set_variable = { resourceexpenses = 0}
+			set_variable = { resourceincome = 0}
+			add_to_variable = { var = resourceincome value = rubber_export}
+			add_to_variable = { var = resourceincome value = chromium_export}
+			add_to_variable = { var = resourceincome value = tungsten_export}
+			add_to_variable = { var = resourceincome value = steel_export}
+			add_to_variable = { var = resourceincome value = oil_export}
+			add_to_variable = { var = resourceincome value = aluminium_export}
+            add_to_variable = { var = resourceincome value = gold_export}
+            add_to_variable = { var = resourceincome value = elysium_export}
+			
+			add_to_variable = { var = resourceexpenses value = rubber_import}
+			add_to_variable = { var = resourceexpenses value = chromium_import}
+			add_to_variable = { var = resourceexpenses value = tungsten_import}
+			add_to_variable = { var = resourceexpenses value = steel_import}
+			add_to_variable = { var = resourceexpenses value = oil_import}
+			add_to_variable = { var = resourceexpenses value = aluminium_import} 
+            add_to_variable = { var = resourceexpenses value = gold_import}
+            add_to_variable = { var = resourceexpenses value = elysiimport}
+
+            add_to_variable = { TOTAL_MONEY_FROM_RESOURCES = resourceincome}
+
+
+            # Calculate TOTAL_MONEY
+            # Total money
+            add_to_variable = { TOTAL_MONEY_GAIN = PROFIT_FROM_CIVS_TAX}
+            add_to_variable = { TOTAL_MONEY_GAIN = TOTAL_MONEY_FROM_BUILDINGS}
+            add_to_variable = { TOTAL_MONEY_GAIN = TOTAL_MONEY_FROM_CORP}
+            add_to_variable = { TOTAL_MONEY_GAIN = TOTAL_MONEY_FROM_OTHER}
+            add_to_variable = { TOTAL_MONEY_GAIN = TOTAL_MONEY_FROM_RESOURCES}
+            add_to_variable = { TOTAL_MONEY_GAIN = resourceincome}
+            if = {
+                limit = {
+                    check_variable = { TOTAL_ENERGY < 0 }
+                }
+                multiply_variable = { MONEY_FROM_ENERGY = PROFIT_FROM_EFFF}
+                add_to_variable = { MONEY_FROM_ENERGY = -1}
+                limit = {
+                    check_variable = { TOTAL_ENERGY > 0 }
+                }
+                add_to_variable = { TOTAL_MONEY_GAIN = MONEY_FROM_ENERGY}
+            }
+            add_to_variable = { TOTAL_MONEY_GAIN = MONEY_FROM_ENERGY}
+            add_to_variable = { TOTAL_MONEY = TOTAL_MONEY_GAIN}
+
+            
+            # Army
+            set_variable = { MONEY_TOTAL_ARMY_EXPENDITURES = TOTAL_ARMY }
+            set_variable = { MONEY_TOTAL_NAVY_EXPENDITURES = TOTAL_NAVY }
+            set_variable = { MONEY_TOTAL_NAVY_EXPENDITURES = TOTAL_PLANES }
+            multiply_variable = { MONEY_TOTAL_ARMY_EXPENDITURES = TOTAL_ARMY_EXPENDITURES}
+            multiply_variable = { MONEY_TOTAL_NAVY_EXPENDITURES = TOTAL_NAVY_EXPENDITURES}
+            multiply_variable = { MONEY_TOTAL_PLANES_EXPENDITURES = TOTAL_PLANES_EXPENDITURES}
+
+            # Schools
+            set_variable = { TOTAL_EXPENSES_RESEARCH_COMPLEX = TOTAL_RESEARCH_COMPLEX }
+            multiply_variable = { TOTAL_EXPENSES_RESEARCH_COMPLEX = TOTAL_EDUCATION_EXPENSES }
+            add_to_variable = { TOTAL_EXPENSES_RESEARCH_COMPLEX = 0.5}
+
+            # Buildings
+            set_variable = { TOTAL_EXPENSES_BUILDINGS = 0 }
+            set_variable = { MONEY_TOTAL_BUILDINGS = TOTAL_CONSTRUCTION_AGENCY }
+            add_to_variable = { MONEY_TOTAL_BUILDINGS = TOTAL_WIND_GENERATOR}
+            add_to_variable = { MONEY_TOTAL_BUILDINGS = TOTAL_POWERPLANT}
+            add_to_variable = { MONEY_TOTAL_BUILDINGS = TOTAL_CIVILIAN_NUCLEAR_REACTOR}
+            add_to_variable = { MONEY_TOTAL_BUILDINGS = TOTAL_FUEL_SILO}
+            add_to_variable = { MONEY_TOTAL_BUILDINGS = TOTAL_SYNTHETIC_REFINERY}
+            add_to_variable = { MONEY_TOTAL_BUILDINGS = TOTAL_CITY_INFRASTRUCTURE}
+            add_to_variable = { MONEY_TOTAL_BUILDINGS = TOTAL_HOSPITAL }
+            
+            multiply_variable = { MONEY_TOTAL_BUILDINGS = TOTAL_EXPENSES_ON_BUILDINGS }
+
+            add_to_variable = { TOTAL_EXPENSES_BUILDINGS = MONEY_TOTAL_BUILDINGS}
+
+            # projects 
+            set_variable = { TOTAL_EXPENSES_ON_PROJECTS = 0 }
+            if = {
+                limit = {
+                    NOT = {
+                        OR = {
+                            has_country_flag = current_project_energy
+                            has_country_flag = current_project_casualities
+                            has_country_flag = current_project_offices
+                        }
+                    }
+                add_to_variable = { TOTAL_EXPENSES_ON_PROJECTS = 0.9 }
+                }
+            }
+            if = {
+                limit = {
+                    NOT = {
+                        OR = {
+                            has_country_flag = current_project_factories
+							has_country_flag = current_project_arms_factories
+                            has_country_flag = current_project_infrastructure
+                        }
+                    }
+                }
+                add_to_variable = { TOTAL_EXPENSES_ON_PROJECTS = 0.9 }
+            }
+            set_variable = { TOTAL_EXPENSES = 0 }
+            # Expenses  
+            set_variable = { TOTAL_MONEY_OTHER_CALCULATE = TOTAL_MONEY_GAIN }
+            set_variable = { TOTAL_GOVERNMENT_EXPENDITURE_CALCULATE = TAX_MANY_PEOPLE }
+            multiply_variable = { TOTAL_GOVERNMENT_EXPENDITURE_CALCULATE = TOTAL_GOVERNMENT_EXPENDITURE }
+            divide_variable = { TOTAL_MONEY_OTHER_CALCULATE = TOTAL_GOVERNMENT_EXPENDITURE_CALCULATE }
+            add_to_variable = { TOTAL_EXPENSES_OTHER = TOTAL_MONEY_OTHER_CALCULATE }
+
+            set_variable = { TOTAL_EXPENSES_OTHER_MONTHLY_FIX = TOTAL_EXPENSES_OTHER }
+
+            add_to_variable = { TOTAL_EXPENSES = TOTAL_EXPENSES_ON_PROJECTS }
+            add_to_variable = { TOTAL_EXPENSES = MONEY_TOTAL_ARMY_EXPENDITURES}
+            add_to_variable = { TOTAL_EXPENSES = MONEY_TOTAL_NAVY_EXPENDITURES}
+            add_to_variable = { TOTAL_EXPENSES = MONEY_TOTAL_PLANES_EXPENDITURES}
+            add_to_variable = { TOTAL_EXPENSES = TOTAL_EXPENSES_RESEARCH_COMPLEX}
+            add_to_variable = { TOTAL_EXPENSES = TOTAL_EXPENSES_BUILDINGS}
+            add_to_variable = { TOTAL_EXPENSES = TOTAL_EXPENSES_OTHER }
+
+            subtract_from_variable = { TOTAL_MONEY = TOTAL_EXPENSES }
+
+            # Calculate
+            set_variable = { TOTAL_MONEY_GAIN_WITH_EXPENSES = TOTAL_MONEY_GAIN}
+            subtract_from_variable = { TOTAL_MONEY_GAIN_WITH_EXPENSES = TOTAL_EXPENSES }
+
+            set_variable = { TOTAL_MONEY_DSPLAY = TOTAL_MONEY }
+            multiply_variable = { TOTAL_MONEY_DSPLAY = 10 }
+            round_variable = TOTAL_MONEY_DSPLAY
+            divide_variable = { TOTAL_MONEY_DSPLAY = 10 }
+
+
+            # Army
+            # ground army
+            subtract_from_variable = { TOTAL_ARMY_STATUS_TRAINING_TIME = TOTAL_ARMY_EXPENDITURES_MODIFIERS }
+            subtract_from_variable = { TOTAL_ARMY_STATUS_ATTACK = TOTAL_ARMY_EXPENDITURES_MODIFIERS }
+            subtract_from_variable = { TOTAL_ARMY_STATUS_SPEED = TOTAL_ARMY_EXPENDITURES_MODIFIERS }
+            subtract_from_variable = { TOTAL_ARMY_STATUS_DEFENCE = TOTAL_ARMY_EXPENDITURES_MODIFIERS }
+            subtract_from_variable = { TOTAL_ARMY_STATUS_STRENGTH = TOTAL_ARMY_EXPENDITURES_MODIFIERS }
+            subtract_from_variable = { TOTAL_ARMY_STATUS_MORALE = TOTAL_ARMY_EXPENDITURES_MODIFIERS }
+            subtract_from_variable = { TOTAL_ARMY_STATUS_DIG_IN = TOTAL_ARMY_EXPENDITURES_MODIFIERS }
+
+            set_variable = { TOTAL_ARMY_EXPENDITURES_MODIFIERS = TOTAL_ARMY_EXPENDITURES }
+            multiply_variable = { TOTAL_ARMY_EXPENDITURES_MODIFIERS = 2.5 }
+            subtract_from_variable = { TOTAL_ARMY_EXPENDITURES_MODIFIERS = 0.15 }
+            
+            add_to_variable = { TOTAL_ARMY_STATUS_TRAINING_TIME = TOTAL_ARMY_EXPENDITURES_MODIFIERS }
+            add_to_variable = { TOTAL_ARMY_STATUS_ATTACK = TOTAL_ARMY_EXPENDITURES_MODIFIERS }
+            add_to_variable = { TOTAL_ARMY_STATUS_SPEED = TOTAL_ARMY_EXPENDITURES_MODIFIERS }
+            add_to_variable = { TOTAL_ARMY_STATUS_DEFENCE = TOTAL_ARMY_EXPENDITURES_MODIFIERS }
+            add_to_variable = { TOTAL_ARMY_STATUS_STRENGTH = TOTAL_ARMY_EXPENDITURES_MODIFIERS }
+            add_to_variable = { TOTAL_ARMY_STATUS_MORALE = TOTAL_ARMY_EXPENDITURES_MODIFIERS }
+            add_to_variable = { TOTAL_ARMY_STATUS_DIG_IN = TOTAL_ARMY_EXPENDITURES_MODIFIERS }
+
+            # Navy
+            subtract_from_variable = { TOTAL_NAVY_STATUS_ESCORT_EFFICIENCY = TOTAL_NAVY_EXPENDITURES_MODIFIERS }
+            subtract_from_variable = { TOTAL_NAVY_STATUS_ACCIDENTS_CHANCE = TOTAL_NAVY_EXPENDITURES_MODIFIERS_REVERSE }
+            subtract_from_variable = { TOTAL_NAVY_STATUS_ANTI_AIR_ATTACK = TOTAL_NAVY_EXPENDITURES_MODIFIERS }
+            subtract_from_variable = { TOTAL_NAVY_STATUS_COORDINATION = TOTAL_NAVY_EXPENDITURES_MODIFIERS }
+            subtract_from_variable = { TOTAL_NAVY_STATUS_DAMAGE = TOTAL_NAVY_EXPENDITURES_MODIFIERS }
+            subtract_from_variable = { TOTAL_NAVY_STATUS_DEFENSE = TOTAL_NAVY_EXPENDITURES_MODIFIERS }
+            subtract_from_variable = { TOTAL_NAVY_STATUS_DETECTION = TOTAL_NAVY_EXPENDITURES_MODIFIERS }
+            subtract_from_variable = { TOTAL_NAVY_STATUS_HIT_CHANCE = TOTAL_NAVY_EXPENDITURES_MODIFIERS }
+            subtract_from_variable = { TOTAL_NAVY_STATUS_MINE_HIT_CHANCE = TOTAL_NAVY_EXPENDITURES_MODIFIERS_REVERSE }
+            subtract_from_variable = { TOTAL_NAVY_STATUS_MORALE = TOTAL_NAVY_EXPENDITURES_MODIFIERS }
+            subtract_from_variable = { TOTAL_NAVY_STATUS_MAX_RAGE = TOTAL_NAVY_EXPENDITURES_MODIFIERS }
+
+            set_variable = { TOTAL_NAVY_EXPENDITURES_MODIFIERS = TOTAL_NAVY_EXPENDITURES }
+            multiply_variable = { TOTAL_NAVY_EXPENDITURES_MODIFIERS = 2.5 }
+            subtract_from_variable = { TOTAL_NAVY_EXPENDITURES_MODIFIERS = 0.15 }
+            set_variable = { TOTAL_NAVY_EXPENDITURES_MODIFIERS_REVERSE = TOTAL_NAVY_EXPENDITURES_MODIFIERS }
+            multiply_variable = { TOTAL_NAVY_EXPENDITURES_MODIFIERS_REVERSE = -1 }
+            
+            add_to_variable = { TOTAL_NAVY_STATUS_ESCORT_EFFICIENCY = TOTAL_NAVY_EXPENDITURES_MODIFIERS }
+            add_to_variable = { TOTAL_NAVY_STATUS_ACCIDENTS_CHANCE = TOTAL_NAVY_EXPENDITURES_MODIFIERS_REVERSE }
+            add_to_variable = { TOTAL_NAVY_STATUS_ANTI_AIR_ATTACK = TOTAL_NAVY_EXPENDITURES_MODIFIERS }
+            add_to_variable = { TOTAL_NAVY_STATUS_COORDINATION = TOTAL_NAVY_EXPENDITURES_MODIFIERS }
+            add_to_variable = { TOTAL_NAVY_STATUS_DAMAGE = TOTAL_NAVY_EXPENDITURES_MODIFIERS }
+            add_to_variable = { TOTAL_NAVY_STATUS_DEFENSE = TOTAL_NAVY_EXPENDITURES_MODIFIERS }
+            add_to_variable = { TOTAL_NAVY_STATUS_DETECTION = TOTAL_NAVY_EXPENDITURES_MODIFIERS }
+            add_to_variable = { TOTAL_NAVY_STATUS_HIT_CHANCE = TOTAL_NAVY_EXPENDITURES_MODIFIERS }
+            add_to_variable = { TOTAL_NAVY_STATUS_MINE_HIT_CHANCE = TOTAL_NAVY_EXPENDITURES_MODIFIERS_REVERSE }
+            add_to_variable = { TOTAL_NAVY_STATUS_MORALE = TOTAL_NAVY_EXPENDITURES_MODIFIERS }
+            add_to_variable = { TOTAL_NAVY_STATUS_MAX_RAGE = TOTAL_NAVY_EXPENDITURES_MODIFIERS }
+
+
+            # Air / Planes
+            subtract_from_variable = { TOTAL_AIR_STATUS_ACCIDENTS = TOTAL_AIR_EXPENDITURES_MODIFIERS }
+            subtract_from_variable = { TOTAL_AIR_STATUS_ATTACK = TOTAL_AIR_EXPENDITURES_MODIFIERS }
+            subtract_from_variable = { TOTAL_AIR_STATUS_AGILITY = TOTAL_AIR_EXPENDITURES_MODIFIERS }
+            subtract_from_variable = { TOTAL_AIR_STATUS_DEFENCE = TOTAL_AIR_EXPENDITURES_MODIFIERS }
+            subtract_from_variable = { TOTAL_AIR_STATUS_BOMBING_TARGETTING = TOTAL_AIR_EXPENDITURES_MODIFIERS }
+            subtract_from_variable = { TOTAL_AIR_STATUS_INTERCEPT_EFFICIENCY = TOTAL_AIR_EXPENDITURES_MODIFIERS }
+            subtract_from_variable = { TOTAL_AIR_STATUS_MISSION_EFFICIENCY = TOTAL_AIR_EXPENDITURES_MODIFIERS }
+            subtract_from_variable = { TOTAL_AIR_STATUS_NAV_EFFICIENCY = TOTAL_AIR_EXPENDITURES_MODIFIERS }
+            subtract_from_variable = { TOTAL_AIR_STATUS_RANGE = TOTAL_AIR_EXPENDITURES_MODIFIERS }
+            subtract_from_variable = { TOTAL_AIR_STATUS_GROUND_ATTACK = TOTAL_AIR_EXPENDITURES_MODIFIERS }
+
+            set_variable = { TOTAL_AIR_EXPENDITURES_MODIFIERS = TOTAL_PLANES_EXPENDITURES }
+            multiply_variable = { TOTAL_AIR_EXPENDITURES_MODIFIERS = 2.5 }
+            subtract_from_variable = { TOTAL_AIR_EXPENDITURES_MODIFIERS = 0.15 }
+            #set_variable = { TOTAL_AIR_EXPENDITURES_MODIFIERS_REVERSE = TOTAL_AIR_EXPENDITURES_MODIFIERS }
+            #multiply_variable = { TOTAL_AIR_EXPENDITURES_MODIFIERS_REVERSE = -1 }
+            
+            add_to_variable = { TOTAL_AIR_STATUS_ACCIDENTS = TOTAL_AIR_EXPENDITURES_MODIFIERS }
+            add_to_variable = { TOTAL_AIR_STATUS_ATTACK = TOTAL_AIR_EXPENDITURES_MODIFIERS }
+            add_to_variable = { TOTAL_AIR_STATUS_AGILITY = TOTAL_AIR_EXPENDITURES_MODIFIERS }
+            add_to_variable = { TOTAL_AIR_STATUS_DEFENCE = TOTAL_AIR_EXPENDITURES_MODIFIERS }
+            add_to_variable = { TOTAL_AIR_STATUS_BOMBING_TARGETTING = TOTAL_AIR_EXPENDITURES_MODIFIERS }
+            add_to_variable = { TOTAL_AIR_STATUS_INTERCEPT_EFFICIENCY = TOTAL_AIR_EXPENDITURES_MODIFIERS }
+            add_to_variable = { TOTAL_AIR_STATUS_MISSION_EFFICIENCY = TOTAL_AIR_EXPENDITURES_MODIFIERS }
+            add_to_variable = { TOTAL_AIR_STATUS_NAV_EFFICIENCY = TOTAL_AIR_EXPENDITURES_MODIFIERS }
+            add_to_variable = { TOTAL_AIR_STATUS_RANGE = TOTAL_AIR_EXPENDITURES_MODIFIERS }
+            add_to_variable = { TOTAL_AIR_STATUS_GROUND_ATTACK = TOTAL_AIR_EXPENDITURES_MODIFIERS }
+
+            #set_variable = { cfff = num_of_civilian_factories}
+			#multiply_variable = { cfff = 4 }
+            
+            # Education
+            set_variable = { TOTAL_EDUCATION_EXPENSES_MODIFIERS = TOTAL_EDUCATION_EXPENSES}
+            set_variable = { TOTAL_BUILDING_STATUS_RESEARCH_SPEED = TOTAL_EDUCATION_EXPENSES_MODIFIERS}
+            multiply_variable = { TOTAL_BUILDING_STATUS_RESEARCH_SPEED = 1.5}
+
+            set_variable = { TOTAL_BUILDING_STATUS_PRODUCTION_MAX_EFFICIENCY = TOTAL_EDUCATION_EXPENSES_MODIFIERS}
+            set_variable = { TOTAL_BUILDINGS_STATUS_PRODUCTION_SPEED_BUILDINGS = TOTAL_EDUCATION_EXPENSES_MODIFIERS}
+            
+            set_variable = { TOTAL_BUILDING_STATUS_MONTHLY_POPULATION = TOTAL_EDUCATION_EXPENSES_MODIFIERS}
+            multiply_variable = { TOTAL_BUILDING_STATUS_MONTHLY_POPULATION = -2}
+            add_to_variable = { TOTAL_BUILDING_STATUS_MONTHLY_POPULATION = 0.1 }
+            
+            add_to_variable = { TOTAL_ARMIES_EXPENDITURES = TOTAL_ARMY_EXPENDITURES }
+            add_to_variable = { TOTAL_ARMIES_EXPENDITURES = TOTAL_PLANES_EXPENDITURES }
+            add_to_variable = { TOTAL_ARMIES_EXPENDITURES = TOTAL_NAVY_EXPENDITURES }
+
+            # Calculate eductaion level
+            
+
+    }
+    }
+}

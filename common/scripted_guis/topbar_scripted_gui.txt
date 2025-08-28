@@ -10,5 +10,8 @@ scripted_gui = {
 			}
 		}
 	}
+	ws_top_bar_swap_default = {
+		window_name = "ws_top_bar_swap_default_window"
+	}
 }
 

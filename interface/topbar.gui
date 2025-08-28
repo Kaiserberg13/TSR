@@ -38,7 +38,6 @@ guiTypes = {
 #			position = { x= -357 y = 0 }
 #			Orientation = "UPPER_RIGHT"
 #		}
-
 		containerWindowType = {
 			name = "toggle_music_commands_win"
 			position = { x= -200 y = 32}
@@ -158,7 +157,7 @@ guiTypes = {
 			maxHeight = 24
 			fixedsize = yes
 		}
-		
+
 		iconType ={
 			name ="war_support_value_bg"
 			spriteType = ""
@@ -166,7 +165,7 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 		}
 		
-
+		
 		instantTextBoxType = {
 			name ="war_support"
 			position = { x= 510 y = 7 }

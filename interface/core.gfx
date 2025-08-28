@@ -20,6 +20,11 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_a_empty"
+		texturefile = "gfx/interface/a_empty.dds"
+	}
+
+	spriteType = {
 		name = "GFX_default_fallback_texture"
 		texturefile = "gfx/interface/thisisdog.dds"
 	}

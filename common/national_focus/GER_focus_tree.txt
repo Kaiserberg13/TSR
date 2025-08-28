@@ -1,0 +1,580 @@
+### search_filters = {FOCUS_FILTER_POLITICAL}
+### search_filters = {FOCUS_FILTER_RESEARCH}
+### search_filters = {FOCUS_FILTER_INDUSTRY}
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+### search_filters = {FOCUS_FILTER_INTERNAL_AFFAIRS}
+### search_filters = {FOCUS_FILTER_ARMY_XP}
+### search_filters = {FOCUS_FILTER_NAVY_XP}
+### search_filters = {FOCUS_FILTER_AIR_XP}
+### search_filters = {FOCUS_FILTER_BALANCE_OF_POWER}
+### search_filters = {FOCUS_FILTER_POLITICAL_CHARACTER}
+### search_filters = {FOCUS_FILTER_MILITARY_CHARACTER}
+### search_filters = {FOCUS_FILTER_INTERNATIONAL_TRADE}
+### search_filters = {FOCUS_FILTER_HISTORICAL}
+
+focus_tree = {
+	id = GER_focus_tree
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = GER
+		}
+	}
+	default = no
+	focus = {
+		id = GER_new_european_order
+		icon = GFX_GER_new_european_order
+		cost = 10,00
+		mutually_exclusive = {
+			focus = GER_romanticism_militarism
+		}
+		x = 13
+		y = 1
+		search_filters = { FOCUS_FILTER_HISTORICAL }
+	}
+	focus = {
+		id = GER_romanticism_militarism
+		icon = GFX_GER_romanticism_militarism
+		cost = 10,00
+		mutually_exclusive = {
+			focus = GER_new_european_order
+		}
+		completion_reward = {
+			hidden_effect = {
+				country_event = { id = GER_democratic_focuses.01 }	
+			}
+			add_political_power = 50
+		}
+		x = 19
+		y = 1
+
+	}
+	focus = {
+		id = GER_reduce_military_budget
+		icon = GFX_GER_reduce_military_budget
+		cost = 10,00
+		prerequisite = {
+			focus = GER_new_european_order
+		}
+		x = 13
+		y = 2
+
+	}
+	focus = {
+		id = GER_beginning_of_a_new_democratic_coursenewfocus_2
+		icon = GFX_GER_beginning_of_a_new_democratic_course
+		cost = 10,00
+		prerequisite = {
+			focus = GER_reduce_military_budget
+		}
+		x = 12
+		y = 3
+
+	}
+	focus = {
+		id = GER_memorial_to_the_victims_of_dictatorship
+		icon = GFX_GER_memorial_to_the_victims_of_dictatorship
+		cost = 10,00
+		prerequisite = {
+			focus = GER_beginning_of_a_new_democratic_coursenewfocus_2
+		}
+		x = 12
+		y = 4
+
+	}
+	focus = {
+		id = GER_peace_initiative_berlin
+		icon = GFX_GER_peace_initiative_berlin
+		cost = 10,00
+		prerequisite = {
+			focus = GER_memorial_to_the_victims_of_dictatorship
+		}
+		x = 12
+		y = 5
+
+	}
+	focus = {
+		id = GER_creation_of_the_council_of_a_new_european_order
+		icon = GFX_GER_creation_of_the_council_of_a_new_european_order
+		cost = 10,00
+		prerequisite = {
+			focus = GER_peace_initiative_berlin
+		}
+		x = 12
+		y = 6
+
+	}
+	focus = {
+		id = GER_extend_friedas_arrest
+		icon = GFX_GER_extend_friedas_arrest
+		cost = 10,00
+		prerequisite = {
+			focus = GER_creation_of_the_council_of_a_new_european_order
+		}
+		mutually_exclusive = {
+			focus = GER_european_union
+		}
+		x = 12
+		y = 7
+
+	}
+	focus = {
+		id = GER_ban_extremist_parties
+		icon = GFX_GER_ban_extremist_parties
+		cost = 10,00
+		prerequisite = {
+			focus = GER_reduce_military_budget
+		}
+		x = 14
+		y = 3
+
+	}
+	focus = {
+		id = GER_supervision_of_the_freidajugend
+		icon = GFX_GER_supervision_of_the_freidajugend
+		cost = 10,00
+		prerequisite = {
+			focus = GER_ban_extremist_parties
+		}
+		x = 14
+		y = 4
+
+	}
+	focus = {
+		id = GER_arrest_of_high_ranking_generals
+		icon = GFX_GER_arrest_of_high_ranking_generals
+		cost = 10,00
+		prerequisite = {
+			focus = GER_supervision_of_the_freidajugend
+		}
+		x = 14
+		y = 5
+
+	}
+	focus = {
+		id = GER_first_friendly_visit_to_poland
+		icon = GFX_GER_first_friendly_visit_to_poland
+		cost = 10,00
+		prerequisite = {
+			focus = GER_arrest_of_high_ranking_generals
+		}
+		x = 14
+		y = 6
+
+	}
+	focus = {
+		id = GER_european_union
+		icon = GFX_GER_european_union
+		cost = 10,00
+		prerequisite = {
+			focus = GER_first_friendly_visit_to_poland
+		}
+		mutually_exclusive = {
+			focus = GER_extend_friedas_arrest
+		}
+		x = 14
+		y = 7
+
+	}
+	focus = {
+		id = GER_stockpile_weapons
+		icon = GFX_GER_stockpile_weapons
+		cost = 10,00
+		prerequisite = {
+			focus = GER_romanticism_militarism
+		}
+		x = 19
+		y = 2
+		completion_reward = {
+			GRM = {
+				custom_effect_tooltip = GER_stockpile_weapons_tt
+			}
+		}
+
+	}
+	focus = {
+		id = GER_the_legacy_of_the_old_guard
+		icon = GFX_GER_the_legacy_of_the_old_guard
+		cost = 10,00
+		prerequisite = {
+			focus = GER_stockpile_weapons
+		}
+		x = 18
+		y = 3
+		completion_reward = {
+			GRM = {
+				add_ideas = GRM_friedas_army
+			}
+		}
+
+	}
+	focus = {
+		id = GER_new_historical_truth
+		icon = GFX_GER_new_historical_truth
+		cost = 10,00
+		prerequisite = {
+			focus = GER_the_legacy_of_the_old_guard
+		}
+		completion_reward = {
+			if = {
+				limit = {
+					GER = {NOT = {has_completed_focus = GER_memorial_to_the_victims_of_dictatorship}}
+				}
+				GRM = {custom_effect_tooltip = GER_new_historical_truth_tt}
+				add_ideas = GER_new_historical_truth
+			}
+			else_if = {
+				limit = {
+					GER = {has_completed_focus = GER_memorial_to_the_victims_of_dictatorship}
+				}
+				custom_effect_tooltip = GER_democratic_rezime_debuff_tt
+				GRM = {
+					add_political_power = -100
+					add_stability = -0.05
+				}
+			}
+			else = {
+				add_political_power = 10
+			}
+		}
+		x = 18
+		y = 4
+
+	}
+	focus = {
+		id = GER_blackshirt_squads
+		icon = GFX_GER_blackshirt_squads
+		cost = 10,00
+		prerequisite = {
+			focus = GER_new_historical_truth
+		}
+		completion_reward = {
+			if = {
+				limit = {
+					GER = {NOT = {has_completed_focus = GER_supervision_of_the_freidajugend}}
+				}
+				GRM = {custom_effect_tooltip = GER_blackshirt_squads_tt}
+				set_country_flag = GER_blackshirt_squads_before_GER
+			}
+			else_if = {
+				limit = { GER = {has_completed_focus = GER_supervision_of_the_freidajugend}}
+				custom_effect_tooltip = GER_democratic_rezime_debuff_tt
+				add_political_power = -100
+			}
+		}
+		x = 18
+		y = 5
+
+	}
+	focus = {
+		id = GER_capture_industry
+		icon = GFX_GER_capture_industry
+		cost = 10,00
+		prerequisite = {
+			focus = GER_blackshirt_squads
+		}
+		completion_reward = {
+			add_ideas = GER_stolen_industry
+			GRM = {
+				add_offsite_building = { type = arms_factory level = 3 }
+				add_offsite_building = { type = industrial_complex level = 1 }
+			}
+		}
+		x = 18
+		y = 6
+
+	}
+	focus = {
+		id = GER_no_time_to_wait
+		icon = GFX_GER_no_time_to_wait
+		cost = 10,00
+		prerequisite = {
+			focus = GER_capture_industry
+		}
+		mutually_exclusive = {
+			focus = GER_march_to_berlin
+		}
+		completion_reward = {
+			GRM = {
+				add_manpower = -20000
+				add_war_support = -0.05
+				army_experience = 50
+				add_command_power = 35
+				add_mio_funds = 150
+			}
+			add_victory_points = {
+				province = 11544
+				value = 4
+			}
+			add_victory_points = {
+				province = 11531
+				value = 2
+			}
+			add_victory_points = {
+				province = 6521
+				value = -5
+			}
+		}
+		x = 18
+		y = 7
+
+	}
+	focus = {
+		id = GER_iron_order_of_frieda
+		icon = GFX_GER_iron_order_of_frieda
+		cost = 10,00
+		prerequisite = {
+			focus = GER_stockpile_weapons
+		}
+		completion_reward = {
+			GRM = {
+				add_political_power = 50
+				add_stability = 0.02
+				add_war_support = 0.05
+				add_ideas = GRM_iron_order
+			}
+		}
+		x = 20
+		y = 3
+
+	}
+	focus = {
+		id = GER_blow_to_the_press
+		icon = GFX_GER_blow_to_the_press
+		cost = 10,00
+		prerequisite = {
+			focus = GER_iron_order_of_frieda
+		}
+		completion_reward = {
+			GRM = {
+				custom_effect_tooltip = GER_blow_to_the_press_tt
+			}	
+		}
+		x = 20
+		y = 4
+
+	}
+	focus = {
+		id = GER_support_of_popular_unrest
+		icon = GFX_GER_support_of_popular_unrest
+		cost = 10,00
+		prerequisite = {
+			focus = GER_blow_to_the_press
+		}
+		completion_reward = {
+			if = {
+				limit = { GER = {NOT = {has_completed_focus = GER_arrest_of_high_ranking_generals}}}
+				set_country_flag = GER_support_of_popular_unrest_before_GER
+				GRM = {custom_effect_tooltip = GER_support_of_popular_unrest_tt}
+			}
+			else_if = {
+				limit = { GER = {has_completed_focus = GER_peace_initiative_berlin}}
+				GER = {add_ideas = GER_tactical_superiority}
+			}
+			else_if = {
+				limit = { GER = {NOT = {has_completed_focus = GER_peace_initiative_berlin}}}
+				add_political_power = 50
+				custom_effect_tooltip = GER_support_of_popular_unrest_tt
+			}
+			else = {
+				add_political_power = -100
+				custom_effect_tooltip = GER_democratic_rezime_debuff_tt
+			}
+		}
+		x = 20
+		y = 5
+
+	}
+	focus = {
+		id = GER_explosion_on_autobahn_a12
+		icon = GFX_GER_explosion_on_autobahn_a12
+		cost = 10,00
+		prerequisite = {
+			focus = GER_support_of_popular_unrest
+		}
+		completion_reward = {
+			if = {
+				limit = {
+					GER = {NOT = {has_completed_focus = GER_first_friendly_visit_to_poland}}
+				}
+				GRM = {
+					custom_effect_tooltip = GER_explosion_on_autobahn_a12_tt
+				}
+			}
+			else_if = {
+				limit = {
+					GER = {has_completed_focus = GER_first_friendly_visit_to_poland}
+				}
+				GRM = {
+					custom_effect_tooltip = GER_democratic_rezime_debuff_tt
+				}
+			}
+		}
+		x = 20
+		y = 6
+
+	}
+	focus = {
+		id = GER_march_to_berlin
+		icon = GFX_GER_march_to_berlin
+		cost = 10,00
+		prerequisite = {
+			focus = GER_explosion_on_autobahn_a12
+		}
+		mutually_exclusive = {
+			focus = GER_no_time_to_wait
+		}
+		completion_reward = {
+			GRM = {
+				add_manpower = 20000
+				add_war_support = 0.05
+				set_collaboration = {
+				    target = GER
+				    value = 0.24
+				}
+			}
+			51 = {
+				add_building_construction = {
+				   type = arms_factory
+				   level = 1
+				   instant_build = yes
+				}
+				add_building_construction = {
+				   type = industrial_complex
+				   level = 1
+				   instant_build = yes
+				}
+			}
+			1151 = {
+				add_building_construction = {
+				   type = industrial_complex
+				   level = 1
+				   instant_build = yes
+				}
+			}
+		}
+		x = 20
+		y = 7
+
+	}
+	focus = {
+		id = GER_united_europe
+		icon = GFX_GER_united_europe
+		cost = 10,00
+		prerequisite = {
+			focus = GER_european_union
+			focus = GER_extend_friedas_arrest
+		}
+		mutually_exclusive = {
+			focus = GER_muller_plan
+			focus = GER_restore_german_reich
+		}
+		x = 14
+		y = 9
+
+	}
+	focus = {
+		id = GER_muller_plan
+		icon = GFX_GER_muller_plan
+		cost = 10,00
+		prerequisite = {
+			focus = GER_no_time_to_wait
+			focus = GER_extend_friedas_arrest
+		}
+		mutually_exclusive = {
+			focus = GER_restore_german_reich
+			focus = GER_united_europe
+		}
+		x = 16
+		y = 9
+
+	}
+	focus = {
+		id = GER_restore_german_reich
+		icon = GFX_GER_restore_german_reich
+		cost = 10,00
+		prerequisite = {
+			focus = GER_march_to_berlin
+			focus = GER_no_time_to_wait
+		}
+		mutually_exclusive = {
+			focus = GER_muller_plan
+			focus = GER_united_europe
+		}
+		completion_reward = {
+			country_event = { id = german_civilwar.01 }
+			GRM = {
+				transfer_state = 49
+				transfer_state = 1151
+				change_tag_from = ROOT
+			}
+		}
+		x = 18
+		y = 9
+
+	}
+
+	focus = {
+		id = GER_industry
+		icon = GFX_GER_industry
+		cost = 10,00
+		x = 26
+		y = 1
+
+	}
+	focus = {
+		id = GER_break_delivery_package
+		icon = GFX_GER_industry
+		cost = 10,00
+		prerequisite = {
+			focus = GER_industry
+		}
+		mutually_exclusive = {
+			focus = GER_invest_in_national_industry
+		}
+		x = 25
+		y = 2
+
+	}
+	focus = {
+		id = GER_invest_in_national_industry
+		icon = GFX_GER_industry
+		cost = 10,00
+		prerequisite = {
+			focus = GER_industry
+		}
+		mutually_exclusive = {
+			focus = GER_break_delivery_package
+		}
+		x = 27
+		y = 2
+
+	}
+	focus = {
+		id = GER_economic_plan
+		icon = GFX_GER_industry
+		cost = 10,00
+		prerequisite = {
+			focus = GER_invest_in_national_industry
+			focus = GER_break_delivery_package
+		}
+		x = 26
+		y = 3
+
+	}
+	focus = {
+		id = GER_arstotzka_as_a_center_of_trade
+		icon = GFX_GER_industry
+		cost = 10,00
+		prerequisite = {
+			focus = GER_economic_plan
+		}
+		x = 26
+		y = 4
+
+	}
+}

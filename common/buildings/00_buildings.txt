@@ -163,6 +163,19 @@ buildings = {
 		}
 	}
 
+	office = {
+		show_on_map = 1
+		base_cost = 2500
+		is_buildable = no
+		per_level_extra_cost = 1500
+		disabled_in_dmz = yes
+		icon_frame = 38
+		value = 1
+		level_cap = {
+			province_max = 10
+		}		
+	}
+
 	bunker = {
 		show_on_map = 1
 		has_destroyed_mesh = yes
@@ -637,7 +650,7 @@ buildings = {
 			state_max = 6
 		}
 	}
-	corporate_quarter = {
+	corporate_district = {
 		show_on_map = 6
 		base_cost = 5800
 		icon_frame = 38
@@ -645,10 +658,10 @@ buildings = {
 		infrastructure_construction_effect = yes
 		level_cap = {
 			shares_slots = yes
-			state_max = 7
+			state_max = 5
 		}
 	}
-	civilian_quarter = {
+	civilian_district = {
 		show_on_map = 6
 		base_cost = 5800
 		icon_frame = 39
@@ -656,7 +669,7 @@ buildings = {
 		infrastructure_construction_effect = yes
 		level_cap = {
 			shares_slots = yes
-			state_max = 9
+			state_max = 5
 		}
 	}
 	plasma_generator = {
