@@ -11,6 +11,11 @@ bitmapfonts = {
         }
     }
     bitmapfont = {
+			name = "VCR02_14"
+			path = "gfx/fonts/VCR02_14"   
+			color = 0xffffffff
+	}
+    bitmapfont = {
         name = "ws_16"
 		path = "gfx/fonts/cyberpunk_16"
         color = 0xff5ef6ff

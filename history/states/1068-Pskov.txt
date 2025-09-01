@@ -6,7 +6,8 @@ state={
 	}
 	history = {
 		owner = LAT
-		add_core_of = LAT
+		add_claim_by = LAT
+		add_core_of = SOV
 		buildings = {
 		
 		}

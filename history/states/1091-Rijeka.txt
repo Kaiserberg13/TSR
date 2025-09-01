@@ -7,6 +7,9 @@ state={
 	history = {
 		owner = YUG
 		add_core_of = YUG
+		add_claim_by = CRO
+		add_core_of = SLV
+		add_claim_by = AUS
 		
 		victory_points = { 11564 5 }
 buildings = {

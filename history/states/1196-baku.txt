@@ -5,8 +5,9 @@ state={
 		1536 4458 4477 4545 4614 6763 7495 7661 11645
 	}
 	history = {
-		owner = SOV
-		add_core_of = SOV
+		owner = AZR
+		add_claim_by = SOV
+		add_core_of = AZR
 		
 		victory_points = {
 			7661 10

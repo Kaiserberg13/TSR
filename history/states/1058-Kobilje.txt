@@ -7,6 +7,7 @@ state={
 	history = {
 		owner = SLV
 		add_core_of = SLV
+		add_claim_by = CRO
 		buildings = {
 		
 		}

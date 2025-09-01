@@ -13,6 +13,10 @@ set_popularities = {
     democratic = 54
 }
 
+# politics
+
+give_guarantee = GAB
+
 #set_variable
 
 #set_technology

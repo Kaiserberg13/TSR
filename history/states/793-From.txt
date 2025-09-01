@@ -8,6 +8,7 @@ state={
 	history = {
 		owner = SIA
 		add_core_of = SIA
+		add_claim_by = RAJ
 		buildings = {
 		
 		}

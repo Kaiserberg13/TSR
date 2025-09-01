@@ -5,8 +5,10 @@ state={
 		5043 8013 12761
 	}
 	history = {
-		owner = AFG
-		add_core_of = AFG
+		owner = PER
+		add_core_of = PER
+		add_claim_by = AFG
+		add_claim_by = RAJ
 
 victory_points = {
 			5043 9

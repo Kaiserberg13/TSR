@@ -13,6 +13,30 @@ set_popularities = {
     democratic = 54
 }
 
+# faction
+
+create_faction = antanta_menabe
+
+# politics
+
+give_guarantee = SML
+give_guarantee = SAH
+give_guarantee = MIL
+give_guarantee = SIA
+
+# autonomy
+
+puppet = MZB
+set_autonomy = {
+    target = MZM
+    autonomous_state = autonomy_dominion
+}
+puppet = MOR
+set_autonomy = {
+    target = MOR
+    autonomous_state = autonomy_dominion
+}
+
 #set_variable
 
 #set_technology

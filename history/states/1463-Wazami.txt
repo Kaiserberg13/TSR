@@ -6,6 +6,7 @@ state={
 	}
 	history = {
 		owner = SAH
+		add_claim_by = MLI
 		add_core_of = SAH
 
 victory_points = {

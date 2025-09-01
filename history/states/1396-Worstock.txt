@@ -7,6 +7,7 @@ state={
 	history = {
 		owner = MAD
 		add_core_of = MAD
+		add_claim_by = MOR
 
 victory_points = {
 			12857 3

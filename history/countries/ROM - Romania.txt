@@ -13,6 +13,16 @@ set_popularities = {
     democratic = 54
 }
 
+# faction
+create_faction = balkan_consortium
+add_to_faction = HUN
+
+# politics
+
+give_guarantee = SLO
+give_guarantee = BUL
+give_guarantee = SER
+
 #set_variable
 
 #set_technology

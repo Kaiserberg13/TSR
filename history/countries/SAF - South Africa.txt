@@ -13,6 +13,32 @@ set_popularities = {
     democratic = 81
 }
 
+# faction
+
+create_faction = south_africa_confederation
+
+# politics
+
+give_guarantee = SAH
+
+# autonomy
+
+puppet = NAM
+set_autonomy = {
+    target = NAM
+    autonomous_state = autonomy_confederate_region
+}
+puppet = BOT
+set_autonomy = {
+    target = BOT
+    autonomous_state = autonomy_confederate_region
+}
+puppet = ANG
+set_autonomy = {
+    target = ANG
+    autonomous_state = autonomy_confederate_region
+}
+
 #set_variable
 
 #set_technology

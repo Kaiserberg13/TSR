@@ -5,8 +5,9 @@ state={
 		1467 1610 9715
 	}
 	history = {
-		owner = SOV
-		add_core_of = SOV
+		owner = AZR
+		add_core_of = AZR
+		add_claim_by = SOV
 		buildings = {
 		
 		}

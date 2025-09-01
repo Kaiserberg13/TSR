@@ -5,8 +5,9 @@ state={
 		1337 1366 1394 4312 4371 10156 12286
 	}
 	history = {
-		owner = OAS
+		owner = SIA
 		add_core_of = OAS
+		add_claim_by = SIA
 		
 		victory_points = {
 			4312 10

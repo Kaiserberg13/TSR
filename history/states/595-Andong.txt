@@ -6,6 +6,7 @@ state={
 	}
 	history = {
 		owner = PRC
+		add_claim_by = KOR
 		add_core_of = PRC
 		buildings = {
 		

@@ -13,6 +13,22 @@ set_popularities = {
     democratic = 62
 }
 
+# faction
+create_faction = commonwealth_of_islamic_countries
+add_to_faction = SYR
+
+# politics
+
+give_guarantee = AFG
+
+# autonomy
+
+puppet = IRQ
+set_autonomy = {
+    target = IRQ
+    autonomous_state = autonomy_dependent_state
+}
+
 #set_variable
 
 #set_technology

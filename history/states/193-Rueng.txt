@@ -7,6 +7,7 @@ state={
 	history = {
 		owner = OAS
 		add_core_of = OAS
+		add_claim_by = SIA
 		buildings = {
 		
 		}

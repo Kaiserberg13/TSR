@@ -408,4 +408,47 @@ ideologies = {
 		ai_fascist = yes
 		ai_ideology_wanted_units_factor = 1.65
 	}
+
+
+	corpocracy = {
+
+		types = {
+
+			camlia = {
+			}
+			arstotzka = {
+			}
+			rotatosk = {
+			}
+			zaphkiel = {
+			}
+			equonics = {
+			}
+		}
+
+		dynamic_faction_names = {
+			"FACTION_NAME_CORPOCRACY_1"
+			"FACTION_NAME_CORPOCRACY_2"
+			"FACTION_NAME_CORPOCRACY_3"
+			"FACTION_NAME_CORPOCRACY_4"
+			"FACTION_NAME_CORPOCRACY_5"
+		}
+
+		color = { 130 130 130 }
+
+		war_impact_on_world_tension = 1.0
+		faction_impact_on_world_tension = 1.0
+
+		rules = {
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+		}
+
+		can_collaborate = yes
+
+		modifiers = {
+		}
+
+	}
 }

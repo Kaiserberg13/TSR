@@ -5,8 +5,11 @@ state={
 		1483 2058 4224 7706 10408 10530 12581 12583 12640
 	}
 	history = {
-		owner = KAZ
-		add_core_of = KAZ
+		owner = TAJ
+		add_core_of = TAJ
+		add_claim_by = KAZ
+		add_claim_by = UZB
+		add_claim_by = KYR
 		
 		victory_points = { 12583 5 }
 buildings = {

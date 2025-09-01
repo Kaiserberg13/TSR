@@ -6,7 +6,9 @@ state={
 	}
 	history = {
 		owner = LAT
-		add_core_of = LAT
+		add_core_of = BLR
+		add_claim_by = LIT
+		add_claim_by = LAT
 		buildings = {
 		
 		}

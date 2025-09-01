@@ -13,6 +13,12 @@ set_popularities = {
     democratic = 48
 }
 
+puppet = PHI
+set_autonomy = {
+    target = PHI
+    autonomous_state = autonomy_dominion
+}
+
 #set_variable
 
 #set_technology

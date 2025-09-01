@@ -6,6 +6,7 @@ state={
 	}
 	history = {
 		owner = UKR
+		add_claim_by = ROM
 		add_core_of = UKR
 		buildings = {
 		

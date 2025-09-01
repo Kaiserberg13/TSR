@@ -5,8 +5,9 @@ state={
 		2097 13327
 	}
 	history = {
-		owner = PER
+		owner = IRQ
 		add_core_of = PER
+		add_core_of = IRQ
 
 victory_points = {
 			13327 4

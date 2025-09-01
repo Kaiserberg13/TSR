@@ -7,6 +7,8 @@ state={
 	history = {
 		owner = OHO
 		add_core_of = OHO
+		add_claim_by = USA
+		
 		buildings = {
 		
 		}

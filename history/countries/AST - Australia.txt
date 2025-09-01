@@ -13,6 +13,12 @@ set_popularities = {
     democratic = 70
 }
 
+puppet = NZL
+set_autonomy = {
+    target = NZL
+    autonomous_state = autonomy_dominion
+}
+
 #set_variable
 
 #set_technology

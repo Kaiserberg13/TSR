@@ -13,6 +13,16 @@ set_popularities = {
     democratic = 69
 }
 
+# faction
+
+# politics 
+
+give_guarantee = SIA
+
+# autonomy
+
+puppet = AZR
+
 #set_variable
 
 #set_technology

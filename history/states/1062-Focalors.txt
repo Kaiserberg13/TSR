@@ -5,8 +5,12 @@ state={
 		9692
 	}
 	history = {
-		owner = SLO
-		add_core_of = SLO
+		owner = FOC
+		add_core_of = FOC
+		add_claim_by = SLO
+		add_claim_by = AUS
+		add_claim_by = HUN
+		add_claim_by = CZE
 		buildings = {
 		
 		}

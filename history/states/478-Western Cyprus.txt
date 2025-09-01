@@ -5,8 +5,9 @@ state={
 		13347 13348 13349
 	}
 	history = {
-		owner = TUR
-		add_core_of = TUR
+		owner = GRE
+		add_claim_by = TUR
+		add_core_of = GRE
 
 victory_points = {
 			13348 5

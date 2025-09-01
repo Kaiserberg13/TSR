@@ -5,8 +5,9 @@ state={
 		1593 4563 7477 7563 10359 10406 12359
 	}
 	history = {
-		owner = KAZ
-		add_core_of = KAZ
+		owner = TAJ
+		add_core_of = TAJ
+		add_claim_by = KAZ
 		buildings = {
 		
 		}

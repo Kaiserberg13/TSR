@@ -7,6 +7,7 @@ state={
 	history = {
 		owner = UKR
 		add_core_of = UKR
+		add_claim_by = HUN
 		
 		victory_points = { 13634 5 }
 buildings = {

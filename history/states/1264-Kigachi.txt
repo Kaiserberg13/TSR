@@ -6,6 +6,7 @@ state={
 	}
 	history = {
 		owner = LIB
+		add_claim_by = CMR
 		add_core_of = LIB
 
 victory_points = {
