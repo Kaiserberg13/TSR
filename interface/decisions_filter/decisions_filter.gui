@@ -7,14 +7,14 @@ guiTypes = {
 		buttonType = {
 			name = "filter_political_active"
 			position = { x = 0 y = 30 }
-			spriteType = "GFX_ws_decisions_political_button"
+			spriteType = "GFX_decisions_filter_political_button"
 			frame = 1
 			pdx_tooltip = "decisions_filter_political"
 		}
 		buttonType = {
 			name = "filter_political_deactive"
 			position = { x = 0 y = 30  }
-			spriteType = "GFX_ws_decisions_political_button"
+			spriteType = "GFX_decisions_filter_political_button"
 			frame = 2
 			pdx_tooltip = "decisions_filter_political_d"
 		}
@@ -22,14 +22,14 @@ guiTypes = {
 		buttonType = {
 			name = "filter_money_active"
 			position = { x = 70 y = 30 }
-			spriteType = "GFX_ws_decisions_money_button"
+			spriteType = "GFX_decisions_filter_money_button"
 			frame = 1
 			pdx_tooltip = "decisions_money_political"
 		}
 		buttonType = {
 			name = "filter_money_deactive"
 			position = { x = 70 y = 30  }
-			spriteType = "GFX_ws_decisions_money_button"
+			spriteType = "GFX_decisions_filter_money_button"
 			frame = 2
 			pdx_tooltip = "decisions_filter_money_d"
 		}
@@ -38,14 +38,14 @@ guiTypes = {
 		buttonType = {
 			name = "filter_influence_active"
 			position = { x = 140 y = 30 }
-			spriteType = "GFX_ws_decisions_influence_button"
+			spriteType = "GFX_decisions_filter_influence_button"
 			frame = 1
 			pdx_tooltip = "decisions_filter_influence"
 		}
 		buttonType = {
 			name = "filter_influence_deactive"
 			position = { x = 140 y = 30  }
-			spriteType = "GFX_ws_decisions_influence_button"
+			spriteType = "GFX_decisions_filter_influence_button"
 			frame = 2
 			pdx_tooltip = "decisions_filter_influence_d"
 		}
@@ -54,14 +54,14 @@ guiTypes = {
 		buttonType = {
 			name = "filter_industry_active"
 			position = { x = 210 y = 30 }
-			spriteType = "GFX_ws_decisions_industry_button"
+			spriteType = "GFX_decisions_filter_industry_button"
 			frame = 1
 			pdx_tooltip = "decisions_filter_industry"
 		}
 		buttonType = {
 			name = "filter_industry_deactive"
 			position = { x = 210 y = 30  }
-			spriteType = "GFX_ws_decisions_industry_button"
+			spriteType = "GFX_decisions_filter_industry_button"
 			frame = 2
 			pdx_tooltip = "decisions_filter_industry_d"
 		}
@@ -69,14 +69,14 @@ guiTypes = {
 		buttonType = {
 			name = "filter_mobilization_active"
 			position = { x = 280 y = 30 }
-			spriteType = "GFX_ws_decisions_mobilization_button"
+			spriteType = "GFX_decisions_filter_mobilization_button"
 			frame = 1
 			pdx_tooltip = "decisions_filter_mobilization"
 		}
 		buttonType = {
 			name = "filter_mobilization_deactive"
 			position = { x = 280 y = 30  }
-			spriteType = "GFX_ws_decisions_mobilization_button"
+			spriteType = "GFX_decisions_filter_mobilization_button"
 			frame = 2
 			pdx_tooltip = "decisions_filter_mobilization_d"
 		}
@@ -84,14 +84,14 @@ guiTypes = {
 		buttonType = {
 			name = "filter_war_active"
 			position = { x = 350 y = 30 }
-			spriteType = "GFX_ws_decisions_war_button"
+			spriteType = "GFX_decisions_filter_war_button"
 			frame = 1
 			pdx_tooltip = "decisions_filter_war"
 		}
 		buttonType = {
 			name = "filter_war_deactive"
 			position = { x = 350 y = 30  }
-			spriteType = "GFX_ws_decisions_war_button"
+			spriteType = "GFX_decisions_filter_war_button"
 			frame = 2
 			pdx_tooltip = "decisions_filter_war_d"
 		}
@@ -99,14 +99,14 @@ guiTypes = {
 		buttonType = {
 			name = "filter_production_active"
 			position = { x = 420 y = 30 }
-			spriteType = "GFX_ws_decisions_other_button"
+			spriteType = "GFX_decisions_filter_other_button"
 			frame = 1
 			pdx_tooltip = "decisions_filter_other"
 		}
 		buttonType = {
 			name = "filter_production_deactive"
 			position = { x = 420 y = 30  }
-			spriteType = "GFX_ws_decisions_other_button"
+			spriteType = "GFX_decisions_filter_other_button"
 			frame = 2
 			pdx_tooltip = "decisions_filter_other_d"
 		}
@@ -114,14 +114,14 @@ guiTypes = {
 		buttonType = {
 			name = "filter_other_active"
 			position = { x = 490 y = 30 }
-			spriteType = "GFX_ws_decisions_all_button"
+			spriteType = "GFX_decisions_filter_all_button"
 			frame = 1
 			pdx_tooltip = "decisions_filter_other"
 		}
 		buttonType = {
 			name = "filter_other_deactive"
 			position = { x = 490 y = 30  }
-			spriteType = "GFX_ws_decisions_all_button"
+			spriteType = "GFX_decisions_filter_all_button"
 			frame = 2
 			pdx_tooltip = "decisions_filter_other_d"
 		}
@@ -129,16 +129,31 @@ guiTypes = {
 		buttonType = {
 			name = "filter_filters_active"
 			position = { x = 560 y = 30 }
-			spriteType = "GFX_ws_decision_filters_button"
+			spriteType = "GFX_decisions_filter_filters_button"
 			frame = 1
 			pdx_tooltip = "decisions_filter_other"
 		}
 		buttonType = {
 			name = "filter_filters_deactive"
 			position = { x = 560 y = 30  }
-			spriteType = "GFX_ws_decision_filters_button"
+			spriteType = "GFX_decisions_filter_filters_button"
 			frame = 2
 			pdx_tooltip = "decisions_filter_other_d"
+		}
+
+		buttonType = {
+			name = "filter_state_lore"
+			position = { x = 560 y = -14 }
+			spriteType = "GFX_decisions_filter_state_lore"
+			frame = 1
+			pdx_tooltip = "decisions_filter_state_lore"
+		}
+		buttonType = {
+			name = "filter_state_lore_deactive"
+			position = { x = 560 y = -14  }
+			spriteType = "GFX_decisions_filter_state_lore"
+			frame = 2
+			pdx_tooltip = "decisions_filter_state_lore_d"
 		}
 		
 		

@@ -1,0 +1,8 @@
+spriteTypes = {
+
+	# onmap
+	SpriteType = {
+		name = "GFX_state_lore_state_lore_slovakia"
+		texturefile = "gfx/interface/decisions/onmap/state_lore/state_lore_slovakia.dds"
+	}
+}

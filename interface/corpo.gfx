@@ -1,0 +1,76 @@
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_close_tab"
+		texturefile = "gfx/interface/corpo/close_tab.png"
+	}
+
+	spriteType = {
+		name = "GFX_corpo_window_bg"
+		texturefile = "gfx/interface/corpo/corpo_window_bg.png"
+	}
+
+	spriteType = {
+		name = "GFX_corpo_office_button_camelia"
+		texturefile = "gfx/interface/corpo/corpo_office_button_camelia.png"
+		effectFile = "gfx/FX/buttonstate_hoverandpress.lua"
+		noOfFrames = 3
+	}
+
+	spriteType = {
+		name = "GFX_corpo_office_button_arstotzka"
+		texturefile = "gfx/interface/corpo/corpo_office_button_arstotzka.png"
+		effectFile = "gfx/FX/buttonstate_hoverandpress.lua"
+		noOfFrames = 3
+	}
+
+	spriteType = {
+		name = "GFX_corpo_office_button_equonics"
+		texturefile = "gfx/interface/corpo/corpo_office_button_equonics.png"
+		effectFile = "gfx/FX/buttonstate_hoverandpress.lua"
+		noOfFrames = 3
+	}
+
+	spriteType = {
+		name = "GFX_corpo_office_button_foreign"
+		texturefile = "gfx/interface/corpo/corpo_office_button_foreign.png"
+		effectFile = "gfx/FX/buttonstate_hoverandpress.lua"
+		noOfFrames = 3
+	}
+
+	spriteType = {
+		name = "GFX_corpo_office_button_government"
+		texturefile = "gfx/interface/corpo/corpo_office_button_government.png"
+		effectFile = "gfx/FX/buttonstate_hoverandpress.lua"
+		noOfFrames = 3
+	}
+
+	spriteType = {
+		name = "GFX_corpo_office_button_local"
+		texturefile = "gfx/interface/corpo/corpo_office_button_local.png"
+		effectFile = "gfx/FX/buttonstate_hoverandpress.lua"
+		noOfFrames = 3
+	}
+
+	spriteType = {
+		name = "GFX_corpo_office_button_rotatosk"
+		texturefile = "gfx/interface/corpo/corpo_office_button_rotatosk.png"
+		effectFile = "gfx/FX/buttonstate_hoverandpress.lua"
+		noOfFrames = 3
+	}
+
+	spriteType = {
+		name = "GFX_corpo_office_button_zaphkiel"
+		texturefile = "gfx/interface/corpo/corpo_office_button_zaphkiel.png"
+		effectFile = "gfx/FX/buttonstate_hoverandpress.lua"
+		noOfFrames = 3
+	}
+
+	spriteType = {
+		name = "GFX_corpo_office_button_select_menu"
+		texturefile = "gfx/interface/corpo/corpo_office_button_select_menu.png"
+		effectFile = "gfx/FX/buttonstate_hoverandpress.lua"
+		noOfFrames = 3
+		
+	}
+
+}

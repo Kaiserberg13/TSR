@@ -1,0 +1,9 @@
+TSR_state_lore = {
+	icon = generic_research
+	visible = {
+		has_country_flag = filter_state_lore_selected
+	}
+	allowed = {
+		always = yes
+	}
+}

@@ -1,0 +1,264 @@
+scripted_gui = {
+    districts_scripted_gui = {
+        window_name = "districts_window"
+        context_type = selected_state_context
+		parent_window_token = selected_state_view
+         
+        visible = {
+            is_in_array = { array = global.districts value = THIS.id }
+			is_fully_controlled_by = ROOT
+        }
+        
+        effects = {
+			build_office_button_click = {
+				FROM.FROM = {
+					set_state_flag = districts_selected_state
+					log = "Camelia: [?camelia_office|0]"
+					log = "Rotatosk: [?rotatosk_office|0]"
+      				log = "Sector 1 Rotatosk[0]: [?rota_mil]"
+					log = "Sector 2 Rotatosk[0]: [?rota_fac]"
+					log = "Sector 3 Rotatosk[0]: [?rota_pro]"
+				}
+
+				if = {
+					limit = {
+						FROM.FROM = { 
+							NOT = {
+								 OR = {
+									has_state_flag = districts_office_construction_sphere_military
+									has_state_flag = districts_office_construction_sphere_factories
+									has_state_flag = districts_office_construction_sphere_production
+									has_state_flag = districts_office_construction_sphere_security
+									has_state_flag = districts_office_construction_sphere_finances
+									has_state_flag = districts_office_construction_sphere_medical
+									has_state_flag = districts_office_construction_sphere_agro
+									has_state_flag = districts_office_construction_sphere_energy
+									has_state_flag = districts_office_construction_sphere_research
+									has_state_flag = districts_office_construction_sphere_resources
+								}
+							}
+						}
+					}
+					ROOT = {
+						set_country_flag = corpo_build_office
+					}
+				}
+			}
+
+		}
+        
+        triggers = {
+		}
+    }
+
+	districts_build_office_scripted_gui = {
+        window_name = "districts_build_office_window"
+        context_type = player_context
+		parent_window_token = districts_window
+         
+        visible = {
+			ROOT = {
+				has_country_flag = corpo_build_office
+				NOT = {
+					has_country_flag = corpo_build_office_selected
+				}
+			}
+        }
+        
+        effects = {
+			districts_build_office_select_menu_click = {
+					clr_country_flag = corpo_build_office
+					every_core_state = {
+						limit = {
+							has_state_flag = districts_selected_state
+						}
+						clr_state_flag = districts_selected_state
+					}
+			}
+			districts_build_office_camelia_button_click = {
+				set_country_flag = corpo_build_office_camelia
+				set_country_flag = corpo_build_office_selected
+			}
+			districts_build_office_government_button_click = {
+				set_country_flag = corpo_build_office_government
+				set_country_flag = corpo_build_office_selected
+			}
+			districts_build_office_local_button_click = {
+				set_country_flag = corpo_build_office_local
+				set_country_flag = corpo_build_office_selected		
+			}
+			districts_build_office_foreign_button_click = {
+				set_country_flag = corpo_build_office_foreign
+				set_country_flag = corpo_build_office_selected		
+			}
+			districts_build_office_arstotzka_button_click = {
+				set_country_flag = corpo_build_office_arstotzka
+				set_country_flag = corpo_build_office_selected		
+			}
+
+			districts_build_office_equonics_button_click = {
+				set_country_flag = corpo_build_office_equonics
+				set_country_flag = corpo_build_office_selected		
+			}	
+
+			districts_build_office_zaphkiel_button_click = {
+				set_country_flag = corpo_build_office_zaphkiel
+				set_country_flag = corpo_build_office_selected		
+			}	
+
+			districts_build_office_rotatosk_button_click = {
+				set_country_flag = corpo_build_office_rotatosk
+				set_country_flag = corpo_build_office_selected		
+			}	
+			
+
+		}
+        
+        triggers = {
+		}
+    }
+
+
+	districts_build_office_select_sphere_scripted_gui = {
+        window_name = "districts_build_office_select_sphere_window"
+        context_type = player_context
+		parent_window_token = districts_window
+         
+        visible = {
+			ROOT = {
+				has_country_flag = corpo_build_office_selected
+			}
+        }
+        
+        effects = {
+			districts_build_office_select_sphere_select_menu_click = {
+				ROOT = {
+					clr_country_flag = corpo_build_office_selected
+					clr_country_flag = corpo_build_office_rotatosk
+					clr_country_flag = corpo_build_office_zaphkiel
+					clr_country_flag = corpo_build_office_equonics
+					clr_country_flag = corpo_build_office_arstotzka
+					clr_country_flag = corpo_build_office_foreign
+					clr_country_flag = corpo_build_office_local
+					clr_country_flag = corpo_build_office_government
+					clr_country_flag = corpo_build_office_camelia
+				}
+			}
+
+			districts_sphere_military_button_click = {
+				every_core_state = {
+					limit = { has_state_flag = districts_selected_state }
+					set_state_flag = districts_office_construction_sphere_military
+					set_state_flag = districts_office_construction_start_construction
+					districts_set_corpo_scripted_effect = yes
+					clr_state_flag = districts_selected_state
+				}
+				districts_clear_corpo_country_flags_scripted_effect = yes
+			}
+			
+			districts_sphere_resources_button_click = {
+				every_core_state = {
+					limit = { has_state_flag = districts_selected_state }
+					set_state_flag = districts_office_construction_sphere_resources
+					set_state_flag = districts_office_construction_start_construction
+					districts_set_corpo_scripted_effect = yes
+					clr_state_flag = districts_selected_state
+				}
+				districts_clear_corpo_country_flags_scripted_effect = yes
+			}
+			
+			districts_sphere_energy_button_click = {
+				every_core_state = {
+					limit = { has_state_flag = districts_selected_state }
+					set_state_flag = districts_office_construction_sphere_energy
+					set_state_flag = districts_office_construction_start_construction
+					districts_set_corpo_scripted_effect = yes
+					clr_state_flag = districts_selected_state
+				}
+				districts_clear_corpo_country_flags_scripted_effect = yes
+			}
+			
+			districts_sphere_factories_button_click = {
+				every_core_state = {
+					limit = { has_state_flag = districts_selected_state }
+					set_state_flag = districts_office_construction_sphere_factories
+					set_state_flag = districts_office_construction_start_construction
+					districts_set_corpo_scripted_effect = yes
+					clr_state_flag = districts_selected_state
+				}
+				districts_clear_corpo_country_flags_scripted_effect = yes
+			}
+			
+			districts_sphere_production_button_click = {
+				every_core_state = {
+					limit = { has_state_flag = districts_selected_state }
+					set_state_flag = districts_office_construction_sphere_production
+					set_state_flag = districts_office_construction_start_construction
+					districts_set_corpo_scripted_effect = yes
+					clr_state_flag = districts_selected_state
+				}
+				districts_clear_corpo_country_flags_scripted_effect = yes
+			}
+			
+			districts_sphere_research_button_click = {
+				every_core_state = {
+					limit = { has_state_flag = districts_selected_state }
+					set_state_flag = districts_office_construction_sphere_research
+					set_state_flag = districts_office_construction_start_construction
+					districts_set_corpo_scripted_effect = yes
+					clr_state_flag = districts_selected_state
+				}
+				districts_clear_corpo_country_flags_scripted_effect = yes
+			}
+			
+			districts_sphere_agro_button_click = {
+				every_core_state = {
+					limit = { has_state_flag = districts_selected_state }
+					set_state_flag = districts_office_construction_sphere_agro
+					set_state_flag = districts_office_construction_start_construction
+					districts_set_corpo_scripted_effect = yes
+					clr_state_flag = districts_selected_state
+				}
+				districts_clear_corpo_country_flags_scripted_effect = yes
+			}
+			
+			districts_sphere_finance_button_click = {
+				every_core_state = {
+					limit = { has_state_flag = districts_selected_state }
+					set_state_flag = districts_office_construction_sphere_finances
+					set_state_flag = districts_office_construction_start_construction
+					districts_set_corpo_scripted_effect = yes
+					clr_state_flag = districts_selected_state
+				}
+				districts_clear_corpo_country_flags_scripted_effect = yes
+			}
+			
+			districts_sphere_security_button_click = {
+				every_core_state = {
+					limit = { has_state_flag = districts_selected_state }
+					set_state_flag = districts_office_construction_sphere_security
+					set_state_flag = districts_office_construction_start_construction
+					districts_set_corpo_scripted_effect = yes
+					clr_state_flag = districts_selected_state
+				}
+				districts_clear_corpo_country_flags_scripted_effect = yes
+			}
+			
+			districts_sphere_medical_button_click = {
+				every_core_state = {
+					limit = { has_state_flag = districts_selected_state }
+					set_state_flag = districts_office_construction_sphere_medical
+					set_state_flag = districts_office_construction_start_construction
+					districts_set_corpo_scripted_effect = yes
+					clr_state_flag = districts_selected_state
+				}
+				districts_clear_corpo_country_flags_scripted_effect = yes
+			}
+			
+
+		}
+        
+        triggers = {
+		}
+    }
+}

@@ -1,0 +1,306 @@
+# init
+
+# scripted_effect
+
+############################################
+# Apply office and spheres
+############################################
+district_apply_office_and_sphere = {
+
+    ## Camelia (sec, fin, res, agr)
+    if = { limit = { has_state_flag = districts_office_construction_camelia }
+        add_to_variable = { var = camelia_office value = 1 }
+        if = { limit = { has_state_flag = districts_office_construction_sphere_security }  clr_state_flag = districts_office_construction_sphere_security add_to_variable = { var = camelia_sec value = 1 } }
+        if = { limit = { has_state_flag = districts_office_construction_sphere_finances }  clr_state_flag = districts_office_construction_sphere_finances add_to_variable = { var = camelia_fin value = 1 } }
+        if = { limit = { has_state_flag = districts_office_construction_sphere_resources } clr_state_flag = districts_office_construction_sphere_resources add_to_variable = { var = camelia_res value = 1 } }
+        if = { limit = { has_state_flag = districts_office_construction_sphere_agro }      clr_state_flag = districts_office_construction_sphere_agro add_to_variable = { var = camelia_agr value = 1 } }
+        district_init_camelia_from_vars = yes
+        district_init_camelia_clear_vars = yes
+    }
+
+    ## Arstotzka (sec, med, energy, research)
+    if = { limit = { has_state_flag = districts_office_construction_arstotzka }
+        add_to_variable = { var = arstotzka_office value = 1 }
+        if = { limit = { has_state_flag = districts_office_construction_sphere_security } clr_state_flag = districts_office_construction_sphere_security add_to_variable = { var = arst_sec value = 1 } }
+        if = { limit = { has_state_flag = districts_office_construction_sphere_medical }  clr_state_flag = districts_office_construction_sphere_medical add_to_variable = { var = arst_med value = 1 } }
+        if = { limit = { has_state_flag = districts_office_construction_sphere_energy }   clr_state_flag = districts_office_construction_sphere_energy add_to_variable = { var = arst_en  value = 1 } }
+        if = { limit = { has_state_flag = districts_office_construction_sphere_research } clr_state_flag = districts_office_construction_sphere_research add_to_variable = { var = arst_res value = 1 } }
+        district_init_arstotzka_from_vars = yes
+        district_init_arstotzka_clear_vars = yes
+    }
+
+    ## Rotatosk (military, factories, production)
+    if = { limit = { has_state_flag = districts_office_construction_rotatosk }
+        add_to_variable = { var = rotatosk_office value = 1 }
+        if = { limit = { has_state_flag = districts_office_construction_sphere_military }  clr_state_flag = districts_office_construction_sphere_military add_to_variable = { var = rota_mil value = 1 } }
+        if = { limit = { has_state_flag = districts_office_construction_sphere_factories } clr_state_flag = districts_office_construction_sphere_factories add_to_variable = { var = rota_fac value = 1 } }
+        if = { limit = { has_state_flag = districts_office_construction_sphere_production } clr_state_flag = districts_office_construction_sphere_production add_to_variable = { var = rota_pro value = 1 } }
+        district_init_rotatosk_from_vars = yes
+        district_init_rotatosk_clear_vars = yes
+    }
+
+    ## Zaphkiel (production, medical, agro)
+    if = { limit = { has_state_flag = districts_office_construction_zaphkiel }
+        add_to_variable = { var = zaphkiel_office value = 1 }
+        if = { limit = { has_state_flag = districts_office_construction_sphere_production } clr_state_flag = districts_office_construction_sphere_production add_to_variable = { var = zaph_pro value = 1 } }
+        if = { limit = { has_state_flag = districts_office_construction_sphere_medical }    clr_state_flag = districts_office_construction_sphere_medical add_to_variable = { var = zaph_med value = 1 } }
+        if = { limit = { has_state_flag = districts_office_construction_sphere_agro }       clr_state_flag = districts_office_construction_sphere_agro add_to_variable = { var = zaph_agr value = 1 } }
+        district_init_zaphkiel_from_vars = yes
+        district_init_zaphkiel_clear_vars = yes
+    }
+
+    ## Equonics (medical, energy, resources)
+    if = { limit = { has_state_flag = districts_office_construction_equonics }
+        add_to_variable = { var = equonics_office value = 1 }
+        if = { limit = { has_state_flag = districts_office_construction_sphere_medical }   clr_state_flag = districts_office_construction_sphere_medical add_to_variable = { var = equ_med value = 1 } }
+        if = { limit = { has_state_flag = districts_office_construction_sphere_energy }    clr_state_flag = districts_office_construction_sphere_energy add_to_variable = { var = equ_en  value = 1 } }
+        if = { limit = { has_state_flag = districts_office_construction_sphere_resources } clr_state_flag = districts_office_construction_sphere_resources add_to_variable = { var = equ_res value = 1 } }
+        district_init_equonics_from_vars = yes
+        district_init_equonics_clear_vars = yes
+    }
+
+    ## Local (10 spheres; 0..9 = mil, fac, pro, sec, fin, med, agr, en, resch, resrc)
+    if = { limit = { has_state_flag = districts_office_construction_local }
+        add_to_variable = { var = local_office value = 1 }
+        if = { limit = { has_state_flag = districts_office_construction_sphere_military }   clr_state_flag = districts_office_construction_sphere_military add_to_variable = { var = loc_0 value = 1 } }
+        if = { limit = { has_state_flag = districts_office_construction_sphere_factories }  clr_state_flag = districts_office_construction_sphere_factories add_to_variable = { var = loc_1 value = 1 } }
+        if = { limit = { has_state_flag = districts_office_construction_sphere_production } clr_state_flag = districts_office_construction_sphere_production add_to_variable = { var = loc_2 value = 1 } }
+        if = { limit = { has_state_flag = districts_office_construction_sphere_security }   clr_state_flag = districts_office_construction_sphere_security add_to_variable = { var = loc_3 value = 1 } }
+        if = { limit = { has_state_flag = districts_office_construction_sphere_finances }   clr_state_flag = districts_office_construction_sphere_finances add_to_variable = { var = loc_4 value = 1 } }
+        if = { limit = { has_state_flag = districts_office_construction_sphere_medical }    clr_state_flag = districts_office_construction_sphere_medical add_to_variable = { var = loc_5 value = 1 } }
+        if = { limit = { has_state_flag = districts_office_construction_sphere_agro }       clr_state_flag = districts_office_construction_sphere_agro add_to_variable = { var = loc_6 value = 1 } }
+        if = { limit = { has_state_flag = districts_office_construction_sphere_energy }     clr_state_flag = districts_office_construction_sphere_energy add_to_variable = { var = loc_7 value = 1 } }
+        if = { limit = { has_state_flag = districts_office_construction_sphere_research }   clr_state_flag = districts_office_construction_sphere_research add_to_variable = { var = loc_8 value = 1 } }
+        if = { limit = { has_state_flag = districts_office_construction_sphere_resources }  clr_state_flag = districts_office_construction_sphere_resources add_to_variable = { var = loc_9 value = 1 } }
+        district_init_local_from_vars = yes
+        district_init_local_clear_vars = yes
+    }
+
+    ## Foreign (10 spheres; порядок как у Local)
+    if = { limit = { has_state_flag = districts_office_construction_foreign }
+        add_to_variable = { var = foreign_office value = 1 }
+        if = { limit = { has_state_flag = districts_office_construction_sphere_military }   clr_state_flag = districts_office_construction_sphere_military add_to_variable = { var = for_0 value = 1 } }
+        if = { limit = { has_state_flag = districts_office_construction_sphere_factories }  clr_state_flag = districts_office_construction_sphere_factories add_to_variable = { var = for_1 value = 1 } }
+        if = { limit = { has_state_flag = districts_office_construction_sphere_production } clr_state_flag = districts_office_construction_sphere_production add_to_variable = { var = for_2 value = 1 } }
+        if = { limit = { has_state_flag = districts_office_construction_sphere_security }   clr_state_flag = districts_office_construction_sphere_security add_to_variable = { var = for_3 value = 1 } }
+        if = { limit = { has_state_flag = districts_office_construction_sphere_finances }   clr_state_flag = districts_office_construction_sphere_finances add_to_variable = { var = for_4 value = 1 } }
+        if = { limit = { has_state_flag = districts_office_construction_sphere_medical }    clr_state_flag = districts_office_construction_sphere_medical add_to_variable = { var = for_5 value = 1 } }
+        if = { limit = { has_state_flag = districts_office_construction_sphere_agro }       clr_state_flag = districts_office_construction_sphere_agro add_to_variable = { var = for_6 value = 1 } }
+        if = { limit = { has_state_flag = districts_office_construction_sphere_energy }     clr_state_flag = districts_office_construction_sphere_energy add_to_variable = { var = for_7 value = 1 } }
+        if = { limit = { has_state_flag = districts_office_construction_sphere_research }   clr_state_flag = districts_office_construction_sphere_research add_to_variable = { var = for_8 value = 1 } }
+        if = { limit = { has_state_flag = districts_office_construction_sphere_resources }  clr_state_flag = districts_office_construction_sphere_resources add_to_variable = { var = for_9 value = 1 } }
+        district_init_foreign_from_vars = yes
+        district_init_foreign_clear_vars = yes
+    }
+}
+
+
+
+
+############################################
+# Camelia (4 spheres)
+############################################
+district_init_camelia_from_vars = {
+    resize_array = { camelia_office_spheres = 4 }
+    add_to_array = { array = camelia_office_spheres index = 0 value = var:camelia_sec } # 0 = security
+    add_to_array = { array = camelia_office_spheres index = 1 value = var:camelia_fin } # 1 = finances
+    add_to_array = { array = camelia_office_spheres index = 2 value = var:camelia_res } # 2 = resources
+    add_to_array = { array = camelia_office_spheres index = 3 value = var:camelia_agr } # 3 = agro
+}
+district_init_camelia_clear_vars = {
+    clr_variable = camelia_sec
+    clr_variable = camelia_fin
+    clr_variable = camelia_res
+    clr_variable = camelia_agr
+}
+
+############################################
+# Arstotzka (4 spheres)
+############################################
+district_init_arstotzka_from_vars = {
+    resize_array = { arstotzka_office_spheres = 4 }
+    add_to_array = { array = arstotzka_office_spheres index = 0 value = var:arst_sec } # 0 = security
+    add_to_array = { array = arstotzka_office_spheres index = 1 value = var:arst_med } # 1 = medical
+    add_to_array = { array = arstotzka_office_spheres index = 2 value = var:arst_en  } # 2 = energy
+    add_to_array = { array = arstotzka_office_spheres index = 3 value = var:arst_res } # 3 = research
+}
+district_init_arstotzka_clear_vars = {
+    clr_variable = arst_sec
+    clr_variable = arst_med
+    clr_variable = arst_en
+    clr_variable = arst_res
+}
+
+############################################
+# Rotatosk (3 spheres)
+############################################
+district_init_rotatosk_from_vars = {
+    resize_array = { rotatosk_office_spheres = 3 }
+    add_to_array = { array = rotatosk_office_spheres index = 0 value = var:rota_mil } # 0 = military
+    add_to_array = { array = rotatosk_office_spheres index = 1 value = var:rota_fac } # 1 = factories
+    add_to_array = { array = rotatosk_office_spheres index = 2 value = var:rota_pro } # 2 = production
+}
+district_init_rotatosk_clear_vars = {
+    clr_variable = rota_mil
+    clr_variable = rota_fac
+    clr_variable = rota_pro
+}
+
+############################################
+# Zaphkiel (3 spheres)
+############################################
+district_init_zaphkiel_from_vars = {
+    resize_array = { zaphkiel_office_spheres = 3 }
+    add_to_array = { array = zaphkiel_office_spheres index = 0 value = var:zaph_pro } # 0 = production
+    add_to_array = { array = zaphkiel_office_spheres index = 1 value = var:zaph_med } # 1 = medical
+    add_to_array = { array = zaphkiel_office_spheres index = 2 value = var:zaph_agr } # 2 = agro
+}
+district_init_zaphkiel_clear_vars = {
+    clr_variable = zaph_pro
+    clr_variable = zaph_med
+    clr_variable = zaph_agr
+}
+
+############################################
+# Equonics (3 spheres)
+############################################
+district_init_equonics_from_vars = {
+    resize_array = { equonics_office_spheres = 3 }
+    add_to_array = { array = equonics_office_spheres index = 0 value = var:equ_med } # 0 = medical
+    add_to_array = { array = equonics_office_spheres index = 1 value = var:equ_en  } # 1 = energy
+    add_to_array = { array = equonics_office_spheres index = 2 value = var:equ_res } # 2 = resources
+}
+district_init_equonics_clear_vars = {
+    clr_variable = equ_med
+    clr_variable = equ_en
+    clr_variable = equ_res
+}
+
+############################################
+# Local (10 spheres)
+############################################
+district_init_local_from_vars = {
+    resize_array = { local_office_spheres = 10 }
+    add_to_array = { array = local_office_spheres index = 0 value = var:loc_0 } # 0 = military
+    add_to_array = { array = local_office_spheres index = 1 value = var:loc_1 } # 1 = factories
+    add_to_array = { array = local_office_spheres index = 2 value = var:loc_2 } # 2 = production
+    add_to_array = { array = local_office_spheres index = 3 value = var:loc_3 } # 3 = security
+    add_to_array = { array = local_office_spheres index = 4 value = var:loc_4 } # 4 = finances
+    add_to_array = { array = local_office_spheres index = 5 value = var:loc_5 } # 5 = medical
+    add_to_array = { array = local_office_spheres index = 6 value = var:loc_6 } # 6 = agro
+    add_to_array = { array = local_office_spheres index = 7 value = var:loc_7 } # 7 = energy
+    add_to_array = { array = local_office_spheres index = 8 value = var:loc_8 } # 8 = research
+    add_to_array = { array = local_office_spheres index = 9 value = var:loc_9 } # 9 = resources
+}
+district_init_local_clear_vars = {
+    clr_variable = loc_0
+    clr_variable = loc_1
+    clr_variable = loc_2
+    clr_variable = loc_3
+    clr_variable = loc_4
+    clr_variable = loc_5
+    clr_variable = loc_6
+    clr_variable = loc_7
+    clr_variable = loc_8
+    clr_variable = loc_9
+}
+
+############################################
+# Foreign (10 spheres)
+############################################
+district_init_foreign_from_vars = {
+    resize_array = { foreign_office_spheres = 10 }
+    add_to_array = { array = foreign_office_spheres index = 0 value = var:for_0 } # 0 = military
+    add_to_array = { array = foreign_office_spheres index = 1 value = var:for_1 } # 1 = factories
+    add_to_array = { array = foreign_office_spheres index = 2 value = var:for_2 } # 2 = production
+    add_to_array = { array = foreign_office_spheres index = 3 value = var:for_3 } # 3 = security
+    add_to_array = { array = foreign_office_spheres index = 4 value = var:for_4 } # 4 = finances
+    add_to_array = { array = foreign_office_spheres index = 5 value = var:for_5 } # 5 = medical
+    add_to_array = { array = foreign_office_spheres index = 6 value = var:for_6 } # 6 = agro
+    add_to_array = { array = foreign_office_spheres index = 7 value = var:for_7 } # 7 = energy
+    add_to_array = { array = foreign_office_spheres index = 8 value = var:for_8 } # 8 = research
+    add_to_array = { array = foreign_office_spheres index = 9 value = var:for_9 } # 9 = resources
+}
+district_init_foreign_clear_vars = {
+    clr_variable = for_0
+    clr_variable = for_1
+    clr_variable = for_2
+    clr_variable = for_3
+    clr_variable = for_4
+    clr_variable = for_5
+    clr_variable = for_6
+    clr_variable = for_7
+    clr_variable = for_8
+    clr_variable = for_9
+}
+
+
+
+############################################
+# Add and destroy
+############################################
+
+add_camelia_office_to_state = { 
+	add_to_variable = {
+    	var = camelia_office
+    	value = 1
+	}
+}
+
+destroy_camelia_office_to_state = {
+	subtract_from_variable = {
+    	var = camelia_office
+    	value = 1
+	}
+}
+
+############################################
+# From gui
+############################################
+districts_set_corpo_scripted_effect = {
+    if = {
+	    limit = { FROM = {has_country_flag = corpo_build_office_rotatosk} }
+	    set_state_flag = districts_office_construction_rotatosk
+	}
+	if = {
+	    limit = { has_country_flag = corpo_build_office_zaphkiel }
+	    set_state_flag = districts_office_construction_zaphkiel
+	}
+	if = {
+	    limit = { has_country_flag = corpo_build_office_equonics }
+	    set_state_flag = districts_office_construction_equonics
+	}
+	if = {
+	    limit = { has_country_flag = corpo_build_office_arstotzka }
+	    set_state_flag = districts_office_construction_arstotzka
+	}
+	if = {
+	    limit = { has_country_flag = corpo_build_office_foreign }
+	    set_state_flag = districts_office_construction_foreign
+	}
+	if = {
+	    limit = { has_country_flag = corpo_build_office_local }
+	    set_state_flag = districts_office_construction_local
+	}
+	if = {
+	    limit = { has_country_flag = corpo_build_office_government }
+	    set_state_flag = districts_office_construction_government
+	}
+	if = {
+	    limit = { has_country_flag = corpo_build_office_camelia }
+	    set_state_flag = districts_office_construction_camelia
+	}
+}
+
+districts_clear_corpo_country_flags_scripted_effect = {
+    clr_country_flag = corpo_build_office_selected
+	clr_country_flag = corpo_build_office_rotatosk
+	clr_country_flag = corpo_build_office_zaphkiel
+	clr_country_flag = corpo_build_office_equonics
+	clr_country_flag = corpo_build_office_arstotzka
+	clr_country_flag = corpo_build_office_foreign
+	clr_country_flag = corpo_build_office_local
+	clr_country_flag = corpo_build_office_government
+	clr_country_flag = corpo_build_office_camelia
+	clr_country_flag = corpo_build_office
+}

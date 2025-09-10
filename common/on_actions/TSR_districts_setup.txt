@@ -1,0 +1,496 @@
+# District Setup
+
+on_actions = {
+    on_startup = {
+        effect = {
+
+            every_possible_country = {
+                limit = {
+                    is_ai = no
+                }
+                # variables to set up
+                set_variable = { OFFICE_CONSTRUCTION_DAYS = 7 }
+                set_variable = { OFFICE_CONSTRUCTION_EFFICIENCY = 5 } # 37% efficiency
+                set_variable = { OFFICE_CONSTRUCTION_CURRENT_DAY = 0 }
+                set_variable = { office_total_days = 0 }
+                set_variable = { office_remaining_days = 0 }
+                set_variable = { office_progress = 0 }
+            }
+            ############################################
+            # Germany
+            ############################################
+
+            # Berlin
+            200 = {
+                add_to_array = { global.districts = THIS.id }
+            
+                # Camelia spheres
+                set_variable = { var = camelia_office value = 2 } # offices
+                set_variable = { var = camelia_sec value = 1 } # security
+                set_variable = { var = camelia_fin value = 1 } # finances
+                set_variable = { var = camelia_res value = 0 } # resources
+                set_variable = { var = camelia_agr value = 0 } # agro
+                district_init_camelia_from_vars = yes
+                district_init_camelia_clear_vars = yes
+            
+                # Arstotzka spheres
+                set_variable = { var = arstotzka_office value = 3 }
+                set_variable = { var = arst_sec value = 2 } # security
+                set_variable = { var = arst_med value = 0 } # medical
+                set_variable = { var = arst_en  value = 0 } # energy
+                set_variable = { var = arst_res value = 1 } # research
+                district_init_arstotzka_from_vars = yes
+                district_init_arstotzka_clear_vars = yes
+            
+                # Rotatosk spheres
+                set_variable = { var = rotatosk_office value = 0 }
+                set_variable = { var = rota_mil value = 0 } # military
+                set_variable = { var = rota_fac value = 0 } # factories
+                set_variable = { var = rota_pro value = 0 } # production
+                district_init_rotatosk_from_vars = yes
+                district_init_rotatosk_clear_vars = yes
+            
+                # Zaphkiel spheres
+                set_variable = { var = zaphkiel_office value = 0 }
+                set_variable = { var = zaph_pro value = 0 } # production
+                set_variable = { var = zaph_med value = 0 } # medical
+                set_variable = { var = zaph_agr value = 0 } # agro
+                district_init_zaphkiel_from_vars = yes
+                district_init_zaphkiel_clear_vars = yes
+            
+                # Equonics spheres
+                set_variable = { var = equonics_office value = 0 }
+                set_variable = { var = equ_med value = 0 } # medical
+                set_variable = { var = equ_en  value = 0 } # energy
+                set_variable = { var = equ_res value = 0 } # resources
+                district_init_equonics_from_vars = yes
+                district_init_equonics_clear_vars = yes
+            
+                # Local office spheres
+                set_variable = { var = local_office value = 0 }
+                set_variable = { var = loc_0 value = 0 } # military
+                set_variable = { var = loc_1 value = 0 } # factories
+                set_variable = { var = loc_2 value = 0 } # production
+                set_variable = { var = loc_3 value = 0 } # security
+                set_variable = { var = loc_4 value = 0 } # finances
+                set_variable = { var = loc_5 value = 0 } # medical
+                set_variable = { var = loc_6 value = 0 } # agro
+                set_variable = { var = loc_7 value = 0 } # energy
+                set_variable = { var = loc_8 value = 0 } # research
+                set_variable = { var = loc_9 value = 0 } # resources
+                district_init_local_from_vars = yes
+                district_init_local_clear_vars = yes
+            
+                set_variable = { var = foreign_office value = 0 }
+                set_variable = { var = for_0 value = 0 } # military
+                set_variable = { var = for_1 value = 0 } # factories
+                set_variable = { var = for_2 value = 0 } # production
+                set_variable = { var = for_3 value = 0 } # security
+                set_variable = { var = for_4 value = 0 } # finances
+                set_variable = { var = for_5 value = 0 } # medical
+                set_variable = { var = for_6 value = 0 } # agro
+                set_variable = { var = for_7 value = 0 } # energy
+                set_variable = { var = for_8 value = 0 } # research
+                set_variable = { var = for_9 value = 0 } # resources
+                district_init_foreign_from_vars = yes
+                district_init_foreign_clear_vars = yes
+            
+                # Government office
+                set_variable = { var = government_office value = 0 }
+            }
+
+            # Frankfurt
+            994  = {
+                add_to_array = { global.districts = THIS.id }
+            
+                # Camelia spheres
+                set_variable = { var = camelia_office value = 0 } # offices
+                set_variable = { var = camelia_sec value = 0 } # security
+                set_variable = { var = camelia_fin value = 0 } # finances
+                set_variable = { var = camelia_res value = 0 } # resources
+                set_variable = { var = camelia_agr value = 0 } # agro
+                district_init_camelia_from_vars = yes
+                district_init_camelia_clear_vars = yes
+            
+                # Arstotzka spheres
+                set_variable = { var = arstotzka_office value = 0 }
+                set_variable = { var = arst_sec value = 0 } # security
+                set_variable = { var = arst_med value = 0 } # medical
+                set_variable = { var = arst_en  value = 0 } # energy
+                set_variable = { var = arst_res value = 0 } # research
+                district_init_arstotzka_from_vars = yes
+                district_init_arstotzka_clear_vars = yes
+            
+                # Rotatosk spheres
+                set_variable = { var = rotatosk_office value = 0 }
+                set_variable = { var = rota_mil value = 0 } # military
+                set_variable = { var = rota_fac value = 0 } # factories
+                set_variable = { var = rota_pro value = 0 } # production
+                district_init_rotatosk_from_vars = yes
+                district_init_rotatosk_clear_vars = yes
+            
+                # Zaphkiel spheres
+                set_variable = { var = zaphkiel_office value = 0 }
+                set_variable = { var = zaph_pro value = 0 } # production
+                set_variable = { var = zaph_med value = 0 } # medical
+                set_variable = { var = zaph_agr value = 0 } # agro
+                district_init_zaphkiel_from_vars = yes
+                district_init_zaphkiel_clear_vars = yes
+            
+                # Equonics spheres
+                set_variable = { var = equonics_office value = 0 }
+                set_variable = { var = equ_med value = 0 } # medical
+                set_variable = { var = equ_en  value = 0 } # energy
+                set_variable = { var = equ_res value = 0 } # resources
+                district_init_equonics_from_vars = yes
+                district_init_equonics_clear_vars = yes
+            
+                # Local office spheres
+                set_variable = { var = local_office value = 0 }
+                set_variable = { var = loc_0 value = 0 } # military
+                set_variable = { var = loc_1 value = 0 } # factories
+                set_variable = { var = loc_2 value = 0 } # production
+                set_variable = { var = loc_3 value = 0 } # security
+                set_variable = { var = loc_4 value = 0 } # finances
+                set_variable = { var = loc_5 value = 0 } # medical
+                set_variable = { var = loc_6 value = 0 } # agro
+                set_variable = { var = loc_7 value = 0 } # energy
+                set_variable = { var = loc_8 value = 0 } # research
+                set_variable = { var = loc_9 value = 0 } # resources
+                district_init_local_from_vars = yes
+                district_init_local_clear_vars = yes
+            
+                set_variable = { var = foreign_office value = 0 }
+                set_variable = { var = for_0 value = 0 } # military
+                set_variable = { var = for_1 value = 0 } # factories
+                set_variable = { var = for_2 value = 0 } # production
+                set_variable = { var = for_3 value = 0 } # security
+                set_variable = { var = for_4 value = 0 } # finances
+                set_variable = { var = for_5 value = 0 } # medical
+                set_variable = { var = for_6 value = 0 } # agro
+                set_variable = { var = for_7 value = 0 } # energy
+                set_variable = { var = for_8 value = 0 } # research
+                set_variable = { var = for_9 value = 0 } # resources
+                district_init_foreign_from_vars = yes
+                district_init_foreign_clear_vars = yes
+            
+                # Government office
+                set_variable = { var = government_office value = 0 }
+            }
+
+            # Hamburg
+            1004  = {
+                add_to_array = { global.districts = THIS.id }
+            
+                # Camelia spheres
+                set_variable = { var = camelia_office value = 1 } # offices
+                set_variable = { var = camelia_sec value = 0 } # security
+                set_variable = { var = camelia_fin value = 0 } # finances
+                set_variable = { var = camelia_res value = 0 } # resources
+                set_variable = { var = camelia_agr value = 1 } # agro
+                district_init_camelia_from_vars = yes
+                district_init_camelia_clear_vars = yes
+            
+                # Arstotzka spheres
+                set_variable = { var = arstotzka_office value = 0 }
+                set_variable = { var = arst_sec value = 0 } # security
+                set_variable = { var = arst_med value = 0 } # medical
+                set_variable = { var = arst_en  value = 0 } # energy
+                set_variable = { var = arst_res value = 0 } # research
+                district_init_arstotzka_from_vars = yes
+                district_init_arstotzka_clear_vars = yes
+            
+                # Rotatosk spheres
+                set_variable = { var = rotatosk_office value = 0 }
+                set_variable = { var = rota_mil value = 0 } # military
+                set_variable = { var = rota_fac value = 0 } # factories
+                set_variable = { var = rota_pro value = 0 } # production
+                district_init_rotatosk_from_vars = yes
+                district_init_rotatosk_clear_vars = yes
+            
+                # Zaphkiel spheres
+                set_variable = { var = zaphkiel_office value = 0 }
+                set_variable = { var = zaph_pro value = 0 } # production
+                set_variable = { var = zaph_med value = 0 } # medical
+                set_variable = { var = zaph_agr value = 0 } # agro
+                district_init_zaphkiel_from_vars = yes
+                district_init_zaphkiel_clear_vars = yes
+            
+                # Equonics spheres
+                set_variable = { var = equonics_office value = 0 }
+                set_variable = { var = equ_med value = 0 } # medical
+                set_variable = { var = equ_en  value = 0 } # energy
+                set_variable = { var = equ_res value = 0 } # resources
+                district_init_equonics_from_vars = yes
+                district_init_equonics_clear_vars = yes
+            
+                # Local office spheres
+                set_variable = { var = local_office value = 0 }
+                set_variable = { var = loc_0 value = 0 } # military
+                set_variable = { var = loc_1 value = 0 } # factories
+                set_variable = { var = loc_2 value = 0 } # production
+                set_variable = { var = loc_3 value = 0 } # security
+                set_variable = { var = loc_4 value = 0 } # finances
+                set_variable = { var = loc_5 value = 0 } # medical
+                set_variable = { var = loc_6 value = 0 } # agro
+                set_variable = { var = loc_7 value = 0 } # energy
+                set_variable = { var = loc_8 value = 0 } # research
+                set_variable = { var = loc_9 value = 0 } # resources
+                district_init_local_from_vars = yes
+                district_init_local_clear_vars = yes
+            
+                set_variable = { var = foreign_office value = 0 }
+                set_variable = { var = for_0 value = 0 } # military
+                set_variable = { var = for_1 value = 0 } # factories
+                set_variable = { var = for_2 value = 0 } # production
+                set_variable = { var = for_3 value = 0 } # security
+                set_variable = { var = for_4 value = 0 } # finances
+                set_variable = { var = for_5 value = 0 } # medical
+                set_variable = { var = for_6 value = 0 } # agro
+                set_variable = { var = for_7 value = 0 } # energy
+                set_variable = { var = for_8 value = 0 } # research
+                set_variable = { var = for_9 value = 0 } # resources
+                district_init_foreign_from_vars = yes
+                district_init_foreign_clear_vars = yes
+            
+                # Government office
+                set_variable = { var = government_office value = 0 }
+            }
+
+            # Munchen
+            986  = {
+                add_to_array = { global.districts = THIS.id }
+            
+                # Camelia spheres
+                set_variable = { var = camelia_office value = 0 } # offices
+                set_variable = { var = camelia_sec value = 0 } # security
+                set_variable = { var = camelia_fin value = 0 } # finances
+                set_variable = { var = camelia_res value = 0 } # resources
+                set_variable = { var = camelia_agr value = 0 } # agro
+                district_init_camelia_from_vars = yes
+                district_init_camelia_clear_vars = yes
+            
+                # Arstotzka spheres
+                set_variable = { var = arstotzka_office value = 0 }
+                set_variable = { var = arst_sec value = 0 } # security
+                set_variable = { var = arst_med value = 0 } # medical
+                set_variable = { var = arst_en  value = 0 } # energy
+                set_variable = { var = arst_res value = 0 } # research
+                district_init_arstotzka_from_vars = yes
+                district_init_arstotzka_clear_vars = yes
+            
+                # Rotatosk spheres
+                set_variable = { var = rotatosk_office value = 0 }
+                set_variable = { var = rota_mil value = 0 } # military
+                set_variable = { var = rota_fac value = 0 } # factories
+                set_variable = { var = rota_pro value = 0 } # production
+                district_init_rotatosk_from_vars = yes
+                district_init_rotatosk_clear_vars = yes
+            
+                # Zaphkiel spheres
+                set_variable = { var = zaphkiel_office value = 0 }
+                set_variable = { var = zaph_pro value = 0 } # production
+                set_variable = { var = zaph_med value = 0 } # medical
+                set_variable = { var = zaph_agr value = 0 } # agro
+                district_init_zaphkiel_from_vars = yes
+                district_init_zaphkiel_clear_vars = yes
+            
+                # Equonics spheres
+                set_variable = { var = equonics_office value = 0 }
+                set_variable = { var = equ_med value = 0 } # medical
+                set_variable = { var = equ_en  value = 0 } # energy
+                set_variable = { var = equ_res value = 0 } # resources
+                district_init_equonics_from_vars = yes
+                district_init_equonics_clear_vars = yes
+            
+                # Local office spheres
+                set_variable = { var = local_office value = 0 }
+                set_variable = { var = loc_0 value = 0 } # military
+                set_variable = { var = loc_1 value = 0 } # factories
+                set_variable = { var = loc_2 value = 0 } # production
+                set_variable = { var = loc_3 value = 0 } # security
+                set_variable = { var = loc_4 value = 0 } # finances
+                set_variable = { var = loc_5 value = 0 } # medical
+                set_variable = { var = loc_6 value = 0 } # agro
+                set_variable = { var = loc_7 value = 0 } # energy
+                set_variable = { var = loc_8 value = 0 } # research
+                set_variable = { var = loc_9 value = 0 } # resources
+                district_init_local_from_vars = yes
+                district_init_local_clear_vars = yes
+            
+                set_variable = { var = foreign_office value = 0 }
+                set_variable = { var = for_0 value = 0 } # military
+                set_variable = { var = for_1 value = 0 } # factories
+                set_variable = { var = for_2 value = 0 } # production
+                set_variable = { var = for_3 value = 0 } # security
+                set_variable = { var = for_4 value = 0 } # finances
+                set_variable = { var = for_5 value = 0 } # medical
+                set_variable = { var = for_6 value = 0 } # agro
+                set_variable = { var = for_7 value = 0 } # energy
+                set_variable = { var = for_8 value = 0 } # research
+                set_variable = { var = for_9 value = 0 } # resources
+                district_init_foreign_from_vars = yes
+                district_init_foreign_clear_vars = yes
+            
+                # Government office
+                set_variable = { var = government_office value = 0 }
+            }
+
+            ############################################
+            # Britain
+            ############################################
+
+            # London
+            37  = {
+                add_to_array = { global.districts = THIS.id }
+            
+                # Camelia spheres
+                set_variable = { var = camelia_office value = 0 } # offices
+                set_variable = { var = camelia_sec value = 0 } # security
+                set_variable = { var = camelia_fin value = 0 } # finances
+                set_variable = { var = camelia_res value = 0 } # resources
+                set_variable = { var = camelia_agr value = 0 } # agro
+                district_init_camelia_from_vars = yes
+                district_init_camelia_clear_vars = yes
+            
+                # Arstotzka spheres
+                set_variable = { var = arstotzka_office value = 0 }
+                set_variable = { var = arst_sec value = 0 } # security
+                set_variable = { var = arst_med value = 0 } # medical
+                set_variable = { var = arst_en  value = 0 } # energy
+                set_variable = { var = arst_res value = 0 } # research
+                district_init_arstotzka_from_vars = yes
+                district_init_arstotzka_clear_vars = yes
+            
+                # Rotatosk spheres
+                set_variable = { var = rotatosk_office value = 0 }
+                set_variable = { var = rota_mil value = 0 } # military
+                set_variable = { var = rota_fac value = 0 } # factories
+                set_variable = { var = rota_pro value = 0 } # production
+                district_init_rotatosk_from_vars = yes
+                district_init_rotatosk_clear_vars = yes
+            
+                # Zaphkiel spheres
+                set_variable = { var = zaphkiel_office value = 0 }
+                set_variable = { var = zaph_pro value = 0 } # production
+                set_variable = { var = zaph_med value = 0 } # medical
+                set_variable = { var = zaph_agr value = 0 } # agro
+                district_init_zaphkiel_from_vars = yes
+                district_init_zaphkiel_clear_vars = yes
+            
+                # Equonics spheres
+                set_variable = { var = equonics_office value = 0 }
+                set_variable = { var = equ_med value = 0 } # medical
+                set_variable = { var = equ_en  value = 0 } # energy
+                set_variable = { var = equ_res value = 0 } # resources
+                district_init_equonics_from_vars = yes
+                district_init_equonics_clear_vars = yes
+            
+                # Local office spheres
+                set_variable = { var = local_office value = 0 }
+                set_variable = { var = loc_0 value = 0 } # military
+                set_variable = { var = loc_1 value = 0 } # factories
+                set_variable = { var = loc_2 value = 0 } # production
+                set_variable = { var = loc_3 value = 0 } # security
+                set_variable = { var = loc_4 value = 0 } # finances
+                set_variable = { var = loc_5 value = 0 } # medical
+                set_variable = { var = loc_6 value = 0 } # agro
+                set_variable = { var = loc_7 value = 0 } # energy
+                set_variable = { var = loc_8 value = 0 } # research
+                set_variable = { var = loc_9 value = 0 } # resources
+                district_init_local_from_vars = yes
+                district_init_local_clear_vars = yes
+            
+                set_variable = { var = foreign_office value = 0 }
+                set_variable = { var = for_0 value = 0 } # military
+                set_variable = { var = for_1 value = 0 } # factories
+                set_variable = { var = for_2 value = 0 } # production
+                set_variable = { var = for_3 value = 0 } # security
+                set_variable = { var = for_4 value = 0 } # finances
+                set_variable = { var = for_5 value = 0 } # medical
+                set_variable = { var = for_6 value = 0 } # agro
+                set_variable = { var = for_7 value = 0 } # energy
+                set_variable = { var = for_8 value = 0 } # research
+                set_variable = { var = for_9 value = 0 } # resources
+                district_init_foreign_from_vars = yes
+                district_init_foreign_clear_vars = yes
+            
+                # Government office
+                set_variable = { var = government_office value = 0 }
+            }
+
+        }
+    }
+
+on_weekly = {
+    effect = {
+        every_country = {
+            limit = { is_ai = no }
+
+            every_owned_state = {
+                limit = {
+                    is_core_of = ROOT
+                    OR = {
+                        has_state_flag = districts_office_construction_start_construction
+                        has_state_flag = districts_office_construction_in_progress
+                    }
+                }
+
+                log = ">>> [ROOT.GetName] – State: [This.GetName] <<<"
+                log = "Const Days: [?ROOT.OFFICE_CONSTRUCTION_DAYS] | Eff: [?ROOT.OFFICE_CONSTRUCTION_EFFICIENCY]"
+
+                # --- ИНИЦИАЛИЗАЦИЯ ---
+                if = {
+                    limit = { has_state_flag = districts_office_construction_start_construction }
+                    clr_state_flag = districts_office_construction_start_construction
+                    set_state_flag = districts_office_construction_in_progress
+
+                    ROOT = {
+                        set_variable = { temp_total_ofd = var:OFFICE_CONSTRUCTION_DAYS }
+                        multiply_variable = { temp_total_ofd = var:OFFICE_CONSTRUCTION_EFFICIENCY }
+                    }
+
+                    set_variable = { office_total_days     = var:ROOT.temp_total_ofd }
+                    set_variable = { office_remaining_days = var:ROOT.temp_total_ofd }
+                    set_variable = { office_progress       = 0 }
+
+                    log = "Init total_days = [?office_total_days], remaining = [?office_remaining_days]"
+                }
+
+                # --- ПРОГРЕСС СТРОЙКИ ---
+                if = {
+                    limit = { has_state_flag = districts_office_construction_in_progress }
+
+                    subtract_from_variable = { office_remaining_days = var:ROOT.OFFICE_CONSTRUCTION_DAYS }
+                    if = {
+                        limit = { check_variable = { office_remaining_days < 0 } }
+                        set_variable = { office_remaining_days = 0 }
+                    }
+
+                    set_temp_variable = { done = var:office_total_days }
+                    subtract_from_temp_variable = { done = var:office_remaining_days }
+
+                    if = {
+                        limit = { check_variable = { office_total_days > 0 } }
+                        set_variable   = { office_progress = var:done }
+                        divide_variable = { office_progress = var:office_total_days }
+                        log = "Progress: [?office_progress] ([?done]/[?office_total_days])"
+                    }
+
+                    # --- ЗАВЕРШЕНИЕ ---
+                    if = {
+                        limit = { check_variable = { office_remaining_days = 0 } }
+                        clr_state_flag = districts_office_construction_in_progress
+
+                        FROM = { add_political_power = 25 }
+                        log = ">>> [This.GetName] – Construction Completed <<<"
+
+                        district_apply_office_and_sphere = yes
+                    }
+                }
+            }
+        }
+    }
+}
+
+}

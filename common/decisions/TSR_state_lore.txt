@@ -1,0 +1,106 @@
+TSR_state_lore = {
+
+	state_lore_slovakia = {
+		priority = 1
+		icon = GFX_state_lore_state_lore_slovakia
+
+		ai_will_do = {
+			base = 0
+		}
+
+		on_map_mode = map_only
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 522
+				state = 543
+				state = 557
+				state = 574
+				state = 575
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+
+		cost = 0
+
+		complete_effect = {
+		}
+	}
+
+	state_lore_alto_adige = {
+		priority = 1
+		icon = GFX_state_lore_state_lore_slovakia
+
+		ai_will_do = {
+			base = 0
+		}
+
+		on_map_mode = map_only
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 633
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+
+		cost = 0
+
+		complete_effect = {
+		}
+	}
+
+	state_lore_colonial_port = {
+		priority = 1
+		icon = GFX_state_lore_state_lore_slovakia
+
+		ai_will_do = {
+			base = 0
+		}
+
+		on_map_mode = map_only
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 710
+				state = 1740
+				state = 1738
+				state = 1123
+				state = 729
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+
+		cost = 0
+
+		complete_effect = {
+		}
+	}
+
+	state_lore_yugoslavia = {
+		priority = 1
+		icon = GFX_state_lore_state_lore_slovakia
+
+		ai_will_do = {
+			base = 0
+		}
+
+		on_map_mode = map_only
+
+		highlight_states = {
+			highlight_state_targets = {
+				state = 571
+			}
+			highlight_color_while_active = 3
+			highlight_color_before_active = 2
+		}
+
+		cost = 0
+
+		complete_effect = {
+		}
+	}
+}

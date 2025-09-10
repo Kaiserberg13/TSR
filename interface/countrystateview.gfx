@@ -1,5 +1,30 @@
 spriteTypes = {
 
+
+	# TSR
+	SpriteType = {
+		name = "GFX_stateview_current_project"
+		textureFile = "gfx/interface/stateview/stateview_current_project.png"
+	}
+	SpriteType = {
+		name = "GFX_stateview_office"
+		textureFile = "gfx/interface/stateview/stateview_office.png"
+	}
+	SpriteType = {
+		name = "GFX_stateview_button"
+		textureFile = "gfx/interface/stateview/stateview_button.png"
+	}
+	progressbartype = {
+		name = "GFX_stateview_office_construction_progress"
+		textureFile1 = "gfx\\interface\\stateview\\stateview_office_construction.png"
+		textureFile2 = "gfx\\interface\\stateview\\stateview_office_construction_bg.png"
+		size = { x = 192 y = 9 }
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = yes
+	}
+
+	# Vanilla
+
 	progressbartype = {
 		name = "GFX_nuke_progress"
 		color = { 0.0 0.5 0.0 }

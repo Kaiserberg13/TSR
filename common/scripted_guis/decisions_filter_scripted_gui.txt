@@ -94,6 +94,13 @@ scripted_gui = {
 				}
 			}
 
+			filter_state_lore_click = {
+				ROOT = { set_country_flag = filter_state_lore_selected }
+			}
+			filter_state_lore_deactive_click = {
+				ROOT = { clr_country_flag = filter_state_lore_selected }
+			}
+
 		}
         
         triggers = {
@@ -193,6 +200,17 @@ scripted_gui = {
 			filter_filters_deactive_visible = {
 				ROOT = {
 					has_country_flag = filter_filters_selected
+				}
+			}
+
+			filter_state_lore_visible = {
+				ROOT = {
+					NOT = { has_country_flag = filter_state_lore_selected }
+				}
+			}
+			filter_state_lore_deactive_visible = {
+				ROOT = {
+					has_country_flag = filter_state_lore_selected
 				}
 			}
 		}

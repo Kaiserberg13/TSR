@@ -5,6 +5,9 @@ state={
 		3898
 	}
 	history = {
+
+		set_demilitarized_zone = yes
+
 		owner = FRA
 		add_core_of = FRA
 		add_core_of = SPR

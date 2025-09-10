@@ -1,0 +1,183 @@
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_spheres_button_agro"
+		texturefile = "gfx/interface/spheres/sphere_circle/spheres_button_agro.png"
+		effectFile = "gfx/FX/buttonstate_hoverandpress.lua"
+		noOfFrames = 3
+	}
+
+	spriteType = {
+		name = "GFX_spheres_button_cancel"
+		texturefile = "gfx/interface/spheres/sphere_circle/spheres_button_cancel.png"
+		effectFile = "gfx/FX/buttonstate_hoverandpress.lua"
+		noOfFrames = 3
+	}
+
+	spriteType = {
+		name = "GFX_spheres_button_energy"
+		texturefile = "gfx/interface/spheres/sphere_circle/spheres_button_energy.png"
+		effectFile = "gfx/FX/buttonstate_hoverandpress.lua"
+		noOfFrames = 3
+	}
+
+	spriteType = {
+		name = "GFX_spheres_button_factories"
+		texturefile = "gfx/interface/spheres/sphere_circle/spheres_button_factories.png"
+		effectFile = "gfx/FX/buttonstate_hoverandpress.lua"
+		noOfFrames = 3
+	}
+
+	spriteType = {
+		name = "GFX_spheres_button_finance"
+		texturefile = "gfx/interface/spheres/sphere_circle/spheres_button_finance.png"
+		effectFile = "gfx/FX/buttonstate_hoverandpress.lua"
+		noOfFrames = 3
+	}
+
+	spriteType = {
+		name = "GFX_spheres_button_medical"
+		texturefile = "gfx/interface/spheres/sphere_circle/spheres_button_medical.png"
+		effectFile = "gfx/FX/buttonstate_hoverandpress.lua"
+		noOfFrames = 3
+	}
+
+	spriteType = {
+		name = "GFX_spheres_button_military"
+		texturefile = "gfx/interface/spheres/sphere_circle/spheres_button_military.png"
+		effectFile = "gfx/FX/buttonstate_hoverandpress.lua"
+		noOfFrames = 3
+	}
+
+	spriteType = {
+		name = "GFX_spheres_button_production"
+		texturefile = "gfx/interface/spheres/sphere_circle/spheres_button_production.png"
+		effectFile = "gfx/FX/buttonstate_hoverandpress.lua"
+		noOfFrames = 3
+	}
+
+	spriteType = {
+		name = "GFX_spheres_button_research"
+		texturefile = "gfx/interface/spheres/sphere_circle/spheres_button_research.png"
+		effectFile = "gfx/FX/buttonstate_hoverandpress.lua"
+		noOfFrames = 3
+	}
+
+	spriteType = {
+		name = "GFX_spheres_button_resources"
+		texturefile = "gfx/interface/spheres/sphere_circle/spheres_button_resources.png"
+		effectFile = "gfx/FX/buttonstate_hoverandpress.lua"
+		noOfFrames = 3
+	}
+
+	spriteType = {
+		name = "GFX_spheres_button_security"
+		texturefile = "gfx/interface/spheres/sphere_circle/spheres_button_security.png"
+		effectFile = "gfx/FX/buttonstate_hoverandpress.lua"
+		noOfFrames = 3
+	}
+
+	spriteType = {
+		name = "GFX_spheres_button_select"
+		texturefile = "gfx/interface/spheres/sphere_circle/spheres_button_select.png"
+		effectFile = "gfx/FX/buttonstate_hoverandpress.lua"
+		noOfFrames = 3
+	}
+
+	spriteType = {
+		name = "GFX_spheres_agro"
+		texturefile = "gfx/interface/spheres/spheres_agro.png"
+		
+	}
+
+	spriteType = {
+		name = "GFX_spheres_background"
+		texturefile = "gfx/interface/spheres/spheres_background.png"
+	}
+
+	spriteType = {
+		name = "GFX_spheres_big_investments"
+		texturefile = "gfx/interface/spheres/spheres_big_investments.png"
+	}
+
+	spriteType = {
+		name = "GFX_spheres_decrease_the_fees"
+		texturefile = "gfx/interface/spheres/spheres_decrease_the_fees.png"
+	}
+
+	spriteType = {
+		name = "GFX_spheres_disinvestment"
+		texturefile = "gfx/interface/spheres/spheres_disinvestment.png"
+	}
+
+	spriteType = {
+		name = "GFX_spheres_energy"
+		texturefile = "gfx/interface/spheres/spheres_energy.png"
+	}
+
+	spriteType = {
+		name = "GFX_spheres_factories"
+		texturefile = "gfx/interface/spheres/spheres_factories.png"
+	}
+
+	spriteType = {
+		name = "GFX_spheres_finance"
+		texturefile = "gfx/interface/spheres/spheres_finance.png"
+	}
+
+	spriteType = {
+		name = "GFX_spheres_increase_the_fees"
+		texturefile = "gfx/interface/spheres/spheres_increase_the_fees.png"
+	}
+
+	spriteType = {
+		name = "GFX_spheres_investments"
+		texturefile = "gfx/interface/spheres/spheres_investments.png"
+	}
+
+	spriteType = {
+		name = "GFX_spheres_medical"
+		texturefile = "gfx/interface/spheres/spheres_medical.png"
+	}
+
+	spriteType = {
+		name = "GFX_spheres_millitary"
+		texturefile = "gfx/interface/spheres/spheres_millitary.png"
+	}
+
+	spriteType = {
+		name = "GFX_spheres_production"
+		texturefile = "gfx/interface/spheres/spheres_production.png"
+	}
+
+	spriteType = {
+		name = "GFX_spheres_research"
+		texturefile = "gfx/interface/spheres/spheres_research.png"
+	}
+
+	spriteType = {
+		name = "GFX_spheres_resources"
+		texturefile = "gfx/interface/spheres/spheres_resources.png"
+	}
+
+	spriteType = {
+		name = "GFX_spheres_restart_sphere"
+		texturefile = "gfx/interface/spheres/spheres_restart_sphere.png"
+	}
+
+	spriteType = {
+		name = "GFX_spheres_satisfaction_perecentage"
+		texturefile = "gfx/interface/spheres/spheres_satisfaction_perecentage.png"
+	}
+
+	spriteType = {
+		name = "GFX_spheres_security"
+		texturefile = "gfx/interface/spheres/spheres_security.png"
+	}
+
+	spriteType = {
+		name = "GFX_spheres_set_to_normal"
+		texturefile = "gfx/interface/spheres/spheres_set_to_normal.png"
+	}
+
+}
+

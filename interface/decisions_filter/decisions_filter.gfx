@@ -1,0 +1,61 @@
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_decisions_filter_industry_button"
+		texturefile = "gfx/interface/decisions_filter/decisions_industry_button.png"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_decisions_filter_influence_button"
+		texturefile = "gfx/interface/decisions_filter/decisions_influence_button.png"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_decisions_filter_money_button"
+		texturefile = "gfx/interface/decisions_filter/decisions_money_button.png"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_decisions_filter_mobilization_button"
+		texturefile = "gfx/interface/decisions_filter/decisions_mobilization_button.png"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_decisions_filter_other_button"
+		texturefile = "gfx/interface/decisions_filter/decisions_other_button.png"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_decisions_filter_political_button"
+		texturefile = "gfx/interface/decisions_filter/decisions_political_button.png"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_decisions_filter_war_button"
+		texturefile = "gfx/interface/decisions_filter/decisions_war_button.png"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_decisions_filter_all_button"
+		texturefile = "gfx/interface/decisions_filter/decisions_all_button.png"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_decisions_filter_item_bg"
+		texturefile = "gfx/interface/decisions_filter/decision_item_bg.png"
+		noOfFrames = 3
+	}
+	spriteType = {
+		name = "GFX_decisions_filter_filters_button"
+		texturefile = "gfx/interface/decisions_filter/decisions_filters_button.png"
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_decisions_filter_state_lore"
+		texturefile = "gfx/interface/decisions_filter/decisions_state_lore.png"
+		noOfFrames = 2
+	}
+}
+
+###############################
+###############################
+###############################

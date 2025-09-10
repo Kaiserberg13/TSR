@@ -1,0 +1,269 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "districts_window"
+		position = { x=545 y=-210 }	
+		size = { width = 220 height = 250 }
+		clipping = no
+		Orientation = LOWER_LEFT
+
+		background = {
+			name = "Background"	
+			spriteType = "GFX_a_empty"
+		}			
+
+		iconType = {
+			name = "current_project_bg"
+			position = {x = 0 y = 0}	
+			spriteType = "GFX_stateview_current_project"
+			alwaystransparent = yes
+		}
+		iconType = {
+			name = "office_construction_bg"
+			position = {x = 0 y = 117}	
+			spriteType = "GFX_stateview_office"
+			alwaystransparent = yes
+		}
+
+		buttonType = {
+			name = "build_office_button"
+			position = { x = 12 y = 161 }
+			spriteType = "GFX_stateview_button"
+			text = "build_office_button_text"
+			font = "ws_12"
+			format = center
+
+		}
+
+		instantTextboxType = {
+			name = "ssss"
+			position = {x=14 y=43}
+			font = "hoi_18mbs"
+			text = local_sosat
+			maxWidth = 200
+			maxHeight = 23
+			format = left
+		}
+	}
+
+	containerWindowType = {
+		name = "districts_build_office_window"
+		position = { x=0 y=0 }	
+		size = { width = 2560 height = 1440 }
+		clipping = no
+		Orientation = CENTER
+		origo = center
+
+		fade_time = 200
+		fade_type = linear
+
+		background = {
+			name = "Background"	
+			spriteType = "GFX_a_empty"
+		}			
+		
+		iconType = {
+			name = "districts_build_office_bg"
+			position = {x = 0 y = 0}	
+			spriteType = "GFX_corpo_window_bg"
+			alwaystransparent = no
+			
+		}
+
+		buttonType = {
+			name = "districts_build_office_select_menu"
+			position = { x = -108 y = -108 }
+			spriteType = "GFX_corpo_office_button_select_menu"
+			Orientation = CENTER
+		}
+
+
+		# corpo
+		buttonType = {
+			name = "districts_build_office_camelia_button"
+			position = { x = -84 y = -322 }
+			spriteType = "GFX_corpo_office_button_camelia"
+			Orientation = CENTER
+		}
+
+		buttonType = {
+			name = "districts_build_office_government_button"
+			position = { x = -84 y = 110 }
+			spriteType = "GFX_corpo_office_button_government"
+			Orientation = CENTER
+		}
+
+		buttonType = {
+			name = "districts_build_office_local_button"
+			position = { x = -325 y = -85 }
+			spriteType = "GFX_corpo_office_button_local"
+			Orientation = CENTER
+		}
+
+		buttonType = {
+			name = "districts_build_office_foreign_button"
+			position = { x = 110 y = -85 }
+			spriteType = "GFX_corpo_office_button_foreign"
+			Orientation = CENTER
+		}
+		
+		buttonType = {
+			name = "districts_build_office_arstotzka_button"
+			position = { x = 40 y = -270 }
+			spriteType = "GFX_corpo_office_button_arstotzka"
+			Orientation = CENTER
+		}
+
+		buttonType = {
+			name = "districts_build_office_equonics_button"
+			position = { x = 40 y = 90 }
+			spriteType = "GFX_corpo_office_button_equonics"
+			Orientation = CENTER
+		}
+
+		buttonType = {
+			name = "districts_build_office_zaphkiel_button"
+			position = { x = -205 y = 90 }
+			spriteType = "GFX_corpo_office_button_zaphkiel"
+			Orientation = CENTER
+		}
+
+		buttonType = {
+			name = "districts_build_office_rotatosk_button"
+			position = { x = -205 y = -270 }
+			spriteType = "GFX_corpo_office_button_rotatosk"
+			Orientation = CENTER
+		}
+
+		instantTextboxType = {
+			name = "sssss"
+			position = {x=114 y=43}
+			font = "hoi_18mbs"
+			text = local_sosat
+			maxWidth = 200
+			maxHeight = 23
+			format = left
+		}
+	}
+
+
+
+	containerWindowType = {
+		name = "districts_build_office_select_sphere_window"
+		position = { x=0 y=0 }	
+		size = { width = 2560 height = 1440 }
+		clipping = no
+		Orientation = CENTER
+		origo = center
+
+		fade_time = 200
+		fade_type = linear
+
+		background = {
+			name = "Background"	
+			spriteType = "GFX_a_empty"
+		}			
+		
+		iconType = {
+			name = "districts_build_office_bg"
+			position = {x = 0 y = 0}	
+			spriteType = "GFX_corpo_window_bg"
+			alwaystransparent = no
+			
+		}
+
+		buttonType = {
+			name = "districts_build_office_select_sphere_select_menu"
+			position = { x = -108 y = -108 }
+			spriteType = "GFX_corpo_office_button_select_menu"
+			Orientation = CENTER
+		}
+
+
+		# spheres: military, production, research, resources, factories, security, medical, agro, finance, energy
+		buttonType = {
+			name = "districts_sphere_military_button"
+			position = { x = -84 y = -322 }
+			spriteType = "GFX_spheres_button_military"
+			Orientation = CENTER
+		}
+
+		buttonType = {
+			name = "districts_sphere_resources_button"
+			position = { x = -84 y = 110 }
+			spriteType = "GFX_spheres_button_resources"
+			Orientation = CENTER
+		}
+
+		buttonType = {
+			name = "districts_sphere_cancel_button"
+			position = { x = -390 y = -85 }
+			spriteType = "GFX_spheres_button_cancel"
+			Orientation = CENTER
+		}
+
+		buttonType = {
+			name = "districts_sphere_select_button"
+			position = { x = 110 y = -85 }
+			spriteType = "GFX_spheres_button_select"
+			Orientation = CENTER
+		}
+
+		buttonType = {
+			name = "districts_sphere_energy_button"
+			position = { x = -205 y = 90 }
+			spriteType = "GFX_spheres_button_energy"
+			Orientation = CENTER
+		}
+
+		buttonType = {
+			name = "districts_sphere_factories_button"
+			position = { x = -205 y = -270 }
+			spriteType = "GFX_spheres_button_factories"
+			Orientation = CENTER
+		}
+
+		buttonType = {
+			name = "districts_sphere_production_button"
+			position = { x = 40 y = -270 }
+			spriteType = "GFX_spheres_button_production"
+			Orientation = CENTER
+		}
+
+		buttonType = {
+			name = "districts_sphere_research_button"
+			position = { x = 40 y = 90 }
+			spriteType = "GFX_spheres_button_research"
+			Orientation = CENTER
+		}
+
+		buttonType = {
+			name = "districts_sphere_agro_button"
+			position = { x = 96 y = 20 }
+			spriteType = "GFX_spheres_button_agro"
+			Orientation = CENTER
+		}
+
+		buttonType = {
+			name = "districts_sphere_finance_button"
+			position = { x = 96 y = -190 }
+			spriteType = "GFX_spheres_button_finance"
+			Orientation = CENTER
+		}
+
+		buttonType = {
+			name = "districts_sphere_security_button"
+			position = { x = -315 y = -190 }
+			spriteType = "GFX_spheres_button_security"
+			Orientation = CENTER
+		}
+
+		buttonType = {
+			name = "districts_sphere_medical_button"
+			position = { x = -315 y = 20 }
+			spriteType = "GFX_spheres_button_medical"
+			Orientation = CENTER
+		}
+
+	}
+}

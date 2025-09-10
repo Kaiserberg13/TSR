@@ -5,6 +5,9 @@ state={
 		6099 9079 
 	}
 	history = {
+
+		set_demilitarized_zone = yes
+
 		owner = LAT
 		add_core_of = LAT
 		add_core_of = EST
