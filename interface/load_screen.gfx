@@ -18,6 +18,16 @@ bitmapfonts = {
 			g = { 180 180 180 }
 		}
 	}
+
+	bitmapfont = {
+        name = "ws_18_tooltip"
+		path = "gfx/fonts/cyberpunk_18"
+        color = 0xfff75049
+
+        textcolors = {
+            G = { 86 172 91 }
+        }
+    }
 }
 
 spriteTypes = {

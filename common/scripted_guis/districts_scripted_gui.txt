@@ -45,9 +45,23 @@ scripted_gui = {
 				}
 			}
 
+			select_civilian_project_button_click = {
+				FROM.FROM = {
+					set_state_flag = districts_selected_state
+				}
+				ROOT = {
+					set_country_flag = civilian_project_select_social_project
+				}
+			}
+
 		}
-        
+		
+		properties = {
+			office_construction_progress_bar = { frame = this.office_progress }
+		}
+
         triggers = {
+
 		}
     }
 
@@ -68,7 +82,7 @@ scripted_gui = {
         effects = {
 			districts_build_office_select_menu_click = {
 					clr_country_flag = corpo_build_office
-					every_core_state = {
+					every_controlled_state = {
 						limit = {
 							has_state_flag = districts_selected_state
 						}
@@ -80,8 +94,9 @@ scripted_gui = {
 				set_country_flag = corpo_build_office_selected
 			}
 			districts_build_office_government_button_click = {
-				set_country_flag = corpo_build_office_government
-				set_country_flag = corpo_build_office_selected
+				clr_country_flag = corpo_build_office
+				add_political_power = 5
+				add_stability = -0.01
 			}
 			districts_build_office_local_button_click = {
 				set_country_flag = corpo_build_office_local
@@ -115,6 +130,37 @@ scripted_gui = {
 		}
         
         triggers = {
+			districts_build_office_camelia_disconnected_visible = {
+				has_country_flag = corpo_camelia_disconnected
+			}
+
+			districts_build_office_government_disconnected_visible = {
+				has_country_flag = corpo_government_disconnected
+			}
+
+			districts_build_office_local_disconnected_visible = {
+				has_country_flag = corpo_local_disconnected
+			}
+
+			districts_build_office_foreign_disconnected_visible = {
+				has_country_flag = corpo_foreign_disconnected
+			}
+
+			districts_build_office_arstotzka_disconnected_visible = {
+				has_country_flag = corpo_arstotzka_disconnected
+			}
+
+			districts_build_office_equonics_disconnected_visible = {
+				has_country_flag = corpo_equonics_disconnected
+			}
+
+			districts_build_office_zaphkiel_disconnected_visible = {
+				has_country_flag = corpo_zaphkiel_disconnected
+			}
+			
+			districts_build_office_rotatosk_disconnected_visible = {
+				has_country_flag = corpo_rotatosk_disconnected
+			}
 		}
     }
 
@@ -146,7 +192,7 @@ scripted_gui = {
 			}
 
 			districts_sphere_military_button_click = {
-				every_core_state = {
+				every_controlled_state = {
 					limit = { has_state_flag = districts_selected_state }
 					set_state_flag = districts_office_construction_sphere_military
 					set_state_flag = districts_office_construction_start_construction
@@ -157,7 +203,7 @@ scripted_gui = {
 			}
 			
 			districts_sphere_resources_button_click = {
-				every_core_state = {
+				every_controlled_state = {
 					limit = { has_state_flag = districts_selected_state }
 					set_state_flag = districts_office_construction_sphere_resources
 					set_state_flag = districts_office_construction_start_construction
@@ -168,7 +214,7 @@ scripted_gui = {
 			}
 			
 			districts_sphere_energy_button_click = {
-				every_core_state = {
+				every_controlled_state = {
 					limit = { has_state_flag = districts_selected_state }
 					set_state_flag = districts_office_construction_sphere_energy
 					set_state_flag = districts_office_construction_start_construction
@@ -179,7 +225,7 @@ scripted_gui = {
 			}
 			
 			districts_sphere_factories_button_click = {
-				every_core_state = {
+				every_controlled_state = {
 					limit = { has_state_flag = districts_selected_state }
 					set_state_flag = districts_office_construction_sphere_factories
 					set_state_flag = districts_office_construction_start_construction
@@ -190,7 +236,7 @@ scripted_gui = {
 			}
 			
 			districts_sphere_production_button_click = {
-				every_core_state = {
+				every_controlled_state = {
 					limit = { has_state_flag = districts_selected_state }
 					set_state_flag = districts_office_construction_sphere_production
 					set_state_flag = districts_office_construction_start_construction
@@ -201,7 +247,7 @@ scripted_gui = {
 			}
 			
 			districts_sphere_research_button_click = {
-				every_core_state = {
+				every_controlled_state = {
 					limit = { has_state_flag = districts_selected_state }
 					set_state_flag = districts_office_construction_sphere_research
 					set_state_flag = districts_office_construction_start_construction
@@ -212,7 +258,7 @@ scripted_gui = {
 			}
 			
 			districts_sphere_agro_button_click = {
-				every_core_state = {
+				every_controlled_state = {
 					limit = { has_state_flag = districts_selected_state }
 					set_state_flag = districts_office_construction_sphere_agro
 					set_state_flag = districts_office_construction_start_construction
@@ -223,7 +269,7 @@ scripted_gui = {
 			}
 			
 			districts_sphere_finance_button_click = {
-				every_core_state = {
+				every_controlled_state = {
 					limit = { has_state_flag = districts_selected_state }
 					set_state_flag = districts_office_construction_sphere_finances
 					set_state_flag = districts_office_construction_start_construction
@@ -234,7 +280,7 @@ scripted_gui = {
 			}
 			
 			districts_sphere_security_button_click = {
-				every_core_state = {
+				every_controlled_state = {
 					limit = { has_state_flag = districts_selected_state }
 					set_state_flag = districts_office_construction_sphere_security
 					set_state_flag = districts_office_construction_start_construction
@@ -245,7 +291,7 @@ scripted_gui = {
 			}
 			
 			districts_sphere_medical_button_click = {
-				every_core_state = {
+				every_controlled_state = {
 					limit = { has_state_flag = districts_selected_state }
 					set_state_flag = districts_office_construction_sphere_medical
 					set_state_flag = districts_office_construction_start_construction
@@ -259,6 +305,594 @@ scripted_gui = {
 		}
         
         triggers = {
+		    districts_sphere_military_disconnected_visible = {
+		        OR = {
+		            has_country_flag = corpo_camelia_disconnected
+		            has_country_flag = corpo_build_office_camelia
+		            has_country_flag = corpo_build_office_arstotzka
+		            has_country_flag = corpo_build_office_zaphkiel
+		            has_country_flag = corpo_build_office_equonics
+		        }
+		    }
+		
+		    districts_sphere_resources_disconnected_visible = {
+		        OR = {
+		            has_country_flag = corpo_camelia_disconnected
+		            has_country_flag = corpo_build_office_arstotzka
+		            has_country_flag = corpo_build_office_rotatosk
+		            has_country_flag = corpo_build_office_zaphkiel
+		        }
+		    }
+		
+		    districts_sphere_energy_disconnected_visible = {
+		        OR = {
+		            has_country_flag = corpo_camelia_disconnected
+		            has_country_flag = corpo_build_office_camelia
+		            has_country_flag = corpo_build_office_rotatosk
+		            has_country_flag = corpo_build_office_zaphkiel
+		        }
+		    }
+		
+		    districts_sphere_factories_disconnected_visible = {
+		        OR = {
+		            has_country_flag = corpo_camelia_disconnected
+		            has_country_flag = corpo_build_office_camelia
+		            has_country_flag = corpo_build_office_arstotzka
+		            has_country_flag = corpo_build_office_zaphkiel
+		            has_country_flag = corpo_build_office_equonics
+		        }
+		    }
+		
+		    districts_sphere_production_disconnected_visible = {
+		        OR = {
+		            has_country_flag = corpo_camelia_disconnected
+		            has_country_flag = corpo_build_office_camelia
+		            has_country_flag = corpo_build_office_arstotzka
+		            has_country_flag = corpo_build_office_equonics
+		        }
+		    }
+		
+		    districts_sphere_research_disconnected_visible = {
+		        OR = {
+		            has_country_flag = corpo_camelia_disconnected
+		            has_country_flag = corpo_build_office_camelia
+		            has_country_flag = corpo_build_office_rotatosk
+		            has_country_flag = corpo_build_office_zaphkiel
+		            has_country_flag = corpo_build_office_equonics
+		        }
+		    }
+		
+		    districts_sphere_agro_disconnected_visible = {
+		        OR = {
+		            has_country_flag = corpo_camelia_disconnected
+		            has_country_flag = corpo_build_office_arstotzka
+		            has_country_flag = corpo_build_office_rotatosk
+		            has_country_flag = corpo_build_office_equonics
+		        }
+		    }
+		
+		    districts_sphere_finance_disconnected_visible = {
+		        OR = {
+		            has_country_flag = corpo_camelia_disconnected
+		            has_country_flag = corpo_build_office_arstotzka
+		            has_country_flag = corpo_build_office_rotatosk
+		            has_country_flag = corpo_build_office_zaphkiel
+		            has_country_flag = corpo_build_office_equonics
+		        }
+		    }
+		
+		    districts_sphere_security_disconnected_visible = {
+		        OR = {
+		            has_country_flag = corpo_camelia_disconnected
+		            has_country_flag = corpo_build_office_rotatosk
+		            has_country_flag = corpo_build_office_zaphkiel
+		            has_country_flag = corpo_build_office_equonics
+		        }
+		    }
+		
+		    districts_sphere_medical_disconnected_visible = {
+		        OR = {
+		            has_country_flag = corpo_camelia_disconnected
+		            has_country_flag = corpo_build_office_camelia
+		            has_country_flag = corpo_build_office_rotatosk
+		        }
+		    }
 		}
+		
     }
+
+	districts_select_civilian_project_window_scripted_gui = {
+	    window_name = "districts_select_civilian_project_window"
+	    context_type = player_context
+	    parent_window_token = districts_window
+		
+	    visible = {
+	        ROOT = { has_country_flag = civilian_project_select_social_project }
+	    }
+	
+	    effects = {
+	        districts_select_civilian_project_close_button_click = {
+	            ROOT = { 
+					clr_country_flag = civilian_project_select_social_project 
+				}
+				every_controlled_state = {
+					limit = {
+						has_state_flag = districts_selected_state
+					}
+					clr_state_flag = districts_selected_state
+				}
+				
+	        }
+			districts_select_civilian_project_close_button_right_click = {
+				every_controlled_state = {
+					limit = {
+						has_state_flag = districts_selected_state
+					}
+					clr_state_flag = districts_civilian_project_healthcare_selected
+					clr_state_flag = districts_civilian_project_education_selected
+					clr_state_flag = districts_civilian_project_social_programs_for_the_poor_selected
+					clr_state_flag = districts_civilian_project_city_market_selected
+					clr_state_flag = districts_civilian_project_leisure_selected
+				}
+				
+	        }
+			districts_civilian_project_leisure_button_click = {
+	            every_controlled_state = {
+					limit = {
+						has_state_flag = districts_selected_state
+					}
+					set_state_flag = districts_civilian_project_leisure_selected
+					clr_state_flag = districts_civilian_project_healthcare_selected
+					clr_state_flag = districts_civilian_project_education_selected
+					clr_state_flag = districts_civilian_project_social_programs_for_the_poor_selected
+					clr_state_flag = districts_civilian_project_city_market_selected
+				}
+	        }
+
+			districts_civilian_project_healthcare_button_click = {
+	            every_controlled_state = {
+					limit = {
+						has_state_flag = districts_selected_state
+					}
+					set_state_flag = districts_civilian_project_healthcare_selected
+					clr_state_flag = districts_civilian_project_leisure_selected
+					clr_state_flag = districts_civilian_project_education_selected
+					clr_state_flag = districts_civilian_project_social_programs_for_the_poor_selected
+					clr_state_flag = districts_civilian_project_city_market_selected
+				}
+	        }
+
+			districts_civilian_project_education_button_click = {
+	            every_controlled_state = {
+					limit = {
+						has_state_flag = districts_selected_state
+					}
+					set_state_flag = districts_civilian_project_education_selected
+					clr_state_flag = districts_civilian_project_leisure_selected
+					clr_state_flag = districts_civilian_project_healthcare_selected
+					clr_state_flag = districts_civilian_project_social_programs_for_the_poor_selected
+					clr_state_flag = districts_civilian_project_city_market_selected
+				}
+	        }
+
+			districts_civilian_project_social_programs_for_the_poor_button_click = {
+	            every_controlled_state = {
+					limit = {
+						has_state_flag = districts_selected_state
+					}
+					set_state_flag = districts_civilian_project_social_programs_for_the_poor_selected
+					clr_state_flag = districts_civilian_project_leisure_selected
+					clr_state_flag = districts_civilian_project_healthcare_selected
+					clr_state_flag = districts_civilian_project_education_selected
+					clr_state_flag = districts_civilian_project_city_market_selected
+				}
+	        }
+
+			districts_civilian_project_city_market_button_click = {
+	            every_controlled_state = {
+					limit = {
+						has_state_flag = districts_selected_state
+					}
+					set_state_flag = districts_civilian_project_city_market_selected
+					clr_state_flag = districts_civilian_project_leisure_selected
+					clr_state_flag = districts_civilian_project_healthcare_selected
+					clr_state_flag = districts_civilian_project_education_selected
+					clr_state_flag = districts_civilian_project_social_programs_for_the_poor_selected
+				}
+	        }
+	    }
+
+		triggers = {
+
+			# leisure
+			districts_civilian_project_leisure_button_selected_visible = {
+				any_controlled_state  = {
+					AND = {
+						has_state_flag = districts_selected_state
+						has_state_flag = districts_civilian_project_leisure_selected
+					}
+				}
+			}
+			districts_civilian_project_leisure_button_visible = {
+				any_controlled_state  = {
+					NOT = {
+						AND = {
+							has_state_flag = districts_selected_state
+							has_state_flag = districts_civilian_project_leisure_selected
+						}
+					}
+				}
+			}
+
+			name_of_the_project_leisure_selected_visible = {
+				any_controlled_state  = {
+					AND = {
+						has_state_flag = districts_selected_state
+						has_state_flag = districts_civilian_project_leisure_selected
+					}
+				}
+			}
+			name_of_the_project_leisure_visible = {
+				any_controlled_state  = {
+					NOT = {
+						AND = {
+							has_state_flag = districts_selected_state
+							has_state_flag = districts_civilian_project_leisure_selected
+						}
+					}
+				}
+			}
+
+			civilian_project_leisure_icon_selected_visible = {
+				any_controlled_state  = {
+					AND = {
+						has_state_flag = districts_selected_state
+						has_state_flag = districts_civilian_project_leisure_selected
+					}
+				}
+			}
+			civilian_project_leisure_icon_visible = {
+				any_controlled_state  = {
+					NOT = {
+						AND = {
+							has_state_flag = districts_selected_state
+							has_state_flag = districts_civilian_project_leisure_selected
+						}
+					}
+				}
+			}
+
+			civilian_project_project_leisure_tooltip_selected_visible = {
+				any_controlled_state  = {
+					AND = {
+						has_state_flag = districts_selected_state
+						has_state_flag = districts_civilian_project_leisure_selected
+					}
+				}
+			}
+			civilian_project_project_leisure_tooltip_visible = {
+				any_controlled_state  = {
+					NOT = {
+						AND = {
+							has_state_flag = districts_selected_state
+							has_state_flag = districts_civilian_project_leisure_selected
+						}
+					}
+				}
+			}
+
+			# healthcare
+			districts_civilian_project_healthcare_button_selected_visible = {
+				any_controlled_state = {
+					AND = {
+						has_state_flag = districts_selected_state
+						has_state_flag = districts_civilian_project_healthcare_selected
+					}
+				}
+			}
+			districts_civilian_project_healthcare_button_visible = {
+				any_controlled_state = {
+					NOT = {
+						AND = {
+							has_state_flag = districts_selected_state
+							has_state_flag = districts_civilian_project_healthcare_selected
+						}
+					}
+				}
+			}
+			
+			name_of_the_project_healthcare_selected_visible = {
+				any_controlled_state = {
+					AND = {
+						has_state_flag = districts_selected_state
+						has_state_flag = districts_civilian_project_healthcare_selected
+					}
+				}
+			}
+			name_of_the_project_healthcare_visible = {
+				any_controlled_state = {
+					NOT = {
+						AND = {
+							has_state_flag = districts_selected_state
+							has_state_flag = districts_civilian_project_healthcare_selected
+						}
+					}
+				}
+			}
+			
+			civilian_project_healthcare_icon_selected_visible = {
+				any_controlled_state = {
+					AND = {
+						has_state_flag = districts_selected_state
+						has_state_flag = districts_civilian_project_healthcare_selected
+					}
+				}
+			}
+			civilian_project_healthcare_icon_visible = {
+				any_controlled_state = {
+					NOT = {
+						AND = {
+							has_state_flag = districts_selected_state
+							has_state_flag = districts_civilian_project_healthcare_selected
+						}
+					}
+				}
+			}
+			
+			civilian_project_project_healthcare_tooltip_selected_visible = {
+				any_controlled_state = {
+					AND = {
+						has_state_flag = districts_selected_state
+						has_state_flag = districts_civilian_project_healthcare_selected
+					}
+				}
+			}
+			civilian_project_project_healthcare_tooltip_visible = {
+				any_controlled_state = {
+					NOT = {
+						AND = {
+							has_state_flag = districts_selected_state
+							has_state_flag = districts_civilian_project_healthcare_selected
+						}
+					}
+				}
+			}
+
+			# education
+			districts_civilian_project_education_button_selected_visible = {
+				any_controlled_state = {
+					AND = {
+						has_state_flag = districts_selected_state
+						has_state_flag = districts_civilian_project_education_selected
+					}
+				}
+			}
+			districts_civilian_project_education_button_visible = {
+				any_controlled_state = {
+					NOT = {
+						AND = {
+							has_state_flag = districts_selected_state
+							has_state_flag = districts_civilian_project_education_selected
+						}
+					}
+				}
+			}
+
+			name_of_the_project_education_selected_visible = {
+				any_controlled_state = {
+					AND = {
+						has_state_flag = districts_selected_state
+						has_state_flag = districts_civilian_project_education_selected
+					}
+				}
+			}
+			name_of_the_project_education_visible = {
+				any_controlled_state = {
+					NOT = {
+						AND = {
+							has_state_flag = districts_selected_state
+							has_state_flag = districts_civilian_project_education_selected
+						}
+					}
+				}
+			}
+
+			civilian_project_education_icon_selected_visible = {
+				any_controlled_state = {
+					AND = {
+						has_state_flag = districts_selected_state
+						has_state_flag = districts_civilian_project_education_selected
+					}
+				}
+			}
+			civilian_project_education_icon_visible = {
+				any_controlled_state = {
+					NOT = {
+						AND = {
+							has_state_flag = districts_selected_state
+							has_state_flag = districts_civilian_project_education_selected
+						}
+					}
+				}
+			}
+
+			civilian_project_project_education_tooltip_selected_visible = {
+				any_controlled_state = {
+					AND = {
+						has_state_flag = districts_selected_state
+						has_state_flag = districts_civilian_project_education_selected
+					}
+				}
+			}
+			civilian_project_project_education_tooltip_visible = {
+				any_controlled_state = {
+					NOT = {
+						AND = {
+							has_state_flag = districts_selected_state
+							has_state_flag = districts_civilian_project_education_selected
+						}
+					}
+				}
+			}
+
+			# social_programs_for_the_poor
+			districts_civilian_project_social_programs_for_the_poor_button_selected_visible = {
+				any_controlled_state = {
+					AND = {
+						has_state_flag = districts_selected_state
+						has_state_flag = districts_civilian_project_social_programs_for_the_poor_selected
+					}
+				}
+			}
+			districts_civilian_project_social_programs_for_the_poor_button_visible = {
+				any_controlled_state = {
+					NOT = {
+						AND = {
+							has_state_flag = districts_selected_state
+							has_state_flag = districts_civilian_project_social_programs_for_the_poor_selected
+						}
+					}
+				}
+			}
+
+			name_of_the_project_social_programs_for_the_poor_selected_visible = {
+				any_controlled_state = {
+					AND = {
+						has_state_flag = districts_selected_state
+						has_state_flag = districts_civilian_project_social_programs_for_the_poor_selected
+					}
+				}
+			}
+			name_of_the_project_social_programs_for_the_poor_visible = {
+				any_controlled_state = {
+					NOT = {
+						AND = {
+							has_state_flag = districts_selected_state
+							has_state_flag = districts_civilian_project_social_programs_for_the_poor_selected
+						}
+					}
+				}
+			}
+
+			civilian_project_social_programs_for_the_poor_icon_selected_visible = {
+				any_controlled_state = {
+					AND = {
+						has_state_flag = districts_selected_state
+						has_state_flag = districts_civilian_project_social_programs_for_the_poor_selected
+					}
+				}
+			}
+			civilian_project_social_programs_for_the_poor_icon_visible = {
+				any_controlled_state = {
+					NOT = {
+						AND = {
+							has_state_flag = districts_selected_state
+							has_state_flag = districts_civilian_project_social_programs_for_the_poor_selected
+						}
+					}
+				}
+			}
+
+			civilian_project_project_social_programs_for_the_poor_tooltip_selected_visible = {
+				any_controlled_state = {
+					AND = {
+						has_state_flag = districts_selected_state
+						has_state_flag = districts_civilian_project_social_programs_for_the_poor_selected
+					}
+				}
+			}
+			civilian_project_project_social_programs_for_the_poor_tooltip_visible = {
+				any_controlled_state = {
+					NOT = {
+						AND = {
+							has_state_flag = districts_selected_state
+							has_state_flag = districts_civilian_project_social_programs_for_the_poor_selected
+						}
+					}
+				}
+			}
+
+			# city_market
+			districts_civilian_project_city_market_button_selected_visible = {
+				any_controlled_state = {
+					AND = {
+						has_state_flag = districts_selected_state
+						has_state_flag = districts_civilian_project_city_market_selected
+					}
+				}
+			}
+			districts_civilian_project_city_market_button_visible = {
+				any_controlled_state = {
+					NOT = {
+						AND = {
+							has_state_flag = districts_selected_state
+							has_state_flag = districts_civilian_project_city_market_selected
+						}
+					}
+				}
+			}
+
+			name_of_the_project_city_market_selected_visible = {
+				any_controlled_state = {
+					AND = {
+						has_state_flag = districts_selected_state
+						has_state_flag = districts_civilian_project_city_market_selected
+					}
+				}
+			}
+			name_of_the_project_city_market_visible = {
+				any_controlled_state = {
+					NOT = {
+						AND = {
+							has_state_flag = districts_selected_state
+							has_state_flag = districts_civilian_project_city_market_selected
+						}
+					}
+				}
+			}
+
+			civilian_project_city_market_icon_selected_visible = {
+				any_controlled_state = {
+					AND = {
+						has_state_flag = districts_selected_state
+						has_state_flag = districts_civilian_project_city_market_selected
+					}
+				}
+			}
+			ivilian_project_city_market_icon_visible = {
+				any_controlled_state = {
+					NOT = {
+						AND = {
+							has_state_flag = districts_selected_state
+							has_state_flag = districts_civilian_project_city_market_selected
+						}
+					}
+				}
+			}
+
+			civilian_project_project_city_market_tooltip_selected_visible = {
+				any_controlled_state = {
+					AND = {
+						has_state_flag = districts_selected_state
+						has_state_flag = districts_civilian_project_city_market_selected
+					}
+				}
+			}
+			civilian_project_project_city_market_tooltip_visible = {
+				any_controlled_state = {
+					NOT = {
+						AND = {
+							has_state_flag = districts_selected_state
+							has_state_flag = districts_civilian_project_city_market_selected
+						}
+					}
+				}
+			}
+
+
+
+			
+
+		}
+	}
 }

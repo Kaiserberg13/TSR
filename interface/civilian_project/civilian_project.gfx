@@ -1,28 +1,46 @@
 spriteTypes = {
 
-spriteType = {
-		name = "GFX_civilian_project_city_market"
-		texturefile = "gfx/interface/civilian_project/civilian_project_city_market.png"
+	spriteType = {
+		name = "GFX_civilian_project_button"
+		texturefile = "gfx/interface/civilian_project/civilian_project_button.png"
+		effectFile = "gfx/FX/buttonstate_hoverandpress.lua"
+		noOfFrames = 2
 	}
 
-spriteType = {
-		name = "GFX_civilian_project_education"
-		texturefile = "gfx/interface/civilian_project/civilian_project_education.png"
+	spriteType = {
+		name = "GFX_civilian_project_project_tooltip"
+		texturefile = "gfx/interface/civilian_project/civilian_project_project_tooltip.png"
+		noOfFrames = 10
 	}
 
-spriteType = {
-		name = "GFX_civilian_project_healthcare"
-		texturefile = "gfx/interface/civilian_project/civilian_project_healthcare.png"
+	spriteType = {
+		name = "GFX_civilian_project_city_market_icon"
+		texturefile = "gfx/interface/civilian_project/civilian_project_city_market_icon.png"
+		noOfFrames = 2
 	}
 
-spriteType = {
-		name = "GFX_civilian_project_leisure"
-		texturefile = "gfx/interface/civilian_project/civilian_project_leisure.png"
+	spriteType = {
+		name = "GFX_civilian_project_education_icon"
+		texturefile = "gfx/interface/civilian_project/civilian_project_education_icon.png"
+		noOfFrames = 2
 	}
 
-spriteType = {
-		name = "GFX_civilian_project_social_programs_for_the_poor"
-		texturefile = "gfx/interface/civilian_project/civilian_project_social_programs_for_the_poor.png"
+	spriteType = {
+		name = "GFX_civilian_project_healthcare_icon"
+		texturefile = "gfx/interface/civilian_project/civilian_project_healthcare_icon.png"
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_civilian_project_leisure_icon"
+		texturefile = "gfx/interface/civilian_project/civilian_project_leisure_icon.png"
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_civilian_project_social_programs_for_the_poor_icon"
+		texturefile = "gfx/interface/civilian_project/civilian_project_social_programs_for_the_poor_icon.png"
+		noOfFrames = 2
 	}
 
 }

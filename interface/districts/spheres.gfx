@@ -83,6 +83,70 @@ spriteTypes = {
 		noOfFrames = 3
 	}
 
+	# Error
+
+	spriteType = {
+		name = "GFX_sphere_office_button_error_down"
+		texturefile = "gfx/interface/spheres/sphere_circle/error/corpo_office_button_error_down.png"
+	}
+
+	spriteType = {
+		name = "GFX_sphere_office_button_error_left"
+		texturefile = "gfx/interface/spheres/sphere_circle/error/corpo_office_button_error_left.png"
+	}
+
+	spriteType = {
+		name = "GFX_sphere_office_button_error_left_up"
+		texturefile = "gfx/interface/spheres/sphere_circle/error/corpo_office_button_error_left_up.png"
+	}
+
+	spriteType = {
+		name = "GFX_sphere_office_button_error_right_up"
+		texturefile = "gfx/interface/spheres/sphere_circle/error/corpo_office_button_error_right_up.png"
+	}
+
+	spriteType = {
+		name = "GFX_sphere_office_button_error_up"
+		texturefile = "gfx/interface/spheres/sphere_circle/error/corpo_office_button_error_up.png"
+	}
+
+	spriteType = {
+		name = "GFX_sphere_office_button_error_up_left"
+		texturefile = "gfx/interface/spheres/sphere_circle/error/corpo_office_button_error_up_left.png"
+	}
+
+	spriteType = {
+		name = "GFX_sphere_office_button_error_up_right"
+		texturefile = "gfx/interface/spheres/sphere_circle/error/corpo_office_button_error_up_right.png"
+	}
+
+	spriteType = {
+		name = "GFX_sphere_office_button_error_right"
+		texturefile = "gfx/interface/spheres/sphere_circle/error/corpo_office_button_right.png"
+	}
+
+	spriteType = {
+		name = "GFX_sphere_office_button_error_down_right"
+		texturefile = "gfx/interface/spheres/sphere_circle/error/corpo_office_button_error_down_right.png"
+	}
+
+	spriteType = {
+		name = "GFX_sphere_office_button_error_down_left"
+		texturefile = "gfx/interface/spheres/sphere_circle/error/corpo_office_button_error_down_left.png"
+	}
+
+	spriteType = {
+		name = "GFX_sphere_office_button_error_right_down"
+		texturefile = "gfx/interface/spheres/sphere_circle/error/corpo_office_button_error_right_down.png"
+	}
+
+	spriteType = {
+		name = "GFX_sphere_office_button_error_left_down"
+		texturefile = "gfx/interface/spheres/sphere_circle/error/corpo_office_button_error_left_down.png"
+	}
+
+	# Spheres
+
 	spriteType = {
 		name = "GFX_spheres_agro"
 		texturefile = "gfx/interface/spheres/spheres_agro.png"

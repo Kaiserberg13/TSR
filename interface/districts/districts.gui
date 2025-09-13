@@ -34,6 +34,20 @@ guiTypes = {
 			format = center
 
 		}
+		buttonType = {
+			name = "select_civilian_project_button"
+			position = { x = 12 y = 70 }
+			spriteType = "GFX_stateview_button"
+			text = "select_civilian_project_button_text"
+			font = "ws_12"
+			format = center
+
+		}
+		icontype = {
+				name = "office_construction_progress_bar"
+				quadtexturesprite = "GFX_stateview_office_construction_progress"
+				position = { x = 10 y = 147 }
+			}
 
 		instantTextboxType = {
 			name = "ssss"
@@ -86,10 +100,26 @@ guiTypes = {
 			Orientation = CENTER
 		}
 
+		iconType = {
+			name = "districts_build_office_camelia_disconnected"
+			position = {x = -84 y = -322 }	
+			spriteType = "GFX_sphere_office_button_error_up"
+			alwaystransparent = no
+			Orientation = CENTER
+		}
+
 		buttonType = {
 			name = "districts_build_office_government_button"
 			position = { x = -84 y = 110 }
 			spriteType = "GFX_corpo_office_button_government"
+			Orientation = CENTER
+		}
+
+		iconType = {
+			name = "districts_build_office_government_disconnected"
+			position = {x = -84 y = 110 }	
+			spriteType = "GFX_sphere_office_button_error_down"
+			alwaystransparent = no
 			Orientation = CENTER
 		}
 
@@ -100,10 +130,26 @@ guiTypes = {
 			Orientation = CENTER
 		}
 
+		iconType = {
+			name = "districts_build_office_local_disconnected"
+			position = {x = -325 y = -85 }	
+			spriteType = "GFX_sphere_office_button_error_left"
+			alwaystransparent = no
+			Orientation = CENTER
+		}
+
 		buttonType = {
 			name = "districts_build_office_foreign_button"
 			position = { x = 110 y = -85 }
 			spriteType = "GFX_corpo_office_button_foreign"
+			Orientation = CENTER
+		}
+
+		iconType = {
+			name = "districts_build_office_foreign_disconnected"
+			position = {x = 110 y = -85 }	
+			spriteType = "GFX_sphere_office_button_error_right"
+			alwaystransparent = no
 			Orientation = CENTER
 		}
 		
@@ -114,10 +160,26 @@ guiTypes = {
 			Orientation = CENTER
 		}
 
+		iconType = {
+			name = "districts_build_office_arstotzka_disconnected"
+			position = {x = 40 y = -270 }	
+			spriteType = "GFX_sphere_office_button_error_up_right"
+			alwaystransparent = no
+			Orientation = CENTER
+		}
+
 		buttonType = {
 			name = "districts_build_office_equonics_button"
 			position = { x = 40 y = 90 }
 			spriteType = "GFX_corpo_office_button_equonics"
+			Orientation = CENTER
+		}
+
+		iconType = {
+			name = "districts_build_office_equonics_disconnected"
+			position = {x = 40 y = 90 }	
+			spriteType = "GFX_sphere_office_button_error_down_right"
+			alwaystransparent = no
 			Orientation = CENTER
 		}
 
@@ -128,10 +190,26 @@ guiTypes = {
 			Orientation = CENTER
 		}
 
+		iconType = {
+			name = "districts_build_office_zaphkiel_disconnected"
+			position = {x = -205 y = 90 }	
+			spriteType = "GFX_sphere_office_button_error_down_left"
+			alwaystransparent = no
+			Orientation = CENTER
+		}
+
 		buttonType = {
 			name = "districts_build_office_rotatosk_button"
 			position = { x = -205 y = -270 }
 			spriteType = "GFX_corpo_office_button_rotatosk"
+			Orientation = CENTER
+		}
+
+		iconType = {
+			name = "districts_build_office_rotatosk_disconnected"
+			position = {x = -205 y = -270 }	
+			spriteType = "GFX_sphere_office_button_error_up_left"
+			alwaystransparent = no
 			Orientation = CENTER
 		}
 
@@ -188,6 +266,14 @@ guiTypes = {
 			Orientation = CENTER
 		}
 
+		iconType = {
+			name = "districts_sphere_military_disconnected"
+			position = {x = -84 y = -322 }	
+			spriteType = "GFX_sphere_office_button_error_up"
+			alwaystransparent = no
+			Orientation = CENTER
+		}
+
 		buttonType = {
 			name = "districts_sphere_resources_button"
 			position = { x = -84 y = 110 }
@@ -195,17 +281,11 @@ guiTypes = {
 			Orientation = CENTER
 		}
 
-		buttonType = {
-			name = "districts_sphere_cancel_button"
-			position = { x = -390 y = -85 }
-			spriteType = "GFX_spheres_button_cancel"
-			Orientation = CENTER
-		}
-
-		buttonType = {
-			name = "districts_sphere_select_button"
-			position = { x = 110 y = -85 }
-			spriteType = "GFX_spheres_button_select"
+		iconType = {
+			name = "districts_sphere_resources_disconnected"
+			position = {x = -84 y = 110 }	
+			spriteType = "GFX_sphere_office_button_error_down"
+			alwaystransparent = no
 			Orientation = CENTER
 		}
 
@@ -216,10 +296,26 @@ guiTypes = {
 			Orientation = CENTER
 		}
 
+		iconType = {
+			name = "districts_sphere_energy_disconnected"
+			position = {x = -205 y = 90 }	
+			spriteType = "GFX_sphere_office_button_error_down_left"
+			alwaystransparent = no
+			Orientation = CENTER
+		}
+
 		buttonType = {
 			name = "districts_sphere_factories_button"
 			position = { x = -205 y = -270 }
 			spriteType = "GFX_spheres_button_factories"
+			Orientation = CENTER
+		}
+
+		iconType = {
+			name = "districts_sphere_factories_disconnected"
+			position = {x = -205 y = -270 }	
+			spriteType = "GFX_sphere_office_button_error_up_left"
+			alwaystransparent = no
 			Orientation = CENTER
 		}
 
@@ -230,10 +326,26 @@ guiTypes = {
 			Orientation = CENTER
 		}
 
+		iconType = {
+			name = "districts_sphere_production_disconnected"
+			position = {x = 40 y = -270 }	
+			spriteType = "GFX_sphere_office_button_error_up_right"
+			alwaystransparent = no
+			Orientation = CENTER
+		}
+
 		buttonType = {
 			name = "districts_sphere_research_button"
 			position = { x = 40 y = 90 }
 			spriteType = "GFX_spheres_button_research"
+			Orientation = CENTER
+		}
+
+		iconType = {
+			name = "districts_sphere_research_disconnected"
+			position = {x = 40 y = 90 }	
+			spriteType = "GFX_sphere_office_button_error_down_right"
+			alwaystransparent = no
 			Orientation = CENTER
 		}
 
@@ -244,10 +356,26 @@ guiTypes = {
 			Orientation = CENTER
 		}
 
+		iconType = {
+			name = "districts_sphere_agro_disconnected"
+			position = {x = 96 y = 20 }	
+			spriteType = "GFX_sphere_office_button_error_right_down"
+			alwaystransparent = no
+			Orientation = CENTER
+		}
+
 		buttonType = {
 			name = "districts_sphere_finance_button"
 			position = { x = 96 y = -190 }
 			spriteType = "GFX_spheres_button_finance"
+			Orientation = CENTER
+		}
+
+		iconType = {
+			name = "districts_sphere_finance_disconnected"
+			position = {x = 96 y = -190 }	
+			spriteType = "GFX_sphere_office_button_error_right_up"
+			alwaystransparent = no
 			Orientation = CENTER
 		}
 
@@ -258,6 +386,14 @@ guiTypes = {
 			Orientation = CENTER
 		}
 
+		iconType = {
+			name = "districts_sphere_security_disconnected"
+			position = {x = -315 y = -190 }	
+			spriteType = "GFX_sphere_office_button_error_left_up"
+			alwaystransparent = no
+			Orientation = CENTER
+		}
+
 		buttonType = {
 			name = "districts_sphere_medical_button"
 			position = { x = -315 y = 20 }
@@ -265,5 +401,552 @@ guiTypes = {
 			Orientation = CENTER
 		}
 
+		iconType = {
+			name = "districts_sphere_medical_disconnected"
+			position = {x = -315 y = 20 }	
+			spriteType = "GFX_sphere_office_button_error_left_down"
+			alwaystransparent = no
+			Orientation = CENTER
+		}
+
 	}
+
+
+	containerWindowType = {
+		name = "districts_select_civilian_project_window"
+		position = { x=0 y=0 }	
+		size = { width = 2560 height = 1440 }
+		clipping = no
+		Orientation = CENTER
+		origo = center
+
+		fade_time = 200
+		fade_type = linear
+
+		background = {
+			name = "Background"	
+			spriteType = "GFX_a_empty"
+		}
+
+		iconType = {
+			name = "districts_select_civilian_project_bg"
+			position = {x = 0 y = 0}	
+			spriteType = "GFX_corpo_window_bg"
+			alwaystransparent = no
+		}
+
+		buttonType = {
+			name = "districts_select_civilian_project_close_button"
+			position = { x = -100 y = 50 }
+			spriteType = "GFX_close_tab"
+			Orientation = UPPER_RIGHT
+		}
+
+		buttonType = {
+			name = "districts_select_civilian_project_close_button"
+			position = { x = -100 y = 50 }
+			spriteType = "GFX_close_tab"
+			Orientation = UPPER_RIGHT
+		}
+
+		containerWindowType = {
+        	name = "districts_civilian_project_leisure_card"
+        	position = { x = -172 y = -231 }
+        	size = { width = 172 height = 231 }
+        	Orientation = CENTER
+
+			buttonType = {
+				name = "districts_civilian_project_leisure_button"
+				position = { x = 0 y = 0 }
+				spriteType = "GFX_civilian_project_button"
+				Orientation = CENTER
+			}
+
+			buttonType = {
+				name = "districts_civilian_project_leisure_button_selected"
+				position = { x = 0 y = 0 }
+				spriteType = "GFX_civilian_project_button"
+				frame = 2
+				Orientation = CENTER
+			}
+
+			iconType = {
+				name = "civilian_project_project_leisure_tooltip"
+				position = {x = 100 y = 300}	
+				spriteType = "GFX_civilian_project_project_tooltip"
+				frame = 5
+				alwaystransparent = yes
+			}
+
+			iconType = {
+				name = "civilian_project_project_leisure_tooltip_selected"
+				position = {x = 100 y = 300}	
+				spriteType = "GFX_civilian_project_project_tooltip"
+				frame = 6
+				alwaystransparent = yes
+			}
+
+			instantTextboxType = {
+				name = "name_of_the_project_leisure"
+				position = {x = 72 y = 260}
+				font = "ws_24r"
+				text = "leisure_project"
+				maxWidth = 200
+				maxHeight = 24
+				format = center
+				alwaystransparent = yes
+			}
+
+			instantTextboxType = {
+				name = "name_of_the_project_leisure_selected"
+				position = {x = 72 y = 220}
+				font = "ws_24dr"
+				text = "leisure_project"
+				frame = 2
+				maxWidth = 200
+				maxHeight = 24
+				format = center
+				alwaystransparent = yes
+			}
+
+			instantTextboxType = {
+				name = "billions"
+				position = {x = 72 y = 237}
+				font = "ws_16r"
+				text = "civilian_project_billions"
+				maxWidth = 200
+				maxHeight = 24
+				format = center
+				alwaystransparent = yes
+			}
+
+			instantTextboxType = {
+				name = "civilian_project_cost"
+				position = {x = 72 y = 210}
+				font = "ws_24r"
+				text = "[?civilian_project_leisure_cost]"
+				maxWidth = 200
+				maxHeight = 24
+				format = center
+				alwaystransparent = yes
+			}
+
+			iconType = {
+				name = "civilian_project_leisure_icon"
+				position = {x = 135 y = 130}	
+				spriteType = "GFX_civilian_project_leisure_icon"
+				frame = 2
+				alwaystransparent = yes
+			}
+
+			iconType = {
+				name = "civilian_project_leisure_icon_selected"
+				position = {x = 135 y = 130}	
+				spriteType = "GFX_civilian_project_leisure_icon"
+				frame = 1
+				alwaystransparent = yes
+			}
+
+		}
+
+		containerWindowType = {
+        	name = "districts_civilian_project_healthcare_card"
+        	position = { x = -372 y = -231 }
+        	size = { width = 172 height = 231 }
+        	Orientation = CENTER
+
+			buttonType = {
+				name = "districts_civilian_project_healthcare_button"
+				position = { x = 0 y = 0 }
+				spriteType = "GFX_civilian_project_button"
+				Orientation = CENTER
+			}
+
+			buttonType = {
+				name = "districts_civilian_project_healthcare_button_selected"
+				position = { x = 0 y = 0 }
+				spriteType = "GFX_civilian_project_button"
+				frame = 2
+				Orientation = CENTER
+			}
+
+			iconType = {
+				name = "civilian_project_project_healthcare_tooltip"
+				position = {x = 100 y = 300}	
+				spriteType = "GFX_civilian_project_project_tooltip"
+				frame = 5
+				alwaystransparent = yes
+			}
+
+			iconType = {
+				name = "civilian_project_project_healthcare_tooltip_selected"
+				position = {x = 100 y = 300}	
+				spriteType = "GFX_civilian_project_project_tooltip"
+				frame = 6
+				alwaystransparent = yes
+			}
+
+			instantTextboxType = {
+				name = "name_of_the_project_healthcare"
+				position = {x = 72 y = 260}
+				font = "ws_24r"
+				text = "healthcare_project"
+				maxWidth = 200
+				maxHeight = 24
+				format = center
+				alwaystransparent = yes
+			}
+
+			instantTextboxType = {
+				name = "name_of_the_project_healthcare_selected"
+				position = {x = 72 y = 220}
+				font = "ws_24dr"
+				text = "healthcare_project"
+				frame = 2
+				maxWidth = 200
+				maxHeight = 24
+				format = center
+				alwaystransparent = yes
+			}
+
+			instantTextboxType = {
+				name = "billions"
+				position = {x = 72 y = 237}
+				font = "ws_16r"
+				text = "civilian_project_billions"
+				maxWidth = 200
+				maxHeight = 24
+				format = center
+				alwaystransparent = yes
+			}
+
+			instantTextboxType = {
+				name = "civilian_project_cost"
+				position = {x = 72 y = 210}
+				font = "ws_24r"
+				text = "[?civilian_project_healthcare_cost]"
+				maxWidth = 200
+				maxHeight = 24
+				format = center
+				alwaystransparent = yes
+			}
+
+			iconType = {
+				name = "civilian_project_healthcare_icon"
+				position = {x = 135 y = 130}	
+				spriteType = "GFX_civilian_project_healthcare_icon"
+				frame = 2
+				alwaystransparent = yes
+			}
+
+			iconType = {
+				name = "civilian_project_healthcare_icon_selected"
+				position = {x = 135 y = 130}	
+				spriteType = "GFX_civilian_project_healthcare_icon"
+				frame = 1
+				alwaystransparent = yes
+			}
+
+		}
+
+		containerWindowType = {
+        	name = "districts_civilian_project_education_card"
+        	position = { x = -572 y = -231 }
+        	size = { width = 172 height = 231 }
+        	Orientation = CENTER
+
+			buttonType = {
+				name = "districts_civilian_project_education_button"
+				position = { x = 0 y = 0 }
+				spriteType = "GFX_civilian_project_button"
+				Orientation = CENTER
+			}
+
+			buttonType = {
+				name = "districts_civilian_project_education_button_selected"
+				position = { x = 0 y = 0 }
+				spriteType = "GFX_civilian_project_button"
+				frame = 2
+				Orientation = CENTER
+			}
+
+			iconType = {
+				name = "civilian_project_project_education_tooltip"
+				position = {x = 100 y = 300}	
+				spriteType = "GFX_civilian_project_project_tooltip"
+				frame = 5
+				alwaystransparent = yes
+			}
+
+			iconType = {
+				name = "civilian_project_project_education_tooltip_selected"
+				position = {x = 100 y = 300}	
+				spriteType = "GFX_civilian_project_project_tooltip"
+				frame = 6
+				alwaystransparent = yes
+			}
+
+			instantTextboxType = {
+				name = "name_of_the_project_education"
+				position = {x = 72 y = 260}
+				font = "ws_24r"
+				text = "education_project"
+				maxWidth = 200
+				maxHeight = 24
+				format = center
+				alwaystransparent = yes
+			}
+
+			instantTextboxType = {
+				name = "name_of_the_project_education_selected"
+				position = {x = 72 y = 220}
+				font = "ws_24dr"
+				text = "education_project"
+				frame = 2
+				maxWidth = 200
+				maxHeight = 24
+				format = center
+				alwaystransparent = yes
+			}
+
+			instantTextboxType = {
+				name = "billions"
+				position = {x = 72 y = 237}
+				font = "ws_16r"
+				text = "civilian_project_billions"
+				maxWidth = 200
+				maxHeight = 24
+				format = center
+				alwaystransparent = yes
+			}
+
+			instantTextboxType = {
+				name = "civilian_project_cost"
+				position = {x = 72 y = 210}
+				font = "ws_24r"
+				text = "[?civilian_project_education_cost]"
+				maxWidth = 200
+				maxHeight = 24
+				format = center
+				alwaystransparent = yes
+			}
+
+			iconType = {
+				name = "civilian_project_education_icon"
+				position = {x = 135 y = 130}	
+				spriteType = "GFX_civilian_project_education_icon"
+				frame = 2
+				alwaystransparent = yes
+			}
+
+			iconType = {
+				name = "civilian_project_education_icon_selected"
+				position = {x = 135 y = 130}	
+				spriteType = "GFX_civilian_project_education_icon"
+				frame = 1
+				alwaystransparent = yes
+			}
+
+		}
+
+		containerWindowType = {
+        	name = "districts_civilian_project_social_programs_for_the_poor_card"
+        	position = { x = 30 y = -231 }
+        	size = { width = 172 height = 231 }
+        	Orientation = CENTER
+
+			buttonType = {
+				name = "districts_civilian_project_social_programs_for_the_poor_button"
+				position = { x = 0 y = 0 }
+				spriteType = "GFX_civilian_project_button"
+				Orientation = CENTER
+			}
+
+			buttonType = {
+				name = "districts_civilian_project_social_programs_for_the_poor_button_selected"
+				position = { x = 0 y = 0 }
+				spriteType = "GFX_civilian_project_button"
+				frame = 2
+				Orientation = CENTER
+			}
+
+			iconType = {
+				name = "civilian_project_project_social_programs_for_the_poor_tooltip"
+				position = {x = 100 y = 300}	
+				spriteType = "GFX_civilian_project_project_tooltip"
+				frame = 5
+				alwaystransparent = yes
+			}
+
+			iconType = {
+				name = "civilian_project_project_social_programs_for_the_poor_tooltip_selected"
+				position = {x = 100 y = 300}	
+				spriteType = "GFX_civilian_project_project_tooltip"
+				frame = 6
+				alwaystransparent = yes
+			}
+
+			instantTextboxType = {
+				name = "name_of_the_project_social_programs_for_the_poor"
+				position = {x = 94 y = 260}
+				font = "ws_18r"
+				text = "social_programs_for_the_poor_project"
+				maxWidth = 160
+				maxHeight = 24
+				format = center
+				alwaystransparent = yes
+			}
+
+			instantTextboxType = {
+				name = "name_of_the_project_social_programs_for_the_poor_selected"
+				position = {x = 94 y = 220}
+				font = "ws_24dr"
+				text = "social_programs_for_the_poor_project"
+				frame = 2
+				maxWidth = 160
+				maxHeight = 24
+				format = center
+				alwaystransparent = yes
+			}
+
+			instantTextboxType = {
+				name = "billions"
+				position = {x = 72 y = 237}
+				font = "ws_16r"
+				text = "civilian_project_billions"
+				maxWidth = 200
+				maxHeight = 24
+				format = center
+				alwaystransparent = yes
+			}
+
+			instantTextboxType = {
+				name = "civilian_project_cost"
+				position = {x = 72 y = 210}
+				font = "ws_24r"
+				text = "[?civilian_project_social_programs_for_the_poor_cost]"
+				maxWidth = 200
+				maxHeight = 24
+				format = center
+				alwaystransparent = yes
+			}
+
+			iconType = {
+				name = "civilian_project_social_programs_for_the_poor_icon"
+				position = {x = 135 y = 130}	
+				spriteType = "GFX_civilian_project_social_programs_for_the_poor_icon"
+				frame = 2
+				alwaystransparent = yes
+			}
+
+			iconType = {
+				name = "civilian_project_social_programs_for_the_poor_icon_selected"
+				position = {x = 135 y = 130}	
+				spriteType = "GFX_civilian_project_social_programs_for_the_poor_icon"
+				frame = 1
+				alwaystransparent = yes
+			}
+
+		}
+
+		containerWindowType = {
+        	name = "districts_civilian_project_city_market_card"
+        	position = { x = 230 y = -231 }
+        	size = { width = 172 height = 231 }
+        	Orientation = CENTER
+
+			buttonType = {
+				name = "districts_civilian_project_city_market_button"
+				position = { x = 0 y = 0 }
+				spriteType = "GFX_civilian_project_button"
+				Orientation = CENTER
+			}
+
+			buttonType = {
+				name = "districts_civilian_project_city_market_button_selected"
+				position = { x = 0 y = 0 }
+				spriteType = "GFX_civilian_project_button"
+				frame = 2
+				Orientation = CENTER
+			}
+
+			iconType = {
+				name = "civilian_project_project_city_market_tooltip"
+				position = {x = 100 y = 300}	
+				spriteType = "GFX_civilian_project_project_tooltip"
+				frame = 5
+				alwaystransparent = yes
+			}
+
+			iconType = {
+				name = "civilian_project_project_city_market_tooltip_selected"
+				position = {x = 100 y = 300}	
+				spriteType = "GFX_civilian_project_project_tooltip"
+				frame = 6
+				alwaystransparent = yes
+			}
+
+			instantTextboxType = {
+				name = "name_of_the_project_city_market"
+				position = {x = 72 y = 260}
+				font = "ws_24r"
+				text = "city_market_project"
+				maxWidth = 200
+				maxHeight = 24
+				format = center
+				alwaystransparent = yes
+			}
+
+			instantTextboxType = {
+				name = "name_of_the_project_city_market_selected"
+				position = {x = 72 y = 220}
+				font = "ws_24dr"
+				text = "city_market_project"
+				frame = 2
+				maxWidth = 200
+				maxHeight = 24
+				format = center
+				alwaystransparent = yes
+			}
+
+			instantTextboxType = {
+				name = "billions"
+				position = {x = 72 y = 237}
+				font = "ws_16r"
+				text = "civilian_project_billions"
+				maxWidth = 200
+				maxHeight = 24
+				format = center
+				alwaystransparent = yes
+			}
+
+			instantTextboxType = {
+				name = "civilian_project_cost"
+				position = {x = 72 y = 210}
+				font = "ws_24r"
+				text = "[?civilian_project_city_market_cost]"
+				maxWidth = 200
+				maxHeight = 24
+				format = center
+				alwaystransparent = yes
+			}
+
+			iconType = {
+				name = "civilian_project_city_market_icon"
+				position = {x = 135 y = 130}	
+				spriteType = "GFX_civilian_project_city_market_icon"
+				frame = 2
+				alwaystransparent = yes
+			}
+
+			iconType = {
+				name = "civilian_project_city_market_icon_selected"
+				position = {x = 135 y = 130}	
+				spriteType = "GFX_civilian_project_city_market_icon"
+				frame = 1
+				alwaystransparent = yes
+			}
+
+		}
+	}	
 }

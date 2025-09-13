@@ -62,7 +62,7 @@ guiTypes = {
 				rotation=-0.0
 				position = { x = -450 y = -200 }
 				textureFile = ""
-				font = "ws_18"
+				font = "ws_18_tooltip"
 				borderSize = {x = 0 y = 0}
 				text = ""	
 				maxWidth = 900

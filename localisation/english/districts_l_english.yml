@@ -3,3 +3,12 @@
  local_sosat:0 "[sosat]"
  sosats:0 "[?camelia_office]"
  build_office_button_text:0 "Build Office"
+ select_civilian_project_button_text:0 "Select Civilian Project"
+
+ leisure_project:0 "LEISURE"
+ healthcare_project:0 "HEALTHCARE"
+ education_project:0 "EDUCATION"
+ social_programs_for_the_poor_project:0 "SOCIAL PROGRAMS FOR THE POOR"
+ city_market_project:0 "CITY MARKET"
+
+ civilian_project_billions:0 "Billions"

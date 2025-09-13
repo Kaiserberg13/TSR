@@ -13,6 +13,8 @@ set_popularities = {
     democratic = 83
 }
 
+set_cosmetic_tag = BALTIC_DUCHY
+
 #set_variable
 
 #set_technology

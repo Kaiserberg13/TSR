@@ -8,13 +8,15 @@ on_actions = {
                 limit = {
                     is_ai = no
                 }
+
                 # variables to set up
                 set_variable = { OFFICE_CONSTRUCTION_DAYS = 7 }
-                set_variable = { OFFICE_CONSTRUCTION_EFFICIENCY = 5 } # 37% efficiency
+                set_variable = { OFFICE_CONSTRUCTION_EFFICIENCY = 63 } # 37% efficiency
                 set_variable = { OFFICE_CONSTRUCTION_CURRENT_DAY = 0 }
                 set_variable = { office_total_days = 0 }
                 set_variable = { office_remaining_days = 0 }
                 set_variable = { office_progress = 0 }
+                set_variable = { civilian_project_leisure_cost = 2 }
             }
             ############################################
             # Germany
@@ -452,7 +454,7 @@ on_weekly = {
 
                     set_variable = { office_total_days     = var:ROOT.temp_total_ofd }
                     set_variable = { office_remaining_days = var:ROOT.temp_total_ofd }
-                    set_variable = { office_progress       = 0 }
+                    set_variable = { office_progress = 0 }
 
                     log = "Init total_days = [?office_total_days], remaining = [?office_remaining_days]"
                 }
@@ -474,6 +476,7 @@ on_weekly = {
                         limit = { check_variable = { office_total_days > 0 } }
                         set_variable   = { office_progress = var:done }
                         divide_variable = { office_progress = var:office_total_days }
+                        multiply_variable = { office_progress = 100 }
                         log = "Progress: [?office_progress] ([?done]/[?office_total_days])"
                     }
 
@@ -481,7 +484,7 @@ on_weekly = {
                     if = {
                         limit = { check_variable = { office_remaining_days = 0 } }
                         clr_state_flag = districts_office_construction_in_progress
-
+                        set_variable   = { office_progress = 0 }
                         FROM = { add_political_power = 25 }
                         log = ">>> [This.GetName] – Construction Completed <<<"
 

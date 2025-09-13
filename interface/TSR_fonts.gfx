@@ -154,4 +154,51 @@ bitmapfonts = {
             G = { 86 172 91 }
         }
     }
+
+
+    bitmapfont = {
+        name = "ws_12dr"
+		path = "gfx/fonts/cyberpunk_12"
+        color = 0xff170605
+
+        textcolors = {
+            G = { 86 172 91 }
+        }
+    }
+    bitmapfont = {
+        name = "ws_16dr"
+		path = "gfx/fonts/cyberpunk_16"
+        color = 0xff170605
+
+        textcolors = {
+            G = { 86 172 91 }
+        }
+    }
+    bitmapfont = {
+        name = "ws_18dr"
+		path = "gfx/fonts/cyberpunk_18"
+        color = 0xff170605
+
+        textcolors = {
+            G = { 86 172 91 }
+        }
+    }
+    bitmapfont = {
+        name = "ws_24dr"
+		path = "gfx/fonts/cyberpunk_24"
+        color = 0xff170605
+
+        textcolors = {
+            G = { 86 172 91 }
+        }
+    }
+	bitmapfont = {
+        name = "ws_36dr"
+		path = "gfx/fonts/cyberpunk_36"
+        color = 0xff170605
+
+        textcolors = {
+            G = { 86 172 91 }
+        }
+    }
 }
