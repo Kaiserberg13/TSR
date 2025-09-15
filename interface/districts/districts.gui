@@ -48,16 +48,6 @@ guiTypes = {
 				quadtexturesprite = "GFX_stateview_office_construction_progress"
 				position = { x = 10 y = 147 }
 			}
-
-		instantTextboxType = {
-			name = "ssss"
-			position = {x=14 y=43}
-			font = "hoi_18mbs"
-			text = local_sosat
-			maxWidth = 200
-			maxHeight = 23
-			format = left
-		}
 	}
 
 	containerWindowType = {
@@ -68,7 +58,7 @@ guiTypes = {
 		Orientation = CENTER
 		origo = center
 
-		fade_time = 200
+		fade_time = 380
 		fade_type = linear
 
 		background = {
@@ -234,7 +224,7 @@ guiTypes = {
 		Orientation = CENTER
 		origo = center
 
-		fade_time = 200
+		fade_time = 380
 		fade_type = linear
 
 		background = {
@@ -420,7 +410,7 @@ guiTypes = {
 		Orientation = CENTER
 		origo = center
 
-		fade_time = 200
+		fade_time = 380
 		fade_type = linear
 
 		background = {
@@ -442,12 +432,6 @@ guiTypes = {
 			Orientation = UPPER_RIGHT
 		}
 
-		buttonType = {
-			name = "districts_select_civilian_project_close_button"
-			position = { x = -100 y = 50 }
-			spriteType = "GFX_close_tab"
-			Orientation = UPPER_RIGHT
-		}
 
 		containerWindowType = {
         	name = "districts_civilian_project_leisure_card"

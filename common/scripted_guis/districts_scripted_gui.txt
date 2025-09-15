@@ -69,6 +69,7 @@ scripted_gui = {
         window_name = "districts_build_office_window"
         context_type = player_context
 		parent_window_token = districts_window
+		
          
         visible = {
 			ROOT = {

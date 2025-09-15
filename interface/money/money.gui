@@ -1,0 +1,225 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "open_money_window"
+		position = { x = 73 y = 0 }
+		size = { width = 50 height = 50 }
+		clipping = no
+
+		background = {
+			name = "Background"	
+			spriteType = "GFX_a_empty"
+		}	
+				
+		buttonType = {
+			name = "open_button"
+			position = { x = 27 y = 504 }
+			spriteType = "GFX_economic_button"
+		}
+		
+	}
+
+	containerWindowType = {
+		name = "money_window"
+		position = { x=0 y=0 }	
+		size = { width = 2560 height = 1440 }
+		clipping = no
+		Orientation = CENTER
+		origo = center
+
+		fade_time = 380
+		fade_type = linear
+
+		background = {
+			name = "Background"	
+			spriteType = "GFX_a_empty"
+		}	
+				
+		iconType = {
+			name = "districts_build_office_bg"
+			position = {x = 0 y = 0}	
+			spriteType = "GFX_corpo_window_bg"
+			alwaystransparent = no
+			
+		}
+
+		buttonType = {
+			name = "money_close_button"
+			position = { x = -100 y = 50 }
+			spriteType = "GFX_close_tab"
+			Orientation = UPPER_RIGHT
+		}
+
+		iconType = {
+			name = "money_bg"
+			position = {x = -474 y = -340}	
+			spriteType = "GFX_money_bg"
+			alwaystransparent = no
+			Orientation = CENTER	
+		}
+
+		iconType = {
+			name = "money_taxes_bg"
+			position = {x = -710 y = -255}	
+			spriteType = "GFX_money_taxes_bg"
+			alwaystransparent = no
+			Orientation = CENTER	
+		}
+
+		iconType = {
+			name = "money_data_bg"
+			position = {x = 500 y = -255}	
+			spriteType = "GFX_money_data_bg"
+			alwaystransparent = no
+			Orientation = CENTER	
+		}
+
+		buttonType = {
+			name = "money_taxes_button"
+			position = { x = -700 y = -160 }
+			spriteType = "GFX_money_button_category_taxes"
+			Orientation = CENTER
+		}
+
+		iconType = {
+			name = "money_taxes_button_selected"
+			position = {x = -700 y = -160}	
+			spriteType = "GFX_money_button_category_taxes"
+			frame = 2
+			alwaystransparent = no
+			Orientation = CENTER	
+		}
+
+		buttonType = {
+			name = "money_finances_button"
+			position = { x = 518 y = -160 }
+			spriteType = "GFX_money_button_category_finances"
+			Orientation = CENTER
+		}
+
+		iconType = {
+			name = "money_finances_button_selected"
+			position = {x = 518 y = -160}	
+			spriteType = "GFX_money_button_category_finances"
+			frame = 2
+			alwaystransparent = no
+			Orientation = CENTER	
+		}
+
+		buttonType = {
+			name = "money_army_button"
+			position = { x = -700 y = -92 }
+			spriteType = "GFX_money_button_category_army"
+			Orientation = CENTER
+		}
+
+		iconType = {
+			name = "money_army_button_selected"
+			position = {x = -700 y = -92}	
+			spriteType = "GFX_money_button_category_army"
+			frame = 2
+			alwaystransparent = no
+			Orientation = CENTER	
+		}
+
+		buttonType = {
+			name = "money_unemploy_button"
+			position = { x = 518 y = -92 }
+			spriteType = "GFX_money_button_category_unemployment"
+			Orientation = CENTER
+		}
+		
+		iconType = {
+			name = "money_unemploy_button_selected"
+			position = {x = 518 y = -92}	
+			spriteType = "GFX_money_button_category_unemployment"
+			frame = 2
+			alwaystransparent = no
+			Orientation = CENTER	
+		}
+
+		buttonType = {
+			name = "money_energy_button"
+			position = { x = -700 y = -20 }
+			spriteType = "GFX_money_button_category_energy"
+			Orientation = CENTER
+		}
+
+		iconType = {
+			name = "money_energy_button_selected"
+			position = {x = -700 y = -20}	
+			spriteType = "GFX_money_button_category_energy"
+			frame = 2
+			alwaystransparent = no
+			Orientation = CENTER	
+		}
+
+		buttonType = {
+			name = "money_wages_button"
+			position = { x = 518 y = -20 }
+			spriteType = "GFX_money_button_category_wages"
+			Orientation = CENTER
+		}
+
+		iconType = {
+			name = "money_wages_button_selected"
+			position = {x = 518 y = -20}	
+			spriteType = "GFX_money_button_category_wages"
+			frame = 2
+			alwaystransparent = no
+			Orientation = CENTER	
+		}
+
+		buttonType = {
+			name = "money_error_button"
+			position = { x = -700 y = 50 }
+			spriteType = "GFX_money_button_category_error"
+			Orientation = CENTER
+		}
+
+		buttonType = {
+			name = "money_inflation_button"
+			position = { x = 518 y = 50 }
+			spriteType = "GFX_money_button_category_inflation"
+			Orientation = CENTER
+		}
+
+		iconType = {
+			name = "money_inflation_button_selected"
+			position = {x = 518 y = 50 }	
+			spriteType = "GFX_money_button_category_inflation"
+			frame = 2
+			alwaystransparent = no
+			Orientation = CENTER	
+		}
+
+		buttonType = {
+			name = "money_error_button_2"
+			position = { x = -700 y = 120 }
+			spriteType = "GFX_money_button_category_error"
+			Orientation = CENTER
+		}
+
+		buttonType = {
+			name = "money_error_button_3"
+			position = { x = 518 y = 120 }
+			spriteType = "GFX_money_button_category_error"
+			Orientation = CENTER
+		}
+
+		buttonType = {
+			name = "money_error_button_4"
+			position = { x = -700 y = 190 }
+			spriteType = "GFX_money_button_category_error"
+			Orientation = CENTER
+		}
+
+		buttonType = {
+			name = "money_error_button_5"
+			position = { x = 518 y = 190 }
+			spriteType = "GFX_money_button_category_error"
+			Orientation = CENTER
+		}
+		
+	}
+}

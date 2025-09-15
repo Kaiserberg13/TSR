@@ -1,16 +1,17 @@
 capital = 1
 set_politics = {
-    ruling_party = democratic
+    ruling_party = neutrality
     last_election = "2967.6.1.12"
     election_frequency = 96
     elections_allowed = no
 }
 set_popularities = {
-    fascism = 2
-    darwinism = 1
-    globalism = 2
-    communism = 2
-    democratic = 93
+    fascism = 0
+    darwinism = 0
+    globalism = 44
+    communism = 0
+    democratic = 0
+    neutrality = 56
 }
 
 #set_variable

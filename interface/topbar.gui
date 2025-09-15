@@ -114,7 +114,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name ="pol_power"
 			position = { x= 330 y = 7 }
-			font = "ws_18r"
+			font = "ws_18"
 			text = "999"
 			format = center
 			maxWidth = 80
@@ -132,7 +132,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name ="manpower"
 			position = { x= 660 y = 7 }
-			font = "ws_18r"
+			font = "ws_18"
 			text = "9999"
 			format = center
 			maxWidth = 100
@@ -150,7 +150,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name ="stability"
 			position = { x= 210 y = 7 }
-			font = "ws_18r"
+			font = "ws_18"
 			text = "100%"
 			format = center
 			maxWidth = 57
@@ -169,7 +169,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name ="war_support"
 			position = { x= 510 y = 7 }
-			font = "ws_18r"
+			font = "ws_18"
 			text = "100%"
 			format = center
 			maxWidth = 65
@@ -181,6 +181,7 @@ guiTypes = {
 			name = "land"
 			position = { x= 810 y = 75}
 			clipping = no
+			moveable = yes
 			size = { width=62 height=30 }
 			Orientation = UPPER_LEFT
 
@@ -214,6 +215,7 @@ guiTypes = {
 			name = "navy"
 			position = { x= 871 y = 75}
 			clipping = no
+			moveable = yes
 			size = { width=62 height=30 }
 			Orientation = UPPER_LEFT
 				
@@ -247,6 +249,7 @@ guiTypes = {
 			name = "air"
 			position = { x= 931 y = 75}
 			clipping = no
+			moveable = yes
 			size = { width=62 height=30 }
 			Orientation = UPPER_LEFT
 			
@@ -354,7 +357,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name ="industrial_capacity"
 			position = { x= 830 y = 7 } 
-			font = "ws_18r"
+			font = "ws_18"
 			text = "12/12/12"
 			format = center
 			maxWidth = 60
@@ -375,7 +378,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name ="convoys_count"
 			position = { x= 963 y = 7 }
-			font = "ws_18r"
+			font = "ws_18"
 			text = "0"
 			format = center
 			maxWidth = 60

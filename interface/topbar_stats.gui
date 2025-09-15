@@ -9,6 +9,14 @@ guiTypes = {
 			alwaystransparent = yes
 			spriteType = "GFX_frontend_bg_tv"
 		}
+
+		iconType = {
+			name = "fronted_bg_vignette"
+			position = {x = 0 y = 0}	
+			spriteType = "GFX_fronted_bg_vignette"
+			alwaystransparent = yes
+			
+		}
 	}
 	containerWindowType = {
 		name = "ws_top_bar_swap_default_window"

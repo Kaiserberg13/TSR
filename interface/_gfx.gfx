@@ -818,6 +818,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/gamesetup_load_bg.dds"
 	}
 	spriteType = {
+		name = "GFX_fronted_bg_vignette"
+		texturefile = "gfx/interface/fronted_bg_vignette.png"
+	}
+	spriteType = {
 		name = "GFX_savedgamerules_load_bg"
 		texturefile = "gfx/interface/savedgamerules_load_bg.dds"
 	}

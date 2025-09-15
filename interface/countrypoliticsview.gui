@@ -497,7 +497,7 @@ guiTypes = {
 			buttonType = {
 				name = "show_subjects_button"
 				position = { x = 0 y = 0 }
-				quadTextureSprite = "GFX_ws_puppet_button"
+				quadTextureSprite = "GFX_puppet_button"
 				buttonFont = "hoi_16mbs"
 				Orientation = "UPPER_RIGHT"
 			}

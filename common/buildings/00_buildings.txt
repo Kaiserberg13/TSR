@@ -586,7 +586,7 @@ buildings = {
 	}
 	mech_production_plant = {
 		show_on_map = 6
-		base_cost = 12800
+		base_cost = 15800
 		icon_frame = 35
 		value = 5
 		infrastructure_construction_effect = yes

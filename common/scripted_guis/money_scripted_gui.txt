@@ -1,0 +1,142 @@
+scripted_gui = {
+
+	open_money_scripted_gui = {
+	    context_type = player_context
+	    parent_window_token = politics_tab
+		window_name = "open_money_window"
+	       
+	    visible = {
+	    }
+	    
+	    triggers = {
+		}
+
+		effects = {
+			open_button_click = {
+				ROOT = { set_country_flag = open_countrymoneyview }
+			}
+		}
+	}
+
+
+
+	money_scripted_gui = {
+	    context_type = player_context
+		parent_window_token = open_money_window
+		window_name = "money_window"
+	       
+	    visible = {
+			ROOT = {
+				has_country_flag = open_countrymoneyview
+			}
+	    }
+	   
+		effects = {
+    		money_close_button_click = {
+    		    ROOT = { clr_country_flag = open_countrymoneyview }
+    		}
+    		money_taxes_button_click = {
+    		    ROOT = { 
+    		        set_country_flag = money_taxes_view 
+    		        clr_country_flag = money_inflation_view
+    		        clr_country_flag = money_army_view
+    		        clr_country_flag = money_unemploy_view
+    		        clr_country_flag = money_energy_view
+    		        clr_country_flag = money_wages_view
+					clr_country_flag = money_finances_view
+    		    }
+    		}
+    		money_inflation_button_click = {
+    		    ROOT = { 
+    		        set_country_flag = money_inflation_view
+    		        clr_country_flag = money_taxes_view
+    		        clr_country_flag = money_army_view
+    		        clr_country_flag = money_unemploy_view
+    		        clr_country_flag = money_energy_view
+    		        clr_country_flag = money_wages_view
+					clr_country_flag = money_finances_view
+    		    }
+    		}
+    		money_army_button_click = {
+    		    ROOT = { 
+    		        set_country_flag = money_army_view
+    		        clr_country_flag = money_taxes_view
+    		        clr_country_flag = money_inflation_view
+    		        clr_country_flag = money_unemploy_view
+    		        clr_country_flag = money_energy_view
+    		        clr_country_flag = money_wages_view
+					clr_country_flag = money_finances_view
+    		    }
+    		}
+    		money_unemploy_button_click = {
+    		    ROOT = { 
+    		        set_country_flag = money_unemploy_view
+    		        clr_country_flag = money_taxes_view
+    		        clr_country_flag = money_inflation_view
+    		        clr_country_flag = money_army_view
+    		        clr_country_flag = money_energy_view
+    		        clr_country_flag = money_wages_view
+					clr_country_flag = money_finances_view
+    		    }
+    		}
+    		money_energy_button_click = {
+    		    ROOT = { 
+    		        set_country_flag = money_energy_view
+    		        clr_country_flag = money_taxes_view
+    		        clr_country_flag = money_inflation_view
+    		        clr_country_flag = money_army_view
+    		        clr_country_flag = money_unemploy_view
+    		        clr_country_flag = money_wages_view
+					clr_country_flag = money_finances_view
+    		    }
+    		}
+    		money_wages_button_click = {
+        		ROOT = { 
+        		    set_country_flag = money_wages_view
+        		    clr_country_flag = money_taxes_view
+        		    clr_country_flag = money_inflation_view
+        		    clr_country_flag = money_army_view
+        		    clr_country_flag = money_unemploy_view
+        		    clr_country_flag = money_energy_view
+					clr_country_flag = money_finances_view
+        		}
+			}
+
+			money_finances_button_click = {
+        		ROOT = { 
+        		    set_country_flag = money_finances_view
+        		    clr_country_flag = money_taxes_view
+        		    clr_country_flag = money_inflation_view
+        		    clr_country_flag = money_army_view
+        		    clr_country_flag = money_unemploy_view
+        		    clr_country_flag = money_energy_view
+					clr_country_flag = money_wages_view
+        		}
+			}
+		}
+
+        triggers = {
+            money_taxes_button_selected_visible = {
+                ROOT = { has_country_flag = money_taxes_view }
+            }
+			money_finances_button_selected_visible = {
+                ROOT = { has_country_flag = money_finances_view }
+            }
+            money_army_button_selected_visible = {
+                ROOT = { has_country_flag = money_army_view }
+            }
+            money_unemploy_button_selected_visible = {
+                ROOT = { has_country_flag = money_unemploy_view }
+            }
+            money_energy_button_selected_visible = {
+                ROOT = { has_country_flag = money_energy_view }
+            }
+            money_wages_button_selected_visible = {
+                ROOT = { has_country_flag = money_wages_view }
+            }
+			money_inflation_button_selected_visible = {
+                ROOT = { has_country_flag = money_inflation_view }
+            }
+        }
+	}
+}

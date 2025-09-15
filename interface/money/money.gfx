@@ -1,0 +1,109 @@
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_money_bg"
+		texturefile = "gfx/interface/money/money_bg.png"
+	}
+
+	spriteType = {
+		name = "GFX_money_button_category_army"
+		texturefile = "gfx/interface/money/money_button_category_army.png"
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_money_button_category_energy"
+		texturefile = "gfx/interface/money/money_button_category_energy.png"
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_money_button_category_error"
+		texturefile = "gfx/interface/money/money_button_category_error.png"
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_money_button_category_error_2"
+		texturefile = "gfx/interface/money/money_button_category_error_2.png"
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_money_button_category_inflation"
+		texturefile = "gfx/interface/money/money_button_category_inflation.png"
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_money_button_category_taxes"
+		texturefile = "gfx/interface/money/money_button_category_taxes.png"
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_money_button_category_unemployment"
+		texturefile = "gfx/interface/money/money_button_category_unemployment.png"
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_money_button_category_finances"
+		texturefile = "gfx/interface/money/money_button_category_finances.png"
+		noOfFrames = 2
+	}
+
+	spriteType = {	
+		name = "GFX_money_button_category_wages"
+		texturefile = "gfx/interface/money/money_button_category_wages.png"
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_money_data_bg_1"
+		texturefile = "gfx/interface/money/money_data_bg-1.png"
+	}
+
+	spriteType = {
+		name = "GFX_money_data_bg"
+		texturefile = "gfx/interface/money/money_data_bg.png"
+	}
+
+	spriteType = {
+		name = "GFX_money_taxes_bg"
+		texturefile = "gfx/interface/money/money_taxes_bg.png"
+	}
+
+
+	SpriteType = {
+		name = "GFX_corp_button"
+		texturefile = "gfx/interface/folders/corp_button.dds"
+		noOfFrames = 2
+	}
+	SpriteType = {
+		name = "GFX_economic_button"
+		texturefile = "gfx/interface/folders/economic_button.dds"
+		noOfFrames = 2
+	}
+	SpriteType = {
+		name = "GFX_energy_button"
+		texturefile = "gfx/interface/folders/energy_button.dds"
+		noOfFrames = 2
+	}
+	SpriteType = {
+		name = "GFX_exile_government_button"
+		texturefile = "gfx/interface/folders/exile_government_button.dds"
+		noOfFrames = 2
+	}
+	SpriteType = {
+		name = "GFX_puppet_button"
+		texturefile = "gfx/interface/folders/puppet_button.dds"
+		noOfFrames = 2
+	}
+	SpriteType = {
+		name = "GFX_resistance_button"
+		texturefile = "gfx/interface/folders/resistance_button.dds"
+		noOfFrames = 2
+	}
+
+}
