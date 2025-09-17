@@ -25,6 +25,16 @@ guiTypes = {
 			alwaystransparent = yes
 		}
 
+		instantTextboxType = {
+			name = "offices_count"
+			position = {x=94 y=128}
+			font = "ws_18"
+			text = "[?THIS.total_offices]/[?THIS.office_cap]"
+			maxWidth = 100
+			maxHeight = 23
+			format = right
+		}
+
 		buttonType = {
 			name = "build_office_button"
 			position = { x = 12 y = 161 }

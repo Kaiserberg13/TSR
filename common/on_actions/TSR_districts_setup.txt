@@ -11,12 +11,14 @@ on_actions = {
 
                 # variables to set up
                 set_variable = { OFFICE_CONSTRUCTION_DAYS = 7 }
-                set_variable = { OFFICE_CONSTRUCTION_EFFICIENCY = 63 } # 37% efficiency
+                set_variable = { OFFICE_CONSTRUCTION_EFFICIENCY = 5 } # 37% efficiency 63
                 set_variable = { OFFICE_CONSTRUCTION_CURRENT_DAY = 0 }
                 set_variable = { office_total_days = 0 }
                 set_variable = { office_remaining_days = 0 }
                 set_variable = { office_progress = 0 }
+                set_variable = { state_offices_count = 0 }
                 set_variable = { civilian_project_leisure_cost = 2 }
+                
             }
             ############################################
             # Germany
@@ -25,6 +27,8 @@ on_actions = {
             # Berlin
             200 = {
                 add_to_array = { global.districts = THIS.id }
+                set_variable = { total_offices = 5 }
+                set_variable = { office_cap = building_level@corporate_district }
             
                 # Camelia spheres
                 set_variable = { var = camelia_office value = 2 } # offices
@@ -104,6 +108,9 @@ on_actions = {
             # Frankfurt
             994  = {
                 add_to_array = { global.districts = THIS.id }
+                set_variable = { total_offices = 0 }
+                set_variable = { total_offices = 0 }
+                set_variable = { office_cap = building_level@corporate_district }
             
                 # Camelia spheres
                 set_variable = { var = camelia_office value = 0 } # offices
@@ -183,6 +190,9 @@ on_actions = {
             # Hamburg
             1004  = {
                 add_to_array = { global.districts = THIS.id }
+                set_variable = { total_offices = 0 }
+                set_variable = { total_offices = 1 }
+                set_variable = { office_cap = building_level@corporate_district }
             
                 # Camelia spheres
                 set_variable = { var = camelia_office value = 1 } # offices
@@ -262,6 +272,9 @@ on_actions = {
             # Munchen
             986  = {
                 add_to_array = { global.districts = THIS.id }
+                set_variable = { total_offices = 0 }
+                set_variable = { total_offices = 0 }
+                set_variable = { office_cap = building_level@corporate_district }
             
                 # Camelia spheres
                 set_variable = { var = camelia_office value = 0 } # offices
@@ -345,6 +358,9 @@ on_actions = {
             # London
             37  = {
                 add_to_array = { global.districts = THIS.id }
+                set_variable = { total_offices = 0 }
+                set_variable = { total_offices = 0 }
+                set_variable = { office_cap = building_level@corporate_district }
             
                 # Camelia spheres
                 set_variable = { var = camelia_office value = 0 } # offices
@@ -438,10 +454,6 @@ on_weekly = {
                     }
                 }
 
-                log = ">>> [ROOT.GetName] – State: [This.GetName] <<<"
-                log = "Const Days: [?ROOT.OFFICE_CONSTRUCTION_DAYS] | Eff: [?ROOT.OFFICE_CONSTRUCTION_EFFICIENCY]"
-
-                # --- ИНИЦИАЛИЗАЦИЯ ---
                 if = {
                     limit = { has_state_flag = districts_office_construction_start_construction }
                     clr_state_flag = districts_office_construction_start_construction
@@ -459,7 +471,6 @@ on_weekly = {
                     log = "Init total_days = [?office_total_days], remaining = [?office_remaining_days]"
                 }
 
-                # --- ПРОГРЕСС СТРОЙКИ ---
                 if = {
                     limit = { has_state_flag = districts_office_construction_in_progress }
 
@@ -480,11 +491,10 @@ on_weekly = {
                         log = "Progress: [?office_progress] ([?done]/[?office_total_days])"
                     }
 
-                    # --- ЗАВЕРШЕНИЕ ---
                     if = {
                         limit = { check_variable = { office_remaining_days = 0 } }
                         clr_state_flag = districts_office_construction_in_progress
-                        set_variable   = { office_progress = 0 }
+                        set_variable = { office_progress = 0 }
                         FROM = { add_political_power = 25 }
                         log = ">>> [This.GetName] – Construction Completed <<<"
 

@@ -13,13 +13,47 @@ scripted_gui = {
 			build_office_button_click = {
 				FROM.FROM = {
 					set_state_flag = districts_selected_state
-					log = "Camelia: [?camelia_office|0]"
-					log = "Rotatosk: [?rotatosk_office|0]"
-      				log = "Sector 1 Rotatosk[0]: [?rota_mil]"
-					log = "Sector 2 Rotatosk[0]: [?rota_fac]"
-					log = "Sector 3 Rotatosk[0]: [?rota_pro]"
-				}
+					set_variable = { total_offices = var:camelia_office }
+    				add_to_variable = { total_offices = var:arstotzka_office }
+    				add_to_variable = { total_offices = var:rotatosk_office }
+    				add_to_variable = { total_offices = var:zaphkiel_office }
+    				add_to_variable = { total_offices = var:equonics_office }
+    				add_to_variable = { total_offices = var:local_office }
+    				add_to_variable = { total_offices = var:foreign_office }
+							
+					set_variable = { office_cap = building_level@corporate_district}
+					log = "Corporate districts: [?office_cap]"
+					log = "Corporate offices: [?total_offices]"
+    				multiply_variable = { office_cap = 2 }
+					ROOT = {
+						set_variable = { state_offices_count = total_offices}
+					}
 
+					    # === DEBUG LOGS ===
+    					log = "=== STATE OFFICE DEBUG FOR [This.GetName] ==="
+    					log = "Total offices (Camelia): [?camelia_office]"
+    					log = "Camelia sec: [?camelia_sec], fin: [?camelia_fin], res: [?camelia_res], agr: [?camelia_agr]"
+									
+    					log = "Total offices (Arstotzka): [?arstotzka_office]"
+    					log = "Arstotzka sec: [?arst_sec], med: [?arst_med], en: [?arst_en], res: [?arst_res]"
+									
+    					log = "Total offices (Rotatosk): [?rotatosk_office]"
+    					log = "Rotatosk mil: [?rota_mil], fac: [?rota_fac], pro: [?rota_pro]"
+									
+    					log = "Total offices (Zaphkiel): [?zaphkiel_office]"
+    					log = "Zaphkiel pro: [?zaph_pro], med: [?zaph_med], agr: [?zaph_agr]"
+									
+    					log = "Total offices (Equonics): [?equonics_office]"
+    					log = "Equonics med: [?equ_med], en: [?equ_en], res: [?equ_res]"
+									
+    					log = "Total offices (Local): [?local_office]"
+    					log = "Local mil: [?loc_0], fac: [?loc_1], pro: [?loc_2], sec: [?loc_3], fin: [?loc_4], med: [?loc_5], agr: [?loc_6], en: [?loc_7], resch: [?loc_8], resrc: [?loc_9]"
+									
+    					log = "Total offices (Foreign): [?foreign_office]"
+    					log = "Foreign mil: [?for_0], fac: [?for_1], pro: [?for_2], sec: [?for_3], fin: [?for_4], med: [?for_5], agr: [?for_6], en: [?for_7], resch: [?for_8], resrc: [?for_9]"
+									
+    					log = "=== END DEBUG ==="
+				}
 				if = {
 					limit = {
 						FROM.FROM = { 
@@ -38,11 +72,36 @@ scripted_gui = {
 								}
 							}
 						}
+						
 					}
-					ROOT = {
-						set_country_flag = corpo_build_office
-					}
+
+					if = {
+   						limit = { 
+							FROM.FROM = { 
+								check_variable = { total_offices < office_cap }
+							} 
+						}
+   						ROOT = { set_country_flag = corpo_build_office } 
+						log = "Corporate districts SSS: [?office_cap]"
+						else = {
+    				    	clr_state_flag = districts_selected_state
+							log = "Corporate districts DDD: [?office_cap]"
+    					}
+   					}
 				}
+				if = {
+   						limit = { 
+							FROM.FROM = { 
+								check_variable = { total_offices < office_cap }
+							} 
+						}
+   						ROOT = { set_country_flag = corpo_build_office } 
+						log = "Corporate districts SSS: [?office_cap]"
+						else = {
+    				    	clr_state_flag = districts_selected_state
+							log = "Corporate districts DDD: [?office_cap]"
+    					}
+   					}
 			}
 
 			select_civilian_project_button_click = {

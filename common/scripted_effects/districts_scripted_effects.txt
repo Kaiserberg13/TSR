@@ -259,36 +259,36 @@ destroy_camelia_office_to_state = {
 ############################################
 districts_set_corpo_scripted_effect = {
     if = {
+	    limit = { FROM = { has_country_flag = corpo_build_office_camelia } }
+	    set_state_flag = districts_office_construction_camelia
+	}
+    if = {
 	    limit = { FROM = {has_country_flag = corpo_build_office_rotatosk} }
 	    set_state_flag = districts_office_construction_rotatosk
 	}
 	if = {
-	    limit = { has_country_flag = corpo_build_office_zaphkiel }
+	    limit = { FROM = { has_country_flag = corpo_build_office_zaphkiel } }
 	    set_state_flag = districts_office_construction_zaphkiel
 	}
 	if = {
-	    limit = { has_country_flag = corpo_build_office_equonics }
+	    limit = { FROM = { has_country_flag = corpo_build_office_equonics } }
 	    set_state_flag = districts_office_construction_equonics
 	}
 	if = {
-	    limit = { has_country_flag = corpo_build_office_arstotzka }
+	    limit = { FROM = { has_country_flag = corpo_build_office_arstotzka } }
 	    set_state_flag = districts_office_construction_arstotzka
 	}
 	if = {
-	    limit = { has_country_flag = corpo_build_office_foreign }
+	    limit = { FROM = { has_country_flag = corpo_build_office_foreign } }
 	    set_state_flag = districts_office_construction_foreign
 	}
 	if = {
-	    limit = { has_country_flag = corpo_build_office_local }
+	    limit = { FROM = { has_country_flag = corpo_build_office_local } }
 	    set_state_flag = districts_office_construction_local
 	}
 	if = {
-	    limit = { has_country_flag = corpo_build_office_government }
+	    limit = { FROM = { has_country_flag = corpo_build_office_government } }
 	    set_state_flag = districts_office_construction_government
-	}
-	if = {
-	    limit = { has_country_flag = corpo_build_office_camelia }
-	    set_state_flag = districts_office_construction_camelia
 	}
 }
 
