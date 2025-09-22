@@ -17,6 +17,6 @@ buildings = {
 	}
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
-    manpower=10596602
+    manpower=20596602
     state_category = rural
 }

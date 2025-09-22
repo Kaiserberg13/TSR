@@ -17,3 +17,7 @@ set_popularities = {
 #set_variable
 
 #set_technology
+
+add_ideas = {
+    eurozone
+}

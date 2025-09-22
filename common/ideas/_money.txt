@@ -1,0 +1,19 @@
+ideas = {
+
+	country = {
+		eurozone = {
+			
+			allowed = {
+			}
+
+			picture = idea_eurozone
+			
+			modifier = {
+			}
+	
+			ai_will_do = {
+				factor = 0
+			}
+		}
+	}
+}

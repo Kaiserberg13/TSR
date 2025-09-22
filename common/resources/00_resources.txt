@@ -35,4 +35,22 @@ resources = {
 		cic = 0.125
 		convoys = 0.1
 	}
+
+	plasma = {
+		icon_frame = 7
+		cic = 0.125
+		convoys = 0.1
+	}
+
+	gold = {
+		icon_frame = 8
+		cic = 0.125
+		convoys = 0.1
+	}
+
+	elysium = {
+		icon_frame = 9
+		cic = 0.125
+		convoys = 0.1
+	}
 }
