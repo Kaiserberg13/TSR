@@ -163,19 +163,6 @@ buildings = {
 		}
 	}
 
-	office = {
-		show_on_map = 1
-		base_cost = 2500
-		is_buildable = no
-		per_level_extra_cost = 1500
-		disabled_in_dmz = yes
-		icon_frame = 38
-		value = 1
-		level_cap = {
-			province_max = 10
-		}		
-	}
-
 	bunker = {
 		show_on_map = 1
 		has_destroyed_mesh = yes

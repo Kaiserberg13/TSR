@@ -1,0 +1,206 @@
+on_actions = {
+    on_startup = {
+        effect = {
+            every_country = {
+                limit = { is_ai = no }    # remove this limit if AI countries need these vars
+
+                # ===== Core demographics =====
+                set_variable = { total_population = max_manpower_k }
+
+                set_variable = { workforce_share = 0.91 }       # share of population able to work
+                set_variable = { g_workforce = 0.55 }           # population with taxable income (Cuz we have kids and babushkas)
+                set_variable = { g_employed = 0 }               # total employed workers
+                set_variable = { g_unemployed = 0 }             # unemployed count
+                set_variable = { unemployment_percent = 0 }     # unemployment rate %
+                set_variable = { average_salary_percent = 1.713}  # Taxes from civs
+
+                set_variable = { TAX_CORP = 0.09}               # Taxes from companies/factories
+                set_variable = { TAX_CIVS = 0.24}               # Taxes from civs
+                set_variable = { TAX_ENERGY = 0.05}             # Taxes for energy
+                set_variable = { MIN_SALARY = 707}              # Taxes from civs
+                set_variable = { AVERAGE_SALARY = MIN_SALARY}   # Taxes from civs
+
+                multiply_variable = { AVERAGE_SALARY = average_salary_percent }
+
+
+                set_variable = { TOTAL_MONEY = 13.7}
+                set_variable = { TOTAL_DEBT = 59}
+
+                # ===== Income & budget =====
+                set_variable = { PROFIT_FROM_CFFF = 0.05}       # (Civilian) factories
+                set_variable = { PROFIT_FROM_OFFF = 0.24}       # Corporate districts
+                set_variable = { PROFIT_FROM_MFFF = 0.035}      # Mils
+                set_variable = { PROFIT_FROM_DFFF = 0.023}      # Dockyards
+                set_variable = { PROFIT_FROM_GFFF = 0.075}      # Graveyards
+                set_variable = { PROFIT_FROM_SFFF = 0.12}       # Servers
+                set_variable = { PROFIT_FROM_EFFF = 0.05}       # Energy
+                set_variable = { PROFIT_FROM_FFFF = 0.05}       # Farm
+
+                # ===== Expenses =====
+                set_variable = { EXPENSES_ON_ARFF = 0.05}       # Army
+                set_variable = { EXPENSES_ON_NAFF = 0.05}       # Navy
+                set_variable = { EXPENSES_ON_AIFF = 0.05}       # Air
+                set_variable = { EXPENSES_ON_EDFF = 0.05}       # Education
+                set_variable = { EXPENSES_ON_PGFF = 0.05}       # Plasma generator
+                set_variable = { EXPENSES_ON_CDFF = 0.05}       # Civilian districts
+
+                # ===== Calculated / temp =====
+                set_variable = { monthly_income = 0 }            # monthly income
+                set_variable = { monthly_expense = 0 }           # monthly expense
+                set_variable = { net_growth = 0 }               # net monthly  growth
+                set_variable = { gdp_nominal = 0 }              # nominal GDP
+                set_variable = { gdp_real = 0 }                 # real GDP (adjusted)
+                set_variable = { average_wage = 0 }             # average wage per worker
+                set_variable = { temp_calc = 0 }                # generic temp variable
+            }
+        }
+    }
+    on_monthly = {
+        effect = {
+            every_country = {
+
+                set_variable = { AVERAGE_SALARY = MIN_SALARY}   # Taxes from civs
+                multiply_variable = { AVERAGE_SALARY = average_salary_percent }
+
+                # ===== Workforce =====
+                set_variable = { total_population = max_manpower_k }        # total pop (thousands)
+                multiply_variable = { g_workforce = total_population }        # total pop (thousands)
+                set_variable = { g_employed = g_workforce }                 # total pop (thousands)
+                multiply_variable = { g_employed = workforce_share }    # working-age population
+                set_variable = { g_unemployed = g_workforce }
+                subtract_from_variable = { g_unemployed = g_employed } # unemployed = workforce - employed
+
+                set_variable = { unemployment_percent = g_unemployed }
+                divide_variable = { unemployment_percent = total_population }
+
+                # ===== Income =====
+                set_temp_variable = { t_profit_taxes = AVERAGE_SALARY }
+                multiply_temp_variable = { t_profit_taxes = g_employed }
+                multiply_temp_variable = { t_profit_taxes = TAX_CIVS }
+                set_variable = { tax_income = t_profit_taxes }
+
+
+                # monthly income teaxes
+                add_to_variable = { monthly_income = tax_income }
+
+
+                # from buildings
+                set_temp_variable = { t_profit_from_cfff = PROFIT_FROM_CFFF }      # (Civilian) factories
+                set_temp_variable = { t_profit_from_offf = PROFIT_FROM_OFFF }      # Corporate districts
+                set_temp_variable = { t_profit_from_mfff = PROFIT_FROM_MFFF }      # Mils
+                set_temp_variable = { t_profit_from_dfff = PROFIT_FROM_DFFF }      # Dockyards
+                set_temp_variable = { t_profit_from_gfff = PROFIT_FROM_GFFF }      # Graveyards
+                set_temp_variable = { t_profit_from_sfff = PROFIT_FROM_SFFF }      # Servers
+                set_temp_variable = { t_profit_from_efff = PROFIT_FROM_EFFF }      # Energy
+                set_temp_variable = { t_profit_from_ffff = PROFIT_FROM_FFFF }      # Farm
+
+                multiply_temp_variable = { t_profit_from_cfff = TOTAL_INDUSTRIAL_COMPLEX }
+                multiply_temp_variable = { t_profit_from_offf = TOTAL_CORPORATE_DISTRICT }
+                multiply_temp_variable = { t_profit_from_mfff = TOTAL_ARMS_FACTORY }
+                multiply_temp_variable = { t_profit_from_dfff = TOTAL_DOCKYARD }
+                multiply_temp_variable = { t_profit_from_gfff = TOTAL_CEMETERY }
+                multiply_temp_variable = { t_profit_from_sfff = TOTAL_SERVERS }
+                add_to_temp_variable = { t_profit_from_efff = TOTAL_POWER_PLANT }
+                add_to_temp_variable = { t_profit_from_efff = var:TOTAL_POWER_TURBINE }
+                multiply_temp_variable = { t_profit_from_efff = TOTAL_INDUSTRIAL_COMPLEX }
+                multiply_temp_variable = { t_profit_from_ffff = TOTAL_INDUSTRIAL_FARM } 
+
+                set_variable = { buildings_income = 0}
+                add_to_variable = { buildings_income = t_profit_from_cfff }
+                add_to_variable = { buildings_income = t_profit_from_offf }
+                add_to_variable = { buildings_income = t_profit_from_mfff }
+                add_to_variable = { buildings_income = t_profit_from_dfff }
+                add_to_variable = { buildings_income = t_profit_from_gfff }
+                add_to_variable = { buildings_income = t_profit_from_sfff }
+                add_to_variable = { buildings_income = t_profit_from_efff }
+                add_to_variable = { buildings_income = t_profit_from_ffff }
+                
+
+                # monthly income buildings
+                add_to_variable = { monthly_income = buildings_income }
+
+
+
+                # Resources export
+                set_variable = { chromium_export = resource_exported@chromium}
+			    multiply_variable = {chromium_export = 0.005}
+
+                set_variable = { tungsten_export = resource_exported@tungsten}
+			    multiply_variable = {tungsten_export = 0.005}
+
+                set_variable = { rubber_export = resource_exported@rubber}
+			    multiply_variable = {rubber_export = 0.005}
+
+                set_variable = { aluminium_export = resource_exported@aluminium}
+			    multiply_variable = {aluminium_export = 0.001}
+
+                set_variable = { oil_export = resource_exported@oil}
+			    multiply_variable = {oil_export = 0.008}
+
+                set_variable = { steel_export = resource_exported@steel}
+			    multiply_variable = {steel_export = 0.01}
+
+                set_variable = { elysium_export = resource_exported@elysium}
+			    multiply_variable = {elysium_export = 0.09}
+
+                set_variable = { gold_export = resource_exported@gold}
+			    multiply_variable = {gold_export = 0.025}
+
+                set_variable = { plasma_export = resource_exported@plasma}
+			    multiply_variable = {gold_export = 0.04}
+                
+			    # Resources import
+                set_variable = { chromium_import = resource_imported@chromium}
+			    multiply_variable = {chromium_import = 0.01}
+
+                set_variable = { tungsten_import = resource_imported@tungsten}
+			    multiply_variable = {tungsten_import = 0.01}
+
+                set_variable = { rubber_import = resource_imported@rubber}
+			    multiply_variable = {rubber_import = 0.01}
+
+                set_variable = { aluminium_import = resource_imported@aluminium}
+			    multiply_variable = {aluminium_import = 0.005}
+
+                set_variable = { oil_import = resource_imported@oil}
+			    multiply_variable = {oil_import = 0.01}
+
+                set_variable = { steel_import = resource_imported@steel}
+			    multiply_variable = {steel_import = 0.02}
+
+                set_variable = { elysium_import = resource_imported@elysium}
+			    multiply_variable = {elysium_import = 0.13}
+
+                set_variable = { plasma_import = resource_imported@plasma}
+			    multiply_variable = {elysium_import = 0.08}
+
+                set_variable = { gold_import = resource_imported@gold}
+			    multiply_variable = {gold_import = 0.05}
+
+                set_variable = { resources_income = 0}
+
+			    add_to_variable = { var = resources_income value = rubber_export}
+			    add_to_variable = { var = resources_income value = chromium_export}
+			    add_to_variable = { var = resources_income value = tungsten_export}
+			    add_to_variable = { var = resources_income value = steel_export}
+			    add_to_variable = { var = resources_income value = oil_export}
+			    add_to_variable = { var = resources_income value = aluminium_export}
+                add_to_variable = { var = resources_income value = gold_export}
+                add_to_variable = { var = resources_income value = elysium_export}
+                
+			    add_to_variable = { var = resources_income value = rubber_import}
+			    add_to_variable = { var = resources_income value = chromium_import}
+			    add_to_variable = { var = resources_income value = tungsten_import}
+			    add_to_variable = { var = resources_income value = steel_import}
+			    add_to_variable = { var = resources_income value = oil_import}
+			    add_to_variable = { var = resources_income value = aluminium_import} 
+                add_to_variable = { var = resources_income value = gold_import}
+                add_to_variable = { var = resources_income value = elysiimport}
+
+                # monthly income resources
+                add_to_variable = { monthly_income = resources_income }
+            }
+        }
+    }
+}
+

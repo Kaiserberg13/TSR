@@ -1,0 +1,109 @@
+on_actions = {
+    on_startup = {
+        effect = {
+            set_variable = { TOTAL_INFRASTRUCTURE = 0 }
+            set_variable = { TOTAL_ARMS_FACTORY = 0 }
+            set_variable = { TOTAL_INDUSTRIAL_COMPLEX = 0 }
+            set_variable = { TOTAL_DOCKYARD = 0 }
+            set_variable = { TOTAL_SYNTHETIC_REFINERY = 0 }
+            set_variable = { TOTAL_FUEL_SILO = 0 }
+            set_variable = { TOTAL_NUCLEAR_REACTOR = 0 }
+            set_variable = { TOTAL_NUCLEAR_REACTOR_HEAVY_WATER = 0 }
+            set_variable = { TOTAL_COMMERCIAL_NUCLEAR_REACTOR = 0 }
+            set_variable = { TOTAL_NUCLEAR_FACILITY = 0 }
+            set_variable = { TOTAL_AIR_FACILITY = 0 }
+            set_variable = { TOTAL_LAND_FACILITY = 0 }
+            set_variable = { TOTAL_MECH_FACILITY = 0 }
+            set_variable = { TOTAL_CEMETERY = 0 }
+            set_variable = { TOTAL_POWER_TURBINE = 0 }
+            set_variable = { TOTAL_POWER_PLANT = 0 }
+            set_variable = { TOTAL_FARM = 0 }
+            set_variable = { TOTAL_CITY_INFRASTRUCTURE = 0 }
+            set_variable = { TOTAL_CONSTRUCTION_COMPANIES = 0 }
+            set_variable = { TOTAL_SERVERS = 0 }
+            set_variable = { TOTAL_CORPORATE_DISTRICT = 0 }
+            set_variable = { TOTAL_CIVILIAN_DISTRICT = 0 }
+            set_variable = { TOTAL_PLASMA_GENERATOR = 0 }
+        
+            every_owned_state = {
+                add_to_variable = { PREV.TOTAL_INFRASTRUCTURE = building_level@infrastructure }
+                add_to_variable = { PREV.TOTAL_ARMS_FACTORY = building_level@arms_factory }
+                add_to_variable = { PREV.TOTAL_INDUSTRIAL_COMPLEX = building_level@industrial_complex }
+                add_to_variable = { PREV.TOTAL_DOCKYARD = building_level@dockyard }
+                add_to_variable = { PREV.TOTAL_SYNTHETIC_REFINERY = building_level@synthetic_refinery }
+                add_to_variable = { PREV.TOTAL_FUEL_SILO = building_level@fuel_silo }
+                add_to_variable = { PREV.TOTAL_NUCLEAR_REACTOR = building_level@nuclear_reactor }
+                add_to_variable = { PREV.TOTAL_NUCLEAR_REACTOR_HEAVY_WATER = building_level@nuclear_reactor_heavy_water }
+                add_to_variable = { PREV.TOTAL_COMMERCIAL_NUCLEAR_REACTOR = building_level@commercial_nuclear_reactor }
+                add_to_variable = { PREV.TOTAL_NUCLEAR_FACILITY = building_level@nuclear_facility }
+                add_to_variable = { PREV.TOTAL_AIR_FACILITY = building_level@air_facility }
+                add_to_variable = { PREV.TOTAL_LAND_FACILITY = building_level@land_facility }
+                add_to_variable = { PREV.TOTAL_MECH_FACILITY = building_level@mech_facility }
+                add_to_variable = { PREV.TOTAL_CEMETERY = building_level@cemetery }
+                add_to_variable = { PREV.TOTAL_POWER_TURBINE = building_level@power_turbine }
+                add_to_variable = { PREV.TOTAL_POWER_PLANT = building_level@power_plant }
+                add_to_variable = { PREV.TOTAL_FARM = building_level@farm }
+                add_to_variable = { PREV.TOTAL_CITY_INFRASTRUCTURE = building_level@city_infrastructure }
+                add_to_variable = { PREV.TOTAL_CONSTRUCTION_COMPANIES = building_level@construction_companies }
+                add_to_variable = { PREV.TOTAL_SERVERS = building_level@servers }
+                add_to_variable = { PREV.TOTAL_CORPORATE_DISTRICT = building_level@corporate_district }
+                add_to_variable = { PREV.TOTAL_CIVILIAN_DISTRICT = building_level@civilian_district }
+                add_to_variable = { PREV.TOTAL_PLASMA_GENERATOR = building_level@plasma_generator }
+            }
+        }
+    }
+    on_monthly = {
+        effect = {
+            set_variable = { TOTAL_INFRASTRUCTURE = 0 }
+            set_variable = { TOTAL_ARMS_FACTORY = 0 }
+            set_variable = { TOTAL_INDUSTRIAL_COMPLEX = 0 }
+            set_variable = { TOTAL_DOCKYARD = 0 }
+            set_variable = { TOTAL_SYNTHETIC_REFINERY = 0 }
+            set_variable = { TOTAL_FUEL_SILO = 0 }
+            set_variable = { TOTAL_NUCLEAR_REACTOR = 0 }
+            set_variable = { TOTAL_NUCLEAR_REACTOR_HEAVY_WATER = 0 }
+            set_variable = { TOTAL_COMMERCIAL_NUCLEAR_REACTOR = 0 }
+            set_variable = { TOTAL_NUCLEAR_FACILITY = 0 }
+            set_variable = { TOTAL_AIR_FACILITY = 0 }
+            set_variable = { TOTAL_LAND_FACILITY = 0 }
+            set_variable = { TOTAL_MECH_FACILITY = 0 }
+            set_variable = { TOTAL_CEMETERY = 0 }
+            set_variable = { TOTAL_POWER_TURBINE = 0 }
+            set_variable = { TOTAL_POWER_PLANT = 0 }
+            set_variable = { TOTAL_FARM = 0 }
+            set_variable = { TOTAL_CITY_INFRASTRUCTURE = 0 }
+            set_variable = { TOTAL_CONSTRUCTION_COMPANIES = 0 }
+            set_variable = { TOTAL_SERVERS = 0 }
+            set_variable = { TOTAL_CORPORATE_DISTRICT = 0 }
+            set_variable = { TOTAL_CIVILIAN_DISTRICT = 0 }
+            set_variable = { TOTAL_PLASMA_GENERATOR = 0 }
+        
+            every_owned_state = {
+                add_to_variable = { PREV.TOTAL_INFRASTRUCTURE = building_level@infrastructure }
+                add_to_variable = { PREV.TOTAL_ARMS_FACTORY = building_level@arms_factory }
+                add_to_variable = { PREV.TOTAL_INDUSTRIAL_COMPLEX = building_level@industrial_complex }
+                add_to_variable = { PREV.TOTAL_DOCKYARD = building_level@dockyard }
+                add_to_variable = { PREV.TOTAL_SYNTHETIC_REFINERY = building_level@synthetic_refinery }
+                add_to_variable = { PREV.TOTAL_FUEL_SILO = building_level@fuel_silo }
+                add_to_variable = { PREV.TOTAL_NUCLEAR_REACTOR = building_level@nuclear_reactor }
+                add_to_variable = { PREV.TOTAL_NUCLEAR_REACTOR_HEAVY_WATER = building_level@nuclear_reactor_heavy_water }
+                add_to_variable = { PREV.TOTAL_COMMERCIAL_NUCLEAR_REACTOR = building_level@commercial_nuclear_reactor }
+                add_to_variable = { PREV.TOTAL_NUCLEAR_FACILITY = building_level@nuclear_facility }
+                add_to_variable = { PREV.TOTAL_AIR_FACILITY = building_level@air_facility }
+                add_to_variable = { PREV.TOTAL_LAND_FACILITY = building_level@land_facility }
+                add_to_variable = { PREV.TOTAL_MECH_FACILITY = building_level@mech_facility }
+                add_to_variable = { PREV.TOTAL_CEMETERY = building_level@cemetery }
+                add_to_variable = { PREV.TOTAL_POWER_TURBINE = building_level@power_turbine }
+                add_to_variable = { PREV.TOTAL_POWER_PLANT = building_level@power_plant }
+                add_to_variable = { PREV.TOTAL_FARM = building_level@farm }
+                add_to_variable = { PREV.TOTAL_CITY_INFRASTRUCTURE = building_level@city_infrastructure }
+                add_to_variable = { PREV.TOTAL_CONSTRUCTION_COMPANIES = building_level@construction_companies }
+                add_to_variable = { PREV.TOTAL_SERVERS = building_level@servers }
+                add_to_variable = { PREV.TOTAL_CORPORATE_DISTRICT = building_level@corporate_district }
+                add_to_variable = { PREV.TOTAL_CIVILIAN_DISTRICT = building_level@civilian_district }
+                add_to_variable = { PREV.TOTAL_PLASMA_GENERATOR = building_level@plasma_generator }
+            }
+        }
+    }
+}
+
