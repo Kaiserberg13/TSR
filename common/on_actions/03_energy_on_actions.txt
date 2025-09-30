@@ -1,0 +1,89 @@
+on_actions = {
+    on_startup = {
+        effect = {
+            every_country = {
+                set_variable = { TOTAL_ENERGY_CONSUMPTION = 0 }
+                set_variable = { TOTAL_PERSON_CONSUMPTION = 1.08 }
+
+                set_variable = { POWER_PLANT_ENERGY_PRODUCTION = 50 }
+                set_variable = { POWER_TURBINE_ENERGY_PRODUCTION = 21 }
+
+                set_variable = { ENERGY_CONSUMPTION_INFRASTRUCTURE = 1 }
+                set_variable = { ENERGY_CONSUMPTION_ARMS_FACTORY = 6 }
+                set_variable = { ENERGY_CONSUMPTION_INDUSTRIAL_COMPLEX = 8 }
+                set_variable = { ENERGY_CONSUMPTION_DOCKYARD = 3 }
+                set_variable = { ENERGY_CONSUMPTION_SYNTHETIC_REFINERY = 3 }
+                set_variable = { ENERGY_CONSUMPTION_FUEL_SILO = 3 }
+                set_variable = { ENERGY_CONSUMPTION_NUCLEAR_FACILITY = 0 }
+                set_variable = { ENERGY_CONSUMPTION_CEMETERY = 3 }
+                set_variable = { ENERGY_CONSUMPTION_FARM = 2 }
+                set_variable = { ENERGY_CONSUMPTION_CITY_INFRASTRUCTURE = 4 }
+                set_variable = { ENERGY_CONSUMPTION_CONSTRUCTION_COMPANIES = 2 }
+                set_variable = { ENERGY_CONSUMPTION_SERVERS = 5 }
+                set_variable = { ENERGY_CONSUMPTION_CORPORATE_DISTRICT = 14 }
+                set_variable = { ENERGY_CONSUMPTION_CIVILIAN_DISTRICT = 9 }
+                set_variable = { ENERGY_CONSUMPTION_PLASMA_GENERATOR = 9 }
+                set_variable = { ENERGY_CONSUMPTION_PER_PERSON = 0.01} # 10.000.000 people = 1 energy
+            }
+        }
+    }
+    on_monthly = {
+        effect = {
+            set_variable = { TOTAL_ENERGY_CONSUMPTION = 0 }
+            set_temp_variable = { t_energy_consumption_per_person = max_manpower_k }
+            multiply_temp_variable = { t_energy_consumption_per_person = 0.01 }
+            multiply_temp_variable = { t_energy_consumption_per_person = ENERGY_CONSUMPTION_PER_PERSON }
+            set_variable = { TOTAL_ENERGY_CONSUMPTION_PER_PERSON = t_energy_consumption_per_person }
+            multiply_variable = { TOTAL_ENERGY_CONSUMPTION_PER_PERSON = TOTAL_PERSON_CONSUMPTION }
+
+            ### ДОБАВИТЬ ПОТРЕБИТЕЛЬНОСТЬ ЭНЕРГИИ У ЛЮДЕЙ, ТИПО 0.85-1.25 умножать на значение TOTAL_ENERGY_CONSUMPTION_PER_PERSON
+
+            set_temp_variable = { t_energy_consumption_infrastructure = ENERGY_CONSUMPTION_INFRASTRUCTURE }
+            set_temp_variable = { t_energy_consumption_arms_factory = ENERGY_CONSUMPTION_ARMS_FACTORY }
+            set_temp_variable = { t_energy_consumption_industrial_complex = ENERGY_CONSUMPTION_INDUSTRIAL_COMPLEX }
+            set_temp_variable = { t_energy_consumption_dockyard = ENERGY_CONSUMPTION_DOCKYARD }
+            set_temp_variable = { t_energy_consumption_synthetic_refinery = ENERGY_CONSUMPTION_SYNTHETIC_REFINERY }
+            set_temp_variable = { t_energy_consumption_fuel_silo = ENERGY_CONSUMPTION_FUEL_SILO }
+            set_temp_variable = { t_energy_consumption_cemetery = ENERGY_CONSUMPTION_CEMETERY }
+            set_temp_variable = { t_energy_consumption_farm = ENERGY_CONSUMPTION_FARM }
+            set_temp_variable = { t_energy_consumption_city_infrastructure = ENERGY_CONSUMPTION_CITY_INFRASTRUCTURE }
+            set_temp_variable = { t_energy_consumption_construction_companies = ENERGY_CONSUMPTION_CONSTRUCTION_COMPANIES }
+            set_temp_variable = { t_energy_consumption_servers = ENERGY_CONSUMPTION_SERVERS }
+            set_temp_variable = { t_energy_consumption_corporate_district = ENERGY_CONSUMPTION_CORPORATE_DISTRICT }
+            set_temp_variable = { t_energy_consumption_civilian_district = ENERGY_CONSUMPTION_CIVILIAN_DISTRICT }
+            set_temp_variable = { t_energy_consumption_plasma_generator = ENERGY_CONSUMPTION_PLASMA_GENERATOR }
+
+            multiply_temp_variable = { t_energy_consumption_infrastructure = TOTAL_INFRASTRUCTURE }
+            multiply_temp_variable = { t_energy_consumption_arms_factory = TOTAL_ARMS_FACTORY }
+            multiply_temp_variable = { t_energy_consumption_industrial_complex = TOTAL_INDUSTRIAL_COMPLEX }
+            multiply_temp_variable = { t_energy_consumption_dockyard = TOTAL_DOCKYARD }
+            multiply_temp_variable = { t_energy_consumption_synthetic_refinery = TOTAL_SYNTHETIC_REFINERY }
+            multiply_temp_variable = { t_energy_consumption_fuel_silo = TOTAL_FUEL_SILO }
+            multiply_temp_variable = { t_energy_consumption_cemetery = TOTAL_CEMETERY }
+            multiply_temp_variable = { t_energy_consumption_farm = TOTAL_FARM }
+            multiply_temp_variable = { t_energy_consumption_city_infrastructure = TOTAL_CITY_INFRASTRUCTURE }
+            multiply_temp_variable = { t_energy_consumption_construction_companies = TOTAL_CONSTRUCTION_COMPANIES }
+            multiply_temp_variable = { t_energy_consumption_servers = TOTAL_SERVERS }
+            multiply_temp_variable = { t_energy_consumption_corporate_district = TOTAL_CORPORATE_DISTRICT }
+            multiply_temp_variable = { t_energy_consumption_civilian_district = TOTAL_CIVILIAN_DISTRICT }
+            multiply_temp_variable = { t_energy_consumption_plasma_generator = TOTAL_PLASMA_GENERATOR }
+
+            add_to_variable = { TOTAL_ENERGY_CONSUMPTION = TOTAL_ENERGY_CONSUMPTION_PER_PERSON }
+            add_to_variable = { TOTAL_ENERGY_CONSUMPTION = t_energy_consumption_infrastructure }
+            add_to_variable = { TOTAL_ENERGY_CONSUMPTION = t_energy_consumption_arms_factory }
+            add_to_variable = { TOTAL_ENERGY_CONSUMPTION = t_energy_consumption_industrial_complex }
+            add_to_variable = { TOTAL_ENERGY_CONSUMPTION = t_energy_consumption_dockyard }
+            add_to_variable = { TOTAL_ENERGY_CONSUMPTION = t_energy_consumption_synthetic_refinery }
+            add_to_variable = { TOTAL_ENERGY_CONSUMPTION = t_energy_consumption_fuel_silo }
+            add_to_variable = { TOTAL_ENERGY_CONSUMPTION = t_energy_consumption_cemetery }
+            add_to_variable = { TOTAL_ENERGY_CONSUMPTION = t_energy_consumption_farm }
+            add_to_variable = { TOTAL_ENERGY_CONSUMPTION = t_energy_consumption_city_infrastructure }
+            add_to_variable = { TOTAL_ENERGY_CONSUMPTION = t_energy_consumption_construction_companies }
+            add_to_variable = { TOTAL_ENERGY_CONSUMPTION = t_energy_consumption_servers }
+            add_to_variable = { TOTAL_ENERGY_CONSUMPTION = t_energy_consumption_corporate_district }
+            add_to_variable = { TOTAL_ENERGY_CONSUMPTION = t_energy_consumption_civilian_district }
+            add_to_variable = { TOTAL_ENERGY_CONSUMPTION = t_energy_consumption_plasma_generator }
+        }
+    }
+}
+

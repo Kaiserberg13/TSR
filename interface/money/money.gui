@@ -34,7 +34,7 @@ guiTypes = {
 			name = "Background"	
 			spriteType = "GFX_a_empty"
 		}	
-				
+
 		iconType = {
 			name = "districts_build_office_bg"
 			position = {x = 0 y = 0}	
@@ -222,4 +222,223 @@ guiTypes = {
 		}
 		
 	}
+
+	containerWindowType = {
+        	name = "money_finances_info_window"
+        	position = { x=0 y=0 }	
+			size = { width = 2560 height = 1440 }
+			clipping = no
+			Orientation = CENTER
+			origo = center
+
+			fade_time = 280
+			fade_type = linear
+
+			background = {
+				name = "Background"	
+				spriteType = "GFX_a_empty"
+			}	
+
+			iconType = {
+				name = "money_finances_income_bg"
+				position = {x = 140 y = -280 }	
+				spriteType = "GFX_money_data_bg_1"
+				alwaystransparent = no
+				Orientation = CENTER	
+			}
+
+			instantTextboxType = {
+				name = "money_finances_info_income_label"
+				position = {x = 140 y = -250}
+				font = "ws_18r"
+				text = "INCOME"
+				maxWidth = 200
+				maxHeight = 24
+				format = center
+				alwaystransparent = yes
+				Orientation = CENTER
+			}
+
+			instantTextboxType = {
+				name = "money_finances_info_income_value"
+				position = {x = 140 y = -220}
+				font = "ws_36"
+				text = "[?monthly_income|1]"
+				maxWidth = 200
+				maxHeight = 24
+				format = center
+				alwaystransparent = yes
+				Orientation = CENTER
+			}
+
+
+			instantTextboxType = {
+				name = "money_finances_info_taxes_label"
+				position = {x = 40 y = -100}
+				font = "ws_24"
+				text = "TAXES:"
+				maxWidth = 250
+				maxHeight = 24
+				format = left
+				alwaystransparent = yes
+				Orientation = CENTER
+			}
+			instantTextboxType = {
+				name = "money_finances_info_taxes_value"
+				position = {x = 180 y = -100}
+				font = "ws_24g"
+				text = "[?tax_income|1] $"
+				maxWidth = 250
+				maxHeight = 24
+				format = right
+				alwaystransparent = yes
+				Orientation = CENTER
+			}
+
+
+			instantTextboxType = {
+				name = "money_finances_info_resources_label"
+				position = {x = 40 y = -60}
+				font = "ws_24"
+				text = "RESOURCES:"
+				maxWidth = 250
+				maxHeight = 24
+				format = left
+				alwaystransparent = yes
+				Orientation = CENTER
+			}
+			instantTextboxType = {
+				name = "money_finances_info_resources_value"
+				position = {x = 180 y = -60}
+				font = "ws_24g"
+				text = "[?resources_income|1] $"
+				maxWidth = 250
+				maxHeight = 24
+				format = right
+				alwaystransparent = yes
+				Orientation = CENTER
+			}
+
+
+			instantTextboxType = {
+				name = "money_finances_info_offices_label"
+				position = {x = 40 y = -20}
+				font = "ws_24"
+				text = "OFFICES:"
+				maxWidth = 250
+				maxHeight = 24
+				format = left
+				alwaystransparent = yes
+				Orientation = CENTER
+			}
+			instantTextboxType = {
+				name = "money_finances_info_offices_value"
+				position = {x = 180 y = -20}
+				font = "ws_24g"
+				text = "[?offices_income|1] $"
+				maxWidth = 250
+				maxHeight = 24
+				format = right
+				alwaystransparent = yes
+				Orientation = CENTER
+			}
+
+
+			instantTextboxType = {
+				name = "money_finances_info_energy_label"
+				position = {x = 40 y = 20}
+				font = "ws_24"
+				text = "ENERGY:"
+				maxWidth = 250
+				maxHeight = 24
+				format = left
+				alwaystransparent = yes
+				Orientation = CENTER
+			}
+			instantTextboxType = {
+				name = "money_finances_info_energy_value"
+				position = {x = 180 y = 20}
+				font = "ws_24g"
+				text = "[?energy_income|1] $ [?TOTAL_ENERGY_CONSUMPTION|1]"
+				maxWidth = 250
+				maxHeight = 24
+				format = right
+				alwaystransparent = yes
+				Orientation = CENTER
+			}
+
+
+			instantTextboxType = {
+				name = "money_finances_info_investments_label"
+				position = {x = 40 y = 60}
+				font = "ws_24"
+				text = "INVESTMENTS:"
+				maxWidth = 250
+				maxHeight = 24
+				format = left
+				alwaystransparent = yes
+				Orientation = CENTER
+			}
+			instantTextboxType = {
+				name = "money_finances_info_investments_value"
+				position = {x = 180 y = 60}
+				font = "ws_24g"
+				text = "[?investments_income|1] $"
+				maxWidth = 250
+				maxHeight = 24
+				format = right
+				alwaystransparent = yes
+				Orientation = CENTER
+			}
+
+
+			instantTextboxType = {
+				name = "money_finances_info_corpo_label"
+				position = {x = 40 y = 100}
+				font = "ws_24"
+				text = "CORPO:"
+				maxWidth = 250
+				maxHeight = 24
+				format = left
+				alwaystransparent = yes
+				Orientation = CENTER
+			}
+			instantTextboxType = {
+				name = "money_finances_info_corpo_value"
+				position = {x = 180 y = 100}
+				font = "ws_24g"
+				text = "[?corpo_income|1] $"
+				maxWidth = 250
+				maxHeight = 24
+				format = right
+				alwaystransparent = yes
+				Orientation = CENTER
+			}
+
+
+			instantTextboxType = {
+				name = "money_finances_info_other_label"
+				position = {x = 40 y = 140}
+				font = "ws_24"
+				text = "OTHER:"
+				maxWidth = 250
+				maxHeight = 24
+				format = left
+				alwaystransparent = yes
+				Orientation = CENTER
+			}
+			instantTextboxType = {
+				name = "money_finances_info_other_value"
+				position = {x = 180 y = 140}
+				font = "ws_24g"
+				text = "[?other_income|1] $"
+				maxWidth = 250
+				maxHeight = 24
+				format = right
+				alwaystransparent = yes
+				Orientation = CENTER
+			}
+
+			
+		}
 }

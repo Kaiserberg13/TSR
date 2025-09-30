@@ -9,6 +9,8 @@ NDefines.NGame.GAME_SPEED_SECONDS = { 2.0, 1.5, 0.8, 0.4, 0.0 }
 
 
 
+NDefines.NCountry.POPULATION_YEARLY_GROWTH_BASE = 0.009
+
 
 NDefines.NBuildings.INFRASTRUCTURE_RESOURCE_BONUS = 0.05
 NDefines.NBuildings.MAX_SHARED_SLOTS = 42

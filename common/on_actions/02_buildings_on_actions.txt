@@ -77,8 +77,18 @@ on_actions = {
             set_variable = { TOTAL_CORPORATE_DISTRICT = 0 }
             set_variable = { TOTAL_CIVILIAN_DISTRICT = 0 }
             set_variable = { TOTAL_PLASMA_GENERATOR = 0 }
+            set_variable = { TOTAL_CAMELIA_OFFICES = 0 }
+            set_variable = { TOTAL_ARSTOTZKA_OFFICES = 0 }
+            set_variable = { TOTAL_ROTATOSK_OFFICES = 0 }
+            set_variable = { TOTAL_ZAPHKIEL_OFFICES = 0 }
+            set_variable = { TOTAL_EQUONICS_OFFICES = 0 }
         
             every_owned_state = {
+                add_to_variable = { PREV.TOTAL_CAMELIA_OFFICES = camelia_office }
+                add_to_variable = { PREV.TOTAL_ARSTOTZKA_OFFICES = arstotzka_office }
+                add_to_variable = { PREV.TOTAL_ROTATOSK_OFFICES = rotatosk_office }
+                add_to_variable = { PREV.TOTAL_ZAPHKIEL_OFFICES = zaphkiel_office }
+                add_to_variable = { PREV.TOTAL_EQUONICS_OFFICES = equonics_office }
                 add_to_variable = { PREV.TOTAL_INFRASTRUCTURE = building_level@infrastructure }
                 add_to_variable = { PREV.TOTAL_ARMS_FACTORY = building_level@arms_factory }
                 add_to_variable = { PREV.TOTAL_INDUSTRIAL_COMPLEX = building_level@industrial_complex }

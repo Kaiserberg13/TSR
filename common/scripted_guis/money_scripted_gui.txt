@@ -116,6 +116,7 @@ scripted_gui = {
 		}
 
         triggers = {
+
             money_taxes_button_selected_visible = {
                 ROOT = { has_country_flag = money_taxes_view }
             }
@@ -138,5 +139,21 @@ scripted_gui = {
                 ROOT = { has_country_flag = money_inflation_view }
             }
         }
+	}
+
+	
+	money_finances_info_window_scripted_gui = {
+	    context_type = player_context
+		parent_window_token = money_window
+		window_name = "money_finances_info_window"
+	       
+	    visible = {
+			ROOT = {
+				AND = {
+					has_country_flag = money_finances_view
+					has_country_flag = open_countrymoneyview
+				}
+			}
+	    }
 	}
 }
