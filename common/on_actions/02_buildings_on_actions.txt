@@ -82,6 +82,7 @@ on_actions = {
             set_variable = { TOTAL_ROTATOSK_OFFICES = 0 }
             set_variable = { TOTAL_ZAPHKIEL_OFFICES = 0 }
             set_variable = { TOTAL_EQUONICS_OFFICES = 0 }
+            set_variable = { TOTAL_OFFICES = 0 }
         
             every_owned_state = {
                 add_to_variable = { PREV.TOTAL_CAMELIA_OFFICES = camelia_office }
@@ -113,6 +114,12 @@ on_actions = {
                 add_to_variable = { PREV.TOTAL_CIVILIAN_DISTRICT = building_level@civilian_district }
                 add_to_variable = { PREV.TOTAL_PLASMA_GENERATOR = building_level@plasma_generator }
             }
+
+            add_to_variable = { TOTAL_OFFICES = TOTAL_CAMELIA_OFFICES }
+            add_to_variable = { TOTAL_OFFICES = TOTAL_ARSTOTZKA_OFFICES }
+            add_to_variable = { TOTAL_OFFICES = TOTAL_ROTATOSK_OFFICES }
+            add_to_variable = { TOTAL_OFFICES = TOTAL_ZAPHKIEL_OFFICES }
+            add_to_variable = { TOTAL_OFFICES = TOTAL_EQUONICS_OFFICES }
         }
     }
 }

@@ -359,7 +359,7 @@ guiTypes = {
 				name = "money_finances_info_energy_value"
 				position = {x = 180 y = 20}
 				font = "ws_24g"
-				text = "[?energy_income|1] $ [?TOTAL_ENERGY_CONSUMPTION|1]"
+				text = "[?energy_income|1] $"
 				maxWidth = 250
 				maxHeight = 24
 				format = right
