@@ -241,8 +241,8 @@ guiTypes = {
 
 			iconType = {
 				name = "money_finances_income_bg"
-				position = {x = 140 y = -280 }	
-				spriteType = "GFX_money_data_bg_1"
+				position = {x = 60 y = -280 }	
+				spriteType = "GFX_money_data_bg_2"
 				alwaystransparent = no
 				Orientation = CENTER	
 			}
@@ -250,7 +250,7 @@ guiTypes = {
 			instantTextboxType = {
 				name = "money_finances_info_income_label"
 				position = {x = 140 y = -250}
-				font = "ws_18r"
+				font = "ws_18"
 				text = "INCOME"
 				maxWidth = 200
 				maxHeight = 24
@@ -436,6 +436,244 @@ guiTypes = {
 				maxHeight = 24
 				format = right
 				alwaystransparent = yes
+				Orientation = CENTER
+			}
+
+
+			iconType = {
+				name = "money_finances_expenses_bg"
+				position = {x = -400 y = -280 }	
+				spriteType = "GFX_money_data_bg_1"
+				alwaystransparent = no
+				Orientation = CENTER	
+			}
+
+			instantTextboxType = {
+				name = "money_finances_info_expenses_label"
+				position = {x = -320 y = -250}
+				font = "ws_18r"
+				text = "EXPENSES"
+				maxWidth = 200
+				maxHeight = 24
+				format = center
+				alwaystransparent = yes
+				Orientation = CENTER
+			}
+
+			instantTextboxType = {
+				name = "money_finances_info_expenses_value"
+				position = {x = -320 y = -220}
+				font = "ws_36r"
+				text = "[?monthly_expenses|1]"
+				maxWidth = 200
+				maxHeight = 24
+				format = center
+				alwaystransparent = yes
+				Orientation = CENTER
+			}
+
+
+			instantTextboxType = {
+				name = "money_finances_info_taxes_label"
+				position = {x = -430 y = -100}
+				font = "ws_24"
+				text = "TAXES:"
+				maxWidth = 250
+				maxHeight = 24
+				format = left
+				alwaystransparent = yes
+				Orientation = CENTER
+			}
+			instantTextboxType = {
+				name = "money_finances_info_taxes_value"
+				position = {x = -300 y = -100}
+				font = "ws_24r"
+				text = "[?tax_expenses|1] $"
+				maxWidth = 250
+				maxHeight = 24
+				format = right
+				alwaystransparent = yes
+				Orientation = CENTER
+			}
+
+			instantTextboxType = {
+				name = "money_finances_info_buildings_expenses_label"
+				position = {x = -430 y = -100}
+				font = "ws_24"
+				text = "BUILDINGS:"
+				maxWidth = 250
+				maxHeight = 24
+				format = left
+				alwaystransparent = yes
+				Orientation = CENTER
+			}
+			instantTextboxType = {
+				name = "money_finances_info_buildings_expenses_value"
+				position = {x = -300 y = -100}
+				font = "ws_24r"
+				text = "[?resources_expenses|1] $"
+				maxWidth = 250
+				maxHeight = 24
+				format = right
+				alwaystransparent = yes
+				Orientation = CENTER
+			}
+
+
+			instantTextboxType = {
+				name = "money_finances_info_resources_expenses_label"
+				position = {x = -430 y = -60}
+				font = "ws_24"
+				text = "RESOURCES:"
+				maxWidth = 250
+				maxHeight = 24
+				format = left
+				alwaystransparent = yes
+				Orientation = CENTER
+			}
+			instantTextboxType = {
+				name = "money_finances_info_resources_expenses_value"
+				position = {x = -300 y = -60}
+				font = "ws_24r"
+				text = "[?resources_expenses|1] $"
+				maxWidth = 250
+				maxHeight = 24
+				format = right
+				alwaystransparent = yes
+				Orientation = CENTER
+			}
+
+
+			instantTextboxType = {
+				name = "money_finances_info_education_expenses_label"
+				position = {x = -430 y = -20}
+				font = "ws_24"
+				text = "EDUCATION:"
+				maxWidth = 250
+				maxHeight = 24
+				format = left
+				alwaystransparent = yes
+				Orientation = CENTER
+			}
+			instantTextboxType = {
+				name = "money_finances_info_education_expenses_value"
+				position = {x = -300 y = -20}
+				font = "ws_24r"
+				text = "[?offices_expenses|1] $"
+				maxWidth = 250
+				maxHeight = 24
+				format = right
+				alwaystransparent = yes
+				Orientation = CENTER
+			}
+
+
+			instantTextboxType = {
+				name = "money_finances_info_army_expenses_label"
+				position = {x = -430 y = 20}
+				font = "ws_24"
+				text = "ARMY:"
+				maxWidth = 250
+				maxHeight = 24
+				format = left
+				alwaystransparent = yes
+				Orientation = CENTER
+			}
+			instantTextboxType = {
+				name = "money_finances_info_army_expenses_value"
+				position = {x = -300 y = 20}
+				font = "ws_24r"
+				text = "[?energy_expenses|1] $"
+				maxWidth = 250
+				maxHeight = 24
+				format = right
+				alwaystransparent = yes
+				Orientation = CENTER
+			}
+
+
+			instantTextboxType = {
+				name = "money_finances_info_investments_expenses_label"
+				position = {x = -430 y = 60}
+				font = "ws_24"
+				text = "INVESTMENTS:"
+				maxWidth = 250
+				maxHeight = 24
+				format = left
+				alwaystransparent = yes
+				Orientation = CENTER
+			}
+			instantTextboxType = {
+				name = "money_finances_info_investments_expenses_value"
+				position = {x = -300 y = 60}
+				font = "ws_24r"
+				text = "[?energy_expenses|1] $"
+				maxWidth = 250
+				maxHeight = 24
+				format = right
+				alwaystransparent = yes
+				Orientation = CENTER
+			}
+
+
+			instantTextboxType = {
+				name = "money_finances_info_social_projects_expenses_label"
+				position = {x = -430 y = 100}
+				font = "ws_24"
+				text = "SOCIAL PROJECTS:"
+				maxWidth = 250
+				maxHeight = 24
+				format = left
+				alwaystransparent = yes
+				Orientation = CENTER
+			}
+			instantTextboxType = {
+				name = "money_finances_info_social_projects_expenses_value"
+				position = {x = -300 y = 100}
+				font = "ws_24r"
+				text = "[?energy_expenses|1] $"
+				maxWidth = 250
+				maxHeight = 24
+				format = right
+				alwaystransparent = yes
+				Orientation = CENTER
+			}
+
+
+			instantTextboxType = {
+				name = "money_finances_info_other_expenses_label"
+				position = {x = -430 y = 140}
+				font = "ws_24"
+				text = "OTHER:"
+				maxWidth = 250
+				maxHeight = 24
+				format = left
+				alwaystransparent = yes
+				Orientation = CENTER
+			}
+			instantTextboxType = {
+				name = "money_finances_info_other_expenses_value"
+				position = {x = -300 y = 140}
+				font = "ws_24r"
+				text = "[?energy_expenses|1] $"
+				maxWidth = 250
+				maxHeight = 24
+				format = right
+				alwaystransparent = yes
+				Orientation = CENTER
+			}
+
+			buttonType = {
+				name = "money_finances_pay_off_a_debt_button"
+				position = { x = -453 y = 285 }
+				spriteType = "GFX_money_button_pay_off_a_debt"
+				Orientation = CENTER
+			}
+
+			buttonType = {
+				name = "money_finances_borrow_money_button"
+				position = { x = 16 y = 285 }
+				spriteType = "GFX_money_button_borrow_money"
 				Orientation = CENTER
 			}
 

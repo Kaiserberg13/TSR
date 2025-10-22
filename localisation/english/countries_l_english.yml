@@ -18,6 +18,13 @@
  PRS_darwinism_DEF:0 "the Kingdom of Prussia"
  PRS_darwinism_ADJ:0 "Prussian"
 
+ WSS:0 "Waffen-SS"
+ WSS_DEF:0 "Waffen-SS"
+ WSS_ADJ:0 "Waffen-SS"
+ WSS_fascism:0 "Waffen-SS Friedstate"
+ WSS_fascism_DEF:0 "the Waffen-SS Friedstate"
+ WSS_fascism_ADJ:0 "Waffen-SS"
+
  GAL:0 "Galicia and Lodomeria"
  GAL_DEF:0 "Galicia and Lodomeria"
  GAL_ADJ:0 "Galician"

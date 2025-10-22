@@ -36,7 +36,7 @@ resources = {
 		convoys = 0.1
 	}
 
-	plasma = {
+	elysium = {
 		icon_frame = 7
 		cic = 0.125
 		convoys = 0.1
@@ -48,7 +48,7 @@ resources = {
 		convoys = 0.1
 	}
 
-	elysium = {
+	plasma = {
 		icon_frame = 9
 		cic = 0.125
 		convoys = 0.1

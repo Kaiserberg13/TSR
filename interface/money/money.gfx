@@ -12,6 +12,18 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_money_button_borrow_money"
+		texturefile = "gfx/interface/money/money_button_borrow_money.png"
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_money_button_pay_off_a_debt"
+		texturefile = "gfx/interface/money/money_button_pay_off_a_debt.png"
+		noOfFrames = 2
+	}
+
+	spriteType = {
 		name = "GFX_money_button_category_energy"
 		texturefile = "gfx/interface/money/money_button_category_energy.png"
 		noOfFrames = 2
@@ -61,7 +73,11 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_money_data_bg_1"
-		texturefile = "gfx/interface/money/money_data_bg-1.png"
+		texturefile = "gfx/interface/money/money_data_bg_1.png"
+	}
+	spriteType = {
+		name = "GFX_money_data_bg_2"
+		texturefile = "gfx/interface/money/money_data_bg_2.png"
 	}
 
 	spriteType = {

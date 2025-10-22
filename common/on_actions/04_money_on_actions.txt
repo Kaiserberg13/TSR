@@ -9,6 +9,8 @@ on_actions = {
                 set_variable = { g_total_population = max_manpower_k }
 
                 set_variable = { workforce_share = 0.91 }       # share of population able to work
+                set_variable = { women_procent = 0.58 }         # women population
+                set_variable = { men_procent = 0.42 }           # men population
                 set_variable = { g_workforce = 0.55 }           # population with taxable income (Cuz we have kids and babushkas)
                 set_variable = { g_employed = 0 }               # total employed workers
                 set_variable = { g_unemployed = 0 }             # unemployed count
@@ -57,10 +59,9 @@ on_actions = {
                 set_variable = { monthly_income = 0 }            # monthly income
                 set_variable = { energy_income = 0 }            # monthly income
                 set_variable = { monthly_expense = 0 }           # monthly expense
-                set_variable = { net_growth = 0 }               # net monthly  growth
+                set_variable = { net_growth = 0 }               # net monthly growth
                 set_variable = { gdp_nominal = 0 }              # nominal GDP
                 set_variable = { gdp_real = 0 }                 # real GDP (adjusted)
-                set_variable = { average_wage = 0 }             # average wage per worker
                 set_variable = { temp_calc = 0 }                # generic temp variable
             }
         }
