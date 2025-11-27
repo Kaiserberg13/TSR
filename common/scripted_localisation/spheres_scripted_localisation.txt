@@ -1,0 +1,27 @@
+defined_text = {
+    name = spheres_frame_view
+    text = {
+        trigger = {
+            has_country_flag = spheres_military_view
+        }
+        localization_key = 1
+    }
+    text = {
+        trigger = {
+            has_country_flag = spheres_production_view
+        }
+        localization_key = 2
+    }
+    text = {
+        trigger = {
+            has_country_flag = spheres_research_view
+        }
+        localization_key = 3
+    }
+    text = {
+        trigger = {
+            has_country_flag = spheres_finance_view
+        }
+        localization_key = 4
+    }
+}

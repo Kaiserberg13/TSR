@@ -8,18 +8,25 @@ state={
 		owner = SAF
 		add_core_of = SAF
 
-victory_points = {
+		victory_points = {
 			13404 11
 		}
-victory_points = {
+		victory_points = {
 			1688 10
 		}
 		
 		victory_points = {
 			13409 25
 		}
-buildings = {
-		
+		buildings = {
+			13409 = {
+				johannesburg_stock_exchange = {
+                    level = 1
+                    allowed = {
+                        has_dlc = "Gotterdammerung"
+                    }
+                }
+			}
 		}
 	}
 	buildings_max_level_factor=1.000

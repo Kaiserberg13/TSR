@@ -108,10 +108,10 @@ district_init_camelia_from_vars = {
     add_to_array = { array = camelia_office_spheres index = 3 value = var:camelia_agr } # 3 = agro
 }
 district_init_camelia_clear_vars = {
-    clr_variable = camelia_sec
-    clr_variable = camelia_fin
-    clr_variable = camelia_res
-    clr_variable = camelia_agr
+    clear_variable = camelia_sec
+    clear_variable = camelia_fin
+    clear_variable = camelia_res
+    clear_variable = camelia_agr
 }
 
 ############################################
@@ -125,10 +125,10 @@ district_init_arstotzka_from_vars = {
     add_to_array = { array = arstotzka_office_spheres index = 3 value = var:arst_res } # 3 = research
 }
 district_init_arstotzka_clear_vars = {
-    clr_variable = arst_sec
-    clr_variable = arst_med
-    clr_variable = arst_en
-    clr_variable = arst_res
+    clear_variable = arst_sec
+    clear_variable = arst_med
+    clear_variable = arst_en
+    clear_variable = arst_res
 }
 
 ############################################
@@ -141,9 +141,9 @@ district_init_rotatosk_from_vars = {
     add_to_array = { array = rotatosk_office_spheres index = 2 value = var:rota_pro } # 2 = production
 }
 district_init_rotatosk_clear_vars = {
-    clr_variable = rota_mil
-    clr_variable = rota_fac
-    clr_variable = rota_pro
+    clear_variable = rota_mil
+    clear_variable = rota_fac
+    clear_variable = rota_pro
 }
 
 ############################################
@@ -156,9 +156,9 @@ district_init_zaphkiel_from_vars = {
     add_to_array = { array = zaphkiel_office_spheres index = 2 value = var:zaph_agr } # 2 = agro
 }
 district_init_zaphkiel_clear_vars = {
-    clr_variable = zaph_pro
-    clr_variable = zaph_med
-    clr_variable = zaph_agr
+    clear_variable = zaph_pro
+    clear_variable = zaph_med
+    clear_variable = zaph_agr
 }
 
 ############################################
@@ -171,9 +171,9 @@ district_init_equonics_from_vars = {
     add_to_array = { array = equonics_office_spheres index = 2 value = var:equ_res } # 2 = resources
 }
 district_init_equonics_clear_vars = {
-    clr_variable = equ_med
-    clr_variable = equ_en
-    clr_variable = equ_res
+    clear_variable = equ_med
+    clear_variable = equ_en
+    clear_variable = equ_res
 }
 
 ############################################
@@ -193,16 +193,16 @@ district_init_local_from_vars = {
     add_to_array = { array = local_office_spheres index = 9 value = var:loc_9 } # 9 = resources
 }
 district_init_local_clear_vars = {
-    clr_variable = loc_0
-    clr_variable = loc_1
-    clr_variable = loc_2
-    clr_variable = loc_3
-    clr_variable = loc_4
-    clr_variable = loc_5
-    clr_variable = loc_6
-    clr_variable = loc_7
-    clr_variable = loc_8
-    clr_variable = loc_9
+    clear_variable = loc_0
+    clear_variable = loc_1
+    clear_variable = loc_2
+    clear_variable = loc_3
+    clear_variable = loc_4
+    clear_variable = loc_5
+    clear_variable = loc_6
+    clear_variable = loc_7
+    clear_variable = loc_8
+    clear_variable = loc_9
 }
 
 ############################################
@@ -222,16 +222,16 @@ district_init_foreign_from_vars = {
     add_to_array = { array = foreign_office_spheres index = 9 value = var:for_9 } # 9 = resources
 }
 district_init_foreign_clear_vars = {
-    clr_variable = for_0
-    clr_variable = for_1
-    clr_variable = for_2
-    clr_variable = for_3
-    clr_variable = for_4
-    clr_variable = for_5
-    clr_variable = for_6
-    clr_variable = for_7
-    clr_variable = for_8
-    clr_variable = for_9
+    clear_variable = for_0
+    clear_variable = for_1
+    clear_variable = for_2
+    clear_variable = for_3
+    clear_variable = for_4
+    clear_variable = for_5
+    clear_variable = for_6
+    clear_variable = for_7
+    clear_variable = for_8
+    clear_variable = for_9
 }
 
 

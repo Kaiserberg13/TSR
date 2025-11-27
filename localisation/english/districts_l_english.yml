@@ -12,3 +12,29 @@
  city_market_project:0 "CITY MARKET"
 
  civilian_project_billions:0 "Billions"
+
+ # Stock Exchange District
+ nasdaq_stock_exchange:0 "§XNASDAQ§!"
+ nasdaq_stock_exchange_desc:0 "The §XNASDAQ§! Stock Exchange is a global electronic marketplace for buying and selling securities. It is known for its high-tech trading platform and is home to many technology and internet-based companies. The exchange provides a platform for companies to raise capital and for investors to trade stocks, bonds, and other financial instruments."
+
+ bf_stock_exchange:0 "§XFrankfurt Stock Exchange§!"
+ bf_stock_exchange_desc:0 "The §XFrankfurt Stock Exchange§! — one of the oldest and most respected financial institutions in Europe — has survived countless wars and crises. Once envisioned as a partner to the Tokyo Exchange, all ties were severed after the war. Now under the watchful management of §XArstoцka Systems§!, the exchange enjoys relative stability, serving as a monument to Europe’s once-great economic power."
+
+ sse_stock_exchange:0 "§XShanghai Stock Exchange§!"
+ sse_stock_exchange_desc:0 "The §XShanghai Stock Exchange§! endured the collapse of the Licenzem Union’s markets, emerging as a pillar of resilience. Even amidst war and chaos, the exchange continues to set new records, tightly  integrated within §XCamellia’s§! financial web. Its luminous towers in the Shanghai Arcology pulse with constant trading data — the heartbeat of the Eastern economy."
+
+ tse_stock_exchange:0 "§XTōkyō Shōken Torihikijo§!"
+ tse_stock_exchange_desc:0 "The §XTōkyō Shōken Torihikijo§! rose from the ashes of failed cooperation with Frankfurt. As the war spread, Tokyo forged the Minor Economic Union — a coalition of over 200 platforms uniting the Licenzem Union’s digital markets. Each transaction here is overseen by §XCamellia§!’s ethical AIs, making this exchange not just an economic hub, but a vision of corporate harmony."
+
+ sfm_stock_exchange:0 "§XSainguwara Fonimare§!"
+ sfm_stock_exchange_desc:0 "Once known as the Singapore Stock Exchange, the §XSainguwara Fonimare Stock Exchange§! adopted its new name two decades ago, following the rise of the island-state §XOasis§!. Although it may not shatter global records, SFM stands as a marvel of efficiency and speed. Backed by §XCamellia§!’s quantum financial infrastructure, it conducts millions of transactions before a human eye can blink."
+
+ nyse_stock_exchange:0 "§XNew York Stock Exchange§!"
+ nyse_stock_exchange_desc:0 "The §XNew York Stock Exchange§! — once the paragon of Western capitalism — now fights for survival amid the ruins of a divided America. Civil war shattered its systems and trust alike, yet NYSE still endures. Beneath the neon skyline of the New Manhattan Sector, traders gamble fortunes on the last fragments of the old financial world."
+
+ nasdaq_stock_exchange:0 "§XNASDAQ§!"
+ nasdaq_stock_exchange_desc:0 "The §XNASDAQ§!, former titan of the digital era, crumbled alongside the fall of the United States. Its Washington headquarters were reduced to ghost cities after relentless bombardments. Internal collapse followed — mass defections, asset thefts, and lost data contracts. On the verge of bankruptcy, §XNASDAQ§! survives on legacy alone, a fading echo of Arstoцka’s technological empire."
+
+ jse_stock_exchange:0 "§XJohannesburg Stock Exchange§!"
+ jse_stock_exchange_desc:0 "The §XJohannesburg Stock Exchange§! stands as the financial heart of the South African Union. Born from the merger of two legacy markets, it has become the most stable exchange in the post-war world. While corporations like §XRotatosk§! trade extensively within its halls, JSE remains proudly independent — a neutral ground where power, capital, and innovation converge."
+

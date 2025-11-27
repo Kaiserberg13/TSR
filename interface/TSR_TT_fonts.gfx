@@ -1,0 +1,139 @@
+
+bitmapfonts = {
+
+    # TSR
+    bitmapfont = {
+        name = "tsr_9"
+		path = "gfx/fonts/TSR/TT_Octosquares_trl_md_9"
+        color = 0xffffffff
+
+        textcolors = {
+        }
+    }
+    bitmapfont = {
+        name = "tsr_12"
+		path = "gfx/fonts/TSR/TT_Octosquares_trl_md_12"
+        color = 0xffffffff
+
+        textcolors = {
+        }
+    }
+    bitmapfont = {
+        name = "tsr_16"
+		path = "gfx/fonts/TSR/TT_Octosquares_trl_md_16"
+        color = 0xffffffff
+
+        textcolors = {
+        }
+    }
+    bitmapfont = {
+        name = "tsr_18"
+		path = "gfx/fonts/TSR/TT_Octosquares_trl_md_18"
+        color = 0xffffffff
+
+        textcolors = {
+        }
+    }
+    bitmapfont = {
+        name = "tsr_24"
+		path = "gfx/fonts/TSR/TT_Octosquares_trl_md_24"
+        color = 0xffffffff
+
+        textcolors = {
+        }
+    }
+    bitmapfont = {
+        name = "tsr_36"
+		path = "gfx/fonts/TSR/TT_Octosquares_trl_md_36"
+        color = 0xffffffff
+
+        textcolors = {
+        }
+    }
+
+
+    # cyan
+    bitmapfont = {
+        name = "tsr_12c"
+		path = "gfx/fonts/TSR/TT_Octosquares_trl_md_12"
+        color = 0xff5ef6ff
+
+        textcolors = {
+        }
+    }
+    bitmapfont = {
+        name = "tsr_16c"
+		path = "gfx/fonts/TSR/TT_Octosquares_trl_md_16"
+        color = 0xff5ef6ff
+
+        textcolors = {
+        }
+    }
+    bitmapfont = {
+        name = "tsr_18c"
+		path = "gfx/fonts/TSR/TT_Octosquares_trl_md_18"
+        color = 0xff5ef6ff
+
+        textcolors = {
+        }
+    }
+    bitmapfont = {
+        name = "tsr_24c"
+		path = "gfx/fonts/TSR/TT_Octosquares_trl_md_24"
+        color = 0xff5ef6ff
+
+        textcolors = {
+        }
+    }
+    bitmapfont = {
+        name = "tsr_36c"
+		path = "gfx/fonts/TSR/TT_Octosquares_trl_md_36"
+        color = 0xff5ef6ff
+
+        textcolors = {
+        }
+    }
+
+    # redish
+    bitmapfont = {
+        name = "tsr_12r"
+		path = "gfx/fonts/TSR/TT_Octosquares_trl_md_12"
+        color = 0xfff75049
+
+        textcolors = {
+        }
+    }
+    bitmapfont = {
+        name = "tsr_16r"
+		path = "gfx/fonts/TSR/TT_Octosquares_trl_md_16"
+        color = 0xfff75049
+
+        textcolors = {
+        }
+    }
+    bitmapfont = {
+        name = "tsr_18r"
+		path = "gfx/fonts/TSR/TT_Octosquares_trl_md_18"
+        color = 0xfff75049
+
+        textcolors = {
+        }
+    }
+    bitmapfont = {
+        name = "tsr_24r"
+		path = "gfx/fonts/TSR/TT_Octosquares_trl_md_24"
+        color = 0xfff75049
+
+        textcolors = {
+        }
+    }
+    bitmapfont = {
+        name = "tsr_36r"
+		path = "gfx/fonts/TSR/TT_Octosquares_trl_md_36"
+        color = 0xfff75049
+
+        textcolors = {
+        }
+    }
+    
+}

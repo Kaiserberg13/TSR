@@ -1,5 +1,37 @@
 spriteTypes = {
 	
+	# TSR
+	SpriteType = {
+		name = "GFX_corp_folder_button"
+		texturefile = "gfx/interface/countrypolitics/folders/countrypolitics_folder_corpo.dds"
+		noOfFrames = 2
+	}
+	SpriteType = {
+		name = "GFX_economic_folder_button"
+		texturefile = "gfx/interface/countrypolitics/folders/countrypolitics_folder_economic.dds"
+		noOfFrames = 2
+	}
+	SpriteType = {
+		name = "GFX_spheres_folder_button"
+		texturefile = "gfx/interface/countrypolitics/folders/countrypolitics_folder_spheres.dds"
+		noOfFrames = 2
+	}
+	SpriteType = {
+		name = "GFX_exile_government_folder_button"
+		texturefile = "gfx/interface/countrypolitics/folders/countrypolitics_folder_government.dds"
+		noOfFrames = 2
+	}
+	SpriteType = {
+		name = "GFX_puppet_folder_button"
+		texturefile = "gfx/interface/countrypolitics/folders/countrypolitics_folder_puppet.dds"
+		noOfFrames = 2
+	}
+	SpriteType = {
+		name = "GFX_resistance_folder_button"
+		texturefile = "gfx/interface/countrypolitics/folders/countrypolitics_folder_resistance.dds"
+		noOfFrames = 2
+	}
+
 	#Government in Exile
 
 	spriteType = {

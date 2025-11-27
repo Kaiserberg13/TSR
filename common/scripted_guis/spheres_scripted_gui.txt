@@ -1,0 +1,205 @@
+scripted_gui = {
+
+	open_spheres_scripted_gui = {
+	    context_type = player_context
+	    parent_window_token = politics_tab
+		window_name = "open_spheres_window"
+	       
+	    visible = {
+	    }
+	    
+	    triggers = {
+		}
+
+		effects = {
+			open_button_click = {
+				ROOT = { set_country_flag = open_countryspheresview }
+			}
+		}
+	}
+
+
+
+	spheres_scripted_gui = {
+	    context_type = player_context
+		parent_window_token = open_spheres_window
+		window_name = "spheres_window"
+	       
+	    visible = {
+			ROOT = {
+				has_country_flag = open_countryspheresview
+			}
+	    }
+	   
+		effects = {
+    		spheres_close_button_click = {
+    		    ROOT = { clr_country_flag = open_countryspheresview }
+    		}
+
+			spheres_military_button_click = {
+    		    ROOT = { 
+					set_country_flag = spheres_military_view 
+					clr_country_flag = spheres_production_view
+					clr_country_flag = spheres_research_view
+					clr_country_flag = spheres_finance_view
+					clr_country_flag = spheres_agro_view
+					clr_country_flag = spheres_medical_view
+					clr_country_flag = spheres_factories_view
+					clr_country_flag = spheres_security_view
+					clr_country_flag = spheres_resources_view
+					clr_country_flag = spheres_energy_view
+					set_variable = { sphere_id = 1}
+				}
+    		}
+			spheres_production_button_click = {
+    		    ROOT = { 
+					clr_country_flag = spheres_military_view 
+					set_country_flag = spheres_production_view
+					clr_country_flag = spheres_research_view
+					clr_country_flag = spheres_finance_view
+					clr_country_flag = spheres_agro_view
+					clr_country_flag = spheres_medical_view
+					clr_country_flag = spheres_factories_view
+					clr_country_flag = spheres_security_view
+					clr_country_flag = spheres_resources_view
+					clr_country_flag = spheres_energy_view
+					set_variable = { sphere_id = 2}
+				}
+    		}
+
+			spheres_finance_button_click = {
+			    ROOT = { 
+			        clr_country_flag = spheres_military_view 
+			        clr_country_flag = spheres_production_view
+			        clr_country_flag = spheres_research_view
+			        set_country_flag = spheres_finance_view
+			        clr_country_flag = spheres_agro_view
+			        clr_country_flag = spheres_medical_view
+			        clr_country_flag = spheres_factories_view
+			        clr_country_flag = spheres_security_view
+			        clr_country_flag = spheres_resources_view
+			        clr_country_flag = spheres_energy_view
+					set_variable = { sphere_id = 3}
+			    }
+			}
+
+			spheres_agro_button_click = {
+			    ROOT = { 
+			        clr_country_flag = spheres_military_view 
+			        clr_country_flag = spheres_production_view
+			        clr_country_flag = spheres_research_view
+			        clr_country_flag = spheres_finance_view
+			        set_country_flag = spheres_agro_view
+			        clr_country_flag = spheres_medical_view
+			        clr_country_flag = spheres_factories_view
+			        clr_country_flag = spheres_security_view
+			        clr_country_flag = spheres_resources_view
+			        clr_country_flag = spheres_energy_view
+					set_variable = { sphere_id = 4}
+			    }
+			}
+
+			spheres_research_button_click = {
+			    ROOT = { 
+			        clr_country_flag = spheres_military_view 
+			        clr_country_flag = spheres_production_view
+			        set_country_flag = spheres_research_view
+			        clr_country_flag = spheres_finance_view
+			        clr_country_flag = spheres_agro_view
+			        clr_country_flag = spheres_medical_view
+			        clr_country_flag = spheres_factories_view
+			        clr_country_flag = spheres_security_view
+			        clr_country_flag = spheres_resources_view
+			        clr_country_flag = spheres_energy_view
+					set_variable = { sphere_id = 5}
+			    }
+			}
+
+			spheres_resources_button_click = {
+			    ROOT = { 
+			        clr_country_flag = spheres_military_view 
+			        clr_country_flag = spheres_production_view
+			        clr_country_flag = spheres_research_view
+			        clr_country_flag = spheres_finance_view
+			        clr_country_flag = spheres_agro_view
+			        clr_country_flag = spheres_medical_view
+			        clr_country_flag = spheres_factories_view
+			        clr_country_flag = spheres_security_view
+			        set_country_flag = spheres_resources_view
+			        clr_country_flag = spheres_energy_view
+					set_variable = { sphere_id = 6}
+			    }
+			}
+
+			spheres_energy_button_click = {
+			    ROOT = { 
+			        clr_country_flag = spheres_military_view 
+			        clr_country_flag = spheres_production_view
+			        clr_country_flag = spheres_research_view
+			        clr_country_flag = spheres_finance_view
+			        clr_country_flag = spheres_agro_view
+			        clr_country_flag = spheres_medical_view
+			        clr_country_flag = spheres_factories_view
+			        clr_country_flag = spheres_security_view
+			        clr_country_flag = spheres_resources_view
+			        set_country_flag = spheres_energy_view
+					set_variable = { sphere_id = 7}
+			    }
+			}
+
+			spheres_medical_button_click = {
+			    ROOT = { 
+			        clr_country_flag = spheres_military_view 
+			        clr_country_flag = spheres_production_view
+			        clr_country_flag = spheres_research_view
+			        clr_country_flag = spheres_finance_view
+			        clr_country_flag = spheres_agro_view
+			        set_country_flag = spheres_medical_view
+			        clr_country_flag = spheres_factories_view
+			        clr_country_flag = spheres_security_view
+			        clr_country_flag = spheres_resources_view
+			        clr_country_flag = spheres_energy_view
+					set_variable = { sphere_id = 8}
+			    }
+			}
+
+			spheres_security_button_click = {
+			    ROOT = { 
+			        clr_country_flag = spheres_military_view 
+			        clr_country_flag = spheres_production_view
+			        clr_country_flag = spheres_research_view
+			        clr_country_flag = spheres_finance_view
+			        clr_country_flag = spheres_agro_view
+			        clr_country_flag = spheres_medical_view
+			        clr_country_flag = spheres_factories_view
+			        set_country_flag = spheres_security_view
+			        clr_country_flag = spheres_resources_view
+			        clr_country_flag = spheres_energy_view
+					set_variable = { sphere_id = 9}
+			    }
+			}	
+
+			spheres_factories_button_click = {
+			    ROOT = { 
+			        clr_country_flag = spheres_military_view 
+			        clr_country_flag = spheres_production_view
+			        clr_country_flag = spheres_research_view
+			        clr_country_flag = spheres_finance_view
+			        clr_country_flag = spheres_agro_view
+			        clr_country_flag = spheres_medical_view
+			        set_country_flag = spheres_factories_view
+			        clr_country_flag = spheres_security_view
+			        clr_country_flag = spheres_resources_view
+			        clr_country_flag = spheres_energy_view
+					set_variable = { sphere_id = 10}
+			    }
+			}
+		}
+
+		properties = {
+			spheres_spheres_bg = {
+				frame = sphere_id
+			}
+		}
+	}
+}

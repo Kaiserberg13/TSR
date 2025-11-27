@@ -14,7 +14,7 @@ guiTypes = {
 		buttonType = {
 			name = "open_button"
 			position = { x = 27 y = 504 }
-			spriteType = "GFX_economic_button"
+			spriteType = "GFX_economic_folder_button"
 		}
 		
 	}
@@ -38,7 +38,7 @@ guiTypes = {
 		iconType = {
 			name = "districts_build_office_bg"
 			position = {x = 0 y = 0}	
-			spriteType = "GFX_corpo_window_bg"
+			spriteType = "GFX_money_window_bg"
 			alwaystransparent = no
 			
 		}
@@ -239,444 +239,2739 @@ guiTypes = {
 				spriteType = "GFX_a_empty"
 			}	
 
+			# Income
 			iconType = {
-				name = "money_finances_income_bg"
-				position = {x = 60 y = -280 }	
-				spriteType = "GFX_money_data_bg_2"
+				name = "money_category_header_income"
+				position = {x = -440 y = -285 }	
+				spriteType = "GFX_money_category_bg_1"
+				alwaystransparent = no
+				Orientation = CENTER	
+			}
+			iconType = {
+				name = "money_finances_details_1_income"
+				position = {x = -440 y = -250 }	
+				spriteType = "GFX_money_finances_details_1"
+				alwaystransparent = no
+				frame = 1
+				Orientation = CENTER	
+			}
+			# data
+			iconType = {
+				name = "money_data_box_bg_1"
+				position = {x = -400 y = -250 }	
+				spriteType = "GFX_money_data_box_bg"
+				alwaystransparent = no
+				Orientation = CENTER	
+			}
+
+			iconType = {
+				name = "money_data_box_bg_2"
+				position = {x = -273 y = -250 }	
+				spriteType = "GFX_money_data_box_bg"
+				alwaystransparent = no
+				Orientation = CENTER	
+			}
+			iconType = {
+				name = "money_data_box_bg_3"
+				position = {x = -145 y = -250 }	
+				spriteType = "GFX_money_data_box_bg"
+				alwaystransparent = no
+				Orientation = CENTER	
+			}
+
+			iconType = {
+				name = "money_data_box_bg_4"
+				position = {x = -400 y = -145 }	
+				spriteType = "GFX_money_data_box_bg"
+				alwaystransparent = no
+				Orientation = CENTER	
+			}
+			iconType = {
+				name = "money_data_box_bg_5"
+				position = {x = -273 y = -145 }	
+				spriteType = "GFX_money_data_box_bg"
+				alwaystransparent = no
+				Orientation = CENTER	
+			}
+			iconType = {
+				name = "money_data_box_bg_6"
+				position = {x = -145 y = -145 }	
+				spriteType = "GFX_money_data_box_bg"
+				alwaystransparent = no
+				Orientation = CENTER	
+			}
+
+			iconType = {
+				name = "money_data_box_bg_7"
+				position = {x = -400 y = -40 }	
+				spriteType = "GFX_money_data_box_bg"
+				alwaystransparent = no
+				Orientation = CENTER	
+			}
+			iconType = {
+				name = "money_data_box_bg_income"
+				position = {x = -273 y = -35 }	
+				spriteType = "GFX_money_finances_income_bg"
+				alwaystransparent = no
+				Orientation = CENTER	
+			}
+			iconType = {
+				name = "money_data_box_bg_8"
+				position = {x = -145 y = -40 }	
+				spriteType = "GFX_money_data_box_bg"
+				alwaystransparent = no
+				Orientation = CENTER	
+			}
+
+			iconType = {
+				name = "money_data_box_bg_9"
+				position = {x = -400 y = 65 }	
+				spriteType = "GFX_money_data_box_bg"
+				alwaystransparent = no
+				Orientation = CENTER	
+			}
+			iconType = {
+				name = "money_data_box_bg_10"
+				position = {x = -273 y = 65 }	
+				spriteType = "GFX_money_data_box_bg"
+				alwaystransparent = no
+				Orientation = CENTER	
+			}
+			iconType = {
+				name = "money_data_box_bg_11"
+				position = {x = -145 y = 65 }	
+				spriteType = "GFX_money_data_box_bg"
+				alwaystransparent = no
+				Orientation = CENTER	
+			}
+
+			iconType = {
+				name = "money_data_box_bg_12"
+				position = {x = -400 y = 170 }	
+				spriteType = "GFX_money_data_box_bg"
+				alwaystransparent = no
+				Orientation = CENTER	
+			}
+			iconType = {
+				name = "money_data_box_bg_13"
+				position = {x = -273 y = 170 }	
+				spriteType = "GFX_money_data_box_bg"
+				alwaystransparent = no
+				Orientation = CENTER	
+			}
+			iconType = {
+				name = "money_data_box_bg_14"
+				position = {x = -145 y = 170 }	
+				spriteType = "GFX_money_data_box_bg"
+				alwaystransparent = no
+				Orientation = CENTER	
+			}
+
+			# Expenses
+			iconType = {
+				name = "money_category_header_expenses"
+				position = {x = 30 y = -285 }	
+				spriteType = "GFX_money_category_bg_1"
+				alwaystransparent = no
+				Orientation = CENTER	
+			}
+			iconType = {
+				name = "money_finances_details_1_expsenses"
+				position = {x = 412 y = -250 }	
+				spriteType = "GFX_money_finances_details_1"
+				alwaystransparent = no
+				frame = 2
+				Orientation = CENTER	
+			}
+
+			# data
+			iconType = {
+				name = "money_data_box_expenses_bg_1"
+				position = {x = 30 y = -250 }	
+				spriteType = "GFX_money_data_box_bg_2"
+				alwaystransparent = no
+				Orientation = CENTER	
+			}
+			iconType = {
+				name = "money_data_box_expenses_bg_2"
+				position = {x = 157 y = -250 }	
+				spriteType = "GFX_money_data_box_bg_2"
+				alwaystransparent = no
+				Orientation = CENTER	
+			}
+			iconType = {
+				name = "money_data_box_expenses_bg_3"
+				position = {x = 284 y = -250 }	
+				spriteType = "GFX_money_data_box_bg_2"
+				alwaystransparent = no
+				Orientation = CENTER	
+			}
+
+			iconType = {
+				name = "money_data_box_expenses_bg_4"
+				position = {x = 30 y = -145 }	
+				spriteType = "GFX_money_data_box_bg_2"
+				alwaystransparent = no
+				Orientation = CENTER	
+			}
+			iconType = {
+				name = "money_data_box_expenses_bg_5"
+				position = {x = 157 y = -145 }	
+				spriteType = "GFX_money_data_box_bg_2"
+				alwaystransparent = no
+				Orientation = CENTER	
+			}
+			iconType = {
+				name = "money_data_box_expenses_bg_6"
+				position = {x = 284 y = -145 }	
+				spriteType = "GFX_money_data_box_bg_2"
+				alwaystransparent = no
+				Orientation = CENTER	
+			}
+
+			iconType = {
+				name = "money_data_box_expenses_bg_7"
+				position = {x = 30 y = -40 }	
+				spriteType = "GFX_money_data_box_bg_2"
+				alwaystransparent = no
+				Orientation = CENTER	
+			}
+			iconType = {
+				name = "money_data_box_expenses_bg_expenses"
+				position = {x = 157 y = -35 }	
+				spriteType = "GFX_money_finances_expenses_bg"
+				alwaystransparent = no
+				Orientation = CENTER	
+			}
+			iconType = {
+				name = "money_data_box_expenses_bg_8"
+				position = {x = 284 y = -40 }	
+				spriteType = "GFX_money_data_box_bg_2"
+				alwaystransparent = no
+				Orientation = CENTER	
+			}
+
+			iconType = {
+				name = "money_data_box_expenses_bg_9"
+				position = {x = 30 y = 65 }	
+				spriteType = "GFX_money_data_box_bg_2"
+				alwaystransparent = no
+				Orientation = CENTER	
+			}
+			iconType = {
+				name = "money_data_box_expenses_bg_10"
+				position = {x = 157 y = 65 }	
+				spriteType = "GFX_money_data_box_bg_2"
+				alwaystransparent = no
+				Orientation = CENTER	
+			}
+			iconType = {
+				name = "money_data_box_expenses_bg_11"
+				position = {x = 284 y = 65 }	
+				spriteType = "GFX_money_data_box_bg_2"
+				alwaystransparent = no
+				Orientation = CENTER	
+			}
+
+			iconType = {
+				name = "money_data_box_expenses_bg_12"
+				position = {x = 30 y = 170 }	
+				spriteType = "GFX_money_data_box_bg_2"
+				alwaystransparent = no
+				Orientation = CENTER	
+			}
+			iconType = {
+				name = "money_data_box_expenses_bg_13"
+				position = {x = 157 y = 170 }	
+				spriteType = "GFX_money_data_box_bg_2"
+				alwaystransparent = no
+				Orientation = CENTER	
+			}
+			iconType = {
+				name = "money_data_box_expenses_bg_14"
+				position = {x = 284 y = 170 }	
+				spriteType = "GFX_money_data_box_bg_2"
 				alwaystransparent = no
 				Orientation = CENTER	
 			}
 
 			instantTextboxType = {
-				name = "money_finances_info_income_label"
-				position = {x = 140 y = -250}
-				font = "ws_18"
-				text = "INCOME"
-				maxWidth = 200
+				name = "money_data_box_resources_text"
+				position = {x = -412 y = -230}
+				font = "ws_16gr"
+				text = "RESOURCES"
+				maxWidth = 120
+				maxHeight = 12
+				format = right
+				Orientation = CENTER
+			}
+			instantTextboxType = {
+				name = "money_data_box_resources_value"
+				position = {x = -390 y = -195}
+				font = "ws_24w"
+				text = "53B"
+				maxWidth = 120
+				maxHeight = 24
+				format = left
+				Orientation = CENTER
+			}
+
+			instantTextboxType = {
+				name = "money_data_box_stocks_text"
+				position = {x = -285 y = -230}
+				font = "ws_16gr"
+				text = "STOCKS"
+				maxWidth = 120
+				maxHeight = 12
+				format = right
+				Orientation = CENTER
+			}
+			instantTextboxType = {
+				name = "money_data_box_stocks_value"
+				position = {x = -263 y = -195}
+				font = "ws_24w"
+				text = "11"
+				maxWidth = 120
+				maxHeight = 24
+				format = left
+				Orientation = CENTER
+			}
+
+			instantTextboxType = {
+				name = "money_data_box_offices_text"
+				position = {x = -157 y = -230}
+				font = "ws_16gr"
+				text = "OFFICES"
+				maxWidth = 120
+				maxHeight = 12
+				format = right
+				Orientation = CENTER
+			}
+			instantTextboxType = {
+				name = "money_data_box_offices_value"
+				position = {x = -135 y = -195}
+				font = "ws_24w"
+				text = "32%"
+				maxWidth = 120
+				maxHeight = 24
+				format = left
+				Orientation = CENTER
+			}
+
+			instantTextboxType = {
+				name = "money_data_box_taxes_text"
+				position = {x = -412 y = -125}
+				font = "ws_16gr"
+				text = "TAXES"
+				maxWidth = 120
+				maxHeight = 12
+				format = right
+				Orientation = CENTER
+			}
+			instantTextboxType = {
+				name = "money_data_box_taxes_value"
+				position = {x = -390 y = -90}
+				font = "ws_24w"
+				text = "0.04"
+				maxWidth = 120
+				maxHeight = 24
+				format = left
+				Orientation = CENTER
+			}
+
+			instantTextboxType = {
+				name = "money_data_box_corpo_text"
+				position = {x = -285 y = -125}
+				font = "ws_16gr"
+				text = "CORPO"
+				maxWidth = 120
+				maxHeight = 12
+				format = right
+				Orientation = CENTER
+			}
+			instantTextboxType = {
+				name = "money_data_box_corpo_value"
+				position = {x = -263 y = -90}
+				font = "ws_24w"
+				text = "0.22B"
+				maxWidth = 120
+				maxHeight = 24
+				format = left
+				Orientation = CENTER
+			}
+
+			instantTextboxType = {
+				name = "money_data_box_energy_text"
+				position = {x = -157 y = -125}
+				font = "ws_16gr"
+				text = "ENERGY"
+				maxWidth = 120
+				maxHeight = 12
+				format = right
+				Orientation = CENTER
+			}
+			instantTextboxType = {
+				name = "money_data_box_energy_value"
+				position = {x = -135 y = -90}
+				font = "ws_24w"
+				text = "91%"
+				maxWidth = 120
+				maxHeight = 24
+				format = left
+				Orientation = CENTER
+			}
+
+			instantTextboxType = {
+				name = "money_data_box_investments_text"
+				position = {x = -412 y = -20}
+				font = "ws_16gr"
+				text = "INVESTMENTS"
+				maxWidth = 120
+				maxHeight = 12
+				format = right
+				Orientation = CENTER
+			}
+			instantTextboxType = {
+				name = "money_data_box_investments_value"
+				position = {x = -390 y = 15}
+				font = "ws_24w"
+				text = "5%"
+				maxWidth = 120
+				maxHeight = 24
+				format = left
+				Orientation = CENTER
+			}
+
+			instantTextboxType = {
+				name = "money_data_box_center_value"
+				position = {x = -273 y = -7}
+				font = "ws_36g"
+				text = "323B"
+				maxWidth = 120
 				maxHeight = 24
 				format = center
-				alwaystransparent = yes
 				Orientation = CENTER
 			}
 
 			instantTextboxType = {
-				name = "money_finances_info_income_value"
-				position = {x = 140 y = -220}
-				font = "ws_36"
-				text = "[?monthly_income|1]"
-				maxWidth = 200
-				maxHeight = 24
-				format = center
-				alwaystransparent = yes
+				name = "money_data_box_buildings_text"
+				position = {x = -157 y = -20}
+				font = "ws_16gr"
+				text = "BUILDINGS"
+				maxWidth = 120
+				maxHeight = 12
+				format = right
 				Orientation = CENTER
 			}
-
-
 			instantTextboxType = {
-				name = "money_finances_info_taxes_label"
-				position = {x = 40 y = -100}
-				font = "ws_24"
-				text = "TAXES:"
-				maxWidth = 250
+				name = "money_data_box_buildings_value"
+				position = {x = -135 y = 15}
+				font = "ws_24w"
+				text = "0.2B"
+				maxWidth = 120
 				maxHeight = 24
 				format = left
-				alwaystransparent = yes
 				Orientation = CENTER
 			}
+
 			instantTextboxType = {
-				name = "money_finances_info_taxes_value"
-				position = {x = 180 y = -100}
-				font = "ws_24g"
-				text = "[?tax_income|1] $"
-				maxWidth = 250
-				maxHeight = 24
+				name = "money_data_box_projects_text"
+				position = {x = -412 y = 85}
+				font = "ws_16gr"
+				text = "PROJECTS"
+				maxWidth = 120
+				maxHeight = 12
 				format = right
-				alwaystransparent = yes
 				Orientation = CENTER
 			}
-
-
 			instantTextboxType = {
-				name = "money_finances_info_resources_label"
-				position = {x = 40 y = -60}
-				font = "ws_24"
-				text = "RESOURCES:"
-				maxWidth = 250
+				name = "money_data_box_projects_value"
+				position = {x = -390 y = 120}
+				font = "ws_24w"
+				text = "5%"
+				maxWidth = 120
 				maxHeight = 24
 				format = left
-				alwaystransparent = yes
 				Orientation = CENTER
 			}
+
 			instantTextboxType = {
-				name = "money_finances_info_resources_value"
-				position = {x = 180 y = -60}
-				font = "ws_24g"
-				text = "[?resources_income|1] $"
-				maxWidth = 250
-				maxHeight = 24
+				name = "money_data_box_focuses_text"
+				position = {x = -285 y = 85}
+				font = "ws_16gr"
+				text = "FOCUSES"
+				maxWidth = 120
+				maxHeight = 12
 				format = right
-				alwaystransparent = yes
 				Orientation = CENTER
 			}
-
-
 			instantTextboxType = {
-				name = "money_finances_info_offices_label"
-				position = {x = 40 y = -20}
-				font = "ws_24"
-				text = "OFFICES:"
-				maxWidth = 250
+				name = "money_data_box_focuses_value"
+				position = {x = -263 y = 120}
+				font = "ws_24w"
+				text = "0.02B"
+				maxWidth = 120
 				maxHeight = 24
 				format = left
-				alwaystransparent = yes
 				Orientation = CENTER
 			}
+
 			instantTextboxType = {
-				name = "money_finances_info_offices_value"
-				position = {x = 180 y = -20}
-				font = "ws_24g"
-				text = "[?offices_income|1] $"
-				maxWidth = 250
-				maxHeight = 24
+				name = "money_data_box_decisions_text"
+				position = {x = -157 y = 85}
+				font = "ws_16gr"
+				text = "DECISIONS"
+				maxWidth = 120
+				maxHeight = 12
 				format = right
-				alwaystransparent = yes
 				Orientation = CENTER
 			}
-
-
 			instantTextboxType = {
-				name = "money_finances_info_energy_label"
-				position = {x = 40 y = 20}
-				font = "ws_24"
-				text = "ENERGY:"
-				maxWidth = 250
+				name = "money_data_box_decisions_value"
+				position = {x = -135 y = 120}
+				font = "ws_24w"
+				text = "0.2B"
+				maxWidth = 120
 				maxHeight = 24
 				format = left
-				alwaystransparent = yes
 				Orientation = CENTER
 			}
+
+		
 			instantTextboxType = {
-				name = "money_finances_info_energy_value"
-				position = {x = 180 y = 20}
-				font = "ws_24g"
-				text = "[?energy_income|1] $"
-				maxWidth = 250
-				maxHeight = 24
+				name = "money_data_box_trading_text"
+				position = {x = -412 y = 190}
+				font = "ws_16gr"
+				text = "TRADING"
+				maxWidth = 120
+				maxHeight = 12
 				format = right
-				alwaystransparent = yes
 				Orientation = CENTER
 			}
-
-
 			instantTextboxType = {
-				name = "money_finances_info_investments_label"
-				position = {x = 40 y = 60}
-				font = "ws_24"
-				text = "INVESTMENTS:"
-				maxWidth = 250
+				name = "money_data_box_trading_value"
+				position = {x = -390 y = 225}
+				font = "ws_24w"
+				text = "5%"
+				maxWidth = 120
 				maxHeight = 24
 				format = left
-				alwaystransparent = yes
 				Orientation = CENTER
 			}
+
 			instantTextboxType = {
-				name = "money_finances_info_investments_value"
-				position = {x = 180 y = 60}
-				font = "ws_24g"
-				text = "[?investments_income|1] $"
-				maxWidth = 250
-				maxHeight = 24
+				name = "money_data_box_politics_text"
+				position = {x = -285 y = 190}
+				font = "ws_16gr"
+				text = "POLITICS"
+				maxWidth = 120
+				maxHeight = 12
 				format = right
-				alwaystransparent = yes
 				Orientation = CENTER
 			}
-
-
 			instantTextboxType = {
-				name = "money_finances_info_corpo_label"
-				position = {x = 40 y = 100}
-				font = "ws_24"
-				text = "CORPO:"
-				maxWidth = 250
+				name = "money_data_box_politics_value"
+				position = {x = -263 y = 225}
+				font = "ws_24w"
+				text = "0.02B"
+				maxWidth = 120
 				maxHeight = 24
 				format = left
-				alwaystransparent = yes
 				Orientation = CENTER
 			}
+
 			instantTextboxType = {
-				name = "money_finances_info_corpo_value"
-				position = {x = 180 y = 100}
-				font = "ws_24g"
-				text = "[?corpo_income|1] $"
-				maxWidth = 250
-				maxHeight = 24
+				name = "money_data_box_other_text"
+				position = {x = -157 y = 190}
+				font = "ws_16gr"
+				text = "OTHER"
+				maxWidth = 120
+				maxHeight = 12
 				format = right
-				alwaystransparent = yes
 				Orientation = CENTER
 			}
-
-
 			instantTextboxType = {
-				name = "money_finances_info_other_label"
-				position = {x = 40 y = 140}
-				font = "ws_24"
-				text = "OTHER:"
-				maxWidth = 250
+				name = "money_data_box_other_value"
+				position = {x = -135 y = 225}
+				font = "ws_24w"
+				text = "0.2B"
+				maxWidth = 120
 				maxHeight = 24
 				format = left
-				alwaystransparent = yes
+				Orientation = CENTER
+			}
+
+
+			# expenses
+			instantTextboxType = {
+				name = "money_data_box_expenses_resources_text"
+				position = {x = 36 y = -230}
+				font = "ws_16gr"
+				text = "RESOURCES"
+				maxWidth = 120
+				maxHeight = 12
+				format = left
 				Orientation = CENTER
 			}
 			instantTextboxType = {
-				name = "money_finances_info_other_value"
-				position = {x = 180 y = 140}
-				font = "ws_24g"
-				text = "[?other_income|1] $"
-				maxWidth = 250
+				name = "money_data_box_expenses_resources_value"
+				position = {x = 17 y = -195}
+				font = "ws_24w"
+				text = "32%"
+				maxWidth = 120
 				maxHeight = 24
 				format = right
-				alwaystransparent = yes
 				Orientation = CENTER
 			}
 
-
-			iconType = {
-				name = "money_finances_expenses_bg"
-				position = {x = -400 y = -280 }	
-				spriteType = "GFX_money_data_bg_1"
-				alwaystransparent = no
-				Orientation = CENTER	
-			}
-
 			instantTextboxType = {
-				name = "money_finances_info_expenses_label"
-				position = {x = -320 y = -250}
-				font = "ws_18r"
-				text = "EXPENSES"
-				maxWidth = 200
+				name = "money_data_box_expenses_stocks_text"
+				position = {x = 163 y = -230}
+				font = "ws_16gr"
+				text = "STOCKS"
+				maxWidth = 120
+				maxHeight = 12
+				format = left
+				Orientation = CENTER
+			}
+			instantTextboxType = {
+				name = "money_data_box_expenses_stocks_value"
+				position = {x = 144 y = -195}
+				font = "ws_24w"
+				text = "11"
+				maxWidth = 120
 				maxHeight = 24
-				format = center
-				alwaystransparent = yes
+				format = right
 				Orientation = CENTER
 			}
 
 			instantTextboxType = {
-				name = "money_finances_info_expenses_value"
-				position = {x = -320 y = -220}
+				name = "money_data_box_expenses_investments_text"
+				position = {x = 290 y = -230}
+				font = "ws_16gr"
+				text = "INVESTMENTS"
+				maxWidth = 120
+				maxHeight = 12
+				format = left
+				Orientation = CENTER
+			}
+			instantTextboxType = {
+				name = "money_data_box_expenses_investments_value"
+				position = {x = 271 y = -195}
+				font = "ws_24w"
+				text = "53B"
+				maxWidth = 120
+				maxHeight = 24
+				format = right
+				Orientation = CENTER
+			}
+
+			instantTextboxType = {
+				name = "money_data_box_expenses_army_text"
+				position = {x = 36 y = -125}
+				font = "ws_16gr"
+				text = "ARMY"
+				maxWidth = 120
+				maxHeight = 12
+				format = left
+				Orientation = CENTER
+			}
+			instantTextboxType = {
+				name = "money_data_box_expenses_army_value"
+				position = {x = 17 y = -90}
+				font = "ws_24w"
+				text = "91%"
+				maxWidth = 120
+				maxHeight = 24
+				format = right
+				Orientation = CENTER
+			}
+
+			instantTextboxType = {
+				name = "money_data_box_expenses_education_text"
+				position = {x = 163 y = -125}
+				font = "ws_16gr"
+				text = "EDUCATION"
+				maxWidth = 120
+				maxHeight = 12
+				format = left
+				Orientation = CENTER
+			}
+			instantTextboxType = {
+				name = "money_data_box_expenses_education_value"
+				position = {x = 144 y = -90}
+				font = "ws_24w"
+				text = "0.22B"
+				maxWidth = 120
+				maxHeight = 24
+				format = right
+				Orientation = CENTER
+			}
+
+			instantTextboxType = {
+				name = "money_data_box_expenses_healthcare_text"
+				position = {x = 290 y = -125}
+				font = "ws_16gr"
+				text = "HEALTHCARE"
+				maxWidth = 120
+				maxHeight = 12
+				format = left
+				Orientation = CENTER
+			}
+			instantTextboxType = {
+				name = "money_data_box_expenses_healthcare_value"
+				position = {x = 271 y = -90}
+				font = "ws_24w"
+				text = "0.04"
+				maxWidth = 120
+				maxHeight = 24
+				format = right
+				Orientation = CENTER
+			}
+
+			instantTextboxType = {
+				name = "money_data_box_expenses_war_text"
+				position = {x = 36 y = -20}
+				font = "ws_16gr"
+				text = "WAR"
+				maxWidth = 120
+				maxHeight = 12
+				format = left
+				Orientation = CENTER
+			}
+			instantTextboxType = {
+				name = "money_data_box_expenses_war_value"
+				position = {x = 17 y = 15}
+				font = "ws_24w"
+				text = "0.2B"
+				maxWidth = 120
+				maxHeight = 24
+				format = right
+				Orientation = CENTER
+			}
+
+			instantTextboxType = {
+				name = "money_data_box_expenses_center_value"
+				position = {x = 157 y = -10}
 				font = "ws_36r"
-				text = "[?monthly_expenses|1]"
-				maxWidth = 200
+				text = "323B"
+				maxWidth = 120
 				maxHeight = 24
 				format = center
-				alwaystransparent = yes
 				Orientation = CENTER
 			}
 
-
 			instantTextboxType = {
-				name = "money_finances_info_taxes_label"
-				position = {x = -430 y = -100}
-				font = "ws_24"
-				text = "TAXES:"
-				maxWidth = 250
-				maxHeight = 24
+				name = "money_data_box_expenses_stagnation_text"
+				position = {x = 290 y = -20}
+				font = "ws_16gr"
+				text = "STAGNATION"
+				maxWidth = 120
+				maxHeight = 12
 				format = left
-				alwaystransparent = yes
 				Orientation = CENTER
 			}
 			instantTextboxType = {
-				name = "money_finances_info_taxes_value"
-				position = {x = -300 y = -100}
-				font = "ws_24r"
-				text = "[?tax_expenses|1] $"
-				maxWidth = 250
+				name = "money_data_box_expenses_stagnation_value"
+				position = {x = 271 y = 15}
+				font = "ws_24w"
+				text = "5%"
+				maxWidth = 120
 				maxHeight = 24
 				format = right
-				alwaystransparent = yes
 				Orientation = CENTER
 			}
 
 			instantTextboxType = {
-				name = "money_finances_info_buildings_expenses_label"
-				position = {x = -430 y = -100}
-				font = "ws_24"
-				text = "BUILDINGS:"
-				maxWidth = 250
-				maxHeight = 24
+				name = "money_data_box_expenses_projects_text"
+				position = {x = 36 y = 85}
+				font = "ws_16gr"
+				text = "PROJECTS"
+				maxWidth = 120
+				maxHeight = 12
 				format = left
-				alwaystransparent = yes
 				Orientation = CENTER
 			}
 			instantTextboxType = {
-				name = "money_finances_info_buildings_expenses_value"
-				position = {x = -300 y = -100}
-				font = "ws_24r"
-				text = "[?resources_expenses|1] $"
-				maxWidth = 250
+				name = "money_data_box_expenses_projects_value"
+				position = {x = 17 y = 120}
+				font = "ws_24w"
+				text = "0.2B"
+				maxWidth = 120
 				maxHeight = 24
 				format = right
-				alwaystransparent = yes
 				Orientation = CENTER
 			}
 
-
 			instantTextboxType = {
-				name = "money_finances_info_resources_expenses_label"
-				position = {x = -430 y = -60}
-				font = "ws_24"
-				text = "RESOURCES:"
-				maxWidth = 250
-				maxHeight = 24
+				name = "money_data_box_expenses_focuses_text"
+				position = {x = 163 y = 85}
+				font = "ws_16gr"
+				text = "FOCUSES"
+				maxWidth = 120
+				maxHeight = 12
 				format = left
-				alwaystransparent = yes
 				Orientation = CENTER
 			}
 			instantTextboxType = {
-				name = "money_finances_info_resources_expenses_value"
-				position = {x = -300 y = -60}
-				font = "ws_24r"
-				text = "[?resources_expenses|1] $"
-				maxWidth = 250
+				name = "money_data_box_expenses_focuses_value"
+				position = {x = 144 y = 120}
+				font = "ws_24w"
+				text = "0.02B"
+				maxWidth = 120
 				maxHeight = 24
 				format = right
-				alwaystransparent = yes
 				Orientation = CENTER
 			}
 
-
 			instantTextboxType = {
-				name = "money_finances_info_education_expenses_label"
-				position = {x = -430 y = -20}
-				font = "ws_24"
-				text = "EDUCATION:"
-				maxWidth = 250
-				maxHeight = 24
+				name = "money_data_box_expenses_decisions_text"
+				position = {x = 290 y = 85}
+				font = "ws_16gr"
+				text = "DECISIONS"
+				maxWidth = 120
+				maxHeight = 12
 				format = left
-				alwaystransparent = yes
 				Orientation = CENTER
 			}
 			instantTextboxType = {
-				name = "money_finances_info_education_expenses_value"
-				position = {x = -300 y = -20}
-				font = "ws_24r"
-				text = "[?offices_expenses|1] $"
-				maxWidth = 250
+				name = "money_data_box_expenses_decisions_value"
+				position = {x = 271 y = 120}
+				font = "ws_24w"
+				text = "5%"
+				maxWidth = 120
 				maxHeight = 24
 				format = right
-				alwaystransparent = yes
 				Orientation = CENTER
 			}
 
-
 			instantTextboxType = {
-				name = "money_finances_info_army_expenses_label"
-				position = {x = -430 y = 20}
-				font = "ws_24"
-				text = "ARMY:"
-				maxWidth = 250
-				maxHeight = 24
+				name = "money_data_box_expenses_trading_text"
+				position = {x = 36 y = 190}
+				font = "ws_16gr"
+				text = "TRADING"
+				maxWidth = 120
+				maxHeight = 12
 				format = left
-				alwaystransparent = yes
 				Orientation = CENTER
 			}
 			instantTextboxType = {
-				name = "money_finances_info_army_expenses_value"
-				position = {x = -300 y = 20}
-				font = "ws_24r"
-				text = "[?energy_expenses|1] $"
-				maxWidth = 250
+				name = "money_data_box_expenses_trading_value"
+				position = {x = 17 y = 225}
+				font = "ws_24w"
+				text = "0.2B"
+				maxWidth = 120
 				maxHeight = 24
 				format = right
-				alwaystransparent = yes
 				Orientation = CENTER
 			}
 
-
 			instantTextboxType = {
-				name = "money_finances_info_investments_expenses_label"
-				position = {x = -430 y = 60}
-				font = "ws_24"
-				text = "INVESTMENTS:"
-				maxWidth = 250
-				maxHeight = 24
+				name = "money_data_box_expenses_politics_text"
+				position = {x = 163 y = 190}
+				font = "ws_16gr"
+				text = "POLITICS"
+				maxWidth = 120
+				maxHeight = 12
 				format = left
-				alwaystransparent = yes
 				Orientation = CENTER
 			}
 			instantTextboxType = {
-				name = "money_finances_info_investments_expenses_value"
-				position = {x = -300 y = 60}
-				font = "ws_24r"
-				text = "[?energy_expenses|1] $"
-				maxWidth = 250
+				name = "money_data_box_expenses_politics_value"
+				position = {x = 144 y = 225}
+				font = "ws_24w"
+				text = "0.02B"
+				maxWidth = 120
 				maxHeight = 24
 				format = right
-				alwaystransparent = yes
 				Orientation = CENTER
 			}
 
-
 			instantTextboxType = {
-				name = "money_finances_info_social_projects_expenses_label"
-				position = {x = -430 y = 100}
-				font = "ws_24"
-				text = "SOCIAL PROJECTS:"
-				maxWidth = 250
-				maxHeight = 24
+				name = "money_data_box_expenses_other_text"
+				position = {x = 290 y = 190}
+				font = "ws_16gr"
+				text = "OTHER"
+				maxWidth = 120
+				maxHeight = 12
 				format = left
-				alwaystransparent = yes
 				Orientation = CENTER
 			}
 			instantTextboxType = {
-				name = "money_finances_info_social_projects_expenses_value"
-				position = {x = -300 y = 100}
-				font = "ws_24r"
-				text = "[?energy_expenses|1] $"
-				maxWidth = 250
+				name = "money_data_box_expenses_other_value"
+				position = {x = 271 y = 225}
+				font = "ws_24w"
+				text = "5%"
+				maxWidth = 120
 				maxHeight = 24
 				format = right
-				alwaystransparent = yes
 				Orientation = CENTER
 			}
 
 
 			instantTextboxType = {
-				name = "money_finances_info_other_expenses_label"
-				position = {x = -430 y = 140}
-				font = "ws_24"
-				text = "OTHER:"
-				maxWidth = 250
+				name = "money_income_category_title"
+				position = {x = -427 y = -280}
+				font = "ws_16gr"
+				text = "INCOME"
+				maxWidth = 120
 				maxHeight = 24
 				format = left
-				alwaystransparent = yes
 				Orientation = CENTER
 			}
+
 			instantTextboxType = {
-				name = "money_finances_info_other_expenses_value"
-				position = {x = -300 y = 140}
-				font = "ws_24r"
-				text = "[?energy_expenses|1] $"
-				maxWidth = 250
+				name = "money_expenses_category_title"
+				position = {x = 45 y = -280}
+				font = "ws_16gr"
+				text = "EXPENSES"
+				maxWidth = 120
 				maxHeight = 24
-				format = right
-				alwaystransparent = yes
+				format = left
+				Orientation = CENTER
+			}
+
+
+		
+
+
+			buttonType = {
+				name = "money_borrow_money_button"
+				position = { x = -440 y = 282 }
+				spriteType = "GFX_money_finances_button_borrow_money"
+				Orientation = CENTER
+			}
+			buttonType = {
+				name = "money_finances_button_pay_off_a_debt_button"
+				position = { x = 30 y = 282 }
+				spriteType = "GFX_money_finances_button_pay_off_a_debt"
+				Orientation = CENTER
+			}
+			
+	}
+
+	containerWindowType = {
+        	name = "money_taxes_info_window"
+        	position = { x=0 y=0 }	
+			size = { width = 2560 height = 1440 }
+			clipping = no
+			Orientation = CENTER
+			origo = center
+
+			fade_time = 280
+			fade_type = linear
+
+			background = {
+				name = "Background"	
+				spriteType = "GFX_a_empty"
+			}	
+
+			# Income
+			iconType = {
+				name = "money_category_bg_details_1"
+				position = {x = -445 y = -285 }	
+				spriteType = "GFX_money_taxes_details_1"
+				alwaystransparent = no
+				Orientation = CENTER	
+			}
+			buttonType = {
+				name = "money_category_taxes_min_salary"
+				position = { x = -275 y = -285 }
+				spriteType = "GFX_money_button_data_box_bg"
+				Orientation = CENTER
+			}
+			buttonType = {
+				name = "money_category_taxes_avrg_salary"
+				position = { x = -150 y = -285 }
+				spriteType = "GFX_money_button_data_box_bg"
 				Orientation = CENTER
 			}
 
 			buttonType = {
-				name = "money_finances_pay_off_a_debt_button"
-				position = { x = -453 y = 285 }
-				spriteType = "GFX_money_button_pay_off_a_debt"
+				name = "money_category_taxes_people_per_factory"
+				position = { x = -275 y = -180 }
+				spriteType = "GFX_money_button_data_box_bg"
+				Orientation = CENTER
+			}
+			buttonType = {
+				name = "money_category_taxes_investments"
+				position = { x = -150 y = -180 }
+				spriteType = "GFX_money_button_data_box_bg"
+				Orientation = CENTER
+			}
+
+			iconType = {
+				name = "money_category_header_country_data"
+				position = {x = -445 y = -70 }	
+				spriteType = "GFX_money_category_bg_1"
+				alwaystransparent = no
+				Orientation = CENTER	
+			}
+
+			iconType = {
+				name = "money_category_bg_details_3"
+				position = {x = -445 y = -30 }	
+				spriteType = "GFX_money_taxes_details_3"
+				alwaystransparent = no
+				Orientation = CENTER	
+			}
+
+
+			iconType = {
+				name = "money_data_box_taxes_1"
+				position = {x = -400 y = -30 }	
+				spriteType = "GFX_money_data_box_bg"
+				alwaystransparent = no
+				Orientation = CENTER	
+			}
+			iconType = {
+				name = "money_data_box_taxes_2"
+				position = {x = -275 y = -30 }	
+				spriteType = "GFX_money_data_box_bg"
+				alwaystransparent = no
+				Orientation = CENTER	
+			}
+			iconType = {
+				name = "money_data_box_taxes_3"
+				position = {x = -150 y = -30 }	
+				spriteType = "GFX_money_data_box_bg"
+				alwaystransparent = no
+				Orientation = CENTER	
+			}
+
+			iconType = {
+				name = "money_data_box_taxes_4"
+				position = {x = -400 y = 75 }	
+				spriteType = "GFX_money_data_box_bg"
+				alwaystransparent = no
+				Orientation = CENTER	
+			}
+			iconType = {
+				name = "money_data_box_taxes_5"
+				position = {x = -275 y = 75 }	
+				spriteType = "GFX_money_data_box_bg"
+				alwaystransparent = no
+				Orientation = CENTER	
+			}
+			iconType = {
+				name = "money_data_box_taxes_6"
+				position = {x = -150 y = 75 }	
+				spriteType = "GFX_money_data_box_bg"
+				alwaystransparent = no
+				Orientation = CENTER	
+			}
+
+
+			iconType = {
+				name = "money_data_box_taxes_7"
+				position = {x = -400 y = 180 }	
+				spriteType = "GFX_money_data_box_bg"
+				alwaystransparent = no
+				Orientation = CENTER	
+			}
+			iconType = {
+				name = "money_data_box_taxes_8"
+				position = {x = -275 y = 180 }	
+				spriteType = "GFX_money_data_box_bg"
+				alwaystransparent = no
+				Orientation = CENTER	
+			}
+			iconType = {
+				name = "money_data_box_taxes_9"
+				position = {x = -150 y = 180 }	
+				spriteType = "GFX_money_data_box_bg"
+				alwaystransparent = no
+				Orientation = CENTER	
+			}
+
+
+			iconType = {
+				name = "money_category_bg_details_2"
+				position = {x = 290 y = -285 }	
+				spriteType = "GFX_money_taxes_details_2"
+				alwaystransparent = no
+				Orientation = CENTER	
+			}
+			buttonType = {
+				name = "money_category_taxes_income_tax"
+				position = { x = 160 y = -285 }
+				spriteType = "GFX_money_button_data_box_bg_2"
+				Orientation = CENTER
+			}
+			buttonType = {
+				name = "money_category_taxes_corpo_tax"
+				position = { x = 35 y = -285 }
+				spriteType = "GFX_money_button_data_box_bg_2"
 				Orientation = CENTER
 			}
 
 			buttonType = {
-				name = "money_finances_borrow_money_button"
-				position = { x = 16 y = 285 }
-				spriteType = "GFX_money_button_borrow_money"
+				name = "money_category_taxes_eletro_tax"
+				position = { x = 160 y = -180 }
+				spriteType = "GFX_money_button_data_box_bg_2"
+				Orientation = CENTER
+			}
+			buttonType = {
+				name = "money_category_taxes_trade_tax"
+				position = { x = 35 y = -180 }
+				spriteType = "GFX_money_button_data_box_bg_2"
+				Orientation = CENTER
+			}
+
+
+			iconType = {
+				name = "money_category_header_resources"
+				position = {x = 35 y = -70 }	
+				spriteType = "GFX_money_category_bg_1"
+				alwaystransparent = no
+				Orientation = CENTER	
+			}
+
+
+
+			iconType = {
+				name = "money_category_taxes_steel_bg"
+				position = {x = 35 y = -25 }	
+				spriteType = "GFX_money_taxes_resources_bg"
+				alwaystransparent = no
+				Orientation = CENTER	
+			}
+			iconType = {
+				name = "money_category_taxes_alluminium_bg"
+				position = {x = 176 y = -25 }	
+				spriteType = "GFX_money_taxes_resources_bg"
+				alwaystransparent = no
+				Orientation = CENTER	
+			}
+			iconType = {
+				name = "money_category_taxes_gold_bg"
+				position = {x = 317 y = -25 }	
+				spriteType = "GFX_money_taxes_resources_bg"
+				alwaystransparent = no
+				Orientation = CENTER	
+			}
+			
+			iconType = {
+				name = "money_category_taxes_steel_icon"
+				position = {x = 83 y = -10 }	
+				spriteType = "GFX_money_taxes_resources_icons"
+				frame = 1
+				alwaystransparent = no
+				Orientation = CENTER	
+			}
+			iconType = {
+				name = "money_category_taxes_alluminium_icon"
+				position = {x = 224 y = -10 }	
+				spriteType = "GFX_money_taxes_resources_icons"
+				frame = 2
+				alwaystransparent = no
+				Orientation = CENTER	
+			}
+			iconType = {
+				name = "money_category_taxes_gold_icon"
+				position = {x = 365 y = -10 }	
+				spriteType = "GFX_money_taxes_resources_icons"
+				frame = 3
+				alwaystransparent = no
+				Orientation = CENTER	
+			}
+
+
+			instantTextboxType = {
+				name = "money_expenses_cost_steel"
+				position = {x = 35 y = 24}
+				font = "ws_18gr"
+				text = "0.3"
+				maxWidth = 128
+				maxHeight = 24
+				format = center
+				Orientation = CENTER
+			}
+			instantTextboxType = {
+				name = "money_expenses_cost_alluminium"
+				position = {x = 176 y = 24}
+				font = "ws_18gr"
+				text = "0.3"
+				maxWidth = 128
+				maxHeight = 24
+				format = center
+				Orientation = CENTER
+			}
+			instantTextboxType = {
+				name = "money_expenses_cost_gold"
+				position = {x = 317 y = 24}
+				font = "ws_18gr"
+				text = "0.3"
+				maxWidth = 128
+				maxHeight = 24
+				format = center
 				Orientation = CENTER
 			}
 
 			
+
+			iconType = {
+				name = "money_category_taxes_oil_bg"
+				position = {x = 35 y = 80 }	
+				spriteType = "GFX_money_taxes_resources_bg"
+				alwaystransparent = no
+				Orientation = CENTER	
+			}
+			iconType = {
+				name = "money_category_taxes_rubber_bg"
+				position = {x = 176 y = 80 }	
+				spriteType = "GFX_money_taxes_resources_bg"
+				alwaystransparent = no
+				Orientation = CENTER	
+			}
+			iconType = {
+				name = "money_category_taxes_tungsten_bg"
+				position = {x = 317 y = 80 }	
+				spriteType = "GFX_money_taxes_resources_bg"
+				alwaystransparent = no
+				Orientation = CENTER	
+			}
+
+
+			iconType = {
+				name = "money_category_taxes_oil_icon"
+				position = {x = 83 y = 95 }	
+				spriteType = "GFX_money_taxes_resources_icons"
+				frame = 4
+				alwaystransparent = no
+				Orientation = CENTER	
+			}
+			iconType = {
+				name = "money_category_taxes_rubber_icon"
+				position = {x = 224 y = 95 }	
+				spriteType = "GFX_money_taxes_resources_icons"
+				frame = 5
+				alwaystransparent = no
+				Orientation = CENTER	
+			}
+			iconType = {
+				name = "money_category_taxes_tungsten_icon"
+				position = {x = 365 y = 95 }	
+				spriteType = "GFX_money_taxes_resources_icons"
+				frame = 6
+				alwaystransparent = no
+				Orientation = CENTER	
+			}
+
+
+			instantTextboxType = {
+				name = "money_expenses_cost_oil"
+				position = {x = 35 y = 133}
+				font = "ws_18gr"
+				text = "0.3"
+				maxWidth = 128
+				maxHeight = 24
+				format = center
+				Orientation = CENTER
+			}
+			instantTextboxType = {
+				name = "money_expenses_cost_rubber"
+				position = {x = 176 y = 133}
+				font = "ws_18gr"
+				text = "0.3"
+				maxWidth = 128
+				maxHeight = 24
+				format = center
+				Orientation = CENTER
+			}
+			instantTextboxType = {
+				name = "money_expenses_cost_tungsten"
+				position = {x = 317 y = 133}
+				font = "ws_18gr"
+				text = "0.3"
+				maxWidth = 128
+				maxHeight = 24
+				format = center
+				Orientation = CENTER
+			}
+
+
+			iconType = {
+				name = "money_category_taxes_plasma_bg"
+				position = {x = 35 y = 185 }	
+				spriteType = "GFX_money_taxes_resources_bg"
+				alwaystransparent = no
+				Orientation = CENTER	
+			}
+			iconType = {
+				name = "money_category_taxes_elysium_bg"
+				position = {x = 176 y = 185 }	
+				spriteType = "GFX_money_taxes_resources_bg"
+				alwaystransparent = no
+				Orientation = CENTER	
+			}
+			iconType = {
+				name = "money_category_taxes_chromium_bg"
+				position = {x = 317 y = 185 }	
+				spriteType = "GFX_money_taxes_resources_bg"
+				alwaystransparent = no
+				Orientation = CENTER	
+			}
+
+			
+
+			iconType = {
+				name = "money_category_taxes_plasma_icon"
+				position = {x = 83 y = 200 }	
+				spriteType = "GFX_money_taxes_resources_icons"
+				frame = 7
+				alwaystransparent = no
+				Orientation = CENTER	
+			}
+			iconType = {
+				name = "money_category_taxes_elysium_icon"
+				position = {x = 224 y = 200 }	
+				spriteType = "GFX_money_taxes_resources_icons"
+				frame = 8
+				alwaystransparent = no
+				Orientation = CENTER	
+			}
+			iconType = {
+				name = "money_category_taxes_chromium_icon"
+				position = {x = 365 y = 200 }	
+				spriteType = "GFX_money_taxes_resources_icons"
+				frame = 9
+				alwaystransparent = no
+				Orientation = CENTER	
+			}
+
+
+
+
+			instantTextboxType = {
+				name = "money_expenses_cost_plasma"
+				position = {x = 35 y = 235}
+				font = "ws_18gr"
+				text = "0.3"
+				maxWidth = 128
+				maxHeight = 24
+				format = center
+				Orientation = CENTER
+			}
+			instantTextboxType = {
+				name = "money_expenses_cost_elysium"
+				position = {x = 176 y = 235}
+				font = "ws_18gr"
+				text = "0.3"
+				maxWidth = 128
+				maxHeight = 24
+				format = center
+				Orientation = CENTER
+			}
+			instantTextboxType = {
+				name = "money_expenses_cost_chromium"
+				position = {x = 317 y = 235}
+				font = "ws_18gr"
+				text = "0.3"
+				maxWidth = 128
+				maxHeight = 24
+				format = center
+				Orientation = CENTER
+			}
+
+
+
+
+
+			instantTextboxType = {
+				name = "money_taxes_min_salary_text"
+				position = {x = -267 y = -264}
+				font = "ws_12gr"
+				text = "MIN SALARY"
+				maxWidth = 100
+				maxHeight = 24
+				format = right
+				Orientation = CENTER
+				alwaystransparent = yes
+			}
+			instantTextboxType = {
+				name = "money_taxes_min_salary_value"
+				position = {x = -264 y = -232}
+				font = "ws_24w"
+				text = "707"
+				maxWidth = 80
+				maxHeight = 24
+				format = left
+				Orientation = CENTER
+				alwaystransparent = yes
+			}
+
+
+
+			instantTextboxType = {
+				name = "money_taxes_avrg_salary_text"
+				position = {x = -142 y = -264}
+				font = "ws_12gr"
+				text = "AVARAGE SALARY"
+				maxWidth = 100
+				maxHeight = 24
+				format = right
+				Orientation = CENTER
+				alwaystransparent = yes
+			}
+			instantTextboxType = {
+				name = "money_taxes_avrg_salary_value"
+				position = {x = -137 y = -232}
+				font = "ws_24w"
+				text = "707"
+				maxWidth = 80
+				maxHeight = 24
+				format = left
+				Orientation = CENTER
+				alwaystransparent = yes
+			}
+
+
+
+
+			instantTextboxType = {
+				name = "money_taxes_people_per_factory_text"
+				position = {x = -267 y = -158}
+				font = "ws_12gr"
+				text = "PEOPLE PER FACTORY"
+				maxWidth = 100
+				maxHeight = 24
+				format = right
+				Orientation = CENTER
+				alwaystransparent = yes
+			}
+			instantTextboxType = {
+				name = "money_taxes_people_per_factory_value"
+				position = {x = -264 y = -128}
+				font = "ws_24w"
+				text = "707"
+				maxWidth = 80
+				maxHeight = 24
+				format = left
+				Orientation = CENTER
+				alwaystransparent = yes
+			}
+
+
+
+			instantTextboxType = {
+				name = "money_taxes_investments_text"
+				position = {x = -142 y = -158}
+				font = "ws_12gr"
+				text = "INVESTMENTS"
+				maxWidth = 100
+				maxHeight = 24
+				format = right
+				Orientation = CENTER
+				alwaystransparent = yes
+			}
+			instantTextboxType = {
+				name = "money_taxes_investments_value"
+				position = {x = -137 y = -128}
+				font = "ws_24w"
+				text = "707"
+				maxWidth = 80
+				maxHeight = 24
+				format = left
+				Orientation = CENTER
+				alwaystransparent = yes
+			}
+
+
+
+
+
+
+			instantTextboxType = {
+				name = "money_taxes_corpo_tax_text"
+				position = {x = 42 y = -264}
+				font = "ws_12gr"
+				text = "CORPO"
+				maxWidth = 100
+				maxHeight = 24
+				format = left
+				Orientation = CENTER
+				alwaystransparent = yes
+			}
+			instantTextboxType = {
+				name = "money_taxes_corpo_tax_value"
+				position = {x = 60 y = -232}
+				font = "ws_24w"
+				text = "707"
+				maxWidth = 80
+				maxHeight = 24
+				format = right
+				Orientation = CENTER
+				alwaystransparent = yes
+			}
+
+
+
+
+			instantTextboxType = {
+				name = "money_taxes_income_tax_text"
+				position = {x = 167 y = -264}
+				font = "ws_12gr"
+				text = "INCOME TAX"
+				maxWidth = 100
+				maxHeight = 24
+				format = left
+				Orientation = CENTER
+			}
+			instantTextboxType = {
+				name = "money_taxes_income_tax_value"
+				position = {x = 185 y = -232}
+				font = "ws_24w"
+				text = "707"
+				maxWidth = 80
+				maxHeight = 24
+				format = right
+				Orientation = CENTER
+				alwaystransparent = yes
+			}
+
+
+
+
+
+
+			instantTextboxType = {
+				name = "money_taxes_trade_tax_text"
+				position = {x = 42 y = -158}
+				font = "ws_12gr"
+				text = "TRADE"
+				maxWidth = 100
+				maxHeight = 24
+				format = left
+				Orientation = CENTER
+				alwaystransparent = yes
+			}
+			instantTextboxType = {
+				name = "money_taxes_trade_tax_value"
+				position = {x = 60 y = -128}
+				font = "ws_24w"
+				text = "707"
+				maxWidth = 80
+				maxHeight = 24
+				format = right
+				Orientation = CENTER
+				alwaystransparent = yes
+			}
+
+
+
+
+			instantTextboxType = {
+				name = "money_taxes_electro_tax_text"
+				position = {x = 167 y = -158}
+				font = "ws_12gr"
+				text = "INCOME TAX"
+				maxWidth = 100
+				maxHeight = 24
+				format = left
+				Orientation = CENTER
+				alwaystransparent = yes
+			}
+			instantTextboxType = {
+				name = "money_taxes_electro_tax_value"
+				position = {x = 185 y = -128}
+				font = "ws_24w"
+				text = "707"
+				maxWidth = 80
+				maxHeight = 24
+				format = right
+				Orientation = CENTER
+				alwaystransparent = yes
+			}
+
+
+
+
+			instantTextboxType = {
+				name = "money_taxes_gdp_text"
+				position = {x = -392 y = -10}
+				font = "ws_12gr"
+				text = "GDP"
+				maxWidth = 100
+				maxHeight = 24
+				format = right
+				Orientation = CENTER
+				alwaystransparent = yes
+			}
+			instantTextboxType = {
+				name = "money_taxes_gdp_value"
+				position = {x = -389 y = 25}
+				font = "ws_24w"
+				text = "707"
+				maxWidth = 80
+				maxHeight = 24
+				format = left
+				Orientation = CENTER
+				alwaystransparent = yes
+			}
+
+
+			instantTextboxType = {
+				name = "money_taxes_gdp_growth_text"
+				position = {x = -267 y = -10}
+				font = "ws_12gr"
+				text = "GDP GROWTH"
+				maxWidth = 100
+				maxHeight = 24
+				format = right
+				Orientation = CENTER
+				alwaystransparent = yes
+			}
+			instantTextboxType = {
+				name = "money_taxes_gdp_growth_value"
+				position = {x = -264 y = 25}
+				font = "ws_24w"
+				text = "707"
+				maxWidth = 80
+				maxHeight = 24
+				format = left
+				Orientation = CENTER
+				alwaystransparent = yes
+			}
+
+
+			instantTextboxType = {
+				name = "money_taxes_corpo_influence_text"
+				position = {x = -142 y = -10}
+				font = "ws_12gr"
+				text = "CORPO INFLUENCE"
+				maxWidth = 100
+				maxHeight = 24
+				format = right
+				Orientation = CENTER
+				alwaystransparent = yes
+			}
+			instantTextboxType = {
+				name = "money_taxes_corpo_influence_value"
+				position = {x = -137 y = 25}
+				font = "ws_24w"
+				text = "707"
+				maxWidth = 80
+				maxHeight = 24
+				format = left
+				Orientation = CENTER
+				alwaystransparent = yes
+			}
+
+
+
+
+			###
+			instantTextboxType = {
+				name = "money_taxes_energy_per_person_text"
+				position = {x = -392 y = 95}
+				font = "ws_12gr"
+				text = "ENERGY PER PERSON"
+				maxWidth = 100
+				maxHeight = 24
+				format = right
+				Orientation = CENTER
+				alwaystransparent = yes
+			}
+			instantTextboxType = {
+				name = "money_taxes_energy_per_person_value"
+				position = {x = -389 y = 130}
+				font = "ws_24w"
+				text = "707"
+				maxWidth = 80
+				maxHeight = 24
+				format = left
+				Orientation = CENTER
+				alwaystransparent = yes
+			}
+
+
+			instantTextboxType = {
+				name = "money_taxes_total_population_text"
+				position = {x = -267 y = 95}
+				font = "ws_12gr"
+				text = "POPULATION TOTAL"
+				maxWidth = 100
+				maxHeight = 24
+				format = right
+				Orientation = CENTER
+				alwaystransparent = yes
+			}
+			instantTextboxType = {
+				name = "money_taxes_total_population_value"
+				position = {x = -264 y = 130}
+				font = "ws_24w"
+				text = "707"
+				maxWidth = 80
+				maxHeight = 24
+				format = left
+				Orientation = CENTER
+				alwaystransparent = yes
+			}
+
+
+			instantTextboxType = {
+				name = "money_taxes_workforce_text"
+				position = {x = -142 y = 95}
+				font = "ws_12gr"
+				text = "WORKFORCE"
+				maxWidth = 100
+				maxHeight = 24
+				format = right
+				Orientation = CENTER
+				alwaystransparent = yes
+			}
+			instantTextboxType = {
+				name = "money_taxes_workforce_value"
+				position = {x = -137 y = 130}
+				font = "ws_24w"
+				text = "707"
+				maxWidth = 80
+				maxHeight = 24
+				format = left
+				Orientation = CENTER
+				alwaystransparent = yes
+			}
+
+
+
+
+			###
+			instantTextboxType = {
+				name = "money_taxes_inflation_text"
+				position = {x = -392 y = 200}
+				font = "ws_12gr"
+				text = "ENERGY PER PERSON"
+				maxWidth = 100
+				maxHeight = 24
+				format = right
+				Orientation = CENTER
+				alwaystransparent = yes
+			}
+			instantTextboxType = {
+				name = "money_taxes_inflation_value"
+				position = {x = -389 y = 235}
+				font = "ws_24w"
+				text = "707"
+				maxWidth = 80
+				maxHeight = 24
+				format = left
+				Orientation = CENTER
+				alwaystransparent = yes
+			}
+
+
+			instantTextboxType = {
+				name = "money_taxes_unemployment_text"
+				position = {x = -267 y = 200}
+				font = "ws_12gr"
+				text = "POPULATION TOTAL"
+				maxWidth = 100
+				maxHeight = 24
+				format = right
+				Orientation = CENTER
+				alwaystransparent = yes
+			}
+			instantTextboxType = {
+				name = "money_taxes_unemployment_value"
+				position = {x = -264 y = 235}
+				font = "ws_24w"
+				text = "707"
+				maxWidth = 80
+				maxHeight = 24
+				format = left
+				Orientation = CENTER
+				alwaystransparent = yes
+			}
+
+
+			instantTextboxType = {
+				name = "money_taxes_g_employed_text"
+				position = {x = -142 y = 200}
+				font = "ws_12gr"
+				text = "WORKFORCE"
+				maxWidth = 100
+				maxHeight = 24
+				format = right
+				Orientation = CENTER
+				alwaystransparent = yes
+			}
+			instantTextboxType = {
+				name = "money_taxes_g_employed_value"
+				position = {x = -137 y = 235}
+				font = "ws_24w"
+				text = "707"
+				maxWidth = 80
+				maxHeight = 24
+				format = left
+				Orientation = CENTER
+				alwaystransparent = yes
+			}
+
+
+
+			instantTextboxType = {
+				name = "money_country_data_category_title"
+				position = {x = -433 y = -67}
+				font = "ws_16gr"
+				text = "INCOME"
+				maxWidth = 120
+				maxHeight = 24
+				format = left
+				Orientation = CENTER
+			}
+
+
+			instantTextboxType = {
+				name = "money_country_data_category_title"
+				position = {x = -433 y = -67}
+				font = "ws_16gr"
+				text = "COUNTRY DATA"
+				maxWidth = 120
+				maxHeight = 24
+				format = left
+				Orientation = CENTER
+			}
+
+
+			instantTextboxType = {
+				name = "money_country_cost_resources_title"
+				position = {x = 48 y = -67}
+				font = "ws_16dr"
+				text = "THE PRICE OF GLOBAL RESOURCES"
+				maxWidth = 300
+				maxHeight = 24
+				format = left
+				Orientation = CENTER
+			}
+
+
+	}
+
+	containerWindowType = {
+        	name = "money_army_info_window"
+        	position = { x=0 y=0 }	
+			size = { width = 2560 height = 1440 }
+			clipping = no
+			Orientation = CENTER
+			origo = center
+
+			fade_time = 280
+			fade_type = linear
+
+			background = {
+				name = "Background"	
+				spriteType = "GFX_a_empty"
+			}	
+
+			# Income
+			iconType = {
+				name = "money_army_bg"
+				position = {x = -410 y = -260 }	
+				spriteType = "GFX_money_button_category_army_voltage"
+				alwaystransparent = no
+				Orientation = CENTER	
+			}
+
+
+			iconType = {
+				name = "money_army_voltage_army"
+				position = {x = -376 y = -210 }	
+				spriteType = "GFX_army_progressbar_army_expenses"
+				Orientation = CENTER	
+			}
+			iconType = {
+				name = "money_army_voltage_navy"
+				position = {x = -217 y = -210 }	
+				spriteType = "GFX_army_progressbar_army_expenses"
+				Orientation = CENTER	
+			}
+
+			iconType = {
+				name = "money_army_voltage_air"
+				position = {x = -296 y = -70 }	
+				spriteType = "GFX_army_progressbar_army_expenses"
+				Orientation = CENTER	
+			}
+
+			iconType = {
+				name = "money_army_voltage_mech"
+				position = {x = -376 y = 71 }	
+				spriteType = "GFX_army_progressbar_army_expenses"
+				Orientation = CENTER	
+			}
+			iconType = {
+				name = "money_army_voltage_industry"
+				position = {x = -217 y = 71 }	
+				spriteType = "GFX_army_progressbar_army_expenses"
+				Orientation = CENTER	
+			}
+
+
+			iconType = {
+				name = "money_army_label"
+				position = {x = 55 y = -270 }	
+				spriteType = "GFX_money_button_category_army_categories"
+				Orientation = CENTER	
+			}
+
+
+			buttonType = {
+				name = "money_army_army_button"
+				position = { x = 55 y = -225 }
+				spriteType = "GFX_money_button_category_army_expenses_1"
+				Orientation = CENTER
+			}
+
+
+			buttonType = {
+				name = "money_army_navy_button"
+				position = { x = 55 y = -80 }
+				spriteType = "GFX_money_button_category_army_expenses_1"
+				Orientation = CENTER
+			}
+
+
+			buttonType = {
+				name = "money_army_air_button"
+				position = { x = 55 y = 60 }
+				spriteType = "GFX_money_button_category_army_expenses_1"
+				Orientation = CENTER
+			}
+
+			
+			buttonType = {
+				name = "money_army_mech_button"
+				position = { x = 55 y = 200 }
+				spriteType = "GFX_money_button_category_army_expenses_1"
+				Orientation = CENTER
+			}
+			
+	}
+
+	containerWindowType = {
+    	name = "money_energy_info_window"
+    	position = { x=0 y=0 }	
+		size = { width = 2560 height = 1440 }
+		clipping = no
+		Orientation = CENTER
+		origo = center
+		fade_time = 280
+		fade_type = linear
+		background = {
+			name = "Background"	
+			spriteType = "GFX_a_empty"
+		}	
+		# Income
+		iconType = {
+			name = "money_energy_details_1"
+			position = {x = -450 y = -290 }	
+			spriteType = "GFX_money_energy_details_1"
+			alwaystransparent = no
+			Orientation = CENTER	
 		}
+		iconType = {
+			name = "money_energy_details_2"
+			position = {x = 290 y = -290 }	
+			spriteType = "GFX_money_energy_details_2"
+			alwaystransparent = no
+			Orientation = CENTER	
+		}
+		iconType = {
+			name = "money_energy_category_header_tdot"
+			position = {x = 35 y = -180 }	
+			spriteType = "GFX_money_category_bg_1"
+			alwaystransparent = no
+			Orientation = CENTER	
+		}
+		iconType = {
+			name = "money_energy_energy_increase_bg"
+			position = {x = 35 y = -290 }	
+			spriteType = "GFX_money_data_box_bg_2"
+			alwaystransparent = no
+			Orientation = CENTER	
+		}
+		iconType = {
+			name = "money_energy_energy_consumption_bg"
+			position = {x = 163 y = -290 }	
+			spriteType = "GFX_money_data_box_bg_2"
+			alwaystransparent = no
+			Orientation = CENTER	
+		}
+
+		instantTextboxType = {
+			name = "money_energy_energy_increase_title"
+			position = {x = 170 y = -270}
+			font = "ws_12gr"
+			text = "Enerygy Increase"
+			maxWidth = 102
+			maxHeight = 24
+			format = left
+			Orientation = CENTER
+		}
+		instantTextboxType = {
+			name = "money_energy_energy_increase_value"
+			position = {x = 225 y = -235}
+			font = "ws_24w"
+			text = "24 E"
+			maxWidth = 102
+			maxHeight = 24
+			format = left
+			Orientation = CENTER
+		}
+
+
+		instantTextboxType = {
+			name = "money_energy_energy_consumtion_title"
+			position = {x = 42 y = -270}
+			font = "ws_12gr"
+			text = "Energy Consumption"
+			maxWidth = 102
+			maxHeight = 24
+			format = left
+			Orientation = CENTER
+		}
+		instantTextboxType = {
+			name = "money_energy_energy_consumtion_value"
+			position = {x = 95 y = -235}
+			font = "ws_24w"
+			text = "24 E"
+			maxWidth = 102
+			maxHeight = 24
+			format = left
+			Orientation = CENTER
+		}
+
+		iconType = {
+			name = "money_energy_tdot"
+			position = {x = 47 y = -120 }	
+			spriteType = "GFX_money_energy_tdot"
+			alwaystransparent = no
+			Orientation = CENTER	
+		}
+
+		buttonType = {
+			name = "money_energy_priority_market_button"
+			position = { x = -450 y = -165 }
+			spriteType = "GFX_money_energy_button_priority_market"
+			Orientation = CENTER
+		}
+		buttonType = {
+			name = "money_energy_priority_people_button"
+			position = { x = -227 y = -165 }
+			spriteType = "GFX_money_energy_button_priority_people"
+			Orientation = CENTER
+		}
+
+		buttonType = {
+			name = "money_energy_priority_industry_button"
+			position = { x = -450 y = -90 }
+			spriteType = "GFX_money_energy_button_priority_industry"
+			Orientation = CENTER
+		}
+		buttonType = {
+			name = "money_energy_priority_army_button"
+			position = { x = -227 y = -90 }
+			spriteType = "GFX_money_energy_button_priority_army"
+			Orientation = CENTER
+		}
+
+		buttonType = {
+			name = "money_energy_priority_corpo_button"
+			position = { x = -450 y = -15 }
+			spriteType = "GFX_money_energy_button_priority_corpo"
+			Orientation = CENTER
+		}
+		buttonType = {
+			name = "money_energy_priority_country_button"
+			position = { x = -227 y = -15 }
+			spriteType = "GFX_money_energy_button_priority_country"
+			Orientation = CENTER
+		}
+
+		iconType = {
+			name = "money_energy_category_header_voltage"
+			position = {x = -450 y = 55 }	
+			spriteType = "GFX_money_category_bg_2"
+			alwaystransparent = no
+			Orientation = CENTER	
+		}
+
+		iconType = {
+			name = "money_energy_voltages"
+			position = {x = -450 y = 110 }	
+			spriteType = "GFX_money_energy_voltages"
+			alwaystransparent = no
+			Orientation = CENTER	
+		}
+
+		iconType = {
+			name = "money_energy_voltage_market_progress_bar"
+			position = {x = -360 y = 113 }	
+			spriteType = "GFX_money_energy_voltage_progress_bar"
+			alwaystransparent = no
+			Orientation = CENTER	
+		}
+		iconType = {
+			name = "money_energy_voltage_people_progress_bar"
+			position = {x = -136 y = 113 }	
+			spriteType = "GFX_money_energy_voltage_progress_bar"
+			alwaystransparent = no
+			Orientation = CENTER	
+		}
+
+		iconType = {
+			name = "money_energy_voltage_industry_progress_bar"
+			position = {x = -360 y = 153 }	
+			spriteType = "GFX_money_energy_voltage_progress_bar"
+			alwaystransparent = no
+			Orientation = CENTER	
+		}
+		iconType = {
+			name = "money_energy_voltage_army_progress_bar"
+			position = {x = -136 y = 153 }	
+			spriteType = "GFX_money_energy_voltage_progress_bar"
+			alwaystransparent = no
+			Orientation = CENTER	
+		}
+
+		iconType = {
+			name = "money_energy_voltage_corpo_progress_bar"
+			position = {x = -360 y = 193 }	
+			spriteType = "GFX_money_energy_voltage_progress_bar"
+			alwaystransparent = no
+			Orientation = CENTER	
+		}
+		iconType = {
+			name = "money_energy_voltage_country_progress_bar"
+			position = {x = -136 y = 193 }	
+			spriteType = "GFX_money_energy_voltage_progress_bar"
+			alwaystransparent = no
+			Orientation = CENTER	
+		}
+
+		buttonType = {
+			name = "money_energy_restart_button"
+			position = { x = -400 y = 240 }
+			spriteType = "GFX_money_energy_button_restart"
+			Orientation = CENTER
+		}
+
+		instantTextboxType = {
+			name = "money_energy_voltage_category_title"
+			position = {x = -435 y = 59}
+			font = "ws_16gr"
+			text = "VOLTAGE"
+			maxWidth = 120
+			maxHeight = 24
+			format = left
+			Orientation = CENTER
+		}
+		instantTextboxType = {
+			name = "money_energy_tdot_category_title"
+			position = {x = 50 y = -175}
+			font = "ws_16gr"
+			text = "TDOT"
+			maxWidth = 120
+			maxHeight = 24
+			format = left
+			Orientation = CENTER
+		}
+	}
+
+	containerWindowType = {
+    	name = "money_inflation_info_window"
+    	position = { x=0 y=0 }	
+		size = { width = 2560 height = 1440 }
+		clipping = no
+		Orientation = CENTER
+		origo = center
+		fade_time = 280
+		fade_type = linear
+		background = {
+			name = "Background"	
+			spriteType = "GFX_a_empty"
+		}	
+		# Income
+		iconType = {
+			name = "money_inflation_category_header_inflation"
+			position = {x = -450 y = -290 }	
+			spriteType = "GFX_money_category_bg_2"
+			alwaystransparent = no
+			Orientation = CENTER	
+		}
+		
+		instantTextboxType = {
+			name = "money_inflation_inflation_category_title"
+			position = {x = -435 y = -286}
+			font = "ws_16gr"
+			text = "INFLATION"
+			maxWidth = 120
+			maxHeight = 24
+			format = left
+			Orientation = CENTER
+		}
+
+		iconType = {
+			name = "money_inflation_inflation_bg"
+			position = {x = -450 y = -250 }	
+			spriteType = "GFX_money_big_data_bg"
+			alwaystransparent = no
+			Orientation = CENTER	
+		}
+
+		instantTextboxType = {
+			name = "money_inflation_inflation_title"
+			position = {x = -435 y = -236}
+			font = "ws_24gr"
+			text = "INFLATION:"
+			maxWidth = 200
+			maxHeight = 24
+			format = left
+			Orientation = CENTER
+		}
+
+		instantTextboxType = {
+			name = "money_inflation_inflation_value"
+			position = {x = -255 y = -236}
+			font = "ws_24r"
+			text = "12%"
+			maxWidth = 100
+			maxHeight = 24
+			format = right
+			Orientation = CENTER
+		}
+
+		iconType = {
+			name = "money_inflation_details_1"
+			position = {x = -130 y = -250 }	
+			spriteType = "GFX_money_inflation_details_1"
+			frame = 1
+			alwaystransparent = no
+			Orientation = CENTER	
+		}
+
+		buttonType = {
+			name = "money_inflation_print_money"
+			position = { x = -450 y = -185 }
+			spriteType = "GFX_money_inflation_button_print_money"
+			Orientation = CENTER
+		}
+		buttonType = {
+			name = "money_inflation_limit_money"
+			position = { x = -228 y = -185 }
+			spriteType = "GFX_money_inflation_limit_money"
+			Orientation = CENTER
+		}
+
+		iconType = {
+			name = "money_inflation_category_header_stocks"
+			position = {x = -450 y = -110 }	
+			spriteType = "GFX_money_category_bg_2"
+			alwaystransparent = no
+			Orientation = CENTER	
+		}
+		
+		instantTextboxType = {
+			name = "money_inflation_stocks_category_title"
+			position = {x = -435 y = -107}
+			font = "ws_16gr"
+			text = "STOCKS"
+			maxWidth = 120
+			maxHeight = 24
+			format = left
+			Orientation = CENTER
+		}
+
+		iconType = {
+			name = "money_inflation_stocks_camelia"
+			position = {x = -450 y = -70 }	
+			spriteType = "GFX_money_inflation_cfd_bg"
+			alwaystransparent = no
+			Orientation = CENTER	
+		}
+		iconType = {
+			name = "money_inflation_stocks_camelia_logo"
+			position = {x = -440 y = -62 }	
+			spriteType = "GFX_money_inflation_cfd_corpo"
+			frame = 1
+			alwaystransparent = no
+			Orientation = CENTER	
+		}
+		instantTextboxType = {
+			name = "money_inflation_stocks_camelia_title"
+			position = {x = -410 y = -60}
+			font = "ws_18gr"
+			text = "CAMELIA"
+			maxWidth = 120
+			maxHeight = 24
+			format = left
+			Orientation = CENTER
+		}
+		instantTextboxType = {
+			name = "money_inflation_stocks_camelia_stocks_value"
+			position = {x = -437 y = 75}
+			font = "ws_18r"
+			text = "STOCKS: 713"
+			maxWidth = 120
+			maxHeight = 24
+			format = left
+			Orientation = CENTER
+		}
+		instantTextboxType = {
+			name = "money_inflation_stocks_camelia_stocks_data"
+			position = {x = -437 y = 50}
+			font = "ws_16w"
+			text = "+12B"
+			maxWidth = 120
+			maxHeight = 24
+			format = left
+			Orientation = CENTER
+		}
+		buttonType = {
+			name = "money_inflation_stocks_camelia_short"
+			position = { x = -325 y = 73 }
+			spriteType = "GFX_money_inflation_cfd_sell"
+			Orientation = CENTER
+		}
+		buttonType = {
+			name = "money_inflation_stocks_camelia_long"
+			position = { x = -287 y = 73 }
+			spriteType = "GFX_money_inflation_cfd_buy"
+			Orientation = CENTER
+		}
+		buttonType = {
+			name = "money_inflation_stocks_camelia_close_position"
+			position = { x = -283 y = -70 }
+			spriteType = "GFX_money_inflation_button_close_the_deal"
+			Orientation = CENTER
+		}
+
+		iconType = {
+			name = "money_inflation_stocks_arstotzka"
+			position = {x = -227 y = -70 }	
+			spriteType = "GFX_money_inflation_cfd_bg"
+			alwaystransparent = no
+			Orientation = CENTER	
+		}
+		iconType = {
+			name = "money_inflation_stocks_arstotzka_logo"
+			position = {x = -217 y = -62 }	
+			spriteType = "GFX_money_inflation_cfd_corpo"
+			frame = 2
+			alwaystransparent = no
+			Orientation = CENTER	
+		}
+		instantTextboxType = {
+			name = "money_inflation_stocks_arstotzka_title"
+			position = {x = -185 y = -60}
+			font = "ws_18gr"
+			text = "ARSTOTZKA"
+			maxWidth = 120
+			maxHeight = 24
+			format = left
+			Orientation = CENTER
+		}
+		instantTextboxType = {
+			name = "money_inflation_stocks_arstotzka_stocks_value"
+			position = {x = -213 y = 75}
+			font = "ws_18r"
+			text = "STOCKS: 713"
+			maxWidth = 120
+			maxHeight = 24
+			format = left
+			Orientation = CENTER
+		}
+		instantTextboxType = {
+			name = "money_inflation_stocks_arstotzka_stocks_data"
+			position = {x = -213 y = 50}
+			font = "ws_16g"
+			text = "+12B"
+			maxWidth = 120
+			maxHeight = 24
+			format = left
+			Orientation = CENTER
+		}
+		
+		buttonType = {
+			name = "money_inflation_stocks_arstotzka_short"
+			position = { x = -103 y = 73 }
+			spriteType = "GFX_money_inflation_cfd_sell"
+			Orientation = CENTER
+		}
+		buttonType = {
+			name = "money_inflation_stocks_arstotzka_long"
+			position = { x = -65 y = 73 }
+			spriteType = "GFX_money_inflation_cfd_buy"
+			Orientation = CENTER
+		}
+		buttonType = {
+			name = "money_inflation_stocks_arstotzka_close_position"
+			position = { x = -60 y = -70 }
+			spriteType = "GFX_money_inflation_button_close_the_deal"
+			Orientation = CENTER
+		}
+
+		iconType = {
+			name = "money_inflation_stocks_rotatosk"
+			position = {x = -450 y = 125 }	
+			spriteType = "GFX_money_inflation_cfd_bg"
+			alwaystransparent = no
+			Orientation = CENTER	
+		}
+		iconType = {
+			name = "money_inflation_stocks_rotatosk_logo"
+			position = {x = -440 y = 133 }	
+			spriteType = "GFX_money_inflation_cfd_corpo"
+			frame = 3
+			alwaystransparent = no
+			Orientation = CENTER	
+		}
+		instantTextboxType = {
+			name = "money_inflation_stocks_rotatosk_title"
+			position = {x = -410 y = 135}
+			font = "ws_18gr"
+			text = "ROTATOSK"
+			maxWidth = 120
+			maxHeight = 24
+			format = left
+			Orientation = CENTER
+		}
+		instantTextboxType = {
+			name = "money_inflation_stocks_rotatosk_stocks_value"
+			position = {x = -437 y = 270}
+			font = "ws_18r"
+			text = "STOCKS: 713"
+			maxWidth = 120
+			maxHeight = 24
+			format = left
+			Orientation = CENTER
+		}
+		instantTextboxType = {
+			name = "money_inflation_stocks_rotatosk_stocks_data"
+			position = {x = -437 y = 246}
+			font = "ws_16w"
+			text = "+12B"
+			maxWidth = 120
+			maxHeight = 24
+			format = left
+			Orientation = CENTER
+		}
+		buttonType = {
+			name = "money_inflation_stocks_rotatosk_short"
+			position = { x = -325 y = 268 }
+			spriteType = "GFX_money_inflation_cfd_sell"
+			Orientation = CENTER
+		}
+		buttonType = {
+			name = "money_inflation_stocks_rotatosk_long"
+			position = { x = -287 y = 268 }
+			spriteType = "GFX_money_inflation_cfd_buy"
+			Orientation = CENTER
+		}
+		buttonType = {
+			name = "money_inflation_stocks_rotatosk_close_position"
+			position = { x = -283 y = 125 }
+			spriteType = "GFX_money_inflation_button_close_the_deal"
+			Orientation = CENTER
+		}
+
+		iconType = {
+			name = "money_inflation_stocks_zaphkiel"
+			position = {x = -227 y = 125 }	
+			spriteType = "GFX_money_inflation_cfd_bg"
+			alwaystransparent = no
+			Orientation = CENTER	
+		}
+		iconType = {
+			name = "money_inflation_stocks_zaphkiel_logo"
+			position = {x = -217 y = 133 }	
+			spriteType = "GFX_money_inflation_cfd_corpo"
+			frame = 4
+			alwaystransparent = no
+			Orientation = CENTER	
+		}
+		instantTextboxType = {
+			name = "money_inflation_stocks_zaphkiel_title"
+			position = {x = -185 y = 135}
+			font = "ws_18gr"
+			text = "ZAPHKIEL"
+			maxWidth = 120
+			maxHeight = 24
+			format = left
+			Orientation = CENTER
+		}
+		instantTextboxType = {
+			name = "money_inflation_stocks_zaphkiel_stocks_value"
+			position = {x = -213 y = 270}
+			font = "ws_18r"
+			text = "STOCKS: 713"
+			maxWidth = 120
+			maxHeight = 24
+			format = left
+			Orientation = CENTER
+		}
+		instantTextboxType = {
+			name = "money_inflation_stocks_zaphkiel_stocks_data"
+			position = {x = -213 y = 246}
+			font = "ws_16w"
+			text = "+12B"
+			maxWidth = 120
+			maxHeight = 24
+			format = left
+			Orientation = CENTER
+		}
+		buttonType = {
+			name = "money_inflation_stocks_zaphkiel_short"
+			position = { x = -103 y = 268 }
+			spriteType = "GFX_money_inflation_cfd_sell"
+			Orientation = CENTER
+		}
+		buttonType = {
+			name = "money_inflation_stocks_zaphkiel_long"
+			position = { x = -65 y = 268 }
+			spriteType = "GFX_money_inflation_cfd_buy"
+			Orientation = CENTER
+		}
+		buttonType = {
+			name = "money_inflation_stocks_zaphkiel_close_position"
+			position = { x = -60 y = 125 }
+			spriteType = "GFX_money_inflation_button_close_the_deal"
+			Orientation = CENTER
+		}
+
+
+
+
+
+		iconType = {
+			name = "money_inflation_category_header_unemployed"
+			position = {x = 25 y = -290 }	
+			spriteType = "GFX_money_category_bg_2"
+			alwaystransparent = no
+			Orientation = CENTER	
+		}
+		
+		instantTextboxType = {
+			name = "money_inflation_unemployed_category_title"
+			position = {x = 40 y = -286}
+			font = "ws_16gr"
+			text = "UNEMPLOYED"
+			maxWidth = 120
+			maxHeight = 24
+			format = left
+			Orientation = CENTER
+		}
+
+		iconType = {
+			name = "money_inflation_unemployed_bg"
+			position = {x = 145 y = -250 }	
+			spriteType = "GFX_money_big_data_bg"
+			alwaystransparent = no
+			Orientation = CENTER	
+		}
+
+		instantTextboxType = {
+			name = "money_inflation_unemployed_title"
+			position = {x = 160 y = -236}
+			font = "ws_24gr"
+			text = "UNEMPLOYED:"
+			maxWidth = 200
+			maxHeight = 24
+			format = left
+			Orientation = CENTER
+		}
+
+		instantTextboxType = {
+			name = "money_inflation_unemployed_value"
+			position = {x = 340 y = -236}
+			font = "ws_24r"
+			text = "12%"
+			maxWidth = 100
+			maxHeight = 24
+			format = right
+			Orientation = CENTER
+		}
+
+		iconType = {
+			name = "money_inflation_details_2"
+			position = {x = 25 y = -250 }	
+			spriteType = "GFX_money_inflation_details_1"
+			frame = 2
+			alwaystransparent = no
+			Orientation = CENTER	
+		}
+
+
+		iconType = {
+			name = "money_inflation_gender_status_male_bg"
+			position = {x = 60 y = -180 }	
+			spriteType = "GFX_money_inflation_gender_status_bg"
+			alwaystransparent = no
+			Orientation = CENTER	
+		}
+		iconType = {
+			name = "money_inflation_gender_status_male_icon"
+			position = {x = 80 y = -120 }	
+			spriteType = "GFX_money_inflation_male_status"
+			frame = 3
+			alwaystransparent = no
+			Orientation = CENTER	
+		}
+		instantTextboxType = {
+			name = "money_inflation_gender_status_male_title"
+			position = {x = 107 y = -176}
+			font = "ws_16w"
+			text = "TOTAL: 48%"
+			maxWidth = 114
+			maxHeight = 24
+			format = center
+			Orientation = CENTER
+		}
+		instantTextboxType = {
+			name = "money_inflation_gender_status_male_sc"
+			position = {x = 60 y = -176}
+			font = "ws_16w"
+			text = "MN"
+			maxWidth = 40
+			maxHeight = 24
+			format = center
+			Orientation = CENTER
+		}
+
+		iconType = {
+			name = "money_inflation_gender_status_female_bg"
+			position = {x = 250 y = -180 }	
+			spriteType = "GFX_money_inflation_gender_status_bg"
+			alwaystransparent = no
+			Orientation = CENTER	
+		}
+		iconType = {
+			name = "money_inflation_gender_status_female_icon"
+			position = {x = 270 y = -120 }	
+			spriteType = "GFX_money_inflation_female_status"
+			frame = 3
+			alwaystransparent = no
+			Orientation = CENTER	
+		}
+		instantTextboxType = {
+			name = "money_inflation_gender_status_female_sc"
+			position = {x = 250 y = -176}
+			font = "ws_16w"
+			text = "WM"
+			maxWidth = 40
+			maxHeight = 24
+			format = center
+			Orientation = CENTER
+		}
+		instantTextboxType = {
+			name = "money_inflation_gender_status_female_title"
+			position = {x = 297 y = -176}
+			font = "ws_16w"
+			text = "TOTAL: 52%"
+			maxWidth = 114
+			maxHeight = 24
+			format = center
+			Orientation = CENTER
+		}
+
+
+
+		iconType = {
+			name = "money_inflation_category_header_overpopulation"
+			position = {x = 25 y = 60 }	
+			spriteType = "GFX_money_category_bg_2"
+			alwaystransparent = no
+			Orientation = CENTER	
+		}
+		
+		instantTextboxType = {
+			name = "money_inflation_overpopulation_category_title"
+			position = {x = 40 y = 63}
+			font = "ws_16gr"
+			text = "OVERPOPULATION"
+			maxWidth = 150
+			maxHeight = 24
+			format = left
+			Orientation = CENTER
+		}
+
+		iconType = {
+			name = "money_inflation_details_3"
+			position = {x = 25 y = 100 }	
+			spriteType = "GFX_money_inflation_details_1"
+			frame = 2
+			alwaystransparent = no
+			Orientation = CENTER	
+		}
+		iconType = {
+			name = "money_inflation_details_3"
+			position = {x = 25 y = 100 }	
+			spriteType = "GFX_money_inflation_details_1"
+			frame = 2
+			alwaystransparent = no
+			Orientation = CENTER	
+		}
+
+		iconType = {
+			name = "money_inflation_overpopulation_bg"
+			position = {x = 145 y = 100 }	
+			spriteType = "GFX_money_big_data_bg"
+			alwaystransparent = no
+			Orientation = CENTER	
+		}
+
+		instantTextboxType = {
+			name = "money_inflation_overpopulation_title"
+			position = {x = 160 y = 112}
+			font = "ws_24gr"
+			text = "OVERPOPULATION:"
+			maxWidth = 200
+			maxHeight = 24
+			format = left
+			Orientation = CENTER
+		}
+
+		instantTextboxType = {
+			name = "money_inflation_overpopulation_value"
+			position = {x = 340 y = 112}
+			font = "ws_24r"
+			text = "12%"
+			maxWidth = 100
+			maxHeight = 24
+			format = right
+			Orientation = CENTER
+		}
+
+
+		iconType = {
+			name = "money_inflation_category_header_chance_of_a_rally"
+			position = {x = 25 y = 165 }	
+			spriteType = "GFX_money_category_bg_2"
+			alwaystransparent = no
+			Orientation = CENTER	
+		}
+		
+		instantTextboxType = {
+			name = "money_inflation_chance_of_a_rally_category_title"
+			position = {x = 40 y = 168}
+			font = "ws_16gr"
+			text = "CHANCE OF A RALLY"
+			maxWidth = 150
+			maxHeight = 24
+			format = left
+			Orientation = CENTER
+		}
+
+		iconType = {
+			name = "money_inflation_chance_of_a_rally"
+			position = {x = 25 y = 210 }	
+			spriteType = "GFX_money_inflation_chance_of_a_rally"
+			alwaystransparent = no
+			frame = 3
+			Orientation = CENTER	
+		}
+		
+
+	}
 }

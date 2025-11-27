@@ -1,0 +1,190 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "open_spheres_window"
+		position = { x = 73 y = 0 }
+		size = { width = 50 height = 50 }
+		clipping = no
+
+		background = {
+			name = "Background"	
+			spriteType = "GFX_a_empty"
+		}	
+				
+		buttonType = {
+			name = "open_button"
+			position = { x = 102 y = 504 }
+			spriteType = "GFX_spheres_folder_button"
+		}
+		
+	}
+
+	containerWindowType = {
+		name = "spheres_window"
+		position = { x=0 y=0 }	
+		size = { width = 2560 height = 1440 }
+		clipping = no
+		Orientation = CENTER
+		origo = center
+
+		fade_time = 380
+		fade_type = linear
+
+		background = {
+			name = "Background"	
+			spriteType = "GFX_a_empty"
+		}	
+		
+
+		iconType = {
+			name = "spheres_bg"
+			position = {x = 0 y = 0}	
+			spriteType = "GFX_spheres_window_bg"
+			alwaystransparent = no
+			
+		}
+
+		iconType = {
+			name = "spheres_spheres_bg"
+			position = {x = -936 y = -516}	
+			spriteType = "GFX_spheres_spheres"
+			alwaystransparent = no
+			Orientation = CENTER
+			
+		}
+
+		iconType = {
+			name = "spheres_spheres_fees_background"
+			position = {x = -530 y = -516}	
+			spriteType = "GFX_spheres_background"
+			alwaystransparent = no
+			Orientation = CENTER
+			
+		}
+
+		iconType = {
+			name = "spheres_spheres_current_purchase_background"
+			position = {x = -530 y = -160}	
+			spriteType = "GFX_spheres_background"
+			alwaystransparent = no
+			Orientation = CENTER
+			
+		}
+
+		buttonType = {
+			name = "spheres_close_button"
+			position = { x = 331 y = -109 }
+			spriteType = "GFX_corpo_office_button_select_menu"
+			Orientation = CENTER
+		}
+
+		buttonType = {
+			name = "spheres_military_button"
+			position = { x = 356 y = -325 }
+			spriteType = "GFX_spheres_button_military"
+			Orientation = CENTER
+		}
+		buttonType = {
+			name = "spheres_production_button"
+			position = { x = 483 y = -265 }
+			spriteType = "GFX_spheres_button_production"
+			Orientation = CENTER
+		}
+		buttonType = {
+			name = "spheres_factories_button"
+			position = { x = 225 y = -265 }
+			spriteType = "GFX_spheres_button_factories"
+			Orientation = CENTER
+		}
+		buttonType = {
+			name = "spheres_security_button"
+			position = { x = 120 y = -180 }
+			spriteType = "GFX_spheres_button_security"
+			Orientation = CENTER
+		}
+		buttonType = {
+			name = "spheres_finance_button"
+			position = { x = 540 y = -180 }
+			spriteType = "GFX_spheres_button_finance"
+			Orientation = CENTER
+		}
+		buttonType = {
+			name = "spheres_agro_button"
+			position = { x = 540 y = 10 }
+			spriteType = "GFX_spheres_button_agro"
+			Orientation = CENTER
+		}
+		buttonType = {
+			name = "spheres_medical_button"
+			position = { x = 120 y = 10 }
+			spriteType = "GFX_spheres_button_medical"
+			Orientation = CENTER
+		}
+		buttonType = {
+			name = "spheres_research_button"
+			position = { x = 483 y = 83 }
+			spriteType = "GFX_spheres_button_research"
+			Orientation = CENTER
+		}
+		buttonType = {
+			name = "spheres_energy_button"
+			position = { x = 225 y = 83 }
+			spriteType = "GFX_spheres_button_energy"
+			Orientation = CENTER
+		}
+		buttonType = {
+			name = "spheres_resources_button"
+			position = { x = 356 y = 108 }
+			spriteType = "GFX_spheres_button_resources"
+			Orientation = CENTER
+		}
+
+		buttonType = {
+			name = "spheres_restart_sphere_button"
+			position = { x = -919 y = 408 }
+			spriteType = "GFX_spheres_restart_sphere"
+			Orientation = CENTER
+		}
+
+		buttonType = {
+			name = "spheres_spheres_investments_button"
+			position = { x = -919 y = 60 }
+			spriteType = "GFX_spheres_investments"
+			Orientation = CENTER
+		}
+		buttonType = {
+			name = "spheres_spheres_big_investments_button"
+			position = { x = -919 y = 170 }
+			spriteType = "GFX_spheres_big_investments"
+			Orientation = CENTER
+		}
+		buttonType = {
+			name = "spheres_spheres_disinvestment_button"
+			position = { x = -919 y = 280 }
+			spriteType = "GFX_spheres_disinvestment"
+			Orientation = CENTER
+		}
+
+		instantTextboxType = {
+			name = "spheres_state_fees"
+			position = {x = -357 y = -467}
+			font = "tsr_24c"
+			text = "STATE FEES"
+			maxWidth = 200
+			maxHeight = 24
+			format = right
+			Orientation = CENTER
+		}
+		instantTextboxType = {
+			name = "spheres_current_purchase"
+			position = {x = -457 y = -110}
+			font = "tsr_24c"
+			text = "CURRENT PURCHASE"
+			maxWidth = 300
+			maxHeight = 24
+			format = right
+			Orientation = CENTER
+		}
+
+	}
+}

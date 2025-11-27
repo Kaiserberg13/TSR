@@ -480,13 +480,7 @@ guiTypes = {
 		buttonType = {
 			name = "manage_occupied_button"
 			position = { x = 248 y = 504 }
-			quadTextureSprite = "GFX_resistance_button"
-			Orientation = "UPPER_LEFT"
-		}
-		buttonType = {
-			name = "energy_button"
-			position = { x = 173 y = 504 }
-			quadTextureSprite = "GFX_energy_button"
+			quadTextureSprite = "GFX_resistance_folder_button"
 			Orientation = "UPPER_LEFT"
 		}
 		
@@ -497,7 +491,7 @@ guiTypes = {
 			buttonType = {
 				name = "show_subjects_button"
 				position = { x = 0 y = 0 }
-				quadTextureSprite = "GFX_puppet_button"
+				quadTextureSprite = "GFX_puppet_folder_button"
 				buttonFont = "hoi_16mbs"
 				Orientation = "UPPER_RIGHT"
 			}
@@ -507,7 +501,7 @@ guiTypes = {
 		buttonType = {
 			name = "show_exiles_collaborations_button"
 			position = { x = 392 y = 504 }
-			quadTextureSprite = "GFX_exile_government_button"
+			quadTextureSprite = "GFX_exile_government_folder_button"
 			Orientation = "UPPER_LEFT"
 			format = right
 		}

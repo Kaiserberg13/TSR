@@ -156,4 +156,367 @@ scripted_gui = {
 			}
 	    }
 	}
+
+	money_taxes_info_window_scripted_gui = {
+	    context_type = player_context
+		parent_window_token = money_window
+		window_name = "money_taxes_info_window"
+	       
+	    visible = {
+			ROOT = {
+				AND = {
+					has_country_flag = money_taxes_view
+					has_country_flag = open_countrymoneyview
+				}
+			}
+	    }
+	}
+
+	money_energy_info_window_scripted_gui = {
+	    context_type = player_context
+		parent_window_token = money_window
+		window_name = "money_energy_info_window"
+	       
+	    visible = {
+			ROOT = {
+				AND = {
+					has_country_flag = money_energy_view
+					has_country_flag = open_countrymoneyview
+				}
+			}
+	    }
+	}
+
+	money_inflation_info_window_scripted_gui = {
+	    context_type = player_context
+		parent_window_token = money_window
+		window_name = "money_inflation_info_window"
+	       
+	    visible = {
+			ROOT = {
+				AND = {
+					has_country_flag = money_inflation_view
+					has_country_flag = open_countrymoneyview
+				}
+			}
+	    }
+	}
+
+	money_army_info_window_scripted_gui = {
+	    context_type = player_context
+		parent_window_token = money_window
+		window_name = "money_army_info_window"
+	       
+	    visible = {
+			ROOT = {
+				AND = {
+					has_country_flag = money_army_view
+					has_country_flag = open_countrymoneyview
+				}
+			}
+	    }
+
+		effects = {
+    		money_army_army_button_click = {
+				if = {
+					limit = {
+						NOT = {
+							has_country_flag = country_army_expenses_1
+							has_country_flag = country_army_expenses_2
+							has_country_flag = country_army_expenses_3
+							has_country_flag = country_army_expenses_4
+						}
+					}
+					set_country_flag = country_army_expenses_1
+				}
+				if = {
+					limit = {
+						has_country_flag = country_army_expenses_3
+					}
+					clr_country_flag = country_army_expenses_3
+					set_country_flag = country_army_expenses_4
+				}
+				if = {
+					limit = {
+						has_country_flag = country_army_expenses_2
+					}
+					clr_country_flag = country_army_expenses_2
+					set_country_flag = country_army_expenses_3
+				}
+				if = {
+					limit = {
+						has_country_flag = country_army_expenses_1
+					}
+					clr_country_flag = country_army_expenses_1
+					set_country_flag = country_army_expenses_2
+				}
+    		}
+			money_army_army_button_right_click = {
+				if = {
+					limit = {
+						NOT = {
+							has_country_flag = country_army_expenses_1
+							has_country_flag = country_army_expenses_2
+							has_country_flag = country_army_expenses_3
+							has_country_flag = country_army_expenses_4
+						}
+					}
+					set_country_flag = country_army_expenses_1
+				}
+				if = {
+					limit = {
+						has_country_flag = country_army_expenses_2
+					}
+					clr_country_flag = country_army_expenses_2
+					set_country_flag = country_army_expenses_1
+				}
+				if = {
+					limit = {
+						has_country_flag = country_army_expenses_3
+					}
+					clr_country_flag = country_army_expenses_3
+					set_country_flag = country_army_expenses_2
+				}
+				if = {
+					limit = {
+						has_country_flag = country_army_expenses_4
+					}
+					clr_country_flag = country_army_expenses_4
+					set_country_flag = country_army_expenses_3
+				}
+    		}
+
+
+
+
+
+
+			money_army_navy_button_click = {
+				if = {
+					limit = {
+						NOT = {
+							has_country_flag = country_navy_expenses_1
+							has_country_flag = country_navy_expenses_2
+							has_country_flag = country_navy_expenses_3
+							has_country_flag = country_navy_expenses_4
+						}
+					}
+					set_country_flag = country_navy_expenses_1
+				}
+				if = {
+					limit = {
+						has_country_flag = country_navy_expenses_3
+					}
+					clr_country_flag = country_navy_expenses_3
+					set_country_flag = country_navy_expenses_4
+				}
+				if = {
+					limit = {
+						has_country_flag = country_navy_expenses_2
+					}
+					clr_country_flag = country_navy_expenses_2
+					set_country_flag = country_navy_expenses_3
+				}
+				if = {
+					limit = {
+						has_country_flag = country_navy_expenses_1
+					}
+					clr_country_flag = country_navy_expenses_1
+					set_country_flag = country_navy_expenses_2
+				}
+    		}
+			money_army_navy_button_right_click = {
+				if = {
+					limit = {
+						NOT = {
+							has_country_flag = country_navy_expenses_1
+							has_country_flag = country_navy_expenses_2
+							has_country_flag = country_navy_expenses_3
+							has_country_flag = country_navy_expenses_4
+						}
+					}
+					set_country_flag = country_navy_expenses_1
+				}
+				if = {
+					limit = {
+						has_country_flag = country_navy_expenses_2
+					}
+					clr_country_flag = country_navy_expenses_2
+					set_country_flag = country_navy_expenses_1
+				}
+				if = {
+					limit = {
+						has_country_flag = country_navy_expenses_3
+					}
+					clr_country_flag = country_navy_expenses_3
+					set_country_flag = country_navy_expenses_2
+				}
+				if = {
+					limit = {
+						has_country_flag = country_navy_expenses_4
+					}
+					clr_country_flag = country_navy_expenses_4
+					set_country_flag = country_navy_expenses_3
+				}
+    		}
+
+
+
+
+
+			money_army_air_button_click = {
+				if = {
+					limit = {
+						NOT = {
+							has_country_flag = country_air_expenses_1
+							has_country_flag = country_air_expenses_2
+							has_country_flag = country_air_expenses_3
+							has_country_flag = country_air_expenses_4
+						}
+					}
+					set_country_flag = country_air_expenses_1
+				}
+				if = {
+					limit = {
+						has_country_flag = country_air_expenses_3
+					}
+					clr_country_flag = country_air_expenses_3
+					set_country_flag = country_air_expenses_4
+				}
+				if = {
+					limit = {
+						has_country_flag = country_air_expenses_2
+					}
+					clr_country_flag = country_air_expenses_2
+					set_country_flag = country_air_expenses_3
+				}
+				if = {
+					limit = {
+						has_country_flag = country_air_expenses_1
+					}
+					clr_country_flag = country_air_expenses_1
+					set_country_flag = country_air_expenses_2
+				}
+    		}
+			money_army_air_button_right_click = {
+				if = {
+					limit = {
+						NOT = {
+							has_country_flag = country_air_expenses_1
+							has_country_flag = country_air_expenses_2
+							has_country_flag = country_air_expenses_3
+							has_country_flag = country_air_expenses_4
+						}
+					}
+					set_country_flag = country_air_expenses_1
+				}
+				if = {
+					limit = {
+						has_country_flag = country_air_expenses_2
+					}
+					clr_country_flag = country_air_expenses_2
+					set_country_flag = country_air_expenses_1
+				}
+				if = {
+					limit = {
+						has_country_flag = country_air_expenses_3
+					}
+					clr_country_flag = country_air_expenses_3
+					set_country_flag = country_air_expenses_2
+				}
+				if = {
+					limit = {
+						has_country_flag = country_air_expenses_4
+					}
+					clr_country_flag = country_air_expenses_4
+					set_country_flag = country_air_expenses_3
+				}
+    		}
+
+
+			money_army_mech_button_click = {
+				if = {
+					limit = {
+						NOT = {
+							has_country_flag = country_mech_expenses_1
+							has_country_flag = country_mech_expenses_2
+							has_country_flag = country_mech_expenses_3
+							has_country_flag = country_mech_expenses_4
+						}
+					}
+					set_country_flag = country_mech_expenses_1
+				}
+				if = {
+					limit = {
+						has_country_flag = country_mech_expenses_3
+					}
+					clr_country_flag = country_mech_expenses_3
+					set_country_flag = country_mech_expenses_4
+				}
+				if = {
+					limit = {
+						has_country_flag = country_mech_expenses_2
+					}
+					clr_country_flag = country_mech_expenses_2
+					set_country_flag = country_mech_expenses_3
+				}
+				if = {
+					limit = {
+						has_country_flag = country_mech_expenses_1
+					}
+					clr_country_flag = country_mech_expenses_1
+					set_country_flag = country_mech_expenses_2
+				}
+    		}
+			money_army_mech_button_right_click = {
+				if = {
+					limit = {
+						NOT = {
+							has_country_flag = country_mech_expenses_1
+							has_country_flag = country_mech_expenses_2
+							has_country_flag = country_mech_expenses_3
+							has_country_flag = country_mech_expenses_4
+						}
+					}
+					set_country_flag = country_mech_expenses_1
+				}
+				if = {
+					limit = {
+						has_country_flag = country_mech_expenses_2
+					}
+					clr_country_flag = country_mech_expenses_2
+					set_country_flag = country_mech_expenses_1
+				}
+				if = {
+					limit = {
+						has_country_flag = country_mech_expenses_3
+					}
+					clr_country_flag = country_mech_expenses_3
+					set_country_flag = country_mech_expenses_2
+				}
+				if = {
+					limit = {
+						has_country_flag = country_mech_expenses_4
+					}
+					clr_country_flag = country_mech_expenses_4
+					set_country_flag = country_mech_expenses_3
+				}
+    		}
+		}
+
+		properties = {
+			money_army_army_button = {
+				image = "[This.army_expenses_state]"
+			}
+			money_army_navy_button = {
+				image = "[This.navy_expenses_state]"
+			}
+			money_army_air_button = {
+				image = "[This.air_expenses_state]"
+			}
+			money_army_mech_button = {
+				image = "[This.mech_expenses_state]"
+			}
+		}
+	}
 }

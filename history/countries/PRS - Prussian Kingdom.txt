@@ -8,9 +8,9 @@ set_politics = {
 set_popularities = {
     fascism = 11
     darwinism = 2
-    globalism = 36
+    globalism = 40
     communism = 11
-    democratic = 40
+    democratic = 36
 }
 
 #set_variable

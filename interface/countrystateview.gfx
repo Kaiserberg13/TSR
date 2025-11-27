@@ -7,6 +7,10 @@ spriteTypes = {
 		textureFile = "gfx/interface/stateview/stateview_current_project.png"
 	}
 	SpriteType = {
+		name = "GFX_stateview_stock_exchange"
+		textureFile = "gfx/interface/stateview/stock_exchange.png"
+	}
+	SpriteType = {
 		name = "GFX_stateview_office"
 		textureFile = "gfx/interface/stateview/stateview_office.png"
 	}
@@ -21,6 +25,43 @@ spriteTypes = {
 		size = { x = 192 y = 9 }
 		effectFile = "gfx/FX/progress.lua"
 		horizontal = yes
+	}
+
+	# Stock Exchange
+	SpriteType = {
+		name = "GFX_stateview_stock_exchange_bf"
+		textureFile = "gfx/interface/stateview/stock_exchange/stateview_stock_exchange_bf.png"
+		noOfFrames = 2
+	}
+	SpriteType = {
+		name = "GFX_stateview_stock_exchange_jse"
+		textureFile = "gfx/interface/stateview/stock_exchange/stateview_stock_exchange_jse.png"
+		noOfFrames = 2
+	}
+	SpriteType = {
+		name = "GFX_stateview_stock_exchange_nasdaq"
+		textureFile = "gfx/interface/stateview/stock_exchange/stateview_stock_exchange_nasdaq.png"
+		noOfFrames = 2
+	}
+	SpriteType = {
+		name = "GFX_stateview_stock_exchange_nyse"
+		textureFile = "gfx/interface/stateview/stock_exchange/stateview_stock_exchange_nyse.png"
+		noOfFrames = 2
+	}
+	SpriteType = {
+		name = "GFX_stateview_stock_exchange_sfm"
+		textureFile = "gfx/interface/stateview/stock_exchange/stateview_stock_exchange_sfm.png"
+		noOfFrames = 2
+	}
+	SpriteType = {
+		name = "GFX_stateview_stock_exchange_sse"
+		textureFile = "gfx/interface/stateview/stock_exchange/stateview_stock_exchange_sse.png"
+		noOfFrames = 2
+	}
+	SpriteType = {
+		name = "GFX_stateview_stock_exchange_tse"
+		textureFile = "gfx/interface/stateview/stock_exchange/stateview_stock_exchange_tse.png"
+		noOfFrames = 2
 	}
 
 	# Vanilla
@@ -205,7 +246,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_buildings_strip"
 		textureFile = "gfx/interface/buildings/building_icon_strip.dds"
-		noOfFrames = 39
+		noOfFrames = 40
 	}
 	
 	spriteType = {

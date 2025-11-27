@@ -437,6 +437,37 @@ on_actions = {
                 set_variable = { var = government_office value = 0 }
             }
 
+
+            # Stock exchange
+            994 = {
+                add_to_array = { global.stock_exchange = THIS.id }
+                set_state_flag = flag_stock_exchange_bf
+            }
+            528 = {
+                add_to_array = { global.stock_exchange = THIS.id }
+                set_state_flag = flag_stock_exchange_jse
+            }
+            66 = {
+                add_to_array = { global.stock_exchange = THIS.id }
+                set_state_flag = flag_stock_exchange_sfm
+            }
+            738 = {
+                add_to_array = { global.stock_exchange = THIS.id }
+                set_state_flag = flag_stock_exchange_tse
+            }
+            864 = {
+                add_to_array = { global.stock_exchange = THIS.id }
+                set_state_flag = flag_stock_exchange_sse
+            }
+            350 = {
+                add_to_array = { global.stock_exchange = THIS.id }
+                set_state_flag = flag_stock_exchange_nyse
+            }
+            442 = {
+                add_to_array = { global.stock_exchange = THIS.id }
+                set_state_flag = flag_stock_exchange_nasdaq
+            }
+
         }
     }
 

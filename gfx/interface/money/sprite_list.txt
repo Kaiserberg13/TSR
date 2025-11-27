@@ -1,0 +1,242 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_money_bg"
+		texturefile = "gfx/interface/money/money_bg.png"
+	}
+	spriteType = {
+		name = "GFX_money_big_data_bg"
+		texturefile = "gfx/interface/money/money_big_data_bg.png"
+	}
+	spriteType = {
+		name = "GFX_money_button_category_army"
+		texturefile = "gfx/interface/money/money_button_category_army.png"
+	}
+	spriteType = {
+		name = "GFX_money_button_category_energy"
+		texturefile = "gfx/interface/money/money_button_category_energy.png"
+	}
+	spriteType = {
+		name = "GFX_money_button_category_error"
+		texturefile = "gfx/interface/money/money_button_category_error.png"
+	}
+	spriteType = {
+		name = "GFX_money_button_category_error_2"
+		texturefile = "gfx/interface/money/money_button_category_error_2.png"
+	}
+	spriteType = {
+		name = "GFX_money_button_category_finances"
+		texturefile = "gfx/interface/money/money_button_category_finances.png"
+	}
+	spriteType = {
+		name = "GFX_money_button_category_inflation"
+		texturefile = "gfx/interface/money/money_button_category_inflation.png"
+	}
+	spriteType = {
+		name = "GFX_money_button_category_taxes"
+		texturefile = "gfx/interface/money/money_button_category_taxes.png"
+	}
+	spriteType = {
+		name = "GFX_money_button_category_unemployment"
+		texturefile = "gfx/interface/money/money_button_category_unemployment.png"
+	}
+	spriteType = {
+		name = "GFX_money_button_category_wages"
+		texturefile = "gfx/interface/money/money_button_category_wages.png"
+	}
+	spriteType = {
+		name = "GFX_money_button_data_box_bg"
+		texturefile = "gfx/interface/money/money_button_data_box_bg.png"
+	}
+	spriteType = {
+		name = "GFX_money_button_data_box_bg_2"
+		texturefile = "gfx/interface/money/money_button_data_box_bg_2.png"
+	}
+	spriteType = {
+		name = "GFX_money_button_level_x5"
+		texturefile = "gfx/interface/money/money_button_level_x5.png"
+	}
+	spriteType = {
+		name = "GFX_money_category_bg_1"
+		texturefile = "gfx/interface/money/money_category_bg_1.png"
+	}
+	spriteType = {
+		name = "GFX_money_category_bg_2"
+		texturefile = "gfx/interface/money/money_category_bg_2.png"
+	}
+	spriteType = {
+		name = "GFX_money_category_bg_3"
+		texturefile = "gfx/interface/money/money_category_bg_3.png"
+	}
+	spriteType = {
+		name = "GFX_money_data_bg"
+		texturefile = "gfx/interface/money/money_data_bg.png"
+	}
+	spriteType = {
+		name = "GFX_money_data_box_bg"
+		texturefile = "gfx/interface/money/money_data_box_bg.png"
+	}
+	spriteType = {
+		name = "GFX_money_data_box_bg_2"
+		texturefile = "gfx/interface/money/money_data_box_bg_2.png"
+	}
+	spriteType = {
+		name = "GFX_money_taxes_bg"
+		texturefile = "gfx/interface/money/money_taxes_bg.png"
+	}
+	spriteType = {
+		name = "GFX_money_button_category_army_categories"
+		texturefile = "gfx/interface/money/army/money_button_category_army_categories.png"
+	}
+	spriteType = {
+		name = "GFX_money_button_category_army_expenses_1"
+		texturefile = "gfx/interface/money/army/money_button_category_army_expenses_1.png"
+	}
+	spriteType = {
+		name = "GFX_money_button_category_army_expenses_2"
+		texturefile = "gfx/interface/money/army/money_button_category_army_expenses_2.png"
+	}
+	spriteType = {
+		name = "GFX_money_button_category_army_expenses_3"
+		texturefile = "gfx/interface/money/army/money_button_category_army_expenses_3.png"
+	}
+	spriteType = {
+		name = "GFX_money_button_category_army_expenses_4"
+		texturefile = "gfx/interface/money/army/money_button_category_army_expenses_4.png"
+	}
+	spriteType = {
+		name = "GFX_money_button_category_army_progress_bar"
+		texturefile = "gfx/interface/money/army/money_button_category_army_progress_bar.png"
+	}
+	spriteType = {
+		name = "GFX_money_button_category_army_voltage"
+		texturefile = "gfx/interface/money/army/money_button_category_army_voltage.png"
+	}
+	spriteType = {
+		name = "GFX_money_energy_button_priority_army"
+		texturefile = "gfx/interface/money/energy/money_energy_button_priority_army.png"
+	}
+	spriteType = {
+		name = "GFX_money_energy_button_priority_corpo"
+		texturefile = "gfx/interface/money/energy/money_energy_button_priority_corpo.png"
+	}
+	spriteType = {
+		name = "GFX_money_energy_button_priority_country"
+		texturefile = "gfx/interface/money/energy/money_energy_button_priority_country.png"
+	}
+	spriteType = {
+		name = "GFX_money_energy_button_priority_industry"
+		texturefile = "gfx/interface/money/energy/money_energy_button_priority_industry.png"
+	}
+	spriteType = {
+		name = "GFX_money_energy_button_priority_market"
+		texturefile = "gfx/interface/money/energy/money_energy_button_priority_market.png"
+	}
+	spriteType = {
+		name = "GFX_money_energy_button_priority_people"
+		texturefile = "gfx/interface/money/energy/money_energy_button_priority_people.png"
+	}
+	spriteType = {
+		name = "GFX_money_energy_button_restart"
+		texturefile = "gfx/interface/money/energy/money_energy_button_restart.png"
+	}
+	spriteType = {
+		name = "GFX_money_energy_details_1"
+		texturefile = "gfx/interface/money/energy/money_energy_details_1.png"
+	}
+	spriteType = {
+		name = "GFX_money_energy_details_2"
+		texturefile = "gfx/interface/money/energy/money_energy_details_2.png"
+	}
+	spriteType = {
+		name = "GFX_money_energy_tdot"
+		texturefile = "gfx/interface/money/energy/money_energy_tdot.png"
+	}
+	spriteType = {
+		name = "GFX_money_energy_voltage_progress_bar"
+		texturefile = "gfx/interface/money/energy/money_energy_voltage_progress_bar.png"
+	}
+	spriteType = {
+		name = "GFX_money_finances_button_borrow_money"
+		texturefile = "gfx/interface/money/finances/money_finances_button_borrow_money.png"
+	}
+	spriteType = {
+		name = "GFX_money_finances_button_pay_off_a_debt"
+		texturefile = "gfx/interface/money/finances/money_finances_button_pay_off_a_debt.png"
+	}
+	spriteType = {
+		name = "GFX_money_finances_details_1"
+		texturefile = "gfx/interface/money/finances/money_finances_details_1.png"
+	}
+	spriteType = {
+		name = "GFX_money_finances_expesnes_bg"
+		texturefile = "gfx/interface/money/finances/money_finances_expesnes_bg.png"
+	}
+	spriteType = {
+		name = "GFX_money_finances_income_bg"
+		texturefile = "gfx/interface/money/finances/money_finances_income_bg.png"
+	}
+	spriteType = {
+		name = "GFX_money_inflation_button_close_the_deal"
+		texturefile = "gfx/interface/money/inflation/money_inflation_button_close_the_deal.png"
+	}
+	spriteType = {
+		name = "GFX_money_inflation_button_print_money"
+		texturefile = "gfx/interface/money/inflation/money_inflation_button_print_money.png"
+	}
+	spriteType = {
+		name = "GFX_money_inflation_cfd_bg"
+		texturefile = "gfx/interface/money/inflation/money_inflation_cfd_bg.png"
+	}
+	spriteType = {
+		name = "GFX_money_inflation_cfd_buy"
+		texturefile = "gfx/interface/money/inflation/money_inflation_cfd_buy.png"
+	}
+	spriteType = {
+		name = "GFX_money_inflation_cfd_corpo"
+		texturefile = "gfx/interface/money/inflation/money_inflation_cfd_corpo.png"
+	}
+	spriteType = {
+		name = "GFX_money_inflation_cfd_sell"
+		texturefile = "gfx/interface/money/inflation/money_inflation_cfd_sell.png"
+	}
+	spriteType = {
+		name = "GFX_money_inflation_details_1"
+		texturefile = "gfx/interface/money/inflation/money_inflation_details_1.png"
+	}
+	spriteType = {
+		name = "GFX_money_inflation_female_status"
+		texturefile = "gfx/interface/money/inflation/money_inflation_female_status.png"
+	}
+	spriteType = {
+		name = "GFX_money_inflation_gender_status_bg"
+		texturefile = "gfx/interface/money/inflation/money_inflation_gender_status_bg.png"
+	}
+	spriteType = {
+		name = "GFX_money_inflation_limit_money"
+		texturefile = "gfx/interface/money/inflation/money_inflation_limit_money.png"
+	}
+	spriteType = {
+		name = "GFX_money_inflation_male_status"
+		texturefile = "gfx/interface/money/inflation/money_inflation_male_status.png"
+	}
+	spriteType = {
+		name = "GFX_money_taxes_details_1"
+		texturefile = "gfx/interface/money/taxes/money_taxes_details_1.png"
+	}
+	spriteType = {
+		name = "GFX_money_taxes_details_2"
+		texturefile = "gfx/interface/money/taxes/money_taxes_details_2.png"
+	}
+	spriteType = {
+		name = "GFX_money_taxes_details_3"
+		texturefile = "gfx/interface/money/taxes/money_taxes_details_3.png"
+	}
+	spriteType = {
+		name = "GFX_money_taxes_resources_bg"
+		texturefile = "gfx/interface/money/taxes/money_taxes_resources_bg.png"
+	}
+	spriteType = {
+		name = "GFX_money_taxes_resources_icons"
+		texturefile = "gfx/interface/money/taxes/money_taxes_resources_icons.png"
+	}
+}

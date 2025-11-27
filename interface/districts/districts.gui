@@ -1,6 +1,70 @@
 guiTypes = {
 
 	containerWindowType = {
+		name = "stock_exchange_window"
+		position = { x=545 y=-295 }	
+		size = { width = 76 height = 76 }
+		clipping = no
+		Orientation = LOWER_LEFT
+
+		background = {
+			name = "Background"	
+			spriteType = "GFX_stateview_stock_exchange"
+		}	
+		buttonType = {
+			name = "stock_exchange_bf_button"
+			position = { x = 5 y = 5 }
+			spriteType = "GFX_stateview_stock_exchange_bf"
+			pdx_tooltip = "bf_stock_exchange"
+			pdx_tooltip_delayed = "bf_stock_exchange_desc"
+		}
+		buttonType = {
+			name = "stock_exchange_sse_button"
+			position = { x = 5 y = 5 }
+			spriteType = "GFX_stateview_stock_exchange_sse"
+			pdx_tooltip = "sse_stock_exchange"
+			pdx_tooltip_delayed = "sse_stock_exchange_desc"
+		}
+
+		buttonType = {
+			name = "stock_exchange_jse_button"
+			position = { x = 5 y = 5 }
+			spriteType = "GFX_stateview_stock_exchange_jse"
+			pdx_tooltip = "jse_stock_exchange"
+			pdx_tooltip_delayed = "jse_stock_exchange_desc"
+		}
+		buttonType = {
+			name = "stock_exchange_tse_button"
+			position = { x = 5 y = 5 }
+			spriteType = "GFX_stateview_stock_exchange_tse"
+			pdx_tooltip = "tse_stock_exchange"
+			pdx_tooltip_delayed = "tse_stock_exchange_desc"
+		}
+		buttonType = {
+			name = "stock_exchange_sfm_button"
+			position = { x = 5 y = 5 }
+			spriteType = "GFX_stateview_stock_exchange_sfm"
+			pdx_tooltip = "sfm_stock_exchange"
+			pdx_tooltip_delayed = "sfm_stock_exchange_desc"
+		}
+		buttonType = {
+			name = "stock_exchange_nyse_button"
+			position = { x = 5 y = 5 }
+			spriteType = "GFX_stateview_stock_exchange_nyse"
+			pdx_tooltip = "nyse_stock_exchange"
+			pdx_tooltip_delayed = "nyse_stock_exchange_desc"
+		}
+		buttonType = {
+			name = "stock_exchange_nasdaq_button"
+			position = { x = 5 y = 5 }
+			spriteType = "GFX_stateview_stock_exchange_nasdaq"
+			pdx_tooltip = "nasdaq_stock_exchange"
+			pdx_tooltip_delayed = "nasdaq_stock_exchange_desc"
+		}
+
+	}
+
+	containerWindowType = {
 		name = "districts_window"
 		position = { x=545 y=-210 }	
 		size = { width = 220 height = 250 }

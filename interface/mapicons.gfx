@@ -12,6 +12,12 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_mapicon_faction_theatre"
+		texturefile = "gfx/interface/mapicons/mapicon_faction_theatre.dds"
+		noOfFrames = 2
+	}
+
+	spriteType = {
 		name = "GFX_onmap_digin_icon"
 		texturefile = "gfx/interface/onmap_digin_icon.dds"
 		noOfFrames = 2

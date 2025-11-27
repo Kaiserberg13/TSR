@@ -1,4 +1,41 @@
 scripted_gui = {
+
+	stock_exchange_scripted_gui = {
+        window_name = "stock_exchange_window"
+        context_type = selected_state_context
+		parent_window_token = selected_state_view
+         
+        visible = {
+            is_in_array = { array = global.stock_exchange value = THIS.id }
+        }
+
+		triggers = {
+			stock_exchange_bf_button_visible = {
+				has_state_flag = flag_stock_exchange_bf
+			}
+			stock_exchange_sse_button_visible = {
+				has_state_flag = flag_stock_exchange_sse
+			}
+			stock_exchange_jse_button_visible = {
+				has_state_flag = flag_stock_exchange_jse
+			}
+			stock_exchange_tse_button_visible = {
+				has_state_flag = flag_stock_exchange_tse
+			}
+			stock_exchange_sfm_button_visible = {
+				has_state_flag = flag_stock_exchange_sfm
+			}
+			stock_exchange_nyse_button_visible = {
+				has_state_flag = flag_stock_exchange_nyse
+			}
+			stock_exchange_nasdaq_button_visible = {
+				has_state_flag = flag_stock_exchange_nasdaq
+			}
+		}
+
+
+	}
+
     districts_scripted_gui = {
         window_name = "districts_window"
         context_type = selected_state_context

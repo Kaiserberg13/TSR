@@ -1,10 +1,114 @@
 defined_text = {
-    name = mod_scripted_loc
+    name = army_expenses_state
     text = {
         trigger = {
-            tag = GER
+            has_country_flag = country_army_expenses_1
         }
-        localization_key = FRA_localization_key
+        localization_key = GFX_money_button_category_army_expenses_1
+    }
+    text = {
+        trigger = {
+            has_country_flag = country_army_expenses_2
+        }
+        localization_key = GFX_money_button_category_army_expenses_2
+    }
+    text = {
+        trigger = {
+            has_country_flag = country_army_expenses_3
+        }
+        localization_key = GFX_money_button_category_army_expenses_3
+    }
+    text = {
+        trigger = {
+            has_country_flag = country_army_expenses_4
+        }
+        localization_key = GFX_money_button_category_army_expenses_4
+    }
+
+}
+
+defined_text = {
+    name = navy_expenses_state
+    text = {
+        trigger = {
+            has_country_flag = country_navy_expenses_1
+        }
+        localization_key = GFX_money_button_category_army_expenses_1
+    }
+    text = {
+        trigger = {
+            has_country_flag = country_navy_expenses_2
+        }
+        localization_key = GFX_money_button_category_army_expenses_2
+    }
+    text = {
+        trigger = {
+            has_country_flag = country_navy_expenses_3
+        }
+        localization_key = GFX_money_button_category_army_expenses_3
+    }
+    text = {
+        trigger = {
+            has_country_flag = country_navy_expenses_4
+        }
+        localization_key = GFX_money_button_category_army_expenses_4
+    }
+
+}
+
+defined_text = {
+    name = air_expenses_state
+    text = {
+        trigger = {
+            has_country_flag = country_air_expenses_1
+        }
+        localization_key = GFX_money_button_category_army_expenses_1
+    }
+    text = {
+        trigger = {
+            has_country_flag = country_air_expenses_2
+        }
+        localization_key = GFX_money_button_category_army_expenses_2
+    }
+    text = {
+        trigger = {
+            has_country_flag = country_air_expenses_3
+        }
+        localization_key = GFX_money_button_category_army_expenses_3
+    }
+    text = {
+        trigger = {
+            has_country_flag = country_air_expenses_4
+        }
+        localization_key = GFX_money_button_category_army_expenses_4
+    }
+}
+
+defined_text = {
+    name = mech_expenses_state
+    text = {
+        trigger = {
+            has_country_flag = country_mech_expenses_1
+        }
+        localization_key = GFX_money_button_category_army_expenses_1
+    }
+    text = {
+        trigger = {
+            has_country_flag = country_mech_expenses_2
+        }
+        localization_key = GFX_money_button_category_army_expenses_2
+    }
+    text = {
+        trigger = {
+            has_country_flag = country_mech_expenses_3
+        }
+        localization_key = GFX_money_button_category_army_expenses_3
+    }
+    text = {
+        trigger = {
+            has_country_flag = country_mech_expenses_4
+        }
+        localization_key = GFX_money_button_category_army_expenses_4
     }
 
 }

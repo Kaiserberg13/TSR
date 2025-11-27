@@ -1,6 +1,11 @@
 ﻿l_english:
  VICTORY_POINTS_TOOLTIP: "§G$NAME$§! victory points = §Y$POINTS$§!"
  
+
+ VICTORY_POINTS_:0 ""
+ VICTORY_POINTS_3152:0 "Tallinn"
+
+ # Africa
  VICTORY_POINTS_3851:0 "Benboka"
  VICTORY_POINTS_9941:0 "Abakmata"
  VICTORY_POINTS_9921:0 "Adbasa"
