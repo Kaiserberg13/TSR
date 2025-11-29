@@ -31,8 +31,8 @@ guiTypes = {
 			
 		instantTextBoxType = {
 			name ="tsr_money"
-			position = { x= 125 y = 75 }
-			font = "ws_36"
+			position = { x= 125 y = 80 }
+			font = "tsr_18c"
 			text = "[?TOTAL_MONEY|1]"
 			format = center
 			maxWidth = 150
@@ -42,8 +42,8 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name ="tsr_debt"
-			position = { x= 375 y = 75 }
-			font = "ws_36r"
+			position = { x= 375 y = 80 }
+			font = "tsr_18r"
 			text = "[?TOTAL_DEBT|1]"
 			format = center
 			maxWidth = 150

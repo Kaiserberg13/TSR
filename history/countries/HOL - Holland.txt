@@ -1,4 +1,4 @@
-capital = 1
+capital = 911
 set_politics = {
     ruling_party = neutrality
     last_election = "2967.6.1.12"

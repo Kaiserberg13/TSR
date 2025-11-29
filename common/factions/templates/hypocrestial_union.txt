@@ -1,0 +1,24 @@
+# The Hypocrestial union 
+faction_template_hypocrestial_union = {
+	name = Hypocrestial_union
+	manifest = faction_manifest_asian_supermacy
+
+	goals = {
+
+		# Short term goals
+		
+		# Medium term goals
+
+		# Long term goals
+
+	}
+
+
+	default_rules = {
+		joining_rule_only_hypocrestial
+	}
+	
+	icon = GFX_faction_icon_hypocrestial_union
+}
+
+

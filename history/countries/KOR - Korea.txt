@@ -13,6 +13,9 @@ set_popularities = {
     democratic = 51
 }
 
+# faction
+add_faction_influence_score = 30
+
 #set_variable
 
 #set_technology

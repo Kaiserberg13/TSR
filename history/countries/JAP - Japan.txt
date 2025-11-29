@@ -13,13 +13,19 @@ set_popularities = {
     democratic = 92
 }
 
+
+
 # faction
 
-create_faction = hypocrestial_union
+create_faction_from_template = faction_template_hypocrestial_union
+
+add_faction_influence_score = -50
+
 add_to_faction = AST
 add_to_faction = OAS
 add_to_faction = PRC
 add_to_faction = KOR
+
 
 
 #set_variable

@@ -8,6 +8,32 @@
 
 ########################################################################################## 
 
+
+#########################
+########## TSR ##########
+#########################
+
+joining_rule_only_hypocrestial = {
+	type = joining_rules
+	visible = {
+		always = yes
+	}
+	ai_will_do = {
+		base = 0
+		modifier = {
+			add = 1
+			is_in_array = { global.hypocrestial_union_faction_future_members = ROOT }
+		}
+	}
+	trigger = {
+		is_in_array = { global.hypocrestial_union_faction_future_members = ROOT }
+	}
+}
+
+#########################
+######## Vanilla ########
+#########################
+
 joining_rule_non_fascist = {
 	type = joining_rules
 	visible = {

@@ -1,4 +1,4 @@
-capital = 1
+capital = 1579
 set_politics = {
     ruling_party = democratic
     last_election = "2967.6.1.12"
@@ -12,6 +12,9 @@ set_popularities = {
     communism = 6
     democratic = 86
 }
+
+# faction
+add_faction_influence_score = 6
 
 #set_variable
 

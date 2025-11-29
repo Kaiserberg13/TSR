@@ -19,6 +19,9 @@ set_autonomy = {
     autonomous_state = autonomy_dominion
 }
 
+# faction
+add_faction_influence_score = 50
+
 #set_variable
 
 #set_technology

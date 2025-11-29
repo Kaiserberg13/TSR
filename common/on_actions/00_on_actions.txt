@@ -1,0 +1,14 @@
+on_actions = {
+    on_startup = {
+        effect = {
+			add_to_array = {
+			    array = global.hypocrestial_union_faction_future_members
+			    value = RAJ
+			}
+			add_to_array = {
+			    array = global.hypocrestial_union_faction_future_members
+			    value = SIA
+			}
+		}
+	}
+}
