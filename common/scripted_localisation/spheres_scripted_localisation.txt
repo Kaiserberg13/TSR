@@ -1,27 +1,195 @@
 defined_text = {
-    name = spheres_frame_view
+    name = spheres_corporations_view
     text = {
         trigger = {
             has_country_flag = spheres_military_view
         }
-        localization_key = 1
+        localization_key = "[?SPHERE_MILITARY_CORPORATIONS]"
     }
     text = {
         trigger = {
             has_country_flag = spheres_production_view
         }
-        localization_key = 2
-    }
-    text = {
-        trigger = {
-            has_country_flag = spheres_research_view
-        }
-        localization_key = 3
+        localization_key = "[?SPHERE_PRODUCTION_CORPORATIONS]"
     }
     text = {
         trigger = {
             has_country_flag = spheres_finance_view
         }
-        localization_key = 4
+        localization_key = "[?SPHERE_FINANCE_CORPORATIONS]"
     }
+    text = {
+        trigger = {
+            has_country_flag = spheres_agro_view
+        }
+        localization_key = "[?SPHERE_AGRO_CORPORATIONS]"
+    }
+    text = {
+        trigger = {
+            has_country_flag = spheres_medical_view
+        }
+        localization_key = "[?SPHERE_MEDICAL_CORPORATIONS]"
+    }
+    text = {
+        trigger = {
+            has_country_flag = spheres_factories_view
+        }
+        localization_key = "[?SPHERE_FACTORIES_CORPORATIONS]"
+    }
+    text = {
+        trigger = {
+            has_country_flag = spheres_security_view
+        }
+        localization_key = "[?SPHERE_SECURITY_CORPORATIONS]"
+    }
+    text = {
+        trigger = {
+            has_country_flag = spheres_resources_view
+        }
+        localization_key = "[?SPHERE_RESOURCES_CORPORATIONS]"
+    }
+    text = {
+        trigger = {
+            has_country_flag = spheres_energy_view
+        }
+        localization_key = "[?SPHERE_ENERGY_CORPORATIONS]"
+    }
+    text = {
+        trigger = {
+            has_country_flag = spheres_research_view
+        }
+        localization_key = "[?SPHERE_RESEARCH_CORPORATIONS]"
+    }
+
+}
+
+defined_text = {
+    name = spheres_percentage_of_influence_view
+    text = {
+        trigger = {
+            has_country_flag = spheres_military_view
+        }
+        localization_key = "[?SPHERE_MILITARY_PERCENTAGE_OF_INFLUENCE]"
+    }
+    text = {
+        trigger = {
+            has_country_flag = spheres_production_view
+        }
+        localization_key = "[?SPHERE_PRODUCTION_PERCENTAGE_OF_INFLUENCE]"
+    }
+    text = {
+        trigger = {
+            has_country_flag = spheres_finance_view
+        }
+        localization_key = "[?SPHERE_FINANCE_PERCENTAGE_OF_INFLUENCE]"
+    }
+    text = {
+        trigger = {
+            has_country_flag = spheres_agro_view
+        }
+        localization_key = "[?SPHERE_AGRO_PERCENTAGE_OF_INFLUENCE]"
+    }
+    text = {
+        trigger = {
+            has_country_flag = spheres_medical_view
+        }
+        localization_key = "[?SPHERE_MEDICAL_PERCENTAGE_OF_INFLUENCE]"
+    }
+    text = {
+        trigger = {
+            has_country_flag = spheres_factories_view
+        }
+        localization_key = "[?SPHERE_FACTORIES_PERCENTAGE_OF_INFLUENCE]"
+    }
+    text = {
+        trigger = {
+            has_country_flag = spheres_security_view
+        }
+        localization_key = "[?SPHERE_SECURITY_PERCENTAGE_OF_INFLUENCE]"
+    }
+    text = {
+        trigger = {
+            has_country_flag = spheres_resources_view
+        }
+        localization_key = "[?SPHERE_RESOURCES_PERCENTAGE_OF_INFLUENCE]"
+    }
+    text = {
+        trigger = {
+            has_country_flag = spheres_energy_view
+        }
+        localization_key = "[?SPHERE_ENERGY_PERCENTAGE_OF_INFLUENCE]"
+    }
+    text = {
+        trigger = {
+            has_country_flag = spheres_research_view
+        }
+        localization_key = "[?SPHERE_RESEARCH_PERCENTAGE_OF_INFLUENCE]"
+    }
+
+}
+
+
+defined_text = {
+    name = spheres_current_price_view
+    text = {
+        trigger = {
+            has_country_flag = spheres_military_view
+        }
+        localization_key = "[?SPHERE_MILITARY_CURRENT_PRICE]"
+    }
+    text = {
+        trigger = {
+            has_country_flag = spheres_production_view
+        }
+        localization_key = "[?SPHERE_PRODUCTION_CURRENT_PRICE]"
+    }
+    text = {
+        trigger = {
+            has_country_flag = spheres_finance_view
+        }
+        localization_key = "[?SPHERE_FINANCE_CURRENT_PRICE]"
+    }
+    text = {
+        trigger = {
+            has_country_flag = spheres_agro_view
+        }
+        localization_key = "[?SPHERE_AGRO_CURRENT_PRICE]"
+    }
+    text = {
+        trigger = {
+            has_country_flag = spheres_medical_view
+        }
+        localization_key = "[?SPHERE_MEDICAL_CURRENT_PRICE]"
+    }
+    text = {
+        trigger = {
+            has_country_flag = spheres_factories_view
+        }
+        localization_key = "[?SPHERE_FACTORIES_CURRENT_PRICE]"
+    }
+    text = {
+        trigger = {
+            has_country_flag = spheres_security_view
+        }
+        localization_key = "[?SPHERE_SECURITY_CURRENT_PRICE]"
+    }
+    text = {
+        trigger = {
+            has_country_flag = spheres_resources_view
+        }
+        localization_key = "[?SPHERE_RESOURCES_CURRENT_PRICE]"
+    }
+    text = {
+        trigger = {
+            has_country_flag = spheres_energy_view
+        }
+        localization_key = "[?SPHERE_ENERGY_CURRENT_PRICE]"
+    }
+    text = {
+        trigger = {
+            has_country_flag = spheres_research_view
+        }
+        localization_key = "[?SPHERE_RESEARCH_CURRENT_PRICE]"
+    }
+
 }

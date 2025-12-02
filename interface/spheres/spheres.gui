@@ -175,6 +175,89 @@ guiTypes = {
 			format = right
 			Orientation = CENTER
 		}
+		buttonType = {
+			name = "spheres_increase_the_fees_button"
+			position = { x = -500 y = -375 }
+			spriteType = "GFX_spheres_increase_the_fees"
+			Orientation = CENTER
+		}
+		buttonType = {
+			name = "spheres_decrease_the_fees_button"
+			position = { x = -500 y = -315 }
+			spriteType = "GFX_spheres_decrease_the_fees"
+			Orientation = CENTER
+		}
+		buttonType = {
+			name = "spheres_set_to_normal_button"
+			position = { x = -500 y = -255 }
+			spriteType = "GFX_spheres_set_to_normal"
+			Orientation = CENTER
+		}
+
+		instantTextboxType = {
+			name = "spheres_current_price_value"
+			position = {x = -550 y = -507}
+			font = "tsr_36c"
+			text = "[spheres_current_price_view]/1"
+			maxWidth = 225
+			maxHeight = 24
+			format = center
+			Orientation = CENTER
+		}
+		instantTextboxType = {
+			name = "spheres_current_price_text"
+			position = {x = -485 y = -453}
+			font = "tsr_16r"
+			text = "CURRENT PRICE"
+			maxWidth = 100
+			maxHeight = 24
+			format = center
+			Orientation = CENTER
+		}
+
+		instantTextboxType = {
+			name = "spheres_total_sphere_corporations_text"
+			position = {x = -900 y = -85}
+			font = "ws_16r"
+			text = "CORPORATIONS IN TOTAL"
+			maxWidth = 150
+			maxHeight = 24
+			format = center
+			Orientation = CENTER
+		}
+		instantTextboxType = {
+			name = "spheres_total_sphere_corporations_value"
+			position = {x = -900 y = -140}
+			font = "tsr_36r"
+			text = "[spheres_corporations_view]"
+			maxWidth = 150
+			maxHeight = 24
+			format = center
+			Orientation = CENTER
+		}
+
+
+		instantTextboxType = {
+			name = "spheres_percentage_of_sphere_influence_text"
+			position = {x = -740 y = -85}
+			font = "ws_16r"
+			text = "PERCENTAGE OF INFLUENCE"
+			maxWidth = 150
+			maxHeight = 24
+			format = center
+			Orientation = CENTER
+		}
+		instantTextboxType = {
+			name = "spheres_percentage_of_sphere_influence_value"
+			position = {x = -740 y = -140}
+			font = "tsr_36r"
+			text = "[spheres_percentage_of_influence_view]"
+			maxWidth = 150
+			maxHeight = 24
+			format = center
+			Orientation = CENTER
+		}
+
 		instantTextboxType = {
 			name = "spheres_current_purchase"
 			position = {x = -457 y = -110}
@@ -186,5 +269,11 @@ guiTypes = {
 			Orientation = CENTER
 		}
 
+		icontype = {
+			name = "office_construction_progress_bar"
+			quadtexturesprite = "GFX_spheres_satisfaction_perecentage"
+			position = { x = -910 y = 14 }
+			Orientation = CENTER
+		}
 	}
 }

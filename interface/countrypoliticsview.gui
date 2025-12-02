@@ -14,24 +14,12 @@ guiTypes = {
 		
 		background = {
 			name = "Background"		
-			quadTextureSprite ="GFX_countrypoliticsview_bg"
+			quadTextureSprite ="GFX_ws_countrypoliticsview_bg"
 		}
 		
-
-		iconType ={
-			name ="production_header_bg"
-			spriteType = "GFX_header_bg"
-			position = { x= 5 y = 07 }
-			Orientation = "UPPER_LEFT"
-		}	
+	
 		
 		
-		iconType ={
-			name ="pol_view_bg"
-			spriteType = "GFX_ws_countrypoliticsview_bg"
-			position = { x= 0 y = 0 }
-			Orientation = "UPPER_LEFT"
-		}	
 
 		iconType ={
 			name ="pol_faction_icon"
@@ -77,11 +65,6 @@ guiTypes = {
 				position = { x = 28 y = 5 }
 			}
 			
-			iconType ={
-				name ="pol_view_bg"
-				spriteType = "GFX_pol_piechart_overlay_63x63"
-				position = { x= -2 y = 1s }
-			}
 		}
 		
 		containerWindowType = {

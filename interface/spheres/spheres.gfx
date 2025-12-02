@@ -1,4 +1,14 @@
 spriteTypes = {	
+
+	progressbartype = {
+		name = "GFX_spheres_satisfaction_perecentage"
+		textureFile1 = "gfx\\interface\\spheres\\spheres_satisfaction_perecentage.png"
+		textureFile2 = "gfx\\interface\\spheres\\spheres_satisfaction_perecentage_bg.png"
+		size = { x = 318 y = 9 }
+		effectFile = "gfx/FX/progress.lua"
+		horizontal = yes
+	}
+
 	spriteType = {
 		name = "GFX_spheres_button_agro"
 		texturefile = "gfx/interface/spheres/sphere_circle/spheres_button_agro.png"

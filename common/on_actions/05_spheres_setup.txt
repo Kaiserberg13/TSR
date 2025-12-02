@@ -1,0 +1,95 @@
+# District Setup
+
+on_actions = {
+    on_startup = {
+        effect = {
+            every_possible_country = {
+                limit = {
+                    is_ai = no
+                }
+
+                # variables to set up
+                # military
+                set_variable = { SPHERE_MILITARY_CORPORATIONS = 2 }
+                set_variable = { SPHERE_MILITARY_PERCENTAGE_OF_INFLUENCE = 10 }
+                set_variable = { SPHERE_MILITARY_SATISFACTION_PERCENTAGE = 50 }
+                set_variable = { SPHERE_MILITARY_SATISFACTION_PERCENTAGE_MONTHLY = 0 }
+                set_variable = { SPHERE_MILITARY_SATISFACTION_INVEST_MULT = 0.0 }
+                set_variable = { SPHERE_MILITARY_CURRENT_PRICE = 0.5 }
+
+                # factories
+                set_variable = { SPHERE_FACTORIES_CORPORATIONS = 1 }
+                set_variable = { SPHERE_FACTORIES_PERCENTAGE_OF_INFLUENCE = 10 }
+                set_variable = { SPHERE_FACTORIES_SATISFACTION_PERCENTAGE = 50 }
+                set_variable = { SPHERE_FACTORIES_SATISFACTION_PERCENTAGE_MONTHLY = 0 }
+                set_variable = { SPHERE_FACTORIES_SATISFACTION_INVEST_MULT = 0.0 }
+                set_variable = { SPHERE_FACTORIES_CURRENT_PRICE = 0.5 }
+
+                # production
+                set_variable = { SPHERE_PRODUCTION_CORPORATIONS = 5 }
+                set_variable = { SPHERE_PRODUCTION_PERCENTAGE_OF_INFLUENCE = 10 }
+                set_variable = { SPHERE_PRODUCTION_SATISFACTION_PERCENTAGE = 50 }
+                set_variable = { SPHERE_PRODUCTION_SATISFACTION_PERCENTAGE_MONTHLY = 0 }
+                set_variable = { SPHERE_PRODUCTION_SATISFACTION_INVEST_MULT = 0.0 }
+                set_variable = { SPHERE_PRODUCTION_CURRENT_PRICE = 0.5 }
+                
+                # finance
+                set_variable = { SPHERE_FINANCE_CORPORATIONS = 12 }
+                set_variable = { SPHERE_FINANCE_PERCENTAGE_OF_INFLUENCE = 10 }
+                set_variable = { SPHERE_FINANCE_SATISFACTION_PERCENTAGE = 50 }
+                set_variable = { SPHERE_FINANCE_SATISFACTION_PERCENTAGE_MONTHLY = 0 }
+                set_variable = { SPHERE_FINANCE_SATISFACTION_INVEST_MULT = 0.0 }
+                set_variable = { SPHERE_FINANCE_CURRENT_PRICE = 0.5 }
+
+                # security
+                set_variable = { SPHERE_SECURITY_CORPORATIONS = 9 }
+                set_variable = { SPHERE_SECURITY_PERCENTAGE_OF_INFLUENCE = 10 }
+                set_variable = { SPHERE_SECURITY_SATISFACTION_PERCENTAGE = 50 }
+                set_variable = { SPHERE_SECURITY_SATISFACTION_PERCENTAGE_MONTHLY = 0 }
+                set_variable = { SPHERE_SECURITY_SATISFACTION_INVEST_MULT = 0.0 }
+                set_variable = { SPHERE_SECURITY_CURRENT_PRICE = 0.5 }
+
+                # medical
+                set_variable = { SPHERE_MEDICAL_CORPORATIONS = 2 }
+                set_variable = { SPHERE_MEDICAL_PERCENTAGE_OF_INFLUENCE = 10 }
+                set_variable = { SPHERE_MEDICAL_SATISFACTION_PERCENTAGE = 50 }
+                set_variable = { SPHERE_MEDICAL_SATISFACTION_PERCENTAGE_MONTHLY = 0 }
+                set_variable = { SPHERE_MEDICAL_SATISFACTION_INVEST_MULT = 0.0 }
+                set_variable = { SPHERE_MEDICAL_CURRENT_PRICE = 0.5 }
+
+                # energy
+                set_variable = { SPHERE_ENERGY_CORPORATIONS = 0 }
+                set_variable = { SPHERE_ENERGY_PERCENTAGE_OF_INFLUENCE = 10 }
+                set_variable = { SPHERE_ENERGY_SATISFACTION_PERCENTAGE = 50 }
+                set_variable = { SPHERE_ENERGY_SATISFACTION_PERCENTAGE_MONTHLY = 0 }
+                set_variable = { SPHERE_ENERGY_SATISFACTION_INVEST_MULT = 0.0 }
+                set_variable = { SPHERE_ENERGY_CURRENT_PRICE = 0.5 }
+
+                # resources
+                set_variable = { SPHERE_RESOURCES_CORPORATIONS = 1 }
+                set_variable = { SPHERE_RESOURCES_PERCENTAGE_OF_INFLUENCE = 10 }
+                set_variable = { SPHERE_RESOURCES_SATISFACTION_PERCENTAGE = 50 }
+                set_variable = { SPHERE_RESOURCES_SATISFACTION_PERCENTAGE_MONTHLY = 0 }
+                set_variable = { SPHERE_RESOURCES_SATISFACTION_INVEST_MULT = 0.0 }
+                set_variable = { SPHERE_RESOURCES_CURRENT_PRICE = 0.5 }
+
+                # research
+                set_variable = { SPHERE_RESEARCH_CORPORATIONS = 5 }
+                set_variable = { SPHERE_RESEARCH_PERCENTAGE_OF_INFLUENCE = 10 }
+                set_variable = { SPHERE_RESEARCH_SATISFACTION_PERCENTAGE = 50 }
+                set_variable = { SPHERE_RESEARCH_SATISFACTION_PERCENTAGE_MONTHLY = 0 }
+                set_variable = { SPHERE_RESEARCH_SATISFACTION_INVEST_MULT = 0.0 }
+                set_variable = { SPHERE_RESEARCH_CURRENT_PRICE = 0.5 }
+
+                # agro
+                set_variable = { SPHERE_AGRO_CORPORATIONS = 4 }
+                set_variable = { SPHERE_AGRO_PERCENTAGE_OF_INFLUENCE = 10 }
+                set_variable = { SPHERE_AGRO_SATISFACTION_PERCENTAGE = 50 }
+                set_variable = { SPHERE_AGRO_SATISFACTION_PERCENTAGE_MONTHLY = 0 }
+                set_variable = { SPHERE_AGRO_SATISFACTION_INVEST_MULT = 0.0 }
+                set_variable = { SPHERE_AGRO_CURRENT_PRICE = 0.5 }
+
+            }
+        }
+    }
+}
