@@ -1,0 +1,235 @@
+scripted_gui = {
+
+	open_corporations_scripted_gui = {
+	    context_type = player_context
+	    parent_window_token = politics_tab
+		window_name = "open_corporations_window"
+	       
+	    visible = {
+	    }
+	    
+	    triggers = {
+		}
+
+		effects = {
+			open_corporations_button_click = {
+				ROOT = { set_country_flag = open_countrycorporationsview }
+			}
+		}
+	}
+
+
+
+	corporations_scripted_gui = {
+	    context_type = player_context
+		parent_window_token = open_corporations_window
+		window_name = "corporations_window"
+	       
+	    visible = {
+			ROOT = {
+				has_country_flag = open_countrycorporationsview
+			}
+	    }
+	   
+		effects = {
+    		corporations_close_button_click = {
+    		    ROOT = { clr_country_flag = open_countrycorporationsview }
+    		}
+			corporations_open_camelia_button_click = {
+				ROOT = { 
+					set_country_flag = corporation_camelia_view 
+					clr_country_flag  = corporation_arstotzka_view
+				}
+			}
+			corporations_open_arstotzka_button_click = {
+				ROOT = { 
+					set_country_flag = corporation_arstotzka_view 
+					clr_country_flag  = corporation_camelia_view
+				}
+			}
+		}
+
+		triggers = {
+			corporations_active_camelia_button_visible = {
+				ROOT = {
+					has_country_flag = corporation_camelia_view
+				}
+			}
+			corporations_active_arstotzka_button_visible = {
+				ROOT = {
+					has_country_flag = corporation_arstotzka_view
+				}
+			}
+			corporations_open_camelia_button_visible = {
+				ROOT = {
+					NOT = {has_country_flag = corporation_camelia_view}
+				}
+			}
+			corporations_open_arstotzka_button_visible = {
+				ROOT = {
+					NOT = {has_country_flag = corporation_arstotzka_view}
+				}
+			}
+		}
+	}
+
+	corporations_corporation_camelia_view_window_scripted_gui = {
+	    context_type = player_context
+	    parent_window_token = open_corporations_window
+		window_name = "corporations_corporation_camelia_view_window"
+	       
+	    visible = {
+			ROOT = {
+				has_country_flag = corporation_camelia_view
+				has_country_flag = open_countrycorporationsview
+			}
+	    }
+	    
+	    triggers = {
+			corporations_grm_contract_button_visible ={
+				ROOT = {
+					original_tag = GRM
+				}
+			}
+		}
+
+		effects = {
+		}
+	}
+
+	corporations_corporation_arstotzka_view_window_scripted_gui = {
+	    context_type = player_context
+	    parent_window_token = open_corporations_window
+		window_name = "corporations_corporation_arstotzka_view_window"
+	       
+	    visible = {
+			ROOT = {
+				has_country_flag = corporation_arstotzka_view
+				has_country_flag = open_countrycorporationsview
+			}
+	    }
+	    
+	    triggers = {
+			
+		}
+
+		effects = {
+			corporations_arstotzka_dt_technology_button_click = {
+				ROOT = { 
+					set_country_flag = open_arstotzka_tech_view 
+					clr_country_flag = open_arstotzka_cybernetic_view
+					clr_country_flag = open_arstotzka_software_view
+					clr_country_flag = open_arstotzka_space_view
+				}
+			}
+			corporations_arstotzka_dt_cybernetic_button_click = {
+				ROOT = { 
+					set_country_flag = open_arstotzka_cybernetic_view
+					clr_country_flag = open_arstotzka_tech_view
+					clr_country_flag = open_arstotzka_software_view
+					clr_country_flag = open_arstotzka_space_view 
+				}
+			}
+			corporations_arstotzka_dt_software_button_click = {
+				ROOT = { 
+					set_country_flag = open_arstotzka_software_view 
+					clr_country_flag = open_arstotzka_tech_view
+					clr_country_flag = open_arstotzka_cybernetic_view
+					clr_country_flag = open_arstotzka_space_view
+				}
+			}
+			corporations_arstotzka_dt_space_button_click = {
+				ROOT = { 
+					set_country_flag = open_arstotzka_space_view 
+					clr_country_flag = open_arstotzka_tech_view
+					clr_country_flag = open_arstotzka_cybernetic_view
+					clr_country_flag = open_arstotzka_software_view
+				}
+			}
+		}
+	}
+
+	open_arstotzka_tech_view_window_scripted_gui = {
+	    context_type = player_context
+	    parent_window_token = open_corporations_window
+		window_name = "open_arstotzka_tech_view_window"
+	       
+	    visible = {
+			ROOT = {
+				has_country_flag = corporation_arstotzka_view
+				has_country_flag = open_countrycorporationsview
+				has_country_flag = open_arstotzka_tech_view
+			}
+	    }
+	    
+	    triggers = {
+			
+		}
+
+		effects = {
+		}
+	}
+
+	open_arstotzka_cybernetic_view_window_scripted_gui = {
+	    context_type = player_context
+	    parent_window_token = open_corporations_window
+		window_name = "open_arstotzka_cybernetic_view_window"
+	       
+	    visible = {
+			ROOT = {
+				has_country_flag = corporation_arstotzka_view
+				has_country_flag = open_countrycorporationsview
+				has_country_flag = open_arstotzka_cybernetic_view
+			}
+	    }
+	    
+	    triggers = {
+			
+		}
+
+		effects = {
+		}
+	}
+
+	open_arstotzka_software_view_window_scripted_gui = {
+	    context_type = player_context
+	    parent_window_token = open_corporations_window
+		window_name = "open_arstotzka_software_view_window"
+	       
+	    visible = {
+			ROOT = {
+				has_country_flag = corporation_arstotzka_view
+				has_country_flag = open_countrycorporationsview
+				has_country_flag = open_arstotzka_software_view
+			}
+	    }
+	    
+	    triggers = {
+			
+		}
+
+		effects = {
+		}
+	}
+
+	open_arstotzka_space_view_window_scripted_gui = {
+	    context_type = player_context
+	    parent_window_token = open_corporations_window
+		window_name = "open_arstotzka_space_view_window"
+	       
+	    visible = {
+			ROOT = {
+				has_country_flag = corporation_arstotzka_view
+				has_country_flag = open_countrycorporationsview
+				has_country_flag = open_arstotzka_space_view
+			}
+	    }
+	    
+	    triggers = {
+			
+		}
+
+		effects = {
+		}
+	}
+}

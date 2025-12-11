@@ -4,8 +4,8 @@
 
 NDefines.NGame.START_DATE = "2967.1.1.12"
 NDefines.NGame.END_DATE = "3000.1.1.1"
-NDefines.NGame.LAG_DAYS_FOR_LOWER_SPEED = 12
-NDefines.NGame.GAME_SPEED_SECONDS = { 2.0, 1.5, 0.8, 0.4, 0.0 }
+NDefines.NGame.LAG_DAYS_FOR_LOWER_SPEED = 48
+NDefines.NGame.GAME_SPEED_SECONDS = { 1.7, 1.3, 0.8, 0.4, 0.0 }
 
 
 

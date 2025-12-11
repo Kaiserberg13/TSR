@@ -17,3 +17,16 @@ set_popularities = {
 #set_variable
 
 #set_technology
+
+
+give_military_access = MAD
+diplomatic_relation = {
+    country = MAD
+    relation = docking_rights
+    active = yes
+}
+diplomatic_relation = {
+    country = MAD
+    relation = non_aggression_pact
+    active = yes
+}

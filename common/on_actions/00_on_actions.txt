@@ -1,6 +1,13 @@
 on_actions = {
     on_startup = {
         effect = {
+			every_possible_country = {
+                limit = {
+                    is_ai = no
+                }
+				set_country_flag = corporation_camelia_view
+				set_country_flag = open_arstotzka_tech_view
+			}
 			add_to_array = {
 			    array = global.hypocrestial_union_faction_future_members
 			    value = RAJ

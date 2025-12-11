@@ -1,0 +1,647 @@
+guiTypes = {
+	containerWindowType = {
+		name = "open_corporations_window"
+		position = { x = 27  y = 0 }
+		size = { width = 50 height = 50 }
+
+		buttonType = {
+			name = "open_corporations_button"
+			position = { x = 0 y = 504 }
+			spriteType = "GFX_corp_folder_button"
+		}
+	}
+
+	containerWindowType = {
+		name = "corporations_window"
+		position = { x=0 y=0 }	
+		size = { width = 2560 height = 1440 }
+		clipping = no
+		Orientation = CENTER
+		origo = center
+
+		background = {
+			name = "Background"	
+			spriteType = "GFX_a_empty"
+		}	
+
+		iconType = {
+			name = "corporations_bg"
+			position = {x = 0 y = 0}	
+			spriteType = "GFX_corporations_window_bg"
+			alwaystransparent = no
+			
+		}
+
+		buttonType = {
+			name = "corporations_close_button"
+			position = { x = -100 y = 50 }
+			spriteType = "GFX_close_tab"
+			Orientation = UPPER_RIGHT
+		}
+
+		iconType = {
+			name = "corporations_data_details"
+			position = {x = 25 y = 185}	
+			spriteType = "GFX_corporations_data"
+			alwaystransparent = no
+		}
+
+		iconType = {
+			name = "corporations_corporations_data_bg"
+			position = {x = 450 y = -280}	
+			spriteType = "GFX_corporations_data_bg"
+			alwaystransparent = no
+			Orientation = CENTER
+		}
+		iconType = {
+			name = "corporations_connection_signal_1"
+			position = {x = 570 y = -222}	
+			spriteType = "GFX_corporations_connect"
+			alwaystransparent = no
+			Orientation = CENTER
+			frame = 1
+		}
+		iconType = {
+			name = "corporations_connection_signal_2"
+			position = {x = 605 y = -222}	
+			spriteType = "GFX_corporations_connect"
+			alwaystransparent = no
+			Orientation = CENTER
+			frame = 1
+		}
+		iconType = {
+			name = "corporations_connection_signal_3"
+			position = {x = 640 y = -222}	
+			spriteType = "GFX_corporations_connect"
+			alwaystransparent = no
+			Orientation = CENTER
+			frame = 2
+		}
+		iconType = {
+			name = "corporations_connection_signal_4"
+			position = {x = 675 y = -222}	
+			spriteType = "GFX_corporations_connect"
+			alwaystransparent = no
+			Orientation = CENTER
+			frame = 2
+		}
+		iconType = {
+			name = "corporations_connection_signal_5"
+			position = {x = 710 y = -222}	
+			spriteType = "GFX_corporations_connect"
+			alwaystransparent = no
+			Orientation = CENTER
+			frame = 2
+		}
+		iconType = {
+			name = "corporations_connection_signal_6"
+			position = {x = 745 y = -222}	
+			spriteType = "GFX_corporations_connect"
+			alwaystransparent = no
+			Orientation = CENTER
+			frame = 2
+		}
+		iconType = {
+			name = "corporations_connection_signal_7"
+			position = {x = 780 y = -222}	
+			spriteType = "GFX_corporations_connect"
+			alwaystransparent = no
+			Orientation = CENTER
+			frame = 3
+		}
+		iconType = {
+			name = "corporations_connection_signal_8"
+			position = {x = 815 y = -222}	
+			spriteType = "GFX_corporations_connect"
+			alwaystransparent = no
+			Orientation = CENTER
+			frame = 4
+		}
+
+
+		iconType = {
+			name = "corporations_corporations_header_bg"
+			position = {x = 450 y = -100}	
+			spriteType = "GFX_corporations_data_bg"
+			alwaystransparent = no
+			Orientation = CENTER
+			frame = 2
+		}
+
+		buttonType = {
+			name = "corporations_open_camelia_button"
+			position = { x = 460 y = -15 }
+			spriteType = "GFX_corporations_camelia"
+			Orientation = CENTER
+		}
+
+		buttonType = {
+		    name = "corporations_active_camelia_button"
+		    position = { x = 460 y = -15 }
+		    spriteType = "GFX_corporations_camelia"
+		    Orientation = CENTER
+			frame = 2
+		}
+
+		buttonType = {
+			name = "corporations_open_arstotzka_button"
+			position = { x = 475 y = 58 }
+			spriteType = "GFX_corporations_arstotzka"
+			Orientation = CENTER
+		}
+
+		buttonType = {
+		    name = "corporations_active_arstotzka_button"
+		    position = { x = 475 y = 58 }
+		    spriteType = "GFX_corporations_arstotzka"
+		    Orientation = CENTER
+			frame = 2
+		}
+
+		buttonType = {
+			name = "corporations_open_rotatosk_button"
+			position = { x = 490 y = 131 }
+			spriteType = "GFX_corporations_rotatosk"
+			Orientation = CENTER
+		}
+
+		buttonType = {
+			name = "corporations_open_zaphkiel_button"
+			position = { x = 475 y = 201 }
+			spriteType = "GFX_corporations_zaphkiel"
+			Orientation = CENTER
+		}
+
+		buttonType = {
+			name = "corporations_open_equonics_button"
+			position = { x = 460 y = 271 }
+			spriteType = "GFX_corporations_equonics"
+			Orientation = CENTER
+		}
+	}
+	containerWindowType = {
+		name = "corporations_corporation_camelia_view_window"
+		position = { x=0 y=0 }	
+		size = { width = 2560 height = 1440 }
+		clipping = no
+		Orientation = CENTER
+		origo = center
+
+		background = {
+			name = "Background"	
+			spriteType = "GFX_a_empty"
+		}	
+
+		iconType = {
+			name = "corporations_camelia_logo"
+			position = {x = -900 y = -330}	
+			spriteType = "GFX_corporations_logos"
+			frame = 1
+			alwaystransparent = no
+			Orientation = CENTER
+		}
+
+		iconType = {
+			name = "corporations_camelia_signal_scheme"
+			position = {x = -900 y = -290}	
+			spriteType = "GFX_camelia_corporations_camelia_ct_scheme_bg"
+			alwaystransparent = no
+			Orientation = CENTER
+		}
+
+		buttonType = {
+			name = "corporations_conclude_a_contract_button"
+			position = { x = -820 y = -155 }
+			spriteType = "GFX_camelia_corporations_camelia_ct_conclude_a_contract"
+			Orientation = CENTER
+		}
+
+		buttonType = {
+			name = "corporations_grm_contract_button"
+			position = { x = -760 y = -48 }
+			spriteType = "GFX_camelia_corporations_camelia_ct_grm_politics"
+			Orientation = CENTER
+		}
+
+		buttonType = {
+			name = "corporations_resources_contract_button"
+			position = { x = -815 y = 150 }
+			spriteType = "GFX_camelia_corporations_camelia_ct_resources"
+			Orientation = CENTER
+		}
+
+		buttonType = {
+			name = "corporations_victory_contract_button"
+			position = { x = -555 y = 120 }
+			spriteType = "GFX_camelia_corporations_camelia_ct_victory"
+			Orientation = CENTER
+		}
+
+		buttonType = {
+			name = "corporations_production_contract_button"
+			position = { x = -455 y = -120 }
+			spriteType = "GFX_camelia_corporations_camelia_ct_production"
+			Orientation = CENTER
+		}
+
+		buttonType = {
+			name = "corporations_finance_contract_button"
+			position = { x = -268 y = -320 }
+			spriteType = "GFX_camelia_corporations_camelia_ct_finance"
+			Orientation = CENTER
+		}
+
+		buttonType = {
+			name = "corporations_global_contract_button"
+			position = { x = -70 y = -320 }
+			spriteType = "GFX_camelia_corporations_camelia_ct_global"
+			Orientation = CENTER
+		}
+
+		buttonType = {
+			name = "corporations_network_contract_button"
+			position = { x = 60 y = -43 }
+			spriteType = "GFX_camelia_corporations_camelia_ct_network"
+			Orientation = CENTER
+		}
+
+		buttonType = {
+			name = "corporations_monopoly_contract_button"
+			position = { x = -188 y = 130 }
+			spriteType = "GFX_camelia_corporations_camelia_ct_monopoly"
+			Orientation = CENTER
+		}
+
+		buttonType = {
+			name = "corporations_camelia_contract_button"
+			position = { x = 241 y = -267 }
+			spriteType = "GFX_camelia_corporations_camelia_ct_camelia"
+			Orientation = CENTER
+		}
+
+		buttonType = {
+			name = "corporations_detox_contract_button"
+			position = { x = 90 y = 192 }
+			spriteType = "GFX_camelia_corporations_camelia_ct_detox"
+			Orientation = CENTER
+		}
+	}
+
+	containerWindowType = {
+		name = "corporations_corporation_arstotzka_view_window"
+		position = { x=0 y=0 }	
+		size = { width = 2560 height = 1440 }
+		clipping = no
+		Orientation = CENTER
+		origo = center
+
+		background = {
+			name = "Background"	
+			spriteType = "GFX_a_empty"
+		}	
+
+		iconType = {
+			name = "corporations_camelia_logo"
+			position = {x = -900 y = -330}	
+			spriteType = "GFX_corporations_logos"
+			frame = 2
+			alwaystransparent = no
+			Orientation = CENTER
+		}
+
+		iconType = {
+			name = "corporations_arstotzka_dt_bg"
+			position = {x = -100 y = -400}	
+			spriteType = "GFX_arstotzka_corporations_arstotzka_dt_bg"
+			alwaystransparent = no
+			Orientation = CENTER
+		}
+
+		buttonType = {
+			name = "corporations_arstotzka_dt_space_button"
+			position = { x = -440 y = -210 }
+			spriteType = "GFX_arstotzka_corporations_arstotzka_dt_space"
+			Orientation = CENTER
+		}
+		buttonType = {
+			name = "corporations_arstotzka_dt_software_button"
+			position = { x = -570 y = -140 }
+			spriteType = "GFX_arstotzka_corporations_arstotzka_dt_software"
+			Orientation = CENTER
+		}
+		buttonType = {
+			name = "corporations_arstotzka_dt_cybernetic_button"
+			position = { x = -720 y = -70 }
+			spriteType = "GFX_arstotzka_corporations_arstotzka_dt_cybernetic"
+			Orientation = CENTER
+		}
+		buttonType = {
+			name = "corporations_arstotzka_dt_technology_button"
+			position = { x = -880 y = 0 }
+			spriteType = "GFX_arstotzka_corporations_arstotzka_dt_technology"
+			Orientation = CENTER
+		}
+	}
+
+	containerWindowType = {
+		name = "open_arstotzka_tech_view_window"
+		position = { x=0 y=0 }	
+		size = { width = 2560 height = 1440 }
+		clipping = no
+		Orientation = CENTER
+		origo = center
+
+
+		iconType = {
+			name = "corporations_arstotzka_dt_icon"
+			position = {x = -22 y = -275}	
+			spriteType = "GFX_arstotzka_corporations_arstotzka_dt_icon"
+			alwaystransparent = no
+			Orientation = CENTER
+		}
+		instantTextboxType = {
+			name = "corporations_arstotzka_dt_text"
+			position = {x = -85 y = -350}
+			font = "tsr_24r"
+			text = "TECHNOLOGY"
+			maxWidth = 250
+			maxHeight = 24
+			format = left
+			Orientation = CENTER
+		}
+		instantTextboxType = {
+			name = "corporations_arstotzka_dt_connectionn_ram_text"
+			position = {x = -45 y = -30}
+			font = "tsr_36r"
+			text = "1"
+			maxWidth = 50
+			maxHeight = 24
+			format = center
+			Orientation = CENTER
+		}
+		instantTextboxType = {
+			name = "corporations_arstotzka_dt_ram_text"
+			position = {x = 58 y = -30}
+			font = "tsr_36r"
+			text = "2"
+			maxWidth = 50
+			maxHeight = 24
+			format = center
+			Orientation = CENTER
+		}
+		instantTextboxType = {
+			name = "corporations_arstotzka_dt_signals_available_text"
+			position = {x = 142 y = -30}
+			font = "tsr_36r"
+			text = "15"
+			maxWidth = 100
+			maxHeight = 24
+			format = center
+			Orientation = CENTER
+		}
+
+		buttonType = {
+			name = "corporations_arstotzka_dt_cp_button"
+			position = { x = -80 y = 120 }
+			spriteType = "GFX_arstotzka_corporations_arstotzka_dt_cp"
+			Orientation = CENTER
+		}
+		buttonType = {
+			name = "corporations_arstotzka_jtp_button"
+			position = { x = -80 y = 220 }
+			spriteType = "GFX_arstotzka_corporations_arstotzka_dt_jtp"
+			Orientation = CENTER
+		}
+		buttonType = {
+			name = "corporations_arstotzka_mioe_button"
+			position = { x = -80 y = 320 }
+			spriteType = "GFX_arstotzka_corporations_arstotzka_dt_mioe"
+			Orientation = CENTER
+		}
+	}
+
+	containerWindowType = {
+		name = "open_arstotzka_cybernetic_view_window"
+		position = { x=0 y=0 }	
+		size = { width = 2560 height = 1440 }
+		clipping = no
+		Orientation = CENTER
+		origo = center
+
+
+		iconType = {
+			name = "corporations_arstotzka_dt_icon"
+			position = {x = -22 y = -275}
+			spriteType = "GFX_arstotzka_corporations_arstotzka_dt_icon"
+			frame = 2
+			alwaystransparent = no
+			Orientation = CENTER
+		}
+		instantTextboxType = {
+			name = "corporations_arstotzka_dt_text"
+			position = {x = -85 y = -350}
+			font = "tsr_24r"
+			text = "CYBERNETIC"
+			maxWidth = 250
+			maxHeight = 24
+			format = left
+			Orientation = CENTER
+		}
+		instantTextboxType = {
+			name = "corporations_arstotzka_dt_connectionn_ram_text"
+			position = {x = -45 y = -30}
+			font = "tsr_36r"
+			text = "3"
+			maxWidth = 50
+			maxHeight = 24
+			format = center
+			Orientation = CENTER
+		}
+		instantTextboxType = {
+			name = "corporations_arstotzka_dt_ram_text"
+			position = {x = 58 y = -30}
+			font = "tsr_36r"
+			text = "1"
+			maxWidth = 50
+			maxHeight = 24
+			format = center
+			Orientation = CENTER
+		}
+		instantTextboxType = {
+			name = "corporations_arstotzka_dt_signals_available_text"
+			position = {x = 142 y = -30}
+			font = "tsr_36r"
+			text = "23"
+			maxWidth = 100
+			maxHeight = 24
+			format = center
+			Orientation = CENTER
+		}
+
+		buttonType = {
+			name = "corporations_arstotzka_dt_vc_button"
+			position = { x = -80 y = 120 }
+			spriteType = "GFX_arstotzka_corporations_arstotzka_dt_vc"
+			Orientation = CENTER
+		}
+		buttonType = {
+			name = "corporations_arstotzka_cyarm_button"
+			position = { x = -80 y = 220 }
+			spriteType = "GFX_arstotzka_corporations_arstotzka_dt_cyarm"
+			Orientation = CENTER
+		}
+		buttonType = {
+			name = "corporations_arstotzka_cynect_button"
+			position = { x = -80 y = 320 }
+			spriteType = "GFX_arstotzka_corporations_arstotzka_dt_cynect"
+			Orientation = CENTER
+		}
+	}
+
+
+	containerWindowType = {
+		name = "open_arstotzka_software_view_window"
+		position = { x=0 y=0 }	
+		size = { width = 2560 height = 1440 }
+		clipping = no
+		Orientation = CENTER
+		origo = center
+
+
+		iconType = {
+			name = "corporations_arstotzka_dt_icon"
+			position = {x = -22 y = -275}
+			spriteType = "GFX_arstotzka_corporations_arstotzka_dt_icon"
+			frame = 3
+			alwaystransparent = no
+			Orientation = CENTER
+		}
+		instantTextboxType = {
+			name = "corporations_arstotzka_dt_text"
+			position = {x = -85 y = -350}
+			font = "tsr_24r"
+			text = "SOFTWARE"
+			maxWidth = 250
+			maxHeight = 24
+			format = left
+			Orientation = CENTER
+		}
+		instantTextboxType = {
+			name = "corporations_arstotzka_dt_connectionn_ram_text"
+			position = {x = -45 y = -30}
+			font = "tsr_36r"
+			text = "2"
+			maxWidth = 50
+			maxHeight = 24
+			format = center
+			Orientation = CENTER
+		}
+		instantTextboxType = {
+			name = "corporations_arstotzka_dt_ram_text"
+			position = {x = 58 y = -30}
+			font = "tsr_36r"
+			text = "2"
+			maxWidth = 50
+			maxHeight = 24
+			format = center
+			Orientation = CENTER
+		}
+		instantTextboxType = {
+			name = "corporations_arstotzka_dt_signals_available_text"
+			position = {x = 163 y = -30}
+			font = "tsr_36r"
+			text = "4"
+			maxWidth = 50
+			maxHeight = 24
+			format = center
+			Orientation = CENTER
+		}
+
+		buttonType = {
+			name = "corporations_arstotzka_dt_ww_button"
+			position = { x = -80 y = 120 }
+			spriteType = "GFX_arstotzka_corporations_arstotzka_dt_ww"
+			Orientation = CENTER
+		}
+		buttonType = {
+			name = "corporations_arstotzka_tdjs_button"
+			position = { x = -80 y = 220 }
+			spriteType = "GFX_arstotzka_corporations_arstotzka_dt_tdjs"
+			Orientation = CENTER
+		}
+		buttonType = {
+			name = "corporations_arstotzka_p1v_button"
+			position = { x = -80 y = 320 }
+			spriteType = "GFX_arstotzka_corporations_arstotzka_dt_p1v"
+			Orientation = CENTER
+		}
+	}
+
+	containerWindowType = {
+		name = "open_arstotzka_space_view_window"
+		position = { x=0 y=0 }	
+		size = { width = 2560 height = 1440 }
+		clipping = no
+		Orientation = CENTER
+		origo = center
+
+
+		iconType = {
+			name = "corporations_arstotzka_dt_icon"
+			position = {x = -22 y = -275}	
+			spriteType = "GFX_arstotzka_corporations_arstotzka_dt_icon"
+			frame = 4
+			alwaystransparent = no
+			Orientation = CENTER
+		}
+		instantTextboxType = {
+			name = "corporations_arstotzka_dt_connectionn_ram_text"
+			position = {x = -45 y = -30}
+			font = "tsr_36r"
+			text = "1"
+			maxWidth = 50
+			maxHeight = 24
+			format = center
+			Orientation = CENTER
+		}
+		instantTextboxType = {
+			name = "corporations_arstotzka_dt_ram_text"
+			position = {x = 58 y = -30}
+			font = "tsr_36r"
+			text = "1"
+			maxWidth = 50
+			maxHeight = 24
+			format = center
+			Orientation = CENTER
+		}
+		instantTextboxType = {
+			name = "corporations_arstotzka_dt_signals_available_text"
+			position = {x = 163 y = -30}
+			font = "tsr_36r"
+			text = "9"
+			maxWidth = 50
+			maxHeight = 24
+			format = center
+			Orientation = CENTER
+		}
+
+		buttonType = {
+			name = "corporations_arstotzka_dt_sf_button"
+			position = { x = -80 y = 120 }
+			spriteType = "GFX_arstotzka_corporations_arstotzka_dt_sf"
+			Orientation = CENTER
+		}
+		buttonType = {
+			name = "corporations_arstotzka_gs_button"
+			position = { x = -80 y = 220 }
+			spriteType = "GFX_arstotzka_corporations_arstotzka_dt_gs"
+			Orientation = CENTER
+		}
+		buttonType = {
+			name = "corporations_arstotzka_sd_button"
+			position = { x = -80 y = 320 }
+			spriteType = "GFX_arstotzka_corporations_arstotzka_dt_sd"
+			Orientation = CENTER
+		}
+	}
+}

@@ -17,6 +17,7 @@ set_popularities = {
 create_faction = commonwealth_of_islamic_countries
 add_to_faction = SYR
 
+
 # politics
 
 give_guarantee = AFG

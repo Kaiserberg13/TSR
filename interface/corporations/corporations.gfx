@@ -1,0 +1,247 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_corporations_arstotzka"
+		texturefile = "gfx/interface/corporations/corporations_arstotzka.png"
+		noOfFrames = 3
+	}
+
+	spriteType = {
+		name = "GFX_corporations_camelia"
+		texturefile = "gfx/interface/corporations/corporations_camelia.png"
+		noOfFrames = 3
+	}
+
+	spriteType = {
+		name = "GFX_corporations_connect"
+		texturefile = "gfx/interface/corporations/corporations_connect.png"
+		noOfFrames = 4
+	}
+
+	spriteType = {
+		name = "GFX_corporations_connect_voltage"
+		texturefile = "gfx/interface/corporations/corporations_connect_voltage.png"
+	}
+
+	spriteType = {
+		name = "GFX_corporations_connect_voltage_bg"
+		texturefile = "gfx/interface/corporations/corporations_connect_voltage_bg.png"
+	}
+
+	spriteType = {
+		name = "GFX_corporations_data"
+		texturefile = "gfx/interface/corporations/corporations_data.png"
+	}
+
+	spriteType = {
+		name = "GFX_corporations_data_bg"
+		texturefile = "gfx/interface/corporations/corporations_data_bg.png"
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_corporations_equonics"
+		texturefile = "gfx/interface/corporations/corporations_equonics.png"
+		noOfFrames = 3
+	}
+
+	spriteType = {
+		name = "GFX_corporations_logos"
+		texturefile = "gfx/interface/corporations/corporations_logos.png"
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_corporations_rotatosk"
+		texturefile = "gfx/interface/corporations/corporations_rotatosk.png"
+		noOfFrames = 3
+	}
+
+	spriteType = {
+		name = "GFX_corporations_zaphkiel"
+		texturefile = "gfx/interface/corporations/corporations_zaphkiel.png"
+		noOfFrames = 3
+	}
+
+	spriteType = {
+		name = "GFX_arstotzka_corporations_arstotzka_dt_bg"
+		texturefile = "gfx/interface/corporations/arstotzka/corporations_arstotzka_dt_bg.png"
+	}
+
+	spriteType = {
+		name = "GFX_arstotzka_corporations_arstotzka_dt_cp"
+		texturefile = "gfx/interface/corporations/arstotzka/corporations_arstotzka_dt_cp.png"
+		noOfFrames = 3
+	}
+
+	spriteType = {
+		name = "GFX_arstotzka_corporations_arstotzka_dt_cyarm"
+		texturefile = "gfx/interface/corporations/arstotzka/corporations_arstotzka_dt_cyarm.png"
+		noOfFrames = 3
+	}
+
+	spriteType = {
+		name = "GFX_arstotzka_corporations_arstotzka_dt_cybernetic"
+		texturefile = "gfx/interface/corporations/arstotzka/corporations_arstotzka_dt_cybernetic.png"
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_arstotzka_corporations_arstotzka_dt_cynect"
+		texturefile = "gfx/interface/corporations/arstotzka/corporations_arstotzka_dt_cynect.png"
+		noOfFrames = 3
+	}
+
+	spriteType = {
+		name = "GFX_arstotzka_corporations_arstotzka_dt_gs"
+		texturefile = "gfx/interface/corporations/arstotzka/corporations_arstotzka_dt_gs.png"
+		noOfFrames = 3
+	}
+
+	spriteType = {
+		name = "GFX_arstotzka_corporations_arstotzka_dt_jtp"
+		texturefile = "gfx/interface/corporations/arstotzka/corporations_arstotzka_dt_jtp.png"
+		noOfFrames = 3
+	}
+
+	spriteType = {
+		name = "GFX_arstotzka_corporations_arstotzka_dt_mioe"
+		texturefile = "gfx/interface/corporations/arstotzka/corporations_arstotzka_dt_mioe.png"
+		noOfFrames = 3
+	}
+
+	spriteType = {
+		name = "GFX_arstotzka_corporations_arstotzka_dt_p1v"
+		texturefile = "gfx/interface/corporations/arstotzka/corporations_arstotzka_dt_p1v.png"
+		noOfFrames = 3
+	}
+
+	spriteType = {
+		name = "GFX_arstotzka_corporations_arstotzka_dt_sd"
+		texturefile = "gfx/interface/corporations/arstotzka/corporations_arstotzka_dt_sd.png"
+		noOfFrames = 3
+	}
+
+	spriteType = {
+		name = "GFX_arstotzka_corporations_arstotzka_dt_sf"
+		texturefile = "gfx/interface/corporations/arstotzka/corporations_arstotzka_dt_sf.png"
+		noOfFrames = 3
+	}
+
+	spriteType = {
+		name = "GFX_arstotzka_corporations_arstotzka_dt_software"
+		texturefile = "gfx/interface/corporations/arstotzka/corporations_arstotzka_dt_software.png"
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_arstotzka_corporations_arstotzka_dt_space"
+		texturefile = "gfx/interface/corporations/arstotzka/corporations_arstotzka_dt_space.png"
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_arstotzka_corporations_arstotzka_dt_tdjs"
+		texturefile = "gfx/interface/corporations/arstotzka/corporations_arstotzka_dt_tdjs.png"
+		noOfFrames = 3
+	}
+
+	spriteType = {
+		name = "GFX_arstotzka_corporations_arstotzka_dt_technology"
+		texturefile = "gfx/interface/corporations/arstotzka/corporations_arstotzka_dt_technology.png"
+		noOfFrames = 2
+	}
+
+	spriteType = {
+		name = "GFX_arstotzka_corporations_arstotzka_dt_vc"
+		texturefile = "gfx/interface/corporations/arstotzka/corporations_arstotzka_dt_vc.png"
+		noOfFrames = 3
+	}
+
+	spriteType = {
+		name = "GFX_arstotzka_corporations_arstotzka_dt_ww"
+		texturefile = "gfx/interface/corporations/arstotzka/corporations_arstotzka_dt_ww.png"
+		noOfFrames = 3
+	}
+
+	spriteType = {
+		name = "GFX_arstotzka_corporations_arstotzka_dt_icon"
+		texturefile = "gfx/interface/corporations/arstotzka/corporations_arstotzka_dt_icons.png"
+		noOfFrames = 4
+	}
+
+	spriteType = {
+		name = "GFX_camelia_corporations_camelia_ct_camelia"
+		texturefile = "gfx/interface/corporations/camelia/corporations_camelia_ct_camelia.png"
+		noOfFrames = 3
+	}
+
+	spriteType = {
+		name = "GFX_camelia_corporations_camelia_ct_conclude_a_contract"
+		texturefile = "gfx/interface/corporations/camelia/corporations_camelia_ct_conclude_a_contract.png"
+		noOfFrames = 3
+	}
+
+	spriteType = {
+		name = "GFX_camelia_corporations_camelia_ct_detox"
+		texturefile = "gfx/interface/corporations/camelia/corporations_camelia_ct_detox.png"
+		noOfFrames = 3
+	}
+
+	spriteType = {
+		name = "GFX_camelia_corporations_camelia_ct_finance"
+		texturefile = "gfx/interface/corporations/camelia/corporations_camelia_ct_finance.png"
+		noOfFrames = 3
+	}
+
+	spriteType = {
+		name = "GFX_camelia_corporations_camelia_ct_global"
+		texturefile = "gfx/interface/corporations/camelia/corporations_camelia_ct_global.png"
+		noOfFrames = 3
+	}
+
+	spriteType = {
+		name = "GFX_camelia_corporations_camelia_ct_grm_politics"
+		texturefile = "gfx/interface/corporations/camelia/corporations_camelia_ct_grm_politics.png"
+		noOfFrames = 3
+	}
+
+	spriteType = {
+		name = "GFX_camelia_corporations_camelia_ct_monopoly"
+		texturefile = "gfx/interface/corporations/camelia/corporations_camelia_ct_monopoly.png"
+		noOfFrames = 3
+	}
+
+	spriteType = {
+		name = "GFX_camelia_corporations_camelia_ct_network"
+		texturefile = "gfx/interface/corporations/camelia/corporations_camelia_ct_network.png"
+		noOfFrames = 3
+	}
+
+	spriteType = {
+		name = "GFX_camelia_corporations_camelia_ct_production"
+		texturefile = "gfx/interface/corporations/camelia/corporations_camelia_ct_production.png"
+		noOfFrames = 3
+	}
+
+	spriteType = {
+		name = "GFX_camelia_corporations_camelia_ct_resources"
+		texturefile = "gfx/interface/corporations/camelia/corporations_camelia_ct_resources.png"
+		noOfFrames = 3
+	}
+
+	spriteType = {
+		name = "GFX_camelia_corporations_camelia_ct_scheme_bg"
+		texturefile = "gfx/interface/corporations/camelia/corporations_camelia_ct_scheme_bg.png"
+	}
+
+	spriteType = {
+		name = "GFX_corporations_window_bg"
+		texturefile = "gfx/interface/corporations/corporations_window_bg.png"
+	}
+
+	spriteType = {
+		name = "GFX_camelia_corporations_camelia_ct_victory"
+		texturefile = "gfx/interface/corporations/camelia/corporations_camelia_ct_victory.png"
+		noOfFrames = 3
+	}
+}

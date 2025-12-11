@@ -31,6 +31,14 @@ set_autonomy = {
     target = MZM
     autonomous_state = autonomy_dominion
 }
+set_autonomy = {
+    target = KEN
+    autonomous_state = autonomy_dominion
+}
+set_autonomy = {
+    target = ERI
+    autonomous_state = autonomy_dominion
+}
 puppet = MOR
 set_autonomy = {
     target = MOR
